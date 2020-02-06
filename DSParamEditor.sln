@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yapped", "Yapped\Yapped.csproj", "{DC08F234-1269-484E-BDE6-0C28F289DE80}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BDF57D9C-6442-4AD1-B87A-5A5892BDC4BB} = {BDF57D9C-6442-4AD1-B87A-5A5892BDC4BB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yapped.Test", "Yapped.Test\Yapped.Test.csproj", "{D72F604F-9DBD-4363-8837-035B1B80B5C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yapped.Dump", "Yapped.Dump\Yapped.Dump.csproj", "{E89CC074-5DBE-4BB2-B15E-C711F46243D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoulsFormats", "..\..\SoulsFormats\SoulsFormats\SoulsFormats.csproj", "{BDF57D9C-6442-4AD1-B87A-5A5892BDC4BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{6176F9D8-3E60-4FE9-9BC9-5E8C22BCC1DD}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC08F234-1269-484E-BDE6-0C28F289DE80}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{DC08F234-1269-484E-BDE6-0C28F289DE80}.Debug|x64.ActiveCfg = Debug|x64
+		{DC08F234-1269-484E-BDE6-0C28F289DE80}.Debug|x64.Build.0 = Debug|x64
+		{DC08F234-1269-484E-BDE6-0C28F289DE80}.Release|Any CPU.ActiveCfg = Release|x64
+		{DC08F234-1269-484E-BDE6-0C28F289DE80}.Release|x64.ActiveCfg = Release|x64
+		{DC08F234-1269-484E-BDE6-0C28F289DE80}.Release|x64.Build.0 = Release|x64
+		{D72F604F-9DBD-4363-8837-035B1B80B5C7}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{D72F604F-9DBD-4363-8837-035B1B80B5C7}.Debug|x64.ActiveCfg = Debug|x64
+		{D72F604F-9DBD-4363-8837-035B1B80B5C7}.Debug|x64.Build.0 = Debug|x64
+		{D72F604F-9DBD-4363-8837-035B1B80B5C7}.Release|Any CPU.ActiveCfg = Release|x64
+		{D72F604F-9DBD-4363-8837-035B1B80B5C7}.Release|x64.ActiveCfg = Release|x64
+		{E89CC074-5DBE-4BB2-B15E-C711F46243D5}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{E89CC074-5DBE-4BB2-B15E-C711F46243D5}.Debug|x64.ActiveCfg = Debug|x64
+		{E89CC074-5DBE-4BB2-B15E-C711F46243D5}.Debug|x64.Build.0 = Debug|x64
+		{E89CC074-5DBE-4BB2-B15E-C711F46243D5}.Release|Any CPU.ActiveCfg = Release|x64
+		{E89CC074-5DBE-4BB2-B15E-C711F46243D5}.Release|x64.ActiveCfg = Release|x64
+		{BDF57D9C-6442-4AD1-B87A-5A5892BDC4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF57D9C-6442-4AD1-B87A-5A5892BDC4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF57D9C-6442-4AD1-B87A-5A5892BDC4BB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BDF57D9C-6442-4AD1-B87A-5A5892BDC4BB}.Debug|x64.Build.0 = Debug|Any CPU
+		{BDF57D9C-6442-4AD1-B87A-5A5892BDC4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF57D9C-6442-4AD1-B87A-5A5892BDC4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF57D9C-6442-4AD1-B87A-5A5892BDC4BB}.Release|x64.ActiveCfg = Release|Any CPU
+		{BDF57D9C-6442-4AD1-B87A-5A5892BDC4BB}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A51FA724-1075-4000-8A24-8CD4C1493E09}
+	EndGlobalSection
+EndGlobal
