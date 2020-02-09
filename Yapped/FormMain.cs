@@ -165,11 +165,11 @@ namespace Yapped
         private void OpenToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ofdRegulation.FileName = regulationPath;
-            if (ofdRegulation.ShowDialog() == DialogResult.OK)
-            {
-                regulationPath = ofdRegulation.FileName;
-                LoadParams();
-            }
+            if (ofdRegulation.ShowDialog() != DialogResult.OK) return;
+            regulationPath = ofdRegulation.FileName;
+            LoadParams();
+            ResourceUtil.ClearMemory(MemoryUsedMaxSize);
+            SystemSounds.Asterisk.Play();
         }
 
         private void SaveToolStripMenuItem_Click(object sender, EventArgs e)
@@ -197,7 +197,6 @@ namespace Yapped
                 else if (regulation is BND4 bnd4)
                     bnd4.Write(regulationPath);
             }
-            ResourceUtil.ClearMemory(MemoryUsedMaxSize);
             SystemSounds.Asterisk.Play();
         }
 
@@ -399,10 +398,9 @@ namespace Yapped
         private void ImportParamsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var paramFiles = (List<ParamWrapper>)dgvParams.DataSource;
-            foreach (var paramFile in paramFiles)
+            foreach (var paramFile in paramFiles.Where(paramFile => File.Exists($@"{paramsDir}\{paramFile.Name}.csv") && layouts.ContainsKey(paramFile.Param.ParamType)))
             {
                 var path = $@"{paramsDir}\{paramFile.Name}.csv";
-                if (!File.Exists(path) || !layouts.ContainsKey(paramFile.Param.ParamType)) return;
                 var code = FileEncodingUtil.GetEncoding(path);
                 var records = File.ReadAllLines(path, code);
                 if (2 > records.Length) return;
