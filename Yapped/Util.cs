@@ -2,10 +2,14 @@
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Windows.Forms;
+using System.Runtime.InteropServices;
 using System.Text;
+using System.Windows.Forms;
+
+using Cell = SoulsFormats.PARAM.Cell;
 
 namespace Yapped
 {
@@ -154,6 +158,48 @@ namespace Yapped
         public static void ShowError(string message)
         {
             MessageBox.Show(message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+    }
+
+    internal static class ResourceUtil
+    {
+        #region 内存回收
+        [DllImport("kernel32.dll", EntryPoint = "SetProcessWorkingSetSize")]
+        public static extern int SetProcessWorkingSetSize(IntPtr process, int minSize, int maxSize);
+        /// <summary>
+        /// 释放内存
+        /// </summary>
+        /// <param name="size">进程的当前内存占用值。</param>
+        /// <returns></returns>
+        public static void ClearMemory(long size)
+        {
+            //获得当前工作进程
+            var proc = Process.GetCurrentProcess();
+            var usedMemory = proc.PrivateMemorySize64;
+            if (usedMemory < size) return;
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
+            if (Environment.OSVersion.Platform == PlatformID.Win32NT)
+            {
+                SetProcessWorkingSetSize(Process.GetCurrentProcess().Handle, -1, -1);
+            }
+        }
+        #endregion
+    }
+
+    internal static class ParamUtil
+    {
+        public static void CastCellValue(Cell cell, object value)
+        {
+            try
+            {
+                cell.Value = 1 == cell.Def.BitSize ? Convert.ChangeType(Convert.ToBoolean(value) ? 1 : 0, cell.Value.GetType()) : Convert.ChangeType(value, cell.Value.GetType());
+            }
+            catch (Exception exception)
+            {
+                Console.WriteLine(exception);
+                throw;
+            }
         }
     }
 

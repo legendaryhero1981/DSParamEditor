@@ -1,4 +1,5 @@
 ﻿using SoulsFormats;
+
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -8,9 +9,9 @@ using System.Linq;
 using System.Media;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Windows.Forms;
 using System.Threading.Tasks;
-
+using System.Windows.Forms;
+using System.Collections.Concurrent;
 using CellType = SoulsFormats.PARAM.CellType;
 using DefType = SoulsFormats.PARAMDEF.DefType;
 using GameType = Yapped.GameMode.GameType;
@@ -33,6 +34,8 @@ namespace Yapped
         private Dictionary<string, PARAM.Layout> layouts;
         private Dictionary<BinderFile, ParamWrapper> fileWrapperCaches;
         private Encoding encoding;
+
+        private const long MemoryUsedMaxSize = 1 << 29;
 
         public FormMain()
         {
@@ -194,6 +197,7 @@ namespace Yapped
                 else if (regulation is BND4 bnd4)
                     bnd4.Write(regulationPath);
             }
+            ResourceUtil.ClearMemory(MemoryUsedMaxSize);
             SystemSounds.Asterisk.Play();
         }
 
@@ -361,26 +365,32 @@ namespace Yapped
 
         private void ImportNamesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var replace = MessageBox.Show("如果行已经有名称，是否覆盖它？\r\n单击“是”覆盖现有名称。\r\n单击“否”跳过现有名称。",
-                              "导入 Names", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes;
-            var paramFiles = (List<ParamWrapper>)dgvParams.DataSource;
-            Parallel.ForEach(paramFiles.Where(paramFile => File.Exists($@"{namesDir}\{paramFile.Name}.csv")), paramFile =>
+            var replace = MessageBox.Show("如果行已经有名称，是否覆盖它？\r\n单击“是”覆盖现有名称。\r\n单击“否”跳过现有名称。", "导入 Names", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes;
+            var paramFiles = ((List<ParamWrapper>)dgvParams.DataSource).Where(paramFile => File.Exists($@"{namesDir}\{paramFile.Name}.csv")).ToArray();
+            Parallel.ForEach(Partitioner.Create(0, paramFiles.Length), (tuple, state) =>
             {
-                var path = $@"{namesDir}\{paramFile.Name}.csv";
-                var code = FileEncodingUtil.GetEncoding(path);
-                var records = File.ReadAllLines(path, code);
-                var names = new Dictionary<long, string>();
-                foreach (var record in records)
+                var (i, size) = tuple;
+                while (i < size)
                 {
-                    var fields = Regex.Split(record, ",");
-                    if (2 != fields.Length || ((fields[1] = fields[1].Trim()) == "?")) continue;
-                    var id = long.Parse(fields[0]);
-                    names[id] = fields[1];
+                    var paramFile = paramFiles[i++];
+                    var path = $@"{namesDir}\{paramFile.Name}.csv";
+                    var code = FileEncodingUtil.GetEncoding(path);
+                    var records = File.ReadAllLines(path, code);
+                    var names = new Dictionary<long, string>();
+                    foreach (var record in records)
+                    {
+                        var fields = Regex.Split(record, ",");
+                        if (2 != fields.Length || ((fields[1] = fields[1].Trim()) == "?")) continue;
+                        var id = long.Parse(fields[0]);
+                        names[id] = fields[1];
+                    }
+
+                    foreach (var row in paramFile.Rows.Where(row =>
+                        names.ContainsKey(row.ID) && (replace || string.IsNullOrEmpty(row.Name))))
+                        row.Name = names[row.ID];
+                    names.Clear();
+                    encoding = code;
                 }
-                foreach (var row in paramFile.Rows.Where(row => names.ContainsKey(row.ID) && (replace || string.IsNullOrEmpty(row.Name))))
-                    row.Name = names[row.ID];
-                names.Clear();
-                encoding = code;
             });
             dgvRows.Refresh();
             SystemSounds.Asterisk.Play();
@@ -389,7 +399,7 @@ namespace Yapped
         private void ImportParamsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var paramFiles = (List<ParamWrapper>)dgvParams.DataSource;
-            Parallel.ForEach(paramFiles, paramFile =>
+            foreach (var paramFile in paramFiles)
             {
                 var path = $@"{paramsDir}\{paramFile.Name}.csv";
                 if (!File.Exists(path) || !layouts.ContainsKey(paramFile.Param.ParamType)) return;
@@ -401,67 +411,69 @@ namespace Yapped
                 foreach (var row in paramFile.Rows)
                     rowsCache[row.ID] = row;
                 var cellsCount = layout.Count(entry => entry.Type != CellType.dummy8);
-                for (var i = 1; i < records.Length; i++)
+                Parallel.ForEach(Partitioner.Create(1, records.Length), (tuple, state) =>
                 {
-                    var fields = Regex.Split(records[i], ",");
-                    if (cellsCount + 2 != fields.Length) continue;
-                    fields[1] = "?" == (fields[1] = fields[1].Trim()) ? "" : fields[1];
-                    var id = Convert.ToInt64(fields[0]);
-                    PARAM.Row row;
-                    if (rowsCache.ContainsKey(id))
+                    var (i, size) = tuple;
+                    while (i < size)
                     {
-                        row = rowsCache[id];
-                        row.Name = fields[1];
-                    }
-                    else
-                    {
-                        row = new PARAM.Row(id, fields[1], paramFile.Paramdef);
-                        rowsCache[id] = row;
-                        paramFile.Rows.Add(row);
-                    }
-                    for (int j = 0, k = 0; j < row.Cells.Count; j++)
-                    {
-                        var cell = row.Cells[j];
-                        if (cell.Def.DisplayType == DefType.dummy8) continue;
-                        try
+                        var fields = Regex.Split(records[i++], ",");
+                        if (cellsCount + 2 != fields.Length) continue;
+                        fields[1] = "?" == (fields[1] = fields[1].Trim()) ? "" : fields[1];
+                        var id = Convert.ToInt64(fields[0]);
+                        PARAM.Row row;
+                        if (rowsCache.ContainsKey(id))
                         {
-                            cell.Value = 1 == cell.Def.BitSize ? Convert.ToBoolean(fields[2 + k++]) : Convert.ChangeType(fields[2 + k++], cell.Value.GetType());
+                            row = rowsCache[id];
+                            row.Name = fields[1];
                         }
-                        catch (Exception exception)
+                        else
                         {
-                            Console.WriteLine(exception);
-                            throw;
+                            row = new PARAM.Row(id, fields[1], paramFile.Paramdef);
+                            rowsCache[id] = row;
+                            paramFile.Rows.Add(row);
+                        }
+                        for (int j = 0, k = 0; j < row.Cells.Count; j++)
+                        {
+                            var cell = row.Cells[j];
+                            if (cell.Def.DisplayType == DefType.dummy8) continue;
+                            ParamUtil.CastCellValue(cell, fields[2 + k++]);
                         }
                     }
-                }
+                });
                 rowsCache.Clear();
                 encoding = code;
                 paramFile.Rows.Sort((r1, r2) => r1.ID.CompareTo(r2.ID));
-            });
+            }
             dgvRows.Refresh();
             dgvCells.Refresh();
+            ResourceUtil.ClearMemory(MemoryUsedMaxSize);
             SystemSounds.Asterisk.Play();
         }
 
         private void ExportNamesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var paramFiles = (List<ParamWrapper>)dgvParams.DataSource;
-            Parallel.ForEach(paramFiles, paramFile =>
+            Parallel.ForEach(Partitioner.Create(0, paramFiles.Count), (tuple, state) =>
             {
-                var sb = new StringBuilder();
-                foreach (var row in paramFile.Param.Rows.Where(row => !string.IsNullOrEmpty(row.Name)))
-                    sb.AppendLine($"{row.ID},{row.Name}");
-                try
+                var (i, size) = tuple;
+                while (i < size)
                 {
-                    File.WriteAllText($@"{namesDir}\{paramFile.Name}.csv", sb.ToString(), encoding);
-                }
-                catch (Exception ex)
-                {
-                    Util.ShowError($"导出Names到文件{paramFile.Name}.csv失败！\r\n\r\n{ex}");
-                }
-                finally
-                {
-                    sb.Clear();
+                    var paramFile = paramFiles[i++];
+                    var sb = new StringBuilder();
+                    foreach (var row in paramFile.Param.Rows.Where(row => !string.IsNullOrEmpty(row.Name)))
+                        sb.AppendLine($"{row.ID},{row.Name}");
+                    try
+                    {
+                        File.WriteAllText($@"{namesDir}\{paramFile.Name}.csv", sb.ToString(), encoding);
+                    }
+                    catch (Exception ex)
+                    {
+                        Util.ShowError($"导出Names到文件{paramFile.Name}.csv失败！\r\n\r\n{ex}");
+                    }
+                    finally
+                    {
+                        sb.Clear();
+                    }
                 }
             });
             SystemSounds.Asterisk.Play();
@@ -470,37 +482,41 @@ namespace Yapped
         private void ExportParamsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var paramFiles = (List<ParamWrapper>)dgvParams.DataSource;
-            Parallel.ForEach(paramFiles, paramFile =>
+            Parallel.ForEach(Partitioner.Create(0, paramFiles.Count), (tuple, state) =>
             {
-                var sb = new StringBuilder("ID,Name");
-                foreach (var entry in layouts[paramFile.Param.ParamType].Where(entry => entry.Type != CellType.dummy8))
-                    sb.Append($",{entry.Name}({entry.Type})");
-                sb.AppendLine();
-                foreach (var row in paramFile.Param.Rows)
+                var (i, size) = tuple;
+                while (i < size)
                 {
-                    var name = string.IsNullOrEmpty(row.Name) ? "?" : row.Name;
-                    sb.Append($"{row.ID},{name}");
-                    var cells = row.Cells.Where(cell => cell.Def.DisplayType != DefType.dummy8).ToList();
-                    foreach (var cell in cells)
-                    {
-                        cell.Value = 1 == cell.Def.BitSize ? Convert.ToBoolean(cell.Value) : cell.Value;
-                        sb.Append($",{cell.Value}");
-                    }
+                    var paramFile = paramFiles[i++];
+                    var sb = new StringBuilder("ID,Name");
+                    foreach (var entry in layouts[paramFile.Param.ParamType].Where(entry => entry.Type != CellType.dummy8))
+                        sb.Append($",{entry.Name}({entry.Type})");
                     sb.AppendLine();
-                }
-                try
-                {
-                    File.WriteAllText($@"{paramsDir}\{paramFile.Name}.csv", sb.ToString(), encoding);
-                }
-                catch (Exception ex)
-                {
-                    Util.ShowError($"导出Params到文件失败: {paramFile.Name}.csv\r\n\r\n{ex}");
-                }
-                finally
-                {
-                    sb.Clear();
+                    foreach (var row in paramFile.Param.Rows)
+                    {
+                        var name = string.IsNullOrEmpty(row.Name) ? "?" : row.Name;
+                        sb.Append($"{row.ID},{name}");
+                        var cells = row.Cells.Where(cell => cell.Def.DisplayType != DefType.dummy8).ToList();
+                        foreach (var value in cells.Select(cell =>
+                            1 == cell.Def.BitSize ? Convert.ToBoolean(cell.Value) : cell.Value))
+                            sb.Append($",{value}");
+                        sb.AppendLine();
+                    }
+                    try
+                    {
+                        File.WriteAllText($@"{paramsDir}\{paramFile.Name}.csv", sb.ToString(), encoding);
+                    }
+                    catch (Exception ex)
+                    {
+                        Util.ShowError($"导出Params到文件失败: {paramFile.Name}.csv\r\n\r\n{ex}");
+                    }
+                    finally
+                    {
+                        sb.Clear();
+                    }
                 }
             });
+            ResourceUtil.ClearMemory(MemoryUsedMaxSize);
             SystemSounds.Asterisk.Play();
         }
 
@@ -771,7 +787,7 @@ namespace Yapped
                     e.Value = Util.GetValueByNameExpr(cell, dgvCellsNameCol.DataPropertyName);
                     break;
                 case 2:
-                    if (!(row.Cells[2] is DataGridViewComboBoxCell || row.Cells[2] is DataGridViewCheckBoxCell))
+                    if (!(row.Cells[2] is DataGridViewComboBoxCell || 1 == cell.Def.BitSize))
                     {
                         if (cell.Def.DisplayType == DefType.u8)
                         {
@@ -823,10 +839,15 @@ namespace Yapped
         {
             var row = dgvCells.Rows[e.RowIndex];
             var cell = (PARAM.Cell)row.DataBoundItem;
-            if (e.ColumnIndex < 2 || row.Cells[e.ColumnIndex] is DataGridViewComboBoxCell || 1 == cell.Def.BitSize)
+            if (e.ColumnIndex < 2 || row.Cells[e.ColumnIndex] is DataGridViewComboBoxCell)
                 return;
 
-            if (cell.Def.DisplayType == DefType.u8)
+            if (1 == cell.Def.BitSize)
+            {
+                e.Value = (byte)((bool)e.Value ? 1 : 0);
+                e.ParsingApplied = true;
+            }
+            else if (cell.Def.DisplayType == DefType.u8)
             {
                 e.Value = Convert.ToByte((string)e.Value, 16);
                 e.ParsingApplied = true;
