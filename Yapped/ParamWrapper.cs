@@ -13,7 +13,7 @@ namespace Yapped
         public string Description { get; }
 
         public PARAM Param;
-
+        [Obsolete]
         public PARAM.Layout Layout;
 
         public PARAMDEF Paramdef;
@@ -22,6 +22,7 @@ namespace Yapped
 
         public List<PARAM.Row> Rows => Param.Rows;
 
+        [Obsolete]
         public ParamWrapper(string name, PARAM param, PARAM.Layout layout, string description)
         {
             if (layout == null || layout.Size != param.DetectedSize)

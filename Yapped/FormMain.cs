@@ -31,6 +31,7 @@ namespace Yapped
 
         private string namesDir;
         private string paramsDir;
+        [Obsolete]
         private Dictionary<string, PARAM.Layout> layouts;
         private Dictionary<BinderFile, ParamWrapper> fileWrapperCaches;
         private Encoding encoding;
@@ -311,7 +312,7 @@ namespace Yapped
             var newRowForm = new FormNewRow(prompt);
             if (newRowForm.ShowDialog() == DialogResult.OK)
             {
-                long id = newRowForm.ResultID;
+                var id = newRowForm.ResultID;
                 string name = newRowForm.ResultName;
                 ParamWrapper paramWrapper = (ParamWrapper)rowSource.DataSource;
                 if (paramWrapper.Rows.Any(row => row.ID == id))
@@ -417,7 +418,7 @@ namespace Yapped
                         var fields = Regex.Split(records[i++], ",");
                         if (cellsCount + 2 != fields.Length) continue;
                         fields[1] = "?" == (fields[1] = fields[1].Trim()) ? "" : fields[1];
-                        var id = Convert.ToInt64(fields[0]);
+                        var id = Convert.ToInt32(fields[0]);
                         PARAM.Row row;
                         if (rowsCache.ContainsKey(id))
                         {

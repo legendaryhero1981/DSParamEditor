@@ -27,6 +27,7 @@ namespace Yapped
             return obj;
         }
 
+        [Obsolete]
         public static Dictionary<string, PARAM.Layout> LoadLayouts(string directory)
         {
             var layouts = new Dictionary<string, PARAM.Layout>();
@@ -49,6 +50,7 @@ namespace Yapped
             return layouts;
         }
 
+        [Obsolete]
         public static LoadParamsResult LoadParams(string paramPath, Dictionary<string, ParamInfo> paramInfo,
             Dictionary<string, PARAM.Layout> layouts, Dictionary<BinderFile, ParamWrapper> fileWrapperCache, GameMode gameMode, bool hideUnusedParams)
         {

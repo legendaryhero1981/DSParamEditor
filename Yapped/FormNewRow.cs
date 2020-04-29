@@ -5,7 +5,7 @@ namespace Yapped
 {
     public partial class FormNewRow : Form
     {
-        public long ResultID;
+        public int ResultID;
 
         public string ResultName;
 
@@ -18,7 +18,7 @@ namespace Yapped
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
-            ResultID = (long)nudID.Value;
+            ResultID = (int)nudID.Value;
             ResultName = txtName.Text.Length > 0 ? txtName.Text : null;
             DialogResult = DialogResult.OK;
             Close();
