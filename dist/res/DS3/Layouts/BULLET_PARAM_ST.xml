@@ -1,492 +1,492 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>atkBullet_Id</name>
+    <name>AtkParam ID</name>
     <type>s32</type>
     <default>3</default>
   </entry>
   <entry>
-    <name>sfxIdBullet</name>
+    <name>Bullet SFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>sfxIdHit</name>
+    <name>Hit SFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>sfxIdFlick</name>
+    <name>Flick SFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>life</name>
+    <name>Duration</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>dist</name>
+    <name>Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>shootInterval</name>
+    <name>Shoot Interval</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>gravityInRange</name>
+    <name>Gravity: In Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>gravityOutRange</name>
+    <name>Gravity: Out of Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>homingStopRange</name>
+    <name>Homing Stop Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>initVellocity</name>
+    <name>Initial Velocity</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>accelInRange</name>
+    <name>Acceleration: In Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>accelOutRange</name>
+    <name>Acceleration: Out of Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>maxVellocity</name>
+    <name>Max Velocity</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>minVellocity</name>
+    <name>Min Velocity</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>accelTime</name>
+    <name>Acceleration Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>homingBeginDist</name>
+    <name>Homing Start Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>hitRadius</name>
+    <name>Hit Radius</name>
     <type>f32</type>
     <default>0.1</default>
   </entry>
   <entry>
-    <name>hitRadiusMax</name>
+    <name>Hit Max Radius</name>
     <type>f32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spreadTime</name>
+    <name>Radius Spread Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>expDelay</name>
+    <name>Explosion Delay</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>homingOffsetRange</name>
+    <name>Homing Offset Range</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>dmgHitRecordLifeTime</name>
+    <name>Hit Record Lifetime</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>externalForce</name>
+    <name>External Force</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectIdForShooter</name>
+    <name>Shooter Effect ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>autoSearchNpcThinkId</name>
+    <name>Auto Search NPC Think ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>hitBulletId</name>
+    <name>Hit Bullet ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId0</name>
+    <name>Effect ID 0</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId1</name>
+    <name>Effect ID 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId2</name>
+    <name>Effect ID 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId3</name>
+    <name>Effect ID 3</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId4</name>
+    <name>Effect ID 4</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>numShoot</name>
+    <name>Number to Shoot</name>
     <type>s16</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>homingAngle</name>
+    <name>Homing Angle</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>shootAngle</name>
+    <name>Shoot Angle</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>shootAngleInterval</name>
+    <name>Shoot Angle - Horizontal Interval</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>shootAngleXInterval</name>
+    <name>Shoot Angle - Vertical Interval</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>damageDamp</name>
+    <name>Damp: Damage</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>magicDamageDamp</name>
+    <name>Damp: Magic Damage</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>fireDamageDamp</name>
+    <name>Damp: Fire</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>thunderDamageDamp</name>
+    <name>Damp: Lightning</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>staminaDamp</name>
+    <name>Damp: Stamina</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>knockbackDamp</name>
+    <name>Damp: Knockback</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>shootAngleXZ</name>
+    <name>Shoot Starting Angle</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>lockShootLimitAng</name>
+    <name>Lock Shoot Limit Angle</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>isPenetrate</name>
+    <name>Is Penetrate</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>prevVellocityDirRate</name>
+    <name>Previous Velocity Direction Rate</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>atkAttribute</name>
+    <name>Attack Attribute</name>
     <type>u8</type>
     <default>4</default>
   </entry>
   <entry>
-    <name>spAttribute</name>
+    <name>Type Attribute</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Material_AttackType</name>
+    <name>Material Attack Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Material_AttackMaterial</name>
+    <name>Material Attack Material</name>
     <type>u8</type>
     <default>6</default>
   </entry>
   <entry>
-    <name>Material_Size</name>
+    <name>Material Size</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>launchConditionType</name>
+    <name>Launch Condition Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>FollowType0</name>
+    <name>Follow Type 0</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>FollowType1</name>
+    <name>Follow Type 1</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>FollowType2</name>
+    <name>Follow Type 2</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>EmittePosType0</name>
+    <name>Emitter Position Type 0</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>EmittePosType1</name>
+    <name>Emitter Position Type 1</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>EmittePosType2</name>
+    <name>Emitter Position Type 2</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsAttackSfx</name>
+    <name>Is Attack SFX</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsEndlessHit</name>
+    <name>Is Endless Hit</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsPenetrateMap</name>
+    <name>Is Penetrate Map</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsHitBothTeam</name>
+    <name>Is Hit Both Team</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsUseShardHitList</name>
+    <name>Is Use Shared Hit List</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>IsUseMultiDmyPolyIfPlace</name>
+    <name>Is Use Multi DmyPoly If Place</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>attachEffectType0</name>
+    <name>Attach Effect Type 0</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>attachEffectType1</name>
+    <name>Attach Effect Type 1</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsHitForceMagic</name>
+    <name>Is Hit Force Magic</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsIgnoreSfxIfHitWater</name>
+    <name>Is Ignore SFX in Water</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsIgnoreMoveStateIfHitWater</name>
+    <name>Is Ignore Move State in Water</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsHitDarkForceMagic</name>
+    <name>Is Hit Dark Force Magic</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsInheritEffectToChild</name>
+    <name>Is Inherit Effect To Child</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsInheritSpeedToChild</name>
+    <name>Is Inherit Speed To Child</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsLockModule</name>
+    <name>Is Lock Module</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsSearchForTarget</name>
+    <name>Is Search For Target</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsEmittedBullet</name>
+    <name>Is Emitted Bullet</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsInheritLifeToChild</name>
+    <name>Is Inherit Life To Child</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>darkDamageDamp</name>
+    <name>Damp: Dark Damage</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>bulletHitType0</name>
+    <name>Bullet Hit Type 0</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>bulletHitType1</name>
+    <name>Bullet Hit Type 1</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpHomingYAngle</name>
+    <name>Sp Homing Y Angle</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>rand_ShootAngleXZ</name>
+    <name>Emitted Bullet - Random Angle XZ</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>rand_ShootANgleY</name>
+    <name>Emitted Bullet - Random Angle Y</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>bulletEmitter_bulletId</name>
+    <name>Bullet Emitter: Bullet ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>bulletEmitter_ShootInterval0</name>
+    <name>Bullet Emitter: Shoot Interval 1</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>bulletEmitter_InitInterval</name>
+    <name>Bullet Emitter: Initial Shoot Interval</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SpHomingYAngleForEnemy</name>
+    <name>Sp Homing Y Angle For Enemy</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>bulletEmitter_ShootInterval1</name>
+    <name>Bullet Emitter: Shoot Interval 2</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LaunchType</name>
+    <name>Launch Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LimitBulletParamId</name>
+    <name>Limit Bullet Param ID</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>CounterHitType</name>
+    <name>Counter Hit Type</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>IsPosHitBullet</name>
+    <name>Is Position Hit Bullet</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsAttachAttackSfx</name>
+    <name>Is Attach Attack SFX</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsSpCorrection0</name>
+    <name>Is Sp Correction 0</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsSpCorrection1</name>
+    <name>Is Sp Correction 1</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>IsPenetrateTarget</name>
+    <name>Is Penetrate Target</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsSpCorrection2</name>
+    <name>Is Sp Correction 2</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsDisableIntScale</name>
+    <name>Is Disable Int Scale</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -496,22 +496,22 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>EmittePosRadius</name>
+    <name>Emitter Position Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>hitObjectId</name>
+    <name>Hit Object ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>subLife</name>
+    <name>Sub - Life</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>subHomingAngle</name>
+    <name>Sub - Homing Angle</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
@@ -521,7 +521,7 @@
     <size>2</size>
   </entry>
   <entry>
-    <name>lockShootCorrectionAng</name>
+    <name>Lock Shoot Correction Angle</name>
     <type>f32</type>
     <default>0</default>
   </entry>

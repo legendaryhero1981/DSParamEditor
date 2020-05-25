@@ -1,180 +1,225 @@
-﻿0,None
+0,Default
 1,None
-10,Weapon Skill
-60,Weapon Skill
-70,Weapon Skill
-80,Weapon Skill
-90,Parry
-91,Parry
-92,Spell Parry
-93,Spell Parry
-99,Parry
-100,Quickstep
-101,Blind Spot
-102,Unleash Dragon
-103,Guiding Light
-104,Blind Spot
-105,Shield Splitter
-106,Stance
-107,Crystal Blade
-108,Quickstep
-200,Stance
-201,Stomp
-202,Guiding Light
-203,Oath of Sunlight
-204,Sacred Lothric Light
-205,Stance
-206,Lion Stance
-207,Ember
-300,Stance
-301,Wrath of the Gods
-302,Ember
-303,Moonlight Vortex
-304,Stance of Judgment
-305,Sacred Light and Flame
-306,Wolf Sword
-307,Stomp
-308,Stomp
-309,Storm King
-310,Perseverance
-311,Elfriede's Blackflame
-312,Blade of Peril
-400,Stomp
-401,Parry
-402,Charge
-403,Profaned Flame
-404,Flame of Lorian
-405,Stomp
-406,Stomp
-407,Stomp
-410,Ember
-500,Stance
-501,Shield Splitter
-502,Ricard's Lunge and Press
-503,Quill Dart
-600,Spin Slash
-601,Crescent Blade
-602,Tornado
-603,Frost Blade
-604,Spin Slash
-605,Spin Slash
-606,Chained Dance
-607,Prying Wedge
-608,Spin Slash
-700,Spin Slash
-701,Wolf Leap
-702,Spin Slash
-703,Spin Slash
-704,Sever
-800,Hold
-801,Bloodlust
-802,Hold
-803,Darkdrift
-804,Hold
-900,Warcry
-901,Sharpen
-902,Feast Bell
-903,Quickstep
-904,Warcry
-1000,Warcry
-1002,Demonic Flare
-1003,Falling Bolt
-1004,Warcry
-1005,Sharpen
-1006,Earthen Wrath
-1100,Perseverance
-1101,Warcry
-1102,Steady Chant
-1103,Galvanize
-1104,Breathe Fire
-1200,Perseverance
-1201,Molten Perseverance
-1202,Kindled Flurry
-1203,Warcry
-1204,Morne's Rage
-1205,Spin Bash
-1206,Galvanize
-1207,Quake
-1208,Call to Stone
-1300,Charge
-1301,Falling Bolt
-1302,Pacify
-1303,Shield Splitter
-1304,Steady Chant
-1305,Unleash Dragon
-1306,Charge
-1307,Charge
-1308,Lightning Charge
-1309,Kindled Charge
-1310,Charge
-1311,Spin Sweep
-1312,Hurl Spear
-1313,Ember
-1314,Lothric War Banner
-1400,Spin Sweep
-1401,Chain Spin
-1402,Champion's Charge
-1404,Punitive Flame
-1405,Warcry
-1406,Charge
-1407,Perseverance
-1408,Wind Wheel
-1409,Mad King's Folly
-1500,Neck Swipe
-1502,Frost
-1504,Elfriede's Stance
-1600,Impact
-1601,Flame Whip
-1700,Quickstep
-1701,Flame Whirlwind
-1702,Lifedrain
-1703,Perseverance
-1800,Leaping Slash
-1801,Quickstep
-1802,Quickstep
-1803,Raptor Flurry
-1900,Rapid Fire
-1901,Puncture
-1902,Pharis Triple-shot
-1903,Darkmoon Arrow
-1904,Unseen Arrow
-2000,Puncturing Arrow
-2001,Puncturing Arrow
-2002,Pierce Earth
-2101,Tackle
-2102,Quickstep
-2103,Repeat Fire
-2200,Steady Chant
-2201,Steady Chant
-2202,Poison Spores
-2203,Steady Chant
-2204,Chant from the Depths
-2205,Feasting Branch
-2300,Unfaltering Prayer
-2301,Gentle Prayer
-2302,Combustion
-2303,Unfaltering Prayer
-2304,Unfaltering Prayer
-2305,Awakening
-2306,Pray for Favor
-2400,Combustion
-2401,Parting Flame
-2500,Quickstep
-2600,Spin Slash
-2700,Spin Slash
-2701,Spin Slash
-2720,Dancer's Grace
-2800,Onislayer
-2900,Charge
-3000,Chain Spin
-3100,Spin Bash
-3200,Shield Bash
-3201,Shield Strike
-3300,Shield Bash
-3301,Moan
-3310,Stone Flesh
-3320,Wheel of Fate
-3321,Dragon Roar
-3330,Lockout
-3400,Shield Bash
-3401,Dragon Breath
+10,Fists
+60,[Shield] Weapon Skill
+70,[Greatshield] Weapon Skill
+80,[Shield] Parry
+90,[Shield] Parry
+91,[Shield] Weapon Skill
+92,[Shield] Spell Parry
+93,[Shield] Spell Parry
+99,[Dagger] Parry
+100,[Dagger] Quickstep
+101,[Dagger] Blind Spot
+102,[Dagger] Unleash Dragon
+103,[Dagger] Guiding Light
+104,[Dagger] Blind Spot
+105,[Dagger] Shield Splitter
+106,[Dagger] Stance
+107,[Dagger] Crystal Blade
+108,[Dagger] Quickstep (Murky Hand Scythe)
+200,[Straight Sword] Stance
+201,[Straight Sword] Stomp
+202,[Straight Sword] Guiding Light
+203,[Straight Sword] Oath of Sunlight
+204,[Straight Sword] Sacred Lothric Light
+205,[Straight Sword] Stance (Irithyll Straight Sword)
+206,[Straight Sword] Lion Stance
+207,[Straight Sword] Ember (Ringed Knight Straight Sword)
+208,[Straight Sword] Holy Wrath
+209,[Straight Sword] Parry
+210,[Straight Sword] Unleash Dragon
+211,[Straight Sword] Crystal Shower
+212,[Straight Sword] Shield Splitter
+300,[Greatsword] Stance
+301,[Greatsword] Wrath of the Gods
+302,[Greatsword] Ember (Firelink Greatsword)
+303,[Greatsword] Moonlight Vortex
+304,[Greatsword] Stance of Judgment
+305,[Greatsword] Sacred Light and Flame
+306,[Greatsword] Wolf Sword
+307,[Greatsword] Stomp (Executioner's Greatsword)
+308,[Greatsword] Stomp (Bastard Sword)
+309,[Greatsword] Storm King
+310,[Greatsword] Perseverance
+311,[Greatsword] Elfriede's Blackflame
+312,[Greatsword] Blade of Peril
+313,[Greatsword] Smouldering Flame
+314,[Greatsword] Blade of Londor
+315,[Greatsword] Abyssal Sword
+316,[Greatsword] Unleash Dragon
+317,[Greatsword] Tranquil Walk of Peace
+318,[Greatsword] Beckon Storm
+319,[Greatsword] Moonlight Vortex
+320,[Greatsword] Flame of the Great Lord
+400,[Ultra Greatsword] Stomp
+401,[Ultra Greatsword] Parry
+402,[Ultra Greatsword] Charge
+403,[Ultra Greatsword] Profaned Flame
+404,[Ultra Greatsword] Flame of Lorian
+405,[Ultra Greatsword] Stomp (Greatsword)
+406,[Ultra Greatsword] Stomp (Cathedral Knight Greatsword)
+407,[Ultra Greatsword] Stomp (Black Knight Greatsword)
+410,[Ultra Greatsword] Ember (Ringed Knight Paired Greatswords)
+411,[Ultra Greatsword] Unleash Dragon
+413,[Ultra Greatsword] Abyssal Burst
+500,[Rapier] Stance
+501,[Rapier] Shield Splitter
+502,[Rapier] Ricard's Lunge and Press
+503,[Rapier] Quill Dart
+504,[Rapier] Parry
+600,[Curved Sword] Spin Slash
+601,[Curved Sword] Crescent Blade
+602,[Curved Sword] Tornado
+603,[Curved Sword] Frost Blade
+604,[Curved Sword] Spin Slash (Shotel)
+605,[Curved Sword] Spin Slash (Scimitar)
+606,[Curved Sword] Chained Dance
+607,[Curved Sword] Prying Wedge
+608,[Curved Sword] Spin Slash (Demon's Scar)
+609,[Curved Sword] Concussive Blows
+610,[Curved Sword] Quelaag's Rage
+700,[Curved Greatsword] Spin Slash
+701,[Curved Greatsword] Wolf Leap
+702,[Curved Greatsword] Spin Slash (Carthus Curved Greatsword)
+703,[Curved Greatsword] Spin Slash (Exile Greatsword)
+704,[Curved Greatsword] Sever
+800,[Katana] Hold
+801,[Katana] Bloodlust
+802,[Katana] Hold (Washing Pole)
+803,[Katana] Darkdrift
+804,[Katana] Hold (Frayed Blade)
+900,[Axe] Warcry (General)
+901,[Axe] Sharpen
+902,[Axe] Feast Bell
+903,[Axe] Quickstep
+904,[Axe] Warcry (Millwood Battle Axe)
+905,[Axe] Parry
+1000,[Greataxe] Warcry
+1001,[Greataxe] ?
+1002,[Greataxe] Demonic Flare
+1003,[Greataxe] Falling Bolt
+1004,[Greataxe] Warcry (Yhorm's Great Machete)
+1005,[Greataxe] Sharpen
+1006,[Greataxe] Earthen Wrath
+1007,[Greataxe] Wretch Earth
+1008,[Greataxe] Unleash Dragon
+1100,[Hammer] Perseverance
+1101,[Hammer] Warcry
+1102,[Hammer] Steady Chant
+1103,[Hammer] Galvanize
+1104,[Hammer] Breathe Fire
+1105,[Hammer] Ignite
+1106,[Hammer] Bloodlust
+1200,[Great Hammer] Perseverance
+1201,[Great Hammer] Molten Perseverance
+1202,[Great Hammer] Kindled Flurry
+1203,[Great Hammer] Warcry
+1204,[Great Hammer] Morne's Rage
+1205,[Great Hammer] Spin Bash
+1206,[Great Hammer] Galvanize
+1207,[Great Hammer] Quake
+1208,[Great Hammer] Call to Stone
+1209,[Great Hammer] Spew Fire
+1210,[Great Hammer] Holy Wrath
+1211,[Great Hammer] Bloodlust
+1300,[Spear] Charge
+1301,[Spear] Falling Bolt
+1302,[Spear] Pacify
+1303,[Spear] Shield Splitter
+1304,[Spear] Steady Chant
+1305,[Spear] Unleash Dragon
+1306,[Spear] Charge (Greatlance)
+1307,[Spear] Charge (Four-pronged Plow)
+1308,[Spear] Lightning Charge
+1309,[Spear] Kindled Charge
+1310,[Spear] Charge (Saint Bident)
+1311,[Spear] Spin Sweep
+1312,[Spear] Hurl Spear
+1313,[Spear] Ember (Ringed Knight Spear)
+1314,[Spear] Lothric War Banner
+1315,[Spear] Blessing of Rosaria
+1316,[Spear] Expel Lightning
+1317,[Spear] Channeler's Boon
+1318,[Spear] Acid Surge
+1319,[Spear] Soul Barrage
+1320,[Spear] Coronal Cascade
+1321,[Spear] Demonic Stance
+1400,[Halberd] Spin Sweep
+1401,[Halberd] Chain Spin
+1402,[Halberd] Champion's Charge
+1403,[Halberd] ?
+1404,[Halberd] Punitive Flame
+1405,[Halberd] Warcry
+1406,[Halberd] Charge
+1407,[Halberd] Perseverance
+1408,[Halberd] Wind Wheel
+1409,[Halberd] Mad King's Folly
+1410,[Halberd] Limb Sweep
+1411,[Halberd] Archdeacon's Gambit
+1500,[Scythe] Neck Swipe
+1501,[Scythe] ?
+1502,[Scythe] Frost
+1503,[Scythe] ?
+1504,[Scythe] Elfriede's Stance
+1600,[Whip] Impact
+1601,[Whip] Flame Whip
+1700,[Fist] Quickstep
+1701,[Fist] Flame Whirlwind
+1702,[Fist] Lifedrain
+1703,[Fist] Perseverance
+1800,[Claw] Leaping Slash
+1801,[Claw] ?
+1802,[Claw] Quickstep
+1803,[Claw] Raptor Flurry
+1804,[Fist] Flurry of Fists
+1900,[Bow] Rapid Fire
+1901,[Bow] Puncture
+1902,[Bow] Pharis Triple-Shot
+1903,[Bow] Darkmoon Arrow
+1904,[Bow] Wrathful Arrow
+2000,[Greatbow] Puncturing Arrow
+2001,[Greatbow] Puncturing Arrow
+2002,[Greatbow] Pierce Earth
+2101,[Crossbow] Tackle
+2102,[Crossbow] Quickstep
+2103,[Crossbow] Repeat Fire
+2200,[Staff] Steady Chant
+2201,[Staff] Steady Chant (Sage's Crystal Staff)
+2202,[Staff] Poison Spores
+2203,[Staff] Steady Chant (Court Sorcerer's Staff)
+2204,[Staff] Chant fron the Depths
+2205,[Staff] Feasting Branch
+2300,[Talisman] Unfaltering Prayer
+2301,[Chime] Gentle Prayer
+2302,[Talisman] Combustion (White Hair Talisman)
+2303,[Talisman] Unfaltering Prayer (Saint's Talisman)
+2304,[Talisman] Unfaltering Prayer (Sunlight Talisman)
+2305,[Talisman] Awakening (Rose of Ariandel)
+2306,[Chime] Pray for Favor
+2400,[Pyromancy Flame] Combustion
+2401,[Pyromancy Flame] Parting Flame
+2402,[Pyromancy Flame] Abyssal Grasp
+2403,[Pyromancy Flame] Roar of Chaos
+2404,[Pyromancy Flame] Divine Retribution
+2405,[Pyromancy Flame] Beckon Soul
+2500,[Paired Dagger] Quickstep
+2600,[Paired Straight Sword] Spin Slash
+2700,[Paired Curved Sword] Spin Slash (Sellsword Twinblades)
+2701,[Paired Curved Sword] Spin Slash (Warden Twinblades)
+2710,[Paired Curved Sword] Ciaran's Dance (Golden Dual Swords)
+2720,[Paired Curved Sword] Dancer's Grace
+2800,[Paired Katana] Onislayer
+2900,[Paired Spear] Charge
+3000,[Paired Axe] Chain Spin
+3100,[Paired Hammer] Spin Bash
+3200,[Shield] Shield Bash
+3201,[Shield] Shield Strike
+3300,[Greatshield] Shield Bash
+3301,[Greatshield] Moan
+3310,[Greatshield] Stone Flesh
+3320,[Greatshield] Wheel of Fate
+3321,[Greatshield] Dragon Roar
+3330,[Greatshield] Lockout
+3400,[Shield] Shield Bash
+3401,[Shield] Dragon Breath

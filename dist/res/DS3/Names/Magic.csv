@@ -1,9 +1,10 @@
-﻿1200000,Farron Dart
+1199999,### Sorcery ###
+1200000,Farron Dart
 1210000,Great Farron Dart
 1300000,Soul Arrow
 1301000,Great Soul Arrow
-1302000,Heavy Soul Arrow
-1303000,Great Heavy Soul Arrow
+1302000,Shockwave
+1303000,Soul Geyser
 1304000,Homing Soulmass
 1305000,Homing Crystal Soulmass
 1306000,Soul Spear
@@ -31,11 +32,31 @@
 1376000,Old Moonlight
 1603000,Affinity
 1604000,Great Soul Dregs
-1613000,Dark Edge
+1613000,Abyssal Edge
 1620000,Soul Stream
 1651000,Twisted Wall of Light
 1740000,Pestilent Mist
 1741000,Snap Freeze
+1800000,Crystal Storm
+1801000,Unleash Magic
+1802000,Soul Wave
+1803000,Blizzard
+1805000,Orbs of Judgment
+1806000,Soul Focus
+1807000,Blinding Light
+1808000,Whisper of Despair
+1809000,Repel
+1810000,Numbness
+1811000,Dark Edge
+1812000,Deep Barb
+1813000,Surging Deep
+1814000,Dark Bead
+1815000,Cascading Deep
+1816000,Yearning Dregs
+1817000,Dreg Torrent
+1818000,Writhing Deep
+1822000,Climax
+2399999,### Pyromancies ###
 2400000,Fireball
 2402000,Fire Orb
 2403000,Firestorm
@@ -68,17 +89,32 @@
 2640000,Sacred Flame
 2650000,Carthus Beacon
 2660000,Seething Chaos
+2701000,Lingering Chaos
+2702000,Cataclysm
+2707000,Dark Dance
+2708000,Recollection
+2709000,Mournful Flames
+2710000,Earthfall
+2711000,Wretch Earth
+2712000,Earthquake
+2713000,Rockflesh
+3399999,### Miracles ###
 3490000,Heal Aid
 3500000,Heal
+3500006,Heal
 3501000,Med Heal
+3501006,Med Heal
 3502000,Great Heal
+3502006,Great Heal
 3503000,Soothing Sunlight
+3503006,Soothing Sunlight
 3504000,Replenishment
 3505000,Bountiful Sunlight
+3505006,Bountiful Sunlight
 3507000,Bountiful Light
 3508000,Caressing Tears
+3508006,Caressing Tears
 3509000,Lightning Arrow
-3513000,Morbid Temptation
 3520000,Tears of Denial
 3521000,Homeward
 3530000,Force
@@ -93,10 +129,13 @@
 3555000,Dorhys' Gnawing
 3556000,Way of White Corona
 3557000,Projected Heal
+3557006,Projected Heal
 3560000,Magic Barrier
 3561000,Great Magic Barrier
 3563000,Sacred Oath
+3563006,Sacred Oath
 3581000,Vow of Silence
+3581006,Vow of Silence
 3590000,Lightning Blade
 3591000,Darkmoon Blade
 3640000,Dark Blade
@@ -104,7 +143,18 @@
 3710000,Lightning Stake
 3720000,Divine Pillars of Light
 3730000,Lifehunt Scythe
-3750000,Dorris Swarm
+3730100,Lifehunt Scythe
+3730200,Lifehunt Scythe
+3730300,Lifehunt Scythe
+3730400,Lifehunt Scythe
 3760000,Blessed Weapon
 3770000,Deep Protection
 3780000,Atonement
+3800000,Lightning Bolt
+3802000,Heavenly Thunder
+3803000,Halo
+3805000,Perseverance
+3806000,Inner Fervor
+3807000,Nibble
+3810000,Devouring Swarm
+5200000,### Below are NPC versions of the above spells

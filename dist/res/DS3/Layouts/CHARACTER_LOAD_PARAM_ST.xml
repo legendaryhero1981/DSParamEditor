@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>ChrBndType</name>
+    <name>Character BND Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AniBndType</name>
+    <name>Animation BND Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>TexBndType</name>
+    <name>Texture BND Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BehBndType</name>
+    <name>Behavior BND Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>SndChrType</name>
+    <name>Sound Character Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>

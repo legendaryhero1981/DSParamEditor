@@ -1,49 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>EventLayerID</name>
+    <name>Event Layer ID</name>
     <type>s32</type>
     <default>0</default>
+    <description>emevd layer</description>
   </entry>
   <entry>
-    <name>MapStudioLayerID</name>
+    <name>Map Studio Layer ID</name>
     <type>s32</type>
     <default>0</default>
+    <description>msb layer</description>
   </entry>
   <entry>
-    <name>GparamID[Up]</name>
+    <name>Map Gparam ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GparamID[Low]</name>
+    <name>Map Override Gparam ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Point CloudID</name>
+    <name>BTPB File Index</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GI_TextureID</name>
+    <name>BTL File Index</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Light GroupID</name>
+    <name>BTAB File Index</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>IsReload</name>
+    <name>Is Reload</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>IsDisableOnline</name>
+    <name>Play Region ID Offset</name>
     <type>u8</type>
     <default>0</default>
+	<description>1 = 100</description>
   </entry>
   <entry>
     <name>pad1</name>

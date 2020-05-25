@@ -1,47 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>EquipId</name>
+    <name>Equip ID</name>
     <type>s32</type>
     <default>500</default>
   </entry>
   <entry>
-    <name>value</name>
+    <name>Value</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>mtrlId</name>
+    <name>Material ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>EventFlag</name>
+    <name>Event Flag</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>qwcID</name>
+    <name>QWC ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>sellQuantity</name>
+    <name>Quantity</name>
     <type>s16</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>shopType</name>
+    <name>Shop Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>equipType</name>
+    <name>Equip Type</name>
     <type>u8</type>
     <default>3</default>
   </entry>
   <entry>
-    <name>value_SAN</name>
+    <name>Value (SAN)</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
@@ -51,7 +51,7 @@
     <size>6</size>
   </entry>
   <entry>
-    <name>PriceRate</name>
+    <name>Price Rate</name>
     <type>f32</type>
     <default>1</default>
   </entry>

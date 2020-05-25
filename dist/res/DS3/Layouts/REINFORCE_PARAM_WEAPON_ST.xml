@@ -1,137 +1,137 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>physicsAtkRate</name>
+    <name>Damage %: Physical</name>
     <type>f32</type>
     <default>1.1</default>
   </entry>
   <entry>
-    <name>magicAtkRate</name>
+    <name>Damage %: Magic</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>fireAtkRate</name>
+    <name>Damage %: Fire</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>thunderAtkRate</name>
+    <name>Damage %: Lightning</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>staminaAtkRate</name>
+    <name>Damage %: Stamina</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>saWeaponAtkRate</name>
+    <name>Damage %: Poise</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>saDurabilityRate</name>
+    <name>Damage %: Poise Durability</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>correctStrengthRate</name>
+    <name>Scaling %: STR</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>correctAgilityRate</name>
+    <name>Scaling %: DEX</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>correctMagicRate</name>
+    <name>Scaling %: INT</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>correctFaithRate</name>
+    <name>Scaling %: FTH</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>physicsGuardCutRate</name>
+    <name>Guard %: Physical</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>magicGuardCutRate</name>
+    <name>Guard %: Magic</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>fireGuardCutRate</name>
+    <name>Guard %: Fire</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>thunderGuardCutRate</name>
+    <name>Guard %: Lightning</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>poisonGuardResistRate</name>
+    <name>Guard %: Poison</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>toxicGuardResistRate</name>
+    <name>Guard %: Toxic</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>bleedGuardResistRate</name>
+    <name>Guard %: Bleed</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>curseGuardResistRate</name>
+    <name>Guard %: Curse</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>staminaGuardResistRate</name>
+    <name>Guard %: Stability</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>spEffectId1</name>
+    <name>Behavior Effect 1 Offset</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId2</name>
+    <name>Behavior Effect 2 Offset</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId3</name>
+    <name>Behavior Effect 3 Offset</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ResidentSpEffectId1</name>
+    <name>Resident Effect 1 Offset</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ResidentSpEffectId2</name>
+    <name>Resident Effect 2 Offset</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ResidentSpEffectId3</name>
+    <name>Resident Effect 3 Offset</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>materialSetId</name>
+    <name>Material Set ID</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -141,32 +141,32 @@
     <size>1</size>
   </entry>
   <entry>
-    <name>darkAtkRate</name>
+    <name>Damage %: Dark</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>darkCutRate</name>
+    <name>Guard %: Dark</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>StabilityAtkRate</name>
+    <name>Scaling %: LCK</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>StabilityCutRate</name>
+    <name>Guard %: Stamina</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>frostGuardResistRate</name>
+    <name>Guard %: Frostbite</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>unk1</name>
+    <name>Infusion Cost %</name>
     <type>f32</type>
     <default>1</default>
   </entry>

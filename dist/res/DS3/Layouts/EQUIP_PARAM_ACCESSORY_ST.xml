@@ -1,92 +1,116 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="AccessoryType" type="u8">
+    <item value="0" name="Ring" />
+	<item value="1" name="Covenant" />
+  </enum>
+  <enum name="EquipModelGender" type="u8">
+    <item value="0" name="All" />
+	<item value="1" name="Male/Female" />
+	<item value="2" name="Male/Female" />
+	<item value="3" name="Male/Female" />
+	<item value="4" name="Male" />
+  </enum>
+  <enum name="EquipModelCategory" type="u8">
+    <item value="0" name="Accessory" />
+	<item value="1" name="Arm" />
+	<item value="2" name="Body" />
+	<item value="3" name="Face" />
+	<item value="4" name="Hair" />
+	<item value="5" name="Head" />
+	<item value="6" name="Leg" />
+	<item value="7" name="Weapon" />
+  </enum>
   <entry>
-    <name>refId0</name>
+    <name>Ref ID 0</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>sfxVariationId</name>
+    <name>VFX Variation Id</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>weight</name>
+    <name>Weight</name>
     <type>f32</type>
-    <default>0.6</default>
+    <default>1</default>
   </entry>
   <entry>
-    <name>behaviorId</name>
+    <name>Behavior ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>basicPrice</name>
+    <name>Base Price</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>sellValue</name>
+    <name>Sell Value</name>
     <type>s32</type>
     <default>150</default>
   </entry>
   <entry>
-    <name>sortId</name>
+    <name>Sort ID</name>
     <type>s32</type>
     <default>80000</default>
   </entry>
   <entry>
-    <name>qwcId</name>
+    <name>QWC ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>equipModelId</name>
+    <name>Equip Model ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>iconId</name>
+    <name>Icon ID</name>
     <type>s16</type>
     <default>5000</default>
   </entry>
   <entry>
-    <name>shopLv</name>
+    <name>Shop Level</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>trophySGradeId</name>
+    <name>Trophy S-Grade ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>trophySeqId</name>
+    <name>Trophy Seq ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equipModelCategory</name>
+    <name>Equip Model Category</name>
     <type>u8</type>
     <default>0</default>
+	<enum>EquipModelCategory</enum>
   </entry>
   <entry>
-    <name>equipModelGender</name>
+    <name>Equip Model Gender</name>
     <type>u8</type>
     <default>0</default>
+	<enum>EquipModelGender</enum>
   </entry>
   <entry>
-    <name>accessoryCategory</name>
+    <name>Accessory Type</name>
     <type>u8</type>
     <default>0</default>
+	<enum>AccessoryType</enum>
   </entry>
   <entry>
-    <name>refCategory</name>
+    <name>Ref Category</name>
     <type>u8</type>
     <default>2</default>
   </entry>
   <entry>
-    <name>spEffectCategory</name>
+    <name>SpEffect Category</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -111,27 +135,27 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>IsDeposit</name>
+    <name>Is Deposit</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>IsEquipOutBrake</name>
+    <name>Is Break on Unequip</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>disableMultiDropShare</name>
+    <name>Is Disable Multi Drop Share</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsDiscard</name>
+    <name>Is Discard</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>IsBool</name>
+    <name>Is Bool</name>
     <type>b8</type>
     <default>True</default>
   </entry>
@@ -156,42 +180,42 @@
     <size>3</size>
   </entry>
   <entry>
-    <name>Costvalue</name>
+    <name>Cost Value</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>RingCompatibilityId</name>
+    <name>Ring Compatibility ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>VowId</name>
+    <name>Vow ID</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AchievementID</name>
+    <name>Achievement ID</name>
     <type>u8</type>
     <default>13</default>
   </entry>
   <entry>
-    <name>refId1</name>
+    <name>Ref ID 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>refId2</name>
+    <name>Ref ID 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>refId3</name>
+    <name>Ref ID 3</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>refId4</name>
+    <name>Ref ID 4</name>
     <type>s32</type>
     <default>0</default>
   </entry>

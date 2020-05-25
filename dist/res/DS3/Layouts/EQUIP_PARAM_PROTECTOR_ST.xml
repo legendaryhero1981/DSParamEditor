@@ -806,7 +806,7 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>Unk9</name>
+    <name>Shop Price</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -816,12 +816,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask00</name>
+    <name>Mask00 - Hide upper face</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask01</name>
+    <name>Mask01 - Hide lower face</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -836,42 +836,42 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask04</name>
+    <name>Mask04 - Hide upper neck</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask05</name>
+    <name>Mask05 - Hide lower neck</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask06</name>
+    <name>Mask06 - Hide torso</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask07</name>
+    <name>Mask07 - Hide chest strap</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask08</name>
+    <name>Mask08 - Hide shoulders</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask09</name>
+    <name>Mask09 - Hide elbows</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask10</name>
+    <name>Mask10 - Hide wrists</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask11</name>
+    <name>Mask11 - Hide hands</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -881,37 +881,37 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask13</name>
+    <name>Mask13 - Hide wait</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask14</name>
+    <name>Mask14 - Hide calves</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask15</name>
+    <name>Mask15 - Hide shins</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask16</name>
+    <name>Mask16 - Hide feet</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask17</name>
+    <name>Mask17 - Hide bra</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask18</name>
+    <name>Mask18 - Hide knot on trousers</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask19</name>
+    <name>Mask19 - Hide belt</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -941,7 +941,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask25</name>
+    <name>Mask25 - Hide sleeves</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -1026,12 +1026,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask42</name>
+    <name>Mask42 - Head Cloth State 1</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask43</name>
+    <name>Mask43 - Head Cloth State 2</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -1101,7 +1101,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask57</name>
+    <name>Mask57 - Hide skirt</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -1116,12 +1116,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask60</name>
+    <name>Mask60 - Hide hair scalp</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask61</name>
+    <name>Mask61 - Hide hair low</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -1131,32 +1131,32 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask63</name>
+    <name>Mask63 - Hide hair top in</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask64</name>
+    <name>Mask64 - Hide hair top out</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask65</name>
+    <name>Mask65 - Hide hair front in</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask66</name>
+    <name>Mask66 - Hide hair front out</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask67</name>
+    <name>Mask67 - Hide hair sides</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mask68</name>
+    <name>Mask68 - Hide hair back</name>
     <type>u8</type>
     <default>0</default>
   </entry>

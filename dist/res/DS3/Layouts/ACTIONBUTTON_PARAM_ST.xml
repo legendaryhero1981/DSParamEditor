@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>regionType</name>
+    <name>Region Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -11,12 +11,12 @@
     <size>3</size>
   </entry>
   <entry>
-    <name>dummyPoly1</name>
+    <name>Dummy Poly 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>dummyPoly2</name>
+    <name>Dummy Poly </name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -31,27 +31,27 @@
     <default>180</default>
   </entry>
   <entry>
-    <name>depth</name>
+    <name>Depth</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>width</name>
+    <name>Width</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>height</name>
+    <name>Height</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>baseHeightOffset</name>
+    <name>Base Height Offset</name>
     <type>f32</type>
     <default>-0.25</default>
   </entry>
   <entry>
-    <name>angleCheckType</name>
+    <name>Angle Check Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -61,12 +61,12 @@
     <size>3</size>
   </entry>
   <entry>
-    <name>AllowAngle</name>
+    <name>Allow Angle</name>
     <type>s32</type>
     <default>90</default>
   </entry>
   <entry>
-    <name>textBoxType</name>
+    <name>Textbox Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -76,32 +76,32 @@
     <size>3</size>
   </entry>
   <entry>
-    <name>textId</name>
+    <name>Text ID</name>
     <type>s32</type>
     <default>10010403</default>
   </entry>
   <entry>
-    <name>InvalidFlag</name>
+    <name>Invalid Flag</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>grayoutFlag</name>
+    <name>Grayout Flag</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>priority</name>
+    <name>Priority</name>
     <type>s32</type>
     <default>3</default>
   </entry>
   <entry>
-    <name>execInvalidTime</name>
+    <name>Execution Invalid Time</name>
     <type>f32</type>
     <default>3</default>
   </entry>
   <entry>
-    <name>execButtonCircle</name>
+    <name>Execution Button Circle</name>
     <type>u8</type>
     <default>1</default>
   </entry>

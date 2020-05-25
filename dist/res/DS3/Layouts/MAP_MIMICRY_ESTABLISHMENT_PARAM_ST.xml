@@ -1,62 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>RandomizerCoefficient0</name>
+    <name>Time0</name>
     <type>f32</type>
     <default>500</default>
   </entry>
   <entry>
-    <name>RandomizerCoefficient1</name>
+    <name>Time1</name>
     <type>f32</type>
     <default>500</default>
   </entry>
   <entry>
-    <name>RandomizerCoefficient2</name>
+    <name>Time2</name>
     <type>f32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>TransformVfxId0</name>
+    <name>AppearSfx0</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>LoopVfxId0</name>
+    <name>MainSfx0</name>
     <type>s32</type>
     <default>430041</default>
   </entry>
   <entry>
-    <name>DestroyVfxId0</name>
+    <name>SubSfx0</name>
     <type>s32</type>
     <default>430042</default>
   </entry>
   <entry>
-    <name>TransformVfxId1</name>
+    <name>AppearSfx1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>LoopVfxId1</name>
+    <name>MainSfx1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>DestroyVfxId1</name>
+    <name>SubSfx1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>TransformVfxId2</name>
+    <name>AppearSfx2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>LoopVfxId2</name>
+    <name>MainSfx2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>DestroyVfxId2</name>
+    <name>SubSfx2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>

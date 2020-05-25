@@ -1,56 +1,2042 @@
-﻿1,Do not erase -- 消すべからず
-2000,Noconata -- ノコナタ
-2001,Axe Rod -- 斧竿
-2002,Cane Whip -- 杖鞭
-2010,Atelier Handguns -- 工房短銃
-2011,Atelier Head Gun -- 工房長銃
-900000,Sword: Short Sword -- 剣：ショートソード
-900001,Shield: Buckler -- 盾：バックラー
-900002,Bow: Short Bow -- 弓：ショートボウ
-900003,Catalyst: Magician's Wand -- 触媒：魔術師の杖
-900004,Armor _ Head 1: Funeral Knights -- 防具_頭1：葬送騎士
-900005,Armor _ Head 2: Crimson Knight -- 防具_頭2：紅騎士
-900006,Armor _ Torso 1: Funeral Knight -- 防具_胴1：葬送騎士
-900007,Armor _ Torso 2: Crimson Knight -- 防具_胴2：紅騎士
-900008,Armor _ Hand 1: Funeral Knights -- 防具_手1：葬送騎士
-900009,Armor _ Hand 2: Crimson Knight -- 防具_手2：紅騎士
-900010,Armor _ Foot 1: Funeral Knight -- 防具_足1：葬送騎士
-900011,Armor _ Foot Two: -- 防具_足2：
-900012,Ring 1: Equipment weight up -- 指輪1：装備重量アップ
-900013,Ring 2: Pinch attack power up -- 指輪2：ピンチ攻撃力アップ
-900014,Ring 3: The Dark Moon God's ring -- 指輪3：暗月神の指輪
-900015,Ring 4: Ring of Thieves -- 指輪4：盗賊団の指輪
-900016,Ring 5: Stamina Recovery up -- 指輪5：スタミナ回復アップ
-900017,Arrow 1: Normal arrow -- 矢1：普通の矢
-900018,Arrow 2: Arrows -- 矢2：火矢
-900019,Arrow 3: Mantella -- 矢3：毒矢
-900020,Tool 1: Reinforcement items -- 道具1：強化アイテム
-900021,Tool 2: Reinforcement items -- 道具2：強化アイテム
-900022,Tool 3: Reinforcement items -- 道具3：強化アイテム
-900023,Tool 4: Reinforcement items -- 道具4：強化アイテム
-900024,Tool 5: Reinforcement items -- 道具5：強化アイテム
-900025,Tool 6: Reinforcement items -- 道具6：強化アイテム
-900026,Tool 7: Reinforcement items -- 道具7：強化アイテム
-900027,Tool 8: Reinforcement items -- 道具8：強化アイテム
-900028,Tool 9: Reinforcement items -- 道具9：強化アイテム
-900029,Tool 10: Reinforcement items -- 道具10：強化アイテム
-900030,Tool 11: Reinforcement items -- 道具11：強化アイテム
-900031,Tool 12: Reinforcement items -- 道具12：強化アイテム
-900032,Tool 13: Reinforcement items -- 道具13：強化アイテム
-900033,Tool 14: Reinforcement items -- 道具14：強化アイテム
-900034,Tool 15: Seoul -- 道具15：ソウル
-900035,Tool 16: Seoul -- 道具16：ソウル
-900036,Tool 17: Seoul -- 道具17：ソウル
-900037,Tool 18: Seoul -- 道具18：ソウル
-900038,Tool 19: Seoul -- 道具19：ソウル
-900039,Tool 20: Seoul -- 道具20：ソウル
-900040,Tool 21: Seoul -- 道具21：ソウル
-900041,Tool 22: Seoul -- 道具22：ソウル
-900042,Tool 23: Seoul -- 道具23：ソウル
-900043,Tool 24: Seoul -- 道具24：ソウル
-900044,Tool 25: Seoul -- 道具25：ソウル
-900045,Tool 26: Seoul -- 道具26：ソウル
-900046,Tool 27: Seoul -- 道具27：ソウル
-900047,Tool 28: Seoul -- 道具28：ソウル
-900048,Tool 29: Seoul -- 道具29：ソウル
-900049,Tool 30: Seoul -- 道具30：ソウル
+21000,[Darkmoon Faithful] Darkmoon Ring
+21001,[Darkmoon Faithful] Darkmoon Blade
+21002,[Darkmoon Faithful] Magic Gem
+21003,[Darkmoon Faithful] Enchanted Gem
+21004,[Darkmoon Faithful] Twinkling Titanite
+21005,[Darkmoon Faithful] Yorshka's Chime
+21006,[Darkmoon Faithful] Saint's Veil
+21007,[Darkmoon Faithful] Saint's Dress
+21008,[Darkmoon Faithful] Sunless Veil
+21009,[Darkmoon Faithful] Sunless Armor
+21010,[Darkmoon Faithful] Sunless Gauntlets
+21011,[Darkmoon Faithful] Sunless Leggings
+21012,[Darkmoon Faithful] Ring of the Dutiful
+21013,[Darkmoon Faithful] Priscilla's Scythe
+21200,[Watchdogs of Farron] Old Wolf Curved Sword
+21201,[Watchdogs of Farron] Wolf Knight's Greatshield
+21202,[Watchdogs of Farron] Wolf Ring
+21203,[Watchdogs of Farron] Blunt Gem
+21204,[Watchdogs of Farron] Titanite Shard
+21205,[Watchdogs of Farron] Large Titanite Shard
+21206,[Watchdogs of Farron] Titanite Chunk
+21207,[Watchdogs of Farron] Havel's Ring
+21208,[Watchdogs of Farron] Runic Seal
+21209,[Watchdogs of Farron] Wolf Knight Helm
+21210,[Watchdogs of Farron] Wolf Knight Armor
+21211,[Watchdogs of Farron] Wolf Knight Gauntlets
+21212,[Watchdogs of Farron] Wolf Knight Leggings
+21213,[Watchdogs of Farron] Ring of the Resolute
+21215,[Watchdogs of Farron] Greatshield of Artorias
+21216,[Watchdogs of Farron] Greatsword of Artorias
+21400,[Aldrich Faithful] Archdeacon's Great Staff
+21401,[Aldrich Faithful] Archdeacon's Longstaff
+21402,[Aldrich Faithful] Dark Gem
+21403,[Aldrich Faithful] Twinkling Titanite
+21404,[Aldrich Faithful] Numbness
+21405,[Aldrich Faithful] Climax
+21406,[Aldrich Faithful] Archdeacon White Crown
+21407,[Aldrich Faithful] Archdeacon Holy Garb
+21408,[Aldrich Faithful] Archdeacon Skirt
+21409,[Aldrich Faithful] Dark Bead
+21410,[Aldrich Faithful] Ring of the Faithful
+21600,[Warrior of Sunlight] Sunlight Shield
+21601,[Warrior of Sunlight] Sunlight Straight Sword
+21602,[Warrior of Sunlight] Lightning Gem
+21603,[Warrior of Sunlight] Titanite Scale
+21604,[Warrior of Sunlight] Inner Fervor
+21605,[Warrior of Sunlight] Heavenly Thunder
+21606,[Warrior of Sunlight] Iron Helm
+21607,[Warrior of Sunlight] Armor of the Sun
+21608,[Warrior of Sunlight] Iron Bracelets
+21609,[Warrior of Sunlight] Iron Leggings
+21610,[Warrior of Sunlight] Ring of the Devout
+21800,[Mound-makers] Bloodlust
+21801,[Mound-makers] Warmth
+21802,[Mound-makers] Sharp Gem
+21803,[Mound-makers] Titanite Shard
+21804,[Mound-makers] Large Titanite Shard
+21805,[Mound-makers] Titanite Chunk
+21806,[Mound-makers] Hollowslayer Greatsword
+21807,[Mound-makers] Flynn's Bow
+21808,[Mound-makers] Sunset Helm
+21809,[Mound-makers] Sunset Armor
+21810,[Mound-makers] Sunset Gauntlets
+21811,[Mound-makers] Sunset Leggings
+21812,[Mound-makers] Ring of the Fanatic
+22000,[Chaos Servants] Earthquake
+22001,[Chaos Servants] Seething Chaos
+22002,[Chaos Servants] Fire Seed
+22003,[Chaos Servants] Fire Gem
+22004,[Chaos Servants] Lingering Chaos
+22005,[Chaos Servants] Cataclysm
+22006,[Chaos Servants] Charred Bone
+22007,[Chaos Servants] Old Sage's Blindfold
+22008,[Chaos Servants] Cornyx's Garb
+22009,[Chaos Servants] Cornyx's Wrap
+22010,[Chaos Servants] Cornyx's Skirt
+22011,[Chaos Servants] Ring of Demons
+22200,[Rosaria's Fingers] Obscuring Ring
+22201,[Rosaria's Fingers] Man-grub's Staff
+22202,[Rosaria's Fingers] Holy Gem
+22203,[Rosaria's Fingers] Lucky Gem
+22204,[Rosaria's Fingers] Twinkling Titanite
+22205,[Rosaria's Fingers] Hornet Ring
+22206,[Rosaria's Fingers] Wretched Pendant
+22207,[Rosaria's Fingers] Helm of Thorns
+22208,[Rosaria's Fingers] Armor of Thorns
+22209,[Rosaria's Fingers] Gauntlets of Thorns
+22210,[Rosaria's Fingers] Leggings of Thorns
+22211,[Rosaria's Fingers] Ring of the Fingers
+22400,[Spears of the Church] Young Grass Dew
+22401,[Spears of the Church] Divine Spear Fragment
+22402,[Spears of the Church] Lethal Gem
+22403,[Spears of the Church] Dragon Scale
+22404,[Spears of the Church] Ritual Spear Fragment
+22405,[Spears of the Church] White Birch Bow
+22406,[Spears of the Church] Sacred Chime of Filianore
+22407,[Spears of the Church] Shira's Crown
+22408,[Spears of the Church] Shira's Armor
+22409,[Spears of the Church] Shira's Gloves
+22410,[Spears of the Church] Shira's Trousers
+22411,[Spears of the Church] Ring of the Blessed
+30000,[Ludleth - Gundyr] Gundyr's Halberd
+30001,[Ludleth - Gundyr] Prisoner's Chain
+30002,[Ludleth - Gundyr] Hands of God
+30020,[Ludleth - Dancer] Dancer's Enchanted Swords
+30021,[Ludleth - Dancer] Soothing Sunlight
+30030,[Ludleth - Crystal Sage] Crystal Sage's Rapier
+30031,[Ludleth - Crystal Sage] Crystal Hail
+30032,[Ludleth - Crystal Sage] Sage's Stiletto
+30040,[Ludleth - Abyss Watcher] Farron Greatsword
+30041,[Ludleth - Abyss Watcher] Wolf Knight's Greatsword
+30042,[Ludleth - Abyss Watcher] Cursed Greatsword of Artorias
+30050,[Ludleth - Oceiros] Moonlight Greatsword
+30051,[Ludleth - Oceiros] White Dragon Breath
+30053,[Ludleth - Oceiros] Crystal Storm
+30054,[Ludleth - Oceiros] Moonlight Butterfly Horn
+30060,[Ludleth - Vordt] Vordt's Great Hammer
+30061,[Ludleth - Vordt] Pontiff's Left Eye
+30062,[Ludleth - Vordt] Snap Freeze
+30070,[Ludleth - Old Demon King] Old King's Great Hammer
+30071,[Ludleth - Old Demon King] Demon King's Greataxe
+30072,[Ludleth - Old Demon King] Quelaag's Fury Sword
+30080,[Ludleth - Dragonslayer] Dragonslayer Greataxe
+30081,[Ludleth - Dragonslayer] Dragonslayer Greatshield
+30082,[Ludleth - Dragonslayer] Dragon Bone Smasher
+30090,[Ludleth - Nameless King] Dragonslayer Swordspear
+30091,[Ludleth - Nameless King] Storm Curved Sword
+30110,[Ludleth - Sulyvahn] Greatsword of Judgment
+30111,[Ludleth - Sulyvahn] Profaned Greatsword
+30112,[Ludleth - Sulyvahn] Orbs of Judgment
+30120,[Ludleth - Aldrich] Darkmoon Longbow
+30121,[Ludleth - Aldrich] Lifehunt Scythe
+30122,[Ludleth - Aldrich] Darkmoon Ritual Staff
+30123,[Ludleth - Aldrich] Sword of Avowal
+30130,[Ludleth - Wolnir] Wolnir's Holy Sword
+30131,[Ludleth - Wolnir] Black Serpent
+30132,[Ludleth - Wolnir] Mournful Flames
+30133,[Ludleth - Wolnir] Abyssal Blade
+30134,[Ludleth - Wolnir] Gravelord Sword
+30140,[Ludleth - Greatwood] Arstor's Spear
+30141,[Ludleth - Greatwood] Hammer of the Great Tree
+30142,[Ludleth - Greatwood] Greatwood Remnants
+30143,[Ludleth - Greatwood] Greatwood Club
+30153,[Ludleth - Rosaria] Bountiful Sunlight
+30154,[Ludleth - Rosaria] Longstaff of Rosaria
+30160,[Ludleth - Deacons] Cleric's Candlestick
+30161,[Ludleth - Deacons] Deep Ring
+30162,[Ludleth - Deacons] Whisper of Despair
+30163,[Ludleth - Deacons] Dreg Torrent
+30170,[Ludleth - Lothric Twins] Lorian's Greatsword
+30171,[Ludleth - Lothric Twins] Lothric's Holy Sword
+30172,[Ludleth - Lothric Twins] Lothric's Scythe
+30173,[Ludleth - Lothric Twins] Prince's Shield
+30180,[Ludleth - Yhorm] Yhorm's Great Machete
+30181,[Ludleth - Yhorm] Yhorm's Greatshield
+30190,[Ludleth - Soul of Cinder] Firelink Greatsword
+30191,[Ludleth - Soul of Cinder] Firelink Dagger
+30192,[Ludleth - Soul of Cinder] Firelink Spear
+30193,[Ludleth - Soul of Cinder] Firelink Sword
+30194,[Ludleth - Soul of Cinder] Firelink Rapier
+30195,[Ludleth - Soul of Cinder] Great Lord Greatsword
+30200,[Ludleth - Demon] Demon's Great Hammer
+30201,[Ludleth - Demon] Demon's Fist
+30202,[Ludleth - Demon] Demon's Machete
+30210,[Ludleth - Stray Demon] Boulder Heave
+30211,[Ludleth - Stray Demon] Smelter Hammer
+30220,[Ludleth - Freide] Friede's Great Scythe
+30221,[Ludleth - Freide] Rose of Ariandel
+30223,[Ludleth - Freide] Blizzard
+30230,[Ludleth - Gael] Gael's Greatsword
+30231,[Ludleth - Gael] Repeating Crossbow
+30232,[Ludleth - Gael] Halo
+30233,[Ludleth - Gael] Manus Catalyst
+30240,[Ludleth - Demon Princes] Demon's Scar
+30241,[Ludleth - Demon Princes] Chaos Flame
+30242,[Ludleth - Demon Princes] Chaos Bed Vestiges
+30250,[Ludleth - Midir] Frayed Blade
+30251,[Ludleth - Midir] Old Moonlight
+30252,[Ludleth - Midir] Abyssal Flame
+32000,[Champion's Pact - Boss] Cleric's Candlestick
+32001,[Champion's Pact - Boss] Gael's Greatsword
+32002,[Champion's Pact - Boss] Sword of Avowal
+32003,[Champion's Pact - Boss] Crystal Sage's Rapier
+32004,[Champion's Pact - Boss] Storm Curved Sword
+32005,[Champion's Pact - Boss] Demon's Scar
+32006,[Champion's Pact - Boss] Frayed Blade
+32008,[Champion's Pact - Boss] Greatsword of Judgment
+32009,[Champion's Pact - Boss] Profaned Greatsword
+32010,[Champion's Pact - Boss] Farron Greatsword
+32011,[Champion's Pact - Boss] Yhorm's Great Machete
+32012,[Champion's Pact - Boss] Lorian's Greatsword
+32013,[Champion's Pact - Boss] Twin Princes' Greatsword
+32014,[Champion's Pact - Boss] Lothric's Holy Sword
+32015,[Champion's Pact - Boss] Wolnir's Holy Sword
+32016,[Champion's Pact - Boss] Wolf Knight's Greatsword
+32017,[Champion's Pact - Boss] Hollowslayer Greatsword
+32018,[Champion's Pact - Boss] Moonlight Greatsword
+32019,[Champion's Pact - Boss] Firelink Greatsword
+32020,[Champion's Pact - Boss] Storm Ruler
+32021,[Champion's Pact - Boss] Dragonslayer Greataxe
+32022,[Champion's Pact - Boss] Demon's Greataxe
+32023,[Champion's Pact - Boss] Vordt's Great Hammer
+32024,[Champion's Pact - Boss] Old King's Great Hammer
+32025,[Champion's Pact - Boss] Heysel Pick
+32026,[Champion's Pact - Boss] Hammer of the Great Tree
+32027,[Champion's Pact - Boss] Dragonslayer Swordspear
+32028,[Champion's Pact - Boss] Arstor's Spear
+32029,[Champion's Pact - Boss] Gundyr's Halberd
+32030,[Champion's Pact - Boss] Lothric's Scythe
+32031,[Champion's Pact - Boss] Immolation Tinder
+32032,[Champion's Pact - Boss] Friede's Great Scythe
+32033,[Champion's Pact - Boss] Demon's Fist
+32034,[Champion's Pact - Boss] Rose of Ariandel
+32035,[Champion's Pact - Boss] Longstaff of Rosaria
+32036,[Champion's Pact - Boss] Golden Ritual Spear
+32037,[Champion's Pact - Boss] Caitha's Chime
+32038,[Champion's Pact - Boss] Darkmoon Ritual Staff
+32039,[Champion's Pact - Boss] Lord's Chime
+32040,[Champion's Pact - Boss] Logan's Staff
+32041,[Champion's Pact - Boss] Darkmoon Longbow
+32042,[Champion's Pact - Boss] Repeating Crossbow
+32043,[Champion's Pact - Boss] Dancer's Enchanted Swords
+32044,[Champion's Pact - Boss] Prince's Shield
+32045,[Champion's Pact - Boss] Shield of Want
+32046,[Champion's Pact - Boss] Dragonslayer Greatshield
+32047,[Champion's Pact - Boss] Yhorm's Greatshield
+32048,[Champion's Pact - Boss] Curse Ward Greatshield
+32049,[Champion's Pact - Boss] Firelink Dagger
+32050,[Champion's Pact - Boss] Firelink Spear
+32051,[Champion's Pact - Boss] Firelink Sword
+32052,[Champion's Pact - Boss] Firelink Rapier
+32053,[Champion's Pact - Boss] Greatwood Club
+32054,[Champion's Pact - Boss] Pursuer's Ultra Greatsword
+32055,[Champion's Pact - Boss] Moonlight Sword
+32056,[Champion's Pact - Boss] Burial Blade
+32057,[Champion's Pact - Boss] Burial Scythe
+32058,[Champion's Pact - Boss] Blades of Mercy
+32059,[Champion's Pact - Boss] Chaos Flame
+32060,[Champion's Pact - Boss] Abyssal Flame
+32061,[Champion's Pact - Boss] Demon's Axe
+32062,[Champion's Pact - Boss] Bramd
+32063,[Champion's Pact - Boss] Marvelous Zweihander
+32064,[Champion's Pact - Boss] Corrupted Greatsword of Artorias
+32065,[Champion's Pact - Boss] Demon's Great Axe
+32066,[Champion's Pact - Boss] Demon's Great Hammer
+32067,[Champion's Pact - Boss] Demon's Machete
+32068,[Champion's Pact - Boss] Demon's Spear
+32069,[Champion's Pact - Boss] Abyssal Blade
+32070,[Champion's Pact - Boss] Golem Axe
+32071,[Champion's Pact - Boss] Gravelord Curved Sword
+32072,[Champion's Pact - Boss] Great Lord Greatsword
+32073,[Champion's Pact - Boss] Greatshield of Artorias
+32074,[Champion's Pact - Boss] Greatsword of Artorias
+32075,[Champion's Pact - Boss] Tin Banishment Catalyst
+32076,[Champion's Pact - Boss] Titanite Catch Pole
+32077,[Champion's Pact - Boss] Priscilla's Scythe
+32078,[Champion's Pact - Boss] Moonlight Butterfly Horn
+32079,[Champion's Pact - Boss] Quelaag's Fury Sword
+32080,[Champion's Pact - Boss] Manus Catalyst
+32081,[Champion's Pact - Boss] Bulwark Shield
+32100,[Champion's Pact - Dragon] Tailbone Short Sword
+32101,[Champion's Pact - Dragon] Dragon Tooth
+32102,[Champion's Pact - Dragon] Tailbone Spear
+32103,[Champion's Pact - Dragon] Ancient Dragon Halberd
+32104,[Champion's Pact - Dragon] Staff of Serpents
+32105,[Champion's Pact - Dragon] Havel's Greatshield
+32106,[Champion's Pact - Dragon] Ancient Dragon Greatshield
+32107,[Champion's Pact - Dragon] Dragonhead Shield
+32108,[Champion's Pact - Dragon] Dragonhead Greatshield
+32109,[Champion's Pact - Dragon] Immortal Dragon Greatshield
+32111,[Champion's Pact - Dragon] Drake Fist
+32113,[Champion's Pact - Dragon] Tailbone Club
+32114,[Champion's Pact - Dragon] Black Dragon Greataxe
+32115,[Champion's Pact - Dragon] Black Dragon Greatsword
+32116,[Champion's Pact - Dragon] Black Dragon Sword
+32117,[Champion's Pact - Dragon] Black Dragon Shield
+32118,[Champion's Pact - Dragon] Dragon Bone Fist
+32119,[Champion's Pact - Dragon] Dragon Greatsword
+32120,[Champion's Pact - Dragon] Dragon King Greataxe
+32121,[Champion's Pact - Dragon] Drake Sword
+32122,[Champion's Pact - Dragon] Obsidian Greatsword
+32123,[Champion's Pact - Dragon] Dragonkin Shield
+32200,[Champion's Pact - Unique] Engraved Dagger
+32201,[Champion's Pact - Unique] Scholar's Candlestick
+32202,[Champion's Pact - Unique] Handmaid's Dagger
+32203,[Champion's Pact - Unique] Aquamarine Dagger
+32204,[Champion's Pact - Unique] Murky Hand Scythe
+32205,[Champion's Pact - Unique] Sunlight Straight Sword
+32206,[Champion's Pact - Unique] Irithyll Straight Sword
+32207,[Champion's Pact - Unique] Lothric Candlestick
+32208,[Champion's Pact - Unique] Morion Blade
+32209,[Champion's Pact - Unique] Executioner's Greatsword
+32210,[Champion's Pact - Unique] Anri's Straight Sword
+32211,[Champion's Pact - Unique] Onyx Blade
+32212,[Champion's Pact - Unique] Ringed Knight Straight Sword
+32213,[Champion's Pact - Unique] Ricard's Rapier
+32214,[Champion's Pact - Unique] Irithyll Rapier
+32215,[Champion's Pact - Unique] Bone Rapier
+32216,[Champion's Pact - Unique] Pontiff Knight Curved Sword
+32217,[Champion's Pact - Unique] Painting Guardian's Curved Sword
+32218,[Champion's Pact - Unique] Crescent Moon Sword
+32219,[Champion's Pact - Unique] Chaos Blade
+32220,[Champion's Pact - Unique] Black Blade
+32221,[Champion's Pact - Unique] Bloodlust
+32222,[Champion's Pact - Unique] Darkdrift
+32223,[Champion's Pact - Unique] Irithyll Greatsword
+32224,[Champion's Pact - Unique] Black Knight Greatsword
+32225,[Champion's Pact - Unique] Dark Sword
+32226,[Champion's Pact - Unique] Black Knight Sword
+32227,[Champion's Pact - Unique] Drakeblood Greatsword
+32228,[Champion's Pact - Unique] Fume Ultra Greatsword
+32229,[Champion's Pact - Unique] Old Wolf Curved Sword
+32230,[Champion's Pact - Unique] Harald Curved Greatsword
+32231,[Champion's Pact - Unique] Crescent Axe
+32232,[Champion's Pact - Unique] Butcher Knife
+32233,[Champion's Pact - Unique] Dragonslayer's Axe
+32234,[Champion's Pact - Unique] Eleonora
+32235,[Champion's Pact - Unique] Millwood Battle Axe
+32236,[Champion's Pact - Unique] Earth Seeker
+32237,[Champion's Pact - Unique] Gargoyle Flame Hammer
+32238,[Champion's Pact - Unique] Writhing Hammer
+32239,[Champion's Pact - Unique] Smough's Great Hammer
+32240,[Champion's Pact - Unique] Blacksmith Hammer
+32241,[Champion's Pact - Unique] Morne's Great Hammer
+32242,[Champion's Pact - Unique] Quakestone Hammer
+32243,[Champion's Pact - Unique] Ledo's Great Hammer
+32244,[Champion's Pact - Unique] Gargoyle Flame Spear
+32245,[Champion's Pact - Unique] Soldering Iron
+32246,[Champion's Pact - Unique] Saint Bident
+32247,[Champion's Pact - Unique] Yorshka's Spear
+32248,[Champion's Pact - Unique] Dragonslayer Spear
+32249,[Champion's Pact - Unique] Ringed Knight Spear
+32250,[Champion's Pact - Unique] Crucifix of the Mad King
+32251,[Champion's Pact - Unique] Black Knight Greataxe
+32252,[Champion's Pact - Unique] Pontiff Knight Great Scythe
+32253,[Champion's Pact - Unique] Black Knight Glaive
+32254,[Champion's Pact - Unique] Splitleaf Greatsword
+32255,[Champion's Pact - Unique] Manikin Claws
+32256,[Champion's Pact - Unique] Dark Hand
+32257,[Champion's Pact - Unique] Crow Talons
+32258,[Champion's Pact - Unique] Censuring Palm
+32259,[Champion's Pact - Unique] Witch's Locks
+32260,[Champion's Pact - Unique] Witchtree Limb
+32261,[Champion's Pact - Unique] Murky Warstaff
+32262,[Champion's Pact - Unique] Archdeacon's Longstaff
+32263,[Champion's Pact - Unique] Witch's Staff
+32264,[Champion's Pact - Unique] Man-grub's Staff
+32265,[Champion's Pact - Unique] Archdeacon's Great Staff
+32266,[Champion's Pact - Unique] Yorshka's Chime
+32267,[Champion's Pact - Unique] Sage's Crystal Staff
+32268,[Champion's Pact - Unique] Court Sorcerer's Staff
+32269,[Champion's Pact - Unique] Witchtree Branch
+32270,[Champion's Pact - Unique] Izalith Staff
+32271,[Champion's Pact - Unique] Saint-tree Bellvine
+32272,[Champion's Pact - Unique] Crystal Chime
+32273,[Champion's Pact - Unique] Sunlight Talisman
+32274,[Champion's Pact - Unique] Sunless Talisman
+32275,[Champion's Pact - Unique] White Hair Talisman
+32276,[Champion's Pact - Unique] Sacred Chime of Filianore
+32277,[Champion's Pact - Unique] Preacher's Right Arm
+32278,[Champion's Pact - Unique] Jester's Talisman
+32279,[Champion's Pact - Unique] Dragonslayer Greatbow
+32280,[Champion's Pact - Unique] Arbalest
+32281,[Champion's Pact - Unique] Dragonrider Bow
+32282,[Champion's Pact - Unique] Avelyn
+32283,[Champion's Pact - Unique] White Birch Bow
+32284,[Champion's Pact - Unique] Onislayer Greatbow
+32285,[Champion's Pact - Unique] Black Bow of Pharis
+32286,[Champion's Pact - Unique] Millwood Greatbow
+32287,[Champion's Pact - Unique] Ciaran's Tracers
+32288,[Champion's Pact - Unique] Valorheart
+32289,[Champion's Pact - Unique] Crow Quills
+32290,[Champion's Pact - Unique] Ringed Knight Paired Greatswords
+32291,[Champion's Pact - Unique] Sacred Bloom Shield
+32292,[Champion's Pact - Unique] Pontiff Knight Shield
+32293,[Champion's Pact - Unique] Black Knight Shield
+32294,[Champion's Pact - Unique] Silver Knight Shield
+32295,[Champion's Pact - Unique] Crest Shield
+32296,[Champion's Pact - Unique] Dragon Crest Shield
+32297,[Champion's Pact - Unique] Grass Crest Shield
+32298,[Champion's Pact - Unique] Golden Wing Crest Shield
+32299,[Champion's Pact - Unique] Spirit Tree Crest Shield
+32300,[Champion's Pact - Unique] Ethereal Oak Shield
+32301,[Champion's Pact - Unique] Moaning Shield
+32302,[Champion's Pact - Unique] Wolf Knight's Greatshield
+32303,[Champion's Pact - Unique] Greatshield of Glory
+32304,[Champion's Pact - Unique] Irithyll Lance
+32305,[Champion's Pact - Unique] Fume Sword
+32306,[Champion's Pact - Unique] Abyssal Greatsword
+32307,[Champion's Pact - Unique] Pontiff Knight Greatsword
+32308,[Champion's Pact - Unique] Irithyll Pick
+32309,[Champion's Pact - Unique] Irithyll Mace
+32310,[Champion's Pact - Unique] Sunlight Greatsword
+32311,[Champion's Pact - Unique] Loch Shield
+32312,[Champion's Pact - Unique] Velka's Rapier
+32315,[Champion's Pact - Unique] Nil Blade
+32317,[Champion's Pact - Unique] Bloodletter
+32318,[Champion's Pact - Unique] Locust Arm
+32319,[Champion's Pact - Unique] Boom Hammer
+32320,[Champion's Pact - Unique] Chikage
+32321,[Champion's Pact - Unique] Church Pick
+32322,[Champion's Pact - Unique] Kirkhammer
+32323,[Champion's Pact - Unique] Twinspears of the Forlorn
+32324,[Champion's Pact - Unique] Sanguinus
+32325,[Champion's Pact - Unique] Pyromancer's Parting Flame
+32326,[Champion's Pact - Unique] Holy Flame
+32327,[Champion's Pact - Unique] Sorcerous Flame
+32328,[Champion's Pact - Unique] Fool's Flame
+32329,[Champion's Pact - Unique] Flynn's Bow
+32330,[Champion's Pact - Unique] Blind
+32331,[Champion's Pact - Unique] Blueblood Sword
+32332,[Champion's Pact - Unique] Channeler's Trident
+32333,[Champion's Pact - Unique] Crystalline Shield
+32334,[Champion's Pact - Unique] Crystal Straight Sword
+32335,[Champion's Pact - Titanite] Dozer Axe
+32336,[Champion's Pact - Unique] Dragon Bone Smasher
+32337,[Champion's Pact - Unique] Gargoyle Shield
+32338,[Champion's Pact - Unique] Sage's Stiletto
+32339,[Champion's Pact - Unique] Giant Shield
+32340,[Champion's Pact - Unique] Giant's Halberd
+32341,[Champion's Pact - Unique] Grant
+32342,[Champion's Pact - Titanite] Guillotine Axe
+32343,[Champion's Pact - Unique] Hands of God
+32344,[Champion's Pact - Unique] Rune Sword
+32345,[Champion's Pact - Unique] Scraping Spear
+32346,[Champion's Pact - Unique] Silver Knight Spear
+32347,[Champion's Pact - Unique] Silver Knight Straight Sword
+32348,[Champion's Pact - Unique] Talisman of Beasts
+32349,[Champion's Pact - Unique] Insanity Catalyst
+32350,[Champion's Pact - Unique] Istraselle
+32351,[Champion's Pact - Unique] Kris Blade
+32352,[Champion's Pact - Unique] Makoto
+32353,[Champion's Pact - Unique] Morion Great Blade
+32354,[Champion's Pact - Unique] Needle of Eternal Agony
+32355,[Champion's Pact - Unique] Penetrating Sword
+32356,[Champion's Pact - Unique] Phosophrescent Pole
+32357,[Champion's Pact - Unique] Spiral Greatsword
+32358,[Champion's Pact - Unique] Adjudicator's Shield
+32359,[Champion's Pact - Unique] Rune Shield
+32360,[Champion's Pact - Unique] Quicksilver Shield
+32361,[Champion's Pact - Unique] Twinfang Greatshield
+32400,[Champion's Pact - Boss] Smelter Hammer
+32401,[Champion's Pact - Boss] Holy Moonlight Greatword
+32402,[Champion's Pact - Titanite] Lothric Knight Sword
+32403,[Champion's Pact - Titanite] Astora Straight Sword
+32404,[Champion's Pact - Unique] Smouldering Blade
+32405,[Champion's Pact - Titanite] Astora Greatsword
+32406,[Champion's Pact - Titanite] Lothric Knight Greatsword
+32407,[Champion's Pact - Titanite] Cathedral Knight Greatsword
+32408,[Champion's Pact - Titanite] Missionary Axe
+32409,[Champion's Pact - Titanite] Notched Whip
+32410,[Champion's Pact - Titanite] Spotted Whip
+32411,[Champion's Pact - Titanite] Corvian Longstaff
+32412,[Champion's Pact - Titanite] Heretic's Warstaff
+32413,[Champion's Pact - Titanite] Knight's Crossbow
+32414,[Champion's Pact - Titanite] Onikiri and Ubadachi
+32415,[Champion's Pact - Titanite] Drang Twinspears
+32416,[Champion's Pact - Titanite] Giant Door Shield
+32417,[Champion's Pact - Titanite] Drang Hammers
+32418,[Champion's Pact - Titanite] Hallowed Sword
+32419,[Champion's Pact - Titanite] Hallowed Greatsword
+32420,[Champion's Pact - Titanite] Beast Cutter
+32421,[Champion's Pact - Titanite] Beasthunter Saif
+32422,[Champion's Pact - Titanite] Hunter Axe
+32423,[Champion's Pact - Titanite] Tonitrus
+32424,[Champion's Pact - Titanite] Cart Wheel
+32425,[Champion's Pact - Titanite] Dagger
+32426,[Champion's Pact - Titanite] Bandit's Knife
+32427,[Champion's Pact - Titanite] Parrying Dagger
+32428,[Champion's Pact - Titanite] Rotten Ghru Dagger
+32429,[Champion's Pact - Titanite] Harpe
+32430,[Champion's Pact - Titanite] Corvian Greatknife
+32431,[Champion's Pact - Titanite] Shortsword
+32432,[Champion's Pact - Titanite] Longsword
+32433,[Champion's Pact - Titanite] Broadsword
+32434,[Champion's Pact - Titanite] Broken Straight Sword
+32435,[Champion's Pact - Titanite] Rotten Ghru Curved Sword
+32436,[Champion's Pact - Titanite] Barbed Straight Sword
+32437,[Champion's Pact - Titanite] Estoc
+32438,[Champion's Pact - Titanite] Mail Breaker
+32439,[Champion's Pact - Titanite] Rapier
+32440,[Champion's Pact - Titanite] Shotel
+32441,[Champion's Pact - Titanite] Scimitar
+32442,[Champion's Pact - Titanite] Falchion
+32443,[Champion's Pact - Titanite] Carthus Curved Sword
+32444,[Champion's Pact - Titanite] Carthus Curved Greatsword
+32445,[Champion's Pact - Titanite] Carthus Shotel
+32446,[Champion's Pact - Titanite] Follower Sabre
+32447,[Champion's Pact - Titanite] Uchigatana
+32448,[Champion's Pact - Titanite] Washing Pole
+32449,[Champion's Pact - Titanite] Bastard Sword
+32450,[Champion's Pact - Titanite] Claymore
+32451,[Champion's Pact - Titanite] Zweihander
+32452,[Champion's Pact - Titanite] Greatsword
+32453,[Champion's Pact - Titanite] Murakumo
+32454,[Champion's Pact - Titanite] Flamberge
+32455,[Champion's Pact - Titanite] Hand Axe
+32456,[Champion's Pact - Titanite] Battle Axe
+32457,[Champion's Pact - Titanite] Brigand Axe
+32458,[Champion's Pact - Titanite] Greataxe
+32459,[Champion's Pact - Titanite] Thrall Axe
+32460,[Champion's Pact - Titanite] Man Serpent Hatchet
+32461,[Champion's Pact - Titanite] Club
+32462,[Champion's Pact - Titanite] Mace
+32463,[Champion's Pact - Titanite] Morning Star
+32464,[Champion's Pact - Titanite] Reinforced Club
+32465,[Champion's Pact - Titanite] Large Club
+32466,[Champion's Pact - Titanite] Great Club
+32467,[Champion's Pact - Titanite] Great Mace
+32468,[Champion's Pact - Titanite] Great Wooden Hammer
+32469,[Champion's Pact - Titanite] Warpick
+32470,[Champion's Pact - Titanite] Pickaxe
+32471,[Champion's Pact - Titanite] Spiked Mace
+32472,[Champion's Pact - Titanite] Spear
+32473,[Champion's Pact - Titanite] Winged Spear
+32474,[Champion's Pact - Titanite] Partizan
+32475,[Champion's Pact - Titanite] Greatlance
+32476,[Champion's Pact - Titanite] Lothric Knight Long Spear
+32477,[Champion's Pact - Titanite] Four-Pronged Plow
+32478,[Champion's Pact - Titanite] Rotten Ghru Spear
+32479,[Champion's Pact - Titanite] Pike
+32480,[Champion's Pact - Titanite] Follower Javelin
+32481,[Champion's Pact - Titanite] Lothric War Banner
+32482,[Champion's Pact - Titanite] Great Scythe
+32483,[Champion's Pact - Titanite] Lucerne
+32484,[Champion's Pact - Titanite] Glaive
+32485,[Champion's Pact - Titanite] Halberd
+32486,[Champion's Pact - Titanite] Great Corvian Scythe
+32487,[Champion's Pact - Titanite] Winged Knight Halberd
+32488,[Champion's Pact - Titanite] Red Hilted Halberd
+32489,[Champion's Pact - Titanite] Claw
+32490,[Champion's Pact - Titanite] Caestus
+32491,[Champion's Pact - Titanite] Whip
+32492,[Champion's Pact - Titanite] Quarterstaff
+32493,[Champion's Pact - Titanite] Talisman
+32494,[Champion's Pact - Titanite] Sorcerer's Staff
+32495,[Champion's Pact - Titanite] Storyteller's Staff
+32496,[Champion's Pact - Titanite] Mendicant's Staff
+32497,[Champion's Pact - Titanite] Heretic's Staff
+32498,[Champion's Pact - Titanite] Cleric's Sacred Chime
+32499,[Champion's Pact - Titanite] Priest's Chime
+32500,[Champion's Pact - Titanite] Canvas Talisman
+32501,[Champion's Pact - Titanite] Saint's Talisman
+32502,[Champion's Pact - Titanite] Murky Longstaff
+32503,[Champion's Pact - Titanite] Short Bow
+32504,[Champion's Pact - Titanite] Composite Bow
+32505,[Champion's Pact - Titanite] Birch Crossbow
+32506,[Champion's Pact - Titanite] Longbow
+32507,[Champion's Pact - Titanite] Oak Crossbow
+32508,[Champion's Pact - Titanite] Sniper Crossbow
+32509,[Champion's Pact - Titanite] Sellsword Twinblades
+32510,[Champion's Pact - Titanite] Warden Twinblades
+32511,[Champion's Pact - Titanite] Great Machete
+32512,[Champion's Pact - Titanite] Small Leather Shield
+32513,[Champion's Pact - Titanite] Gotthard Twinswords
+32514,[Champion's Pact - Titanite] Large Leather Shield
+32515,[Champion's Pact - Titanite] Hawkwood's Shield
+32516,[Champion's Pact - Titanite] Iron Round Shield
+32517,[Champion's Pact - Titanite] Wooden Shield
+32518,[Champion's Pact - Titanite] Kite Shield
+32519,[Champion's Pact - Titanite] Ghru Rotshield
+32520,[Champion's Pact - Titanite] Target Shield
+32521,[Champion's Pact - Titanite] Elkhorn Round Shield
+32522,[Champion's Pact - Titanite] Warrior's Round Shield
+32523,[Champion's Pact - Titanite] Caduceus Round Shield
+32524,[Champion's Pact - Titanite] Red and White Round Shield
+32525,[Champion's Pact - Titanite] Plank Shield
+32526,[Champion's Pact - Titanite] Leather Shield
+32527,[Champion's Pact - Titanite] Crimson Parma
+32528,[Champion's Pact - Titanite] Eastern Iron Shield
+32529,[Champion's Pact - Titanite] Llewellyn Shield
+32530,[Champion's Pact - Titanite] Cleric's Parma
+32531,[Champion's Pact - Titanite] Golden Falcon Shield
+32532,[Champion's Pact - Titanite] Follower Shield
+32533,[Champion's Pact - Titanite] Lothric Knight Shield
+32534,[Champion's Pact - Titanite] Knight Shield
+32535,[Champion's Pact - Titanite] Carthus Shield
+32536,[Champion's Pact - Titanite] Spiked Shield
+32537,[Champion's Pact - Titanite] Pierce Shield
+32538,[Champion's Pact - Titanite] East-West Shield
+32539,[Champion's Pact - Titanite] Sunlight Shield
+32540,[Champion's Pact - Titanite] Spider Shield
+32541,[Champion's Pact - Titanite] Sunset Shield
+32542,[Champion's Pact - Titanite] Blue Wooden Shield
+32543,[Champion's Pact - Titanite] Silver Eagle Kite Shield
+32544,[Champion's Pact - Titanite] Stone Parma
+32545,[Champion's Pact - Titanite] Porcine Shield
+32546,[Champion's Pact - Titanite] Wargod Wooden Shield
+32547,[Champion's Pact - Titanite] Lothric Knight Greatshield
+32548,[Champion's Pact - Titanite] Cathedral Knight Greatshield
+32549,[Champion's Pact - Titanite] Black Iron Greatshield
+32550,[Champion's Pact - Titanite] Twin Dragon Greatshield
+32551,[Champion's Pact - Titanite] Bonewheel Shield
+32552,[Champion's Pact - Titanite] Stone Greatshield
+32553,[Champion's Pact - Titanite] Torch
+32554,[Champion's Pact - Titanite] Machete
+32555,[Champion's Pact - Titanite] Wooden Mallet
+32556,[Champion's Pact - Titanite] Buckler
+32557,[Champion's Pact - Titanite] Round Shield
+32558,[Champion's Pact - Titanite] Brigand Twindaggers
+32559,[Champion's Pact - Titanite] Winged Knight Twinaxes
+32560,[Champion's Pact - Titanite] Pyromancy Flame
+32561,[Champion's Pact - Titanite] Black Flame
+32562,[Champion's Pact - Titanite] Balder Straight Sword
+32563,[Champion's Pact - Titanite] Server
+32564,[Champion's Pact - Titanite] Stone Greatsword
+32565,[Champion's Pact - Titanite] Man Serpent Greatsword
+32566,[Champion's Pact - Titanite] Meat Cleaver
+32567,[Champion's Pact - Titanite] Exile Greatsword
+33000,[Champion's Pact - Spell] Farron Dart
+33001,[Champion's Pact - Spell] Great Farron Dart
+33002,[Champion's Pact - Spell] Soul Arrow
+33003,[Champion's Pact - Spell] Great Soul Arrow
+33004,[Champion's Pact - Spell] Shockwave
+33005,[Champion's Pact - Spell] Deep Soul
+33006,[Champion's Pact - Spell] Great Deep Soul
+33007,[Champion's Pact - Spell] Hidden Weapon
+33008,[Champion's Pact - Spell] Cast Light
+33009,[Champion's Pact - Spell] Spook
+33010,[Champion's Pact - Spell] Chameleon
+33011,[Champion's Pact - Spell] Aural Decoy
+33012,[Champion's Pact - Spell] Farron Hail
+33013,[Champion's Pact - Spell] Farron Flashsword
+33014,[Champion's Pact - Spell] Snap Freeze
+33015,[Champion's Pact - Spell] Dark Edge
+33016,[Champion's Pact - Spell] Deep Barb
+33017,[Champion's Pact - Spell] Dark Bead
+33018,[Champion's Pact - Spell] Fireball
+33019,[Champion's Pact - Spell] Fire Orb
+33020,[Champion's Pact - Spell] Fire Surge
+33021,[Champion's Pact - Spell] Poison Mist
+33022,[Champion's Pact - Spell] Fire Whip
+33023,[Champion's Pact - Spell] Flame Fan
+33024,[Champion's Pact - Spell] Profuse Sweat
+33025,[Champion's Pact - Spell] Bursting Fireball
+33027,[Champion's Pact - Spell] Heal Aid
+33028,[Champion's Pact - Spell] Heal
+33029,[Champion's Pact - Spell] Replenishment
+33030,[Champion's Pact - Spell] Lightning Arrow
+33031,[Champion's Pact - Spell] Homeward
+33032,[Champion's Pact - Spell] Force
+33033,[Champion's Pact - Spell] Seek Guidance
+33034,[Champion's Pact - Spell] Lightning Spear
+33035,[Champion's Pact - Spell] Way of White Corona
+33036,[Champion's Pact - Spell] Dead Again
+33037,[Champion's Pact - Spell] Atonement
+33038,[Champion's Pact - Spell] Nibble
+33039,[Champion's Pact - Spell] Homing Soulmass
+33040,[Champion's Pact - Spell] Soul Spear
+33041,[Champion's Pact - Spell] Magic Weapon
+33042,[Champion's Pact - Spell] Great Magic Weapon
+33043,[Champion's Pact - Spell] Frozen Weapon
+33044,[Champion's Pact - Spell] Magic Shield
+33045,[Champion's Pact - Spell] Hidden Body
+33046,[Champion's Pact - Spell] Repair
+33047,[Champion's Pact - Spell] Crystal Hail
+33048,[Champion's Pact - Spell] Soul Greatsword
+33049,[Champion's Pact - Spell] Abyssal Edge
+33050,[Champion's Pact - Spell] Twisted Wall of Light
+33051,[Champion's Pact - Spell] Pestilent Mist
+33052,[Champion's Pact - Spell] Soul Wave
+33053,[Champion's Pact - Spell] Blizzard
+33054,[Champion's Pact - Spell] Soul Focus
+33055,[Champion's Pact - Spell] Blinding Light
+33056,[Champion's Pact - Spell] Whisper of Despair
+33057,[Champion's Pact - Spell] Repel
+33058,[Champion's Pact - Spell] Numbness
+33059,[Champion's Pact - Spell] Yearning Dregs
+33060,[Champion's Pact - Spell] Writhing Deep
+33061,[Champion's Pact - Spell] Firestorm
+33062,[Champion's Pact - Spell] Toxic Mist
+33063,[Champion's Pact - Spell] Iron Flesh
+33064,[Champion's Pact - Spell] Flash Sweat
+33065,[Champion's Pact - Spell] Carthus Flame Arc
+33066,[Champion's Pact - Spell] Great Combustion
+33067,[Champion's Pact - Spell] Great Chaos Fire Orb
+33068,[Champion's Pact - Spell] Chaos Storm
+33069,[Champion's Pact - Spell] Black Flame
+33070,[Champion's Pact - Spell] Profaned Flame
+33071,[Champion's Pact - Spell] Black Fire Orb
+33072,[Champion's Pact - Spell] Boulder Heave
+33073,[Champion's Pact - Spell] Sacred Flame
+33074,[Champion's Pact - Spell] Carthus Beacon
+33075,[Champion's Pact - Spell] Seething Chaos
+33076,[Champion's Pact - Spell] Lingering Chaos
+33077,[Champion's Pact - Spell] Dark Dance
+33078,[Champion's Pact - Spell] Earthquake
+33079,[Champion's Pact - Spell] Med Heal
+33080,[Champion's Pact - Spell] Great Heal
+33081,[Champion's Pact - Spell] Bountiful Light
+33082,[Champion's Pact - Spell] Caressing Tears
+33083,[Champion's Pact - Spell] Emit Force
+33084,[Champion's Pact - Spell] Great Lightning Spear
+33085,[Champion's Pact - Spell] Lightning Storm
+33086,[Champion's Pact - Spell] Gnaw
+33087,[Champion's Pact - Spell] Projected Heal
+33088,[Champion's Pact - Spell] Magic Barrier
+33089,[Champion's Pact - Spell] Lightning Blade
+33090,[Champion's Pact - Spell] Darkmoon Blade
+33091,[Champion's Pact - Spell] Dark Blade
+33092,[Champion's Pact - Spell] Lightning Stake
+33093,[Champion's Pact - Spell] Divine Pillars of Light
+33094,[Champion's Pact - Spell] Lifehunt Scythe
+33095,[Champion's Pact - Spell] Blessed Weapon
+33096,[Champion's Pact - Spell] Deep Protection
+33097,[Champion's Pact - Spell] Perseverance
+33098,[Champion's Pact - Spell] Inner Fervor
+33099,[Champion's Pact - Spell] Soul Geyser
+33100,[Champion's Pact - Spell] Homing Crystal Soulmass
+33101,[Champion's Pact - Spell] Crystal Soul Spear
+33102,[Champion's Pact - Spell] Crystal Magic Weapon
+33103,[Champion's Pact - Spell] Great Magic Shield
+33104,[Champion's Pact - Spell] White Dragon Breath
+33105,[Champion's Pact - Spell] Old Moonlight
+33106,[Champion's Pact - Spell] Affinity
+33107,[Champion's Pact - Spell] Great Soul Dregs
+33108,[Champion's Pact - Spell] Soul Stream
+33109,[Champion's Pact - Spell] Crystal Storm
+33110,[Champion's Pact - Spell] Unleash Magic
+33111,[Champion's Pact - Spell] Climax
+33112,[Champion's Pact - Spell] Black Serpent
+33113,[Champion's Pact - Spell] Acid Surge
+33114,[Champion's Pact - Spell] Rapport
+33115,[Champion's Pact - Spell] Power Within
+33116,[Champion's Pact - Spell] Chaos Bed Vestiges
+33117,[Champion's Pact - Spell] Floating Chaos
+33118,[Champion's Pact - Spell] Warmth
+33119,[Champion's Pact - Spell] Cataclysm
+33120,[Champion's Pact - Spell] Recollection
+33121,[Champion's Pact - Spell] Wretch Earth
+33122,[Champion's Pact - Spell] Rockflesh
+33123,[Champion's Pact - Spell] Soothing Sunlight
+33124,[Champion's Pact - Spell] Bountiful Sunlight
+33125,[Champion's Pact - Spell] Tears of Denial
+33126,[Champion's Pact - Spell] Wrath of the Gods
+33127,[Champion's Pact - Spell] Sunlight Spear
+33128,[Champion's Pact - Spell] Dorhys' Gnawing
+33129,[Champion's Pact - Spell] Great Magic Barrier
+33130,[Champion's Pact - Spell] Sacred Oath
+33131,[Champion's Pact - Spell] Vow of Silence
+33132,[Champion's Pact - Spell] Heavenly Thunder
+33133,[Champion's Pact - Spell] Halo
+33134,[Champion's Pact - Spell] Mournful Flames
+33135,[Champion's Pact - Spell] Orbs of Judgment
+33136,[Champion's Pact - Spell] Surging Deep
+33137,[Champion's Pact - Spell] Dreg Torrent
+33138,[Champion's Pact - Spell] Earthfall
+33139,[Champion's Pact - Spell] Devouring Swarm
+34000,[Champion's Pact - Ring] Life Ring
+34006,[Champion's Pact - Ring] Chloranthy Ring
+34012,[Champion's Pact - Ring] Havel's Ring
+34018,[Champion's Pact - Ring] Ring of Favor
+34024,[Champion's Pact - Ring] Ring of Steel Protection
+34030,[Champion's Pact - Ring] Flame Stoneplate Ring
+34036,[Champion's Pact - Ring] Thunder Stoneplate Ring
+34042,[Champion's Pact - Ring] Magic Stoneplate Ring
+34048,[Champion's Pact - Ring] Sun Princess Ring
+34054,[Champion's Pact - Ring] Silvercat Ring
+34060,[Champion's Pact - Ring] Skull Ring
+34066,[Champion's Pact - Ring] Dark Stoneplate Ring
+34072,[Champion's Pact - Ring] Untrue White Ring
+34078,[Champion's Pact - Ring] Carthus Milkring
+34084,[Champion's Pact - Ring] Knight's Ring
+34090,[Champion's Pact - Ring] Hunter's Ring
+34096,[Champion's Pact - Ring] Knight Slayer's Ring
+34102,[Champion's Pact - Ring] Speckled Stoneplate Ring
+34108,[Champion's Pact - Ring] Magic Clutch Ring
+34114,[Champion's Pact - Ring] Lightning Clutch Ring
+34120,[Champion's Pact - Ring] Fire Clutch Ring
+34126,[Champion's Pact - Ring] Dark Clutch Ring
+34132,[Champion's Pact - Ring] Flynn's Ring
+34138,[Champion's Pact - Ring] Prisoner's Chain
+34144,[Champion's Pact - Ring] Bloodbite Ring
+34150,[Champion's Pact - Ring] Untrue Dark Ring
+34156,[Champion's Pact - Ring] Obscuring Ring
+34162,[Champion's Pact - Ring] Ring of the Evil Eye
+34168,[Champion's Pact - Ring] Ring of Calamity
+34174,[Champion's Pact - Ring] Poisonbite Ring
+34180,[Champion's Pact - Ring] Farron Ring
+34186,[Champion's Pact - Ring] Aldrich's Ruby
+34192,[Champion's Pact - Ring] Aldrich's Sapphire
+34198,[Champion's Pact - Ring] Lloyd's Sword Ring
+34204,[Champion's Pact - Ring] Lloyd's Shield Ring
+34210,[Champion's Pact - Ring] Cursebite Ring
+34216,[Champion's Pact - Ring] Estus Ring
+34222,[Champion's Pact - Ring] Ashen Estus Ring
+34228,[Champion's Pact - Ring] Horsehoof Ring
+34234,[Champion's Pact - Ring] Carthus Bloodring
+34240,[Champion's Pact - Ring] Reversal Ring
+34246,[Champion's Pact - Ring] Pontiff's Right Eye
+34252,[Champion's Pact - Ring] Fleshbite Ring
+34258,[Champion's Pact - Ring] Pontiff's Left Eye
+34264,[Champion's Pact - Ring] Dragonscale Ring
+34270,[Champion's Pact - Ring] Chillbite Ring
+34276,[Champion's Pact - Ring] Ring of Londor
+34284,[Champion's Pact - Ring] Wood Grain Ring
+34290,[Champion's Pact - Ring] Spirit Amethyst
+34296,[Champion's Pact - Ring] Unholy Remains
+34308,[Champion's Pact - Ring] Wretched Pendant
+34314,[Champion's Pact - Ring] Symbol of the Penitent
+34320,[Champion's Pact - Ring] Scholar Ring
+34332,[Champion's Pact - Ring] Runic Seal
+34338,[Champion's Pact - Ring] Priestess Ring
+34344,[Champion's Pact - Ring] Tome of Sunlight
+34350,[Champion's Pact - Ring] Red Tearstone Ring
+34356,[Champion's Pact - Ring] Greatwood Remnants
+34362,[Champion's Pact - Ring] Blue Tearstone Ring
+34368,[Champion's Pact - Ring] Charred Bone
+34374,[Champion's Pact - Ring] Wolf Ring
+34380,[Champion's Pact - Ring] Leo Ring
+34386,[Champion's Pact - Ring] Green Tearstone Ring
+34398,[Champion's Pact - Ring] Ring of Sacrifice
+34404,[Champion's Pact - Ring] Violet Tearstone Ring
+34410,[Champion's Pact - Ring] Young Dragon Ring
+34434,[Champion's Pact - Ring] Demonsbane Ring
+34440,[Champion's Pact - Ring] Great Swamp Ring
+34446,[Champion's Pact - Ring] Crypt Ring
+34452,[Champion's Pact - Ring] Blight Ring
+34458,[Champion's Pact - Ring] Hallowed Ring
+34464,[Champion's Pact - Ring] Ring of Wisdom
+34482,[Champion's Pact - Ring] Morne's Ring
+34518,[Champion's Pact - Ring] Lingering Dragoncrest Ring
+34548,[Champion's Pact - Ring] Sage Ring
+34554,[Champion's Pact - Ring] Ring of Retaliation
+34560,[Champion's Pact - Ring] Ring of Reprisal
+34566,[Champion's Pact - Ring] Ring of Spite
+34572,[Champion's Pact - Ring] Ring of Retribution
+34578,[Champion's Pact - Ring] Saint's Ring
+34584,[Champion's Pact - Ring] Deep Ring
+34590,[Champion's Pact - Ring] Ring of Vengeance
+34596,[Champion's Pact - Ring] Bulwark Ring
+34602,[Champion's Pact - Ring] Slumbering Dragoncrest Ring
+34608,[Champion's Pact - Ring] Dusk Crown Ring
+34614,[Champion's Pact - Ring] Mercenary Ring
+34620,[Champion's Pact - Ring] Heretic Ring
+34626,[Champion's Pact - Ring] Merchant Ring
+34632,[Champion's Pact - Ring] Physician Ring
+34638,[Champion's Pact - Ring] Bellowing Dragoncrest Ring
+34644,[Champion's Pact - Ring] Jester Ring
+34650,[Champion's Pact - Ring] Arcane Trinket
+34656,[Champion's Pact - Ring] Londor Tincture
+34668,[Champion's Pact - Ring] Witch's Ring
+34680,[Champion's Pact - Ring] Endless Quiver
+34686,[Champion's Pact - Ring] Old Pygmy Brooch
+34692,[Champion's Pact - Ring] Redeye Ring
+34698,[Champion's Pact - Ring] Darkmoon Ring
+34704,[Champion's Pact - Ring] Ring of the Sun's First Born
+34710,[Champion's Pact - Ring] Hawk Ring
+34716,[Champion's Pact - Ring] Hornet Ring
+34722,[Champion's Pact - Ring] Covetous Gold Serpent Ring
+34728,[Champion's Pact - Ring] Covetous Silver Serpent Ring
+34729,[Champion's Pact - Ring] Ring of Woe
+34730,[Champion's Pact - Ring] Ring of Adversity
+34731,[Champion's Pact - Ring] Ring of Catastrophe
+34732,[Champion's Pact - Ring] Black Tearstone Ring
+34733,[Champion's Pact - Ring] Quelling Ring
+34734,[Champion's Pact - Ring] Band of Stone
+34735,[Champion's Pact - Ring] Band of Magic
+34736,[Champion's Pact - Ring] Band of Flame
+34737,[Champion's Pact - Ring] Band of Sparks
+34738,[Champion's Pact - Ring] Band of Darkness
+34739,[Champion's Pact - Ring] Ring of Champions
+35000,[Champion's Pact - Armor] Fallen Knight Helm
+35001,[Champion's Pact - Armor] Fallen Knight Armor
+35002,[Champion's Pact - Armor] Fallen Knight Gauntlets
+35003,[Champion's Pact - Armor] Fallen Knight Trousers
+35004,[Champion's Pact - Armor] Knight Helm
+35005,[Champion's Pact - Armor] Knight Armor
+35006,[Champion's Pact - Armor] Knight Gauntlets
+35007,[Champion's Pact - Armor] Knight Leggings
+35008,[Champion's Pact - Armor] Vilhelm's Helm
+35009,[Champion's Pact - Armor] Vilhelm's Armor
+35010,[Champion's Pact - Armor] Vilhelm's Gauntlets
+35011,[Champion's Pact - Armor] Vilhelm's Leggings
+35012,[Champion's Pact - Armor] Firelink Helm
+35013,[Champion's Pact - Armor] Firelink Armor
+35014,[Champion's Pact - Armor] Firelink Gauntlets
+35015,[Champion's Pact - Armor] Firelink Leggings
+35016,[Champion's Pact - Armor] Sellsword Helm
+35017,[Champion's Pact - Armor] Sellsword Armor
+35018,[Champion's Pact - Armor] Sellsword Gauntlet
+35019,[Champion's Pact - Armor] Sellsword Trousers
+35020,[Champion's Pact - Armor] Herald Helm
+35021,[Champion's Pact - Armor] Herald Armor
+35022,[Champion's Pact - Armor] Herald Gloves
+35023,[Champion's Pact - Armor] Herald Trousers
+35024,[Champion's Pact - Armor] Sunless Veil
+35025,[Champion's Pact - Armor] Sunless Armor
+35026,[Champion's Pact - Armor] Sunless Gauntlets
+35027,[Champion's Pact - Armor] Sunless Leggings
+35028,[Champion's Pact - Armor] Black Hand Hat
+35029,[Champion's Pact - Armor] Black Hand Armor
+35030,[Champion's Pact - Armor] Assassin Gloves
+35031,[Champion's Pact - Armor] Assassin Trousers
+35032,[Champion's Pact - Armor] Assassin Hood
+35033,[Champion's Pact - Armor] Assassin Armor
+35034,[Champion's Pact - Armor] Xanthous Crown
+35035,[Champion's Pact - Armor] Xanthous Overcoat
+35036,[Champion's Pact - Armor] Xanthous Gloves
+35037,[Champion's Pact - Armor] Xanthous Trousers
+35038,[Champion's Pact - Armor] Northern Helm
+35039,[Champion's Pact - Armor] Northern Armor
+35040,[Champion's Pact - Armor] Northern Gloves
+35041,[Champion's Pact - Armor] Northern Trousers
+35042,[Champion's Pact - Armor] Morne's Helm
+35043,[Champion's Pact - Armor] Morne's Armor
+35044,[Champion's Pact - Armor] Morne's Gauntlets
+35045,[Champion's Pact - Armor] Morne's Leggings
+35046,[Champion's Pact - Armor] Silver Mask
+35047,[Champion's Pact - Armor] Leonhard's Garb
+35048,[Champion's Pact - Armor] Leonhard's Gauntlets
+35049,[Champion's Pact - Armor] Leonhard's Trousers
+35050,[Champion's Pact - Armor] Sneering Mask
+35051,[Champion's Pact - Armor] Pale Shade Robe
+35052,[Champion's Pact - Armor] Pale Shade Gloves
+35053,[Champion's Pact - Armor] Pale Shade Trousers
+35054,[Champion's Pact - Armor] Sunset Helm
+35055,[Champion's Pact - Armor] Sunset Armor
+35056,[Champion's Pact - Armor] Sunset Gauntlets
+35057,[Champion's Pact - Armor] Sunset Leggings
+35058,[Champion's Pact - Armor] Old Sage's Blindfold
+35059,[Champion's Pact - Armor] Cornyx's Garb
+35060,[Champion's Pact - Armor] Cornyx's Wrap
+35061,[Champion's Pact - Armor] Cornyx's Skirt
+35062,[Champion's Pact - Armor] Executioner Helm
+35063,[Champion's Pact - Armor] Executioner Armor
+35064,[Champion's Pact - Armor] Executioner Gauntlets
+35065,[Champion's Pact - Armor] Executioner Leggings
+35066,[Champion's Pact - Armor] Billed Mask
+35067,[Champion's Pact - Armor] Black Dress
+35068,[Champion's Pact - Armor] Black Gauntlets
+35069,[Champion's Pact - Armor] Black Leggings
+35070,[Champion's Pact - Armor] Pyromancer Crown
+35071,[Champion's Pact - Armor] Pyromancer Garb
+35072,[Champion's Pact - Armor] Pyromancer Wrap
+35073,[Champion's Pact - Armor] Pyromancer Trousers
+35074,[Champion's Pact - Armor] Antiquated Plain Garb
+35075,[Champion's Pact - Armor] Violet Wrappings
+35076,[Champion's Pact - Armor] Antiquated Loincloth
+35077,[Champion's Pact - Armor] Court Sorcerer Hood
+35078,[Champion's Pact - Armor] Court Sorcerer Robe
+35079,[Champion's Pact - Armor] Court Sorcerer Gloves
+35080,[Champion's Pact - Armor] Court Sorcerer Trousers
+35081,[Champion's Pact - Armor] Shira's Crown
+35082,[Champion's Pact - Armor] Shira's Armor
+35083,[Champion's Pact - Armor] Shira's Gloves
+35084,[Champion's Pact - Armor] Shira's Trousers
+35085,[Champion's Pact - Armor] Sorcerer Hood
+35086,[Champion's Pact - Armor] Sorcerer Robe
+35087,[Champion's Pact - Armor] Sorcerer Gloves
+35088,[Champion's Pact - Armor] Sorcerer Trousers
+35089,[Champion's Pact - Armor] Clandestine Coat
+35090,[Champion's Pact - Armor] Cleric Hat
+35091,[Champion's Pact - Armor] Cleric Blue Robe
+35092,[Champion's Pact - Armor] Cleric Gloves
+35093,[Champion's Pact - Armor] Cleric Trousers
+35094,[Champion's Pact - Armor] Lapp's Helm
+35095,[Champion's Pact - Armor] Lapp's Armor
+35096,[Champion's Pact - Armor] Lapp's Gauntlets
+35097,[Champion's Pact - Armor] Lapp's Leggings
+35098,[Champion's Pact - Armor] Grotto Hat
+35099,[Champion's Pact - Armor] Grotto Robe
+35100,[Champion's Pact - Armor] Grotto Wrap
+35101,[Champion's Pact - Armor] Grotto Trousers
+35102,[Champion's Pact - Armor] Steel Soldier Helm
+35103,[Champion's Pact - Armor] Deserter Armor
+35104,[Champion's Pact - Armor] Deserter Trousers
+35105,[Champion's Pact - Armor] Thief Mask
+35106,[Champion's Pact - Armor] Sage's Big Hat
+35107,[Champion's Pact - Armor] Aristocrat's Mask
+35108,[Champion's Pact - Armor] Jailer Robe
+35109,[Champion's Pact - Armor] Jailer Gloves
+35110,[Champion's Pact - Armor] Jailer Trousers
+35111,[Champion's Pact - Armor] Saint's Veil
+35112,[Champion's Pact - Armor] Saint's Dress
+35113,[Champion's Pact - Armor] Footman's Hood
+35114,[Champion's Pact - Armor] Footman's Overcoat
+35115,[Champion's Pact - Armor] Footman's Bracelet
+35116,[Champion's Pact - Armor] Footman's Trousers
+35117,[Champion's Pact - Armor] Grave Warden Hood
+35118,[Champion's Pact - Armor] Grave Warden Robe
+35119,[Champion's Pact - Armor] Grave Warden Wrap
+35120,[Champion's Pact - Armor] Grave Warden Skirt
+35121,[Champion's Pact - Armor] Worker Hat
+35122,[Champion's Pact - Armor] Worker Garb
+35123,[Champion's Pact - Armor] Worker Gloves
+35124,[Champion's Pact - Armor] Worker Trousers
+35125,[Champion's Pact - Armor] Thrall Hood
+35126,[Champion's Pact - Armor] Evangelist Hat
+35127,[Champion's Pact - Armor] Evangelist Robe
+35128,[Champion's Pact - Armor] Evangelist Gloves
+35129,[Champion's Pact - Armor] Evangelist Trousers
+35130,[Champion's Pact - Armor] Scholar's Shed Skin
+35131,[Champion's Pact - Armor] Scholar's Robe
+35132,[Champion's Pact - Armor] Winged Knight Helm
+35133,[Champion's Pact - Armor] Winged Knight Armor
+35134,[Champion's Pact - Armor] Winged Knight Gauntlets
+35135,[Champion's Pact - Armor] Winged Knight Leggings
+35136,[Champion's Pact - Armor] Cathedral Knight Helm
+35137,[Champion's Pact - Armor] Cathedral Knight Armor
+35138,[Champion's Pact - Armor] Cathedral Knight Gauntlets
+35139,[Champion's Pact - Armor] Cathedral Knight Leggings
+35140,[Champion's Pact - Armor] Lothric Knight Helm
+35141,[Champion's Pact - Armor] Lothric Knight Armor
+35142,[Champion's Pact - Armor] Lothric Knight Gauntlets
+35143,[Champion's Pact - Armor] Lothric Knight Leggings
+35144,[Champion's Pact - Armor] Outrider Knight Helm
+35145,[Champion's Pact - Armor] Outrider Knight Armor
+35146,[Champion's Pact - Armor] Outrider Knight Gauntlets
+35147,[Champion's Pact - Armor] Outrider Knight Leggings
+35148,[Champion's Pact - Armor] Black Knight Helm
+35149,[Champion's Pact - Armor] Black Knight Armor
+35150,[Champion's Pact - Armor] Black Knight Gauntlets
+35151,[Champion's Pact - Armor] Black Knight Leggings
+35152,[Champion's Pact - Armor] Dark Mask
+35153,[Champion's Pact - Armor] Dark Armor
+35154,[Champion's Pact - Armor] Dark Gauntlets
+35155,[Champion's Pact - Armor] Dark Leggings
+35156,[Champion's Pact - Armor] Exile Mask
+35157,[Champion's Pact - Armor] Exile Armor
+35158,[Champion's Pact - Armor] Exile Gauntlets
+35159,[Champion's Pact - Armor] Exile Leggings
+35160,[Champion's Pact - Armor] Slave Knight Hood
+35161,[Champion's Pact - Armor] Slave Knight Armor
+35162,[Champion's Pact - Armor] Slave Knight Gauntlets
+35163,[Champion's Pact - Armor] Slave Knight Leggings
+35164,[Champion's Pact - Armor] Pontiff Knight Crown
+35165,[Champion's Pact - Armor] Pontiff Knight Armor
+35166,[Champion's Pact - Armor] Pontiff Knight Gauntlets
+35167,[Champion's Pact - Armor] Pontiff Knight Leggings
+35168,[Champion's Pact - Armor] Ordained Hood
+35169,[Champion's Pact - Armor] Ordained Dress
+35170,[Champion's Pact - Armor] Ordained Trousers
+35171,[Champion's Pact - Armor] Golden Crown
+35172,[Champion's Pact - Armor] Dragonscale Armor
+35173,[Champion's Pact - Armor] Golden Bracelets
+35174,[Champion's Pact - Armor] Dragonscale Waistcloth
+35175,[Champion's Pact - Armor] Wolnir's Crown
+35176,[Champion's Pact - Armor] Undead Legion Helm
+35177,[Champion's Pact - Armor] Undead Legion Armor
+35178,[Champion's Pact - Armor] Undead Legion Gauntlet
+35179,[Champion's Pact - Armor] Undead Legion Leggings
+35180,[Champion's Pact - Armor] Follower Helm
+35181,[Champion's Pact - Armor] Follower Armor
+35182,[Champion's Pact - Armor] Follower Gloves
+35183,[Champion's Pact - Armor] Follower Boots
+35184,[Champion's Pact - Armor] Man Serpent's Mask
+35185,[Champion's Pact - Armor] Man Serpent's Robes
+35186,[Champion's Pact - Armor] Fire Witch Helm
+35187,[Champion's Pact - Armor] Fire Witch Armor
+35188,[Champion's Pact - Armor] Fire Witch Gauntlets
+35189,[Champion's Pact - Armor] Fire Witch Leggings
+35190,[Champion's Pact - Armor] Millwood Knight Helm
+35191,[Champion's Pact - Armor] Millwood Knight Armor
+35192,[Champion's Pact - Armor] Millwood Knight Gauntlets
+35193,[Champion's Pact - Armor] Millwood Knight Leggings
+35194,[Champion's Pact - Armor] Lorian's Helm
+35195,[Champion's Pact - Armor] Lorian's Armor
+35196,[Champion's Pact - Armor] Lorian's Gauntlets
+35197,[Champion's Pact - Armor] Lorian's Leggings
+35198,[Champion's Pact - Armor] Hood of Prayer
+35199,[Champion's Pact - Armor] Robe of Prayer
+35200,[Champion's Pact - Armor] Skirt of Prayer
+35201,[Champion's Pact - Armor] Giant's Crown
+35202,[Champion's Pact - Armor] Giant's Armor
+35203,[Champion's Pact - Armor] Giant's Gauntlets
+35204,[Champion's Pact - Armor] Giant's Leggings
+35205,[Champion's Pact - Armor] Dancer's Crown
+35206,[Champion's Pact - Armor] Dancer's Armor
+35207,[Champion's Pact - Armor] Dancer's Gauntlets
+35208,[Champion's Pact - Armor] Dancer's Leggings
+35209,[Champion's Pact - Armor] Ringed Knight Hood
+35210,[Champion's Pact - Armor] Ringed Knight Armor
+35211,[Champion's Pact - Armor] Ringed Knight Gauntlets
+35212,[Champion's Pact - Armor] Ringed Knight Leggings
+35213,[Champion's Pact - Armor] Gundyr's Helm
+35214,[Champion's Pact - Armor] Gundyr's Armor
+35215,[Champion's Pact - Armor] Gundyr's Gauntlets
+35216,[Champion's Pact - Armor] Gundyr's Leggings
+35217,[Champion's Pact - Armor] Harald Legion Helm
+35218,[Champion's Pact - Armor] Harald Legion Armor
+35219,[Champion's Pact - Armor] Harald Legion Gauntlets
+35220,[Champion's Pact - Armor] Harald Legion Leggings
+35221,[Champion's Pact - Armor] Archdeacon White Crown
+35222,[Champion's Pact - Armor] Archdeacon Holy Garb
+35223,[Champion's Pact - Armor] Archdeacon Skirt
+35224,[Champion's Pact - Armor] Deacon Robe
+35225,[Champion's Pact - Armor] Deacon Skirt
+35226,[Champion's Pact - Armor] Iron Dragonslayer Helm
+35227,[Champion's Pact - Armor] Iron Dragonslayer Armor
+35228,[Champion's Pact - Armor] Iron Dragonslayer Gauntlets
+35229,[Champion's Pact - Armor] Iron Dragonslayer Leggings
+35230,[Champion's Pact - Armor] Fire Keeper Mask
+35231,[Champion's Pact - Armor] Fire Keeper Robe
+35232,[Champion's Pact - Armor] Fire Keeper Gloves
+35233,[Champion's Pact - Armor] Fire Keeper Skirt
+35234,[Champion's Pact - Armor] White Preacher Head
+35235,[Champion's Pact - Armor] Chain Helm
+35236,[Champion's Pact - Armor] Chain Armor
+35237,[Champion's Pact - Armor] Leather Gauntlets
+35238,[Champion's Pact - Armor] Chain Leggings
+35239,[Champion's Pact - Armor] Nameless Knight Helm
+35240,[Champion's Pact - Armor] Nameless Knight Armor
+35241,[Champion's Pact - Armor] Nameless Knight Gauntlets
+35242,[Champion's Pact - Armor] Nameless Knight Leggings
+35243,[Champion's Pact - Armor] Elite Knight Helm
+35244,[Champion's Pact - Armor] Elite Knight Armor
+35245,[Champion's Pact - Armor] Elite Knight Gauntlets
+35246,[Champion's Pact - Armor] Elite Knight Leggings
+35247,[Champion's Pact - Armor] Faraam Helm
+35248,[Champion's Pact - Armor] Faraam Armor
+35249,[Champion's Pact - Armor] Faraam Gauntlets
+35250,[Champion's Pact - Armor] Faraam Boots
+35251,[Champion's Pact - Armor] Catarina Helm
+35252,[Champion's Pact - Armor] Catarina Armor
+35253,[Champion's Pact - Armor] Catarina Gauntlets
+35254,[Champion's Pact - Armor] Catarina Leggings
+35255,[Champion's Pact - Armor] Standard Helm
+35256,[Champion's Pact - Armor] Hard Leather Armor
+35257,[Champion's Pact - Armor] Hard Leather Gauntlets
+35258,[Champion's Pact - Armor] Hard Leather Boots
+35259,[Champion's Pact - Armor] Havel's Helm
+35260,[Champion's Pact - Armor] Havel's Armor
+35261,[Champion's Pact - Armor] Havel's Gauntlets
+35262,[Champion's Pact - Armor] Havel's Leggings
+35263,[Champion's Pact - Armor] Brigand Hood
+35264,[Champion's Pact - Armor] Brigand Armor
+35265,[Champion's Pact - Armor] Brigand Gauntlets
+35266,[Champion's Pact - Armor] Brigand Trousers
+35267,[Champion's Pact - Armor] Pharis's Hat
+35268,[Champion's Pact - Armor] Leather Armor
+35269,[Champion's Pact - Armor] Leather Gloves
+35270,[Champion's Pact - Armor] Leather Boots
+35271,[Champion's Pact - Armor] Ragged Mask
+35272,[Champion's Pact - Armor] Master's Attire
+35273,[Champion's Pact - Armor] Master's Gloves
+35274,[Champion's Pact - Armor] Loincloth
+35275,[Champion's Pact - Armor] Old Sorcerer Hat
+35276,[Champion's Pact - Armor] Old Sorcerer Coat
+35277,[Champion's Pact - Armor] Old Sorcerer Gauntlets
+35278,[Champion's Pact - Armor] Old Sorcerer Boots
+35279,[Champion's Pact - Armor] Conjurator Hood
+35280,[Champion's Pact - Armor] Conjurator Robe
+35281,[Champion's Pact - Armor] Conjurator Manchettes
+35282,[Champion's Pact - Armor] Conjurator Boots
+35283,[Champion's Pact - Armor] Black Leather Armor
+35284,[Champion's Pact - Armor] Black Leather Gloves
+35285,[Champion's Pact - Armor] Black Leather Boots
+35286,[Champion's Pact - Armor] Symbol of Avarice
+35287,[Champion's Pact - Armor] Creighton's Steel Mask
+35288,[Champion's Pact - Armor] Mirrah Chain Mail
+35289,[Champion's Pact - Armor] Mirrah Chain Gloves
+35290,[Champion's Pact - Armor] Mirrah Chain Leggings
+35291,[Champion's Pact - Armor] Maiden Hood
+35292,[Champion's Pact - Armor] Maiden Robe
+35293,[Champion's Pact - Armor] Maiden Gloves
+35294,[Champion's Pact - Armor] Maiden Skirt
+35295,[Champion's Pact - Armor] Alva Helm
+35296,[Champion's Pact - Armor] Alva Armor
+35297,[Champion's Pact - Armor] Alva Gauntlets
+35298,[Champion's Pact - Armor] Alva Leggings
+35299,[Champion's Pact - Armor] Ruin Helm
+35300,[Champion's Pact - Armor] Ruin Armor
+35301,[Champion's Pact - Armor] Ruin Gauntlets
+35302,[Champion's Pact - Armor] Ruin Leggings
+35303,[Champion's Pact - Armor] Shadow Mask
+35304,[Champion's Pact - Armor] Shadow Garb
+35305,[Champion's Pact - Armor] Shadow Gauntlets
+35306,[Champion's Pact - Armor] Shadow Leggings
+35307,[Champion's Pact - Armor] Desert Pyromancer Hood
+35308,[Champion's Pact - Armor] Desert Pyromancer Garb
+35309,[Champion's Pact - Armor] Desert Pyromancer Gloves
+35310,[Champion's Pact - Armor] Desert Pyromancer Skirt
+35311,[Champion's Pact - Armor] Eastern Helm
+35312,[Champion's Pact - Armor] Eastern Armor
+35313,[Champion's Pact - Armor] Eastern Gauntlets
+35314,[Champion's Pact - Armor] Eastern Leggings
+35315,[Champion's Pact - Armor] Black Witch Hat
+35316,[Champion's Pact - Armor] Black Witch Garb
+35317,[Champion's Pact - Armor] Black Witch Wrappings
+35318,[Champion's Pact - Armor] Black Witch Trousers
+35319,[Champion's Pact - Armor] Helm of Favor
+35320,[Champion's Pact - Armor] Embraced Armor of Favor
+35321,[Champion's Pact - Armor] Gauntlets of Favor
+35322,[Champion's Pact - Armor] Leggings of Favor
+35323,[Champion's Pact - Armor] Black Witch Veil
+35324,[Champion's Pact - Armor] Brass Helm
+35325,[Champion's Pact - Armor] Brass Armor
+35326,[Champion's Pact - Armor] Brass Gauntlets
+35327,[Champion's Pact - Armor] Brass Leggings
+35328,[Champion's Pact - Armor] Blindfold Mask
+35329,[Champion's Pact - Armor] Silver Knight Helm
+35330,[Champion's Pact - Armor] Silver Knight Armor
+35331,[Champion's Pact - Armor] Silver Knight Gauntlets
+35332,[Champion's Pact - Armor] Silver Knight Leggings
+35333,[Champion's Pact - Armor] Lucatiel's Mask
+35334,[Champion's Pact - Armor] Mirrah Vest
+35335,[Champion's Pact - Armor] Mirrah Gloves
+35336,[Champion's Pact - Armor] Mirrah Trousers
+35337,[Champion's Pact - Armor] Iron Helm
+35338,[Champion's Pact - Armor] Armor of the Sun
+35339,[Champion's Pact - Armor] Iron Bracelets
+35340,[Champion's Pact - Armor] Iron Leggings
+35341,[Champion's Pact - Armor] Drakeblood Helm
+35342,[Champion's Pact - Armor] Drakeblood Armor
+35343,[Champion's Pact - Armor] Drakeblood Gauntlets
+35344,[Champion's Pact - Armor] Drakeblood Leggings
+35345,[Champion's Pact - Armor] Drang Armor
+35346,[Champion's Pact - Armor] Drang Gauntlets
+35347,[Champion's Pact - Armor] Drang Shoes
+35348,[Champion's Pact - Armor] Black Iron Helm
+35349,[Champion's Pact - Armor] Black Iron Armor
+35350,[Champion's Pact - Armor] Black Iron Gauntlets
+35351,[Champion's Pact - Armor] Black Iron Leggings
+35352,[Champion's Pact - Armor] Painting Guardian Hood
+35353,[Champion's Pact - Armor] Painting Guardian Gown
+35354,[Champion's Pact - Armor] Painting Guardian Gloves
+35355,[Champion's Pact - Armor] Painting Guardian Waistcloth
+35356,[Champion's Pact - Armor] Wolf Knight Helm
+35357,[Champion's Pact - Armor] Wolf Knight Armor
+35358,[Champion's Pact - Armor] Wolf Knight Gauntlets
+35359,[Champion's Pact - Armor] Wolf Knight Leggings
+35360,[Champion's Pact - Armor] Dragonslayer Helm
+35361,[Champion's Pact - Armor] Dragonslayer Armor
+35362,[Champion's Pact - Armor] Dragonslayer Gauntlets
+35363,[Champion's Pact - Armor] Dragonslayer Leggings
+35364,[Champion's Pact - Armor] Smough's Helm
+35365,[Champion's Pact - Armor] Smough's Armor
+35366,[Champion's Pact - Armor] Smough's Gauntlets
+35367,[Champion's Pact - Armor] Smough's Leggings
+35368,[Champion's Pact - Armor] Hexer's Hood
+35369,[Champion's Pact - Armor] Hexer's Robes
+35370,[Champion's Pact - Armor] Hexer's Gloves
+35371,[Champion's Pact - Armor] Hexer's Boots
+35372,[Champion's Pact - Armor] Helm of Thorns
+35373,[Champion's Pact - Armor] Armor of Thorns
+35374,[Champion's Pact - Armor] Gauntlets of Thorns
+35375,[Champion's Pact - Armor] Leggings of Thorns
+35376,[Champion's Pact - Armor] Varangian Helmet
+35377,[Champion's Pact - Armor] Varangian Armor
+35378,[Champion's Pact - Armor] Varangian Cuffs
+35379,[Champion's Pact - Armor] Varangian Leggings
+35380,[Champion's Pact - Armor] Crown of Dusk
+35381,[Champion's Pact - Armor] Antiquated Dress
+35382,[Champion's Pact - Armor] Antiquated Gloves
+35383,[Champion's Pact - Armor] Antiquated Skirt
+35384,[Champion's Pact - Armor] Karla's Pointed Hat
+35385,[Champion's Pact - Armor] Karla's Coat
+35386,[Champion's Pact - Armor] Karla's Gloves
+35387,[Champion's Pact - Armor] Karla's Trousers
+35388,[Champion's Pact - Armor] Burial Knight Helm
+35389,[Champion's Pact - Armor] Burial Knight Armor
+35390,[Champion's Pact - Armor] Burial Knight Gauntlets
+35391,[Champion's Pact - Armor] Burial Knight Leggings
+35392,[Champion's Pact - Armor] Vileblood Helm
+35393,[Champion's Pact - Armor] Vileblood Armor
+35394,[Champion's Pact - Armor] Vileblood Gauntlets
+35395,[Champion's Pact - Armor] Vileblood Leggings
+35396,[Champion's Pact - Armor] Executioner Gauntlets
+35397,[Champion's Pact - Armor] Iron Keeper Helm
+35398,[Champion's Pact - Armor] Iron Cage
+35399,[Champion's Pact - Armor] Gold Ardeo
+35400,[Champion's Pact - Armor] Mask of Velka
+35401,[Champion's Pact - Armor] Gargoyle Helm
+35402,[Champion's Pact - Armor] Pursuer's Helm
+35403,[Champion's Pact - Armor] Pursuer's Armor
+35404,[Champion's Pact - Armor] Pursuer's Gauntlets
+35405,[Champion's Pact - Armor] Pursuer's Leggings
+35406,[Champion's Pact - Armor] Crown of the Great Lord
+35407,[Champion's Pact - Armor] Skull Mask
+35408,[Champion's Pact - Armor] Wanderer's Coat
+35409,[Champion's Pact - Armor] Mask of the Father
+35410,[Champion's Pact - Armor] Mask of the Mother
+35411,[Champion's Pact - Armor] Mask of the Child
+35412,[Champion's Pact - Armor] Soldier's Hood
+35413,[Champion's Pact - Armor] Frigid Valley Mask
+35414,[Champion's Pact - Armor] Giant Helm
+35415,[Champion's Pact - Armor] Giant Armor
+35416,[Champion's Pact - Armor] Giant Gauntlets
+35417,[Champion's Pact - Armor] Giant Leggings
+36000,[Champion's Pact - Item] Titanite Shard
+36001,[Champion's Pact - Item] Large Titanite Shard
+36002,[Champion's Pact - Item] Titanite Chunk
+36003,[Champion's Pact - Item] Titanite Slab
+36004,[Champion's Pact - Item] Twinkling Titanite
+36005,[Champion's Pact - Item] Titanite Scale
+36006,[Champion's Pact - Item] Dragon Scale
+36007,[Champion's Pact - Item] Fire Seed
+36008,[Champion's Pact - Item] Shriving Stone
+36009,[Champion's Pact - Item] Lethal Gem
+36010,[Champion's Pact - Item] Raw Gem
+36011,[Champion's Pact - Item] Poison Gem
+36012,[Champion's Pact - Item] Blood Gem
+36013,[Champion's Pact - Item] Frost Gem
+36014,[Champion's Pact - Item] Magic Gem
+36015,[Champion's Pact - Item] Fire Gem
+36016,[Champion's Pact - Item] Lightning Gem
+36017,[Champion's Pact - Item] Dark Gem
+36018,[Champion's Pact - Item] Lucky Gem
+36019,[Champion's Pact - Item] Enchanted Gem
+36020,[Champion's Pact - Item] Holy Gem
+36021,[Champion's Pact - Item] Sharp Gem
+36022,[Champion's Pact - Item] Blunt Gem
+36023,[Champion's Pact - Item] Shard of Ascension
+36024,[Champion's Pact - Item] Divine Blessing
+36025,[Champion's Pact - Item] Hidden Blessing
+36026,[Champion's Pact - Item] Twinkling Dragon Head Stone
+36027,[Champion's Pact - Item] Twinkling Dragon Torso Stone
+36028,[Champion's Pact - Item] Infusing Essence
+36029,[Champion's Pact - Item] Degrading Essence
+36030,[Champion's Pact - Item] Brightbug
+36031,[Champion's Pact - Item] Estus Shard
+36032,[Champion's Pact - Item] Undead Bone Shard
+36033,[Champion's Pact - Item] Dragon Head Stone
+36034,[Champion's Pact - Item] Dragon Torso Stone
+36035,[Champion's Pact - Item] Blood of Might
+36036,[Champion's Pact - Item] Beastly Flesh
+40000,[Yuria] Dark Hand
+40001,[Yuria] Londor Braille Divine Tome
+40002,[Yuria] Ring of Sacrifice
+40003,[Yuria] Untrue White Ring
+40004,[Yuria] Untrue Dark Ring
+40005,[Yuria] Purging Stone
+40006,[Yuria] Poison Throwing Knife
+50000,[Yoel] Soul Arrow
+50001,[Yoel] Magic Weapon
+50002,[Yoel] Magic Shield
+50003,[Yoel] Deep Soul
+50100,[Yoel] Soul Greatsword
+100000,[Andre] Fire Stone
+100001,[Andre] Magic Stone
+100002,[Andre] Lightning Stone
+100003,[Andre] Dark Stone
+100004,[Andre] Poison Stone
+100005,[Andre] Bleed Stone
+100006,[Andre] Frost Stone
+100007,[Andre] Blessed Stone
+100008,[Andre] Dagger
+100009,[Andre] Bandit's Knife
+100010,[Andre] Parrying Dagger
+100011,[Andre] Shortsword
+100012,[Andre] Longsword
+100013,[Andre] Broadsword
+100014,[Andre] Estoc
+100015,[Andre] Mail Breaker
+100016,[Andre] Rapier
+100017,[Andre] Shotel
+100018,[Andre] Scimitar
+100019,[Andre] Falchion
+100020,[Andre] Uchigatana
+100021,[Andre] Bastard Sword
+100022,[Andre] Claymore
+100023,[Andre] Zweihander
+100024,[Andre] Greatsword
+100025,[Andre] Hand Axe
+100026,[Andre] Battle Axe
+100027,[Andre] Greataxe
+100028,[Andre] Club
+100029,[Andre] Mace
+100030,[Andre] Warpick
+100031,[Andre] Pickaxe
+100032,[Andre] Spear
+100033,[Andre] Winged Spear
+100034,[Andre] Partizan
+100035,[Andre] Pike
+100036,[Andre] Great Scythe
+100037,[Andre] Lucerne
+100038,[Andre] Glaive
+100039,[Andre] Halberd
+100040,[Andre] Claw
+100041,[Andre] Caestus
+100042,[Andre] Whip
+100043,[Andre] Quarterstaff
+100044,[Andre] Short Bow
+100045,[Andre] Birch Crossbow
+100046,[Andre] Longbow
+100047,[Andre] Oak Crossbow
+100048,[Andre] Buckler
+100049,[Andre] Small Leather Shield
+100050,[Andre] Round Shield
+100051,[Andre] Large Leather Shield
+100052,[Andre] Leather Shield
+100053,[Andre] Standard Arrow
+100054,[Andre] Standard Bolt
+100055,[Andre] Wood Arrow
+100056,[Andre] Wood Bolt
+100057,[Andre] Wood Greatarrow
+100058,[Andre] Titanite Shard
+100059,[Andre] Shriving Stone
+100060,[Andre] Blacksmith Hammer
+100061,[Andre] Torch
+100062,[Andre] Warrior's Round Shield
+100100,[Andre - Mortician's Ashes] Harpe
+100101,[Andre - Mortician's Ashes] Flamberge
+100102,[Andre - Mortician's Ashes] Brigand Axe
+100103,[Andre - Mortician's Ashes] Missionary Axe
+100104,[Andre - Mortician's Ashes] Thrall Axe
+100105,[Andre - Mortician's Ashes] Wooden Mallet
+100106,[Andre - Mortician's Ashes] Reinforced Club
+100107,[Andre - Mortician's Ashes] Large Club
+100108,[Andre - Mortician's Ashes] Great Club
+100109,[Andre - Mortician's Ashes] Great Wooden Hammer
+100110,[Andre - Mortician's Ashes] Spiked Mace
+100111,[Andre - Mortician's Ashes] Four-Pronged Plow
+100112,[Andre - Mortician's Ashes] Wooden Shield
+100113,[Andre - Mortician's Ashes] Crimson Parma
+100114,[Andre - Mortician's Ashes] Cleric's Parma
+100115,[Andre - Mortician's Ashes] Blue Wooden Shield
+100116,[Andre - Mortician's Ashes] Machete
+100117,[Andre - Mortician's Ashes] Feather Arrow
+100118,[Andre - Mortician's Ashes] Fire Arrow
+100119,[Andre - Mortician's Ashes] Fire Bolt
+100120,[Andre - Mortician's Ashes] Degrading Essence
+100121,[Andre - Mortician's Ashes] Infusing Essence
+100122,[Andre - Mortician's Ashes] Titanite Shard
+100123,[Andre - Mortician's Ashes] Raw Gem
+100124,[Andre - Mortician's Ashes] Poison Gem
+100125,[Andre - Mortician's Ashes] Blood Gem
+100126,[Andre - Mortician's Ashes] Frost Gem
+100150,[Andre - Dreamchaser Ashes] Rotten Ghru Dagger
+100151,[Andre - Dreamchaser Ashes] Corvian Greatknife
+100152,[Andre - Dreamchaser Ashes] Rotten Ghru Curved Sword
+100153,[Andre - Dreamchaser Ashes] Rotten Ghru Spear
+100154,[Andre - Dreamchaser Ashes] Great Corvian Scythe
+100155,[Andre - Dreamchaser Ashes] Corvian Longstaff
+100156,[Andre - Dreamchaser Ashes] Heretic's Warstaff
+100157,[Andre - Dreamchaser Ashes] Sniper Crossbow
+100158,[Andre - Dreamchaser Ashes] Ghru Rotshield
+100159,[Andre - Dreamchaser Ashes] Kite Shield
+100160,[Andre - Dreamchaser Ashes] Target Shield
+100161,[Andre - Dreamchaser Ashes] Composite Bow
+100162,[Andre - Dreamchaser Ashes] Poison Arrow
+100163,[Andre - Dreamchaser Ashes] Poison Bolt
+100164,[Andre - Dreamchaser Ashes] Titanite Scale
+100165,[Andre - Dreamchaser Ashes] Titanite Shard
+100166,[Andre - Dreamchaser Ashes] Twinkling Titanite
+100167,[Andre - Dreamchaser Ashes] Lethal Gem
+100168,[Andre - Dreamchaser Ashes] Sharp Gem
+100169,[Andre - Dreamchaser Ashes] Blunt Gem
+100170,[Andre - Dreamchaser Ashes] Magic Gem
+100171,[Andre - Dreamchaser Ashes] Fire Gem
+100172,[Andre - Dreamchaser Ashes] Lightning Gem
+100173,[Andre - Dreamchaser Ashes] Dark Gem
+100200,[Andre - Paladin's Ashes] Morning Star
+100201,[Andre - Paladin's Ashes] Crescent Axe
+100202,[Andre - Paladin's Ashes] Astora Straight Sword
+100203,[Andre - Paladin's Ashes] Barbed Straight Sword
+100204,[Andre - Paladin's Ashes] Astora Greatsword
+100205,[Andre - Paladin's Ashes] Cathedral Knight Greatsword
+100206,[Andre - Paladin's Ashes] Great Mace
+100207,[Andre - Paladin's Ashes] Knight Shield
+100208,[Andre - Paladin's Ashes] Spiked Shield
+100209,[Andre - Paladin's Ashes] Pierce Shield
+100210,[Andre - Paladin's Ashes] Cathedral Knight Greatshield
+100211,[Andre - Paladin's Ashes] Large Arrow
+100212,[Andre - Paladin's Ashes] Heavy Bolt
+100213,[Andre - Paladin's Ashes] Sniper Bolt
+100214,[Andre - Paladin's Ashes] Twinkling Titanite
+100215,[Andre - Paladin's Ashes] Large Titanite Shard
+100216,[Andre - Paladin's Ashes] Lucky Gem
+100217,[Andre - Paladin's Ashes] Enchanted Gem
+100218,[Andre - Paladin's Ashes] Holy Gem
+100250,[Andre - Grave Warden's Ashes] Splintering Bolt
+100251,[Andre - Grave Warden's Ashes] Lacerating Arrow
+100252,[Andre - Grave Warden's Ashes] Carthus Curved Sword
+100253,[Andre - Grave Warden's Ashes] Carthus Curved Greatsword
+100254,[Andre - Grave Warden's Ashes] Carthus Shotel
+100255,[Andre - Grave Warden's Ashes] Carthus Shield
+100256,[Andre - Grave Warden's Ashes] Fire Seed
+100257,[Andre - Grave Warden's Ashes] Large Titanite Shard
+100258,[Andre - Grave Warden's Ashes] Titanite Scale
+100300,[Andre - Excrement-Covered Ashes] Frost Arrow
+100301,[Andre - Excrement-Covered Ashes] Frost Bolt
+100302,[Andre - Excrement-Covered Ashes] Magic Bolt
+100303,[Andre - Excrement-Covered Ashes] Large Titanite Shard
+100304,[Andre - Excrement-Covered Ashes] Twinkling Titanite
+100305,[Andre - Excrement-Covered Ashes] Moonlight Arrow
+100350,[Andre - Prisoner Chief's Ashes] Exploding Bolt
+100351,[Andre - Prisoner Chief's Ashes] Dark Bolt
+100352,[Andre - Prisoner Chief's Ashes] Dark Arrow
+100353,[Andre - Prisoner Chief's Ashes] Murakumo
+100354,[Andre - Prisoner Chief's Ashes] Titanite Chunk
+100355,[Andre - Prisoner Chief's Ashes] Titanite Scale
+100356,[Andre - Prisoner Chief's Ashes] Titanite Catch Pole
+100357,[Andre - Prisoner Chief's Ashes] Scraping Spear
+100400,[Andre - Xanthous Ashes] Heysel Pick
+100401,[Andre - Xanthous Ashes] Dragonslayer Lightning Arrow
+100402,[Andre - Xanthous Ashes] Lightning Bolt
+100403,[Andre - Xanthous Ashes] Lightning Arrow
+100404,[Andre - Xanthous Ashes] Dragonslayer Greatarrow
+100405,[Andre - Xanthous Ashes] Titanite Chunk
+100406,[Andre - Xanthous Ashes] Twinkling Titanite
+100407,[Andre - Xanthous Ashes] Giant's Halberd
+100408,[Andre - Xanthous Ashes] Giant Shield
+100409,[Andre - Xanthous Ashes] Moonlight Greatarrow
+100410,[Andre - Xanthous Ashes] Demonic Greatarrow
+100411,[Andre - Xanthous Ashes] Corrupted Greatarrow
+100450,[Andre - Easterner's Ashes] Washing Pole
+100451,[Andre - Easterner's Ashes] Eastern Iron Shield
+100452,[Andre - Easterner's Ashes] Onislayer Greatarrow
+100453,[Andre - Easterner's Ashes] Titanite Chunk
+100454,[Andre - Easterner's Ashes] Titanite Scale
+100455,[Andre - Easterner's Ashes] Makoto
+100500,[Andre - Dragon Chaser's Ashes] Draconic Arrow
+100501,[Andre - Dragon Chaser's Ashes] Draconic Greatarrow
+100502,[Andre - Dragon Chaser's Ashes] Draconic Bolt
+100503,[Andre - Dragon Chaser's Ashes] Ancient Dragon Halberd
+100504,[Andre - Dragon Chaser's Ashes] Man Serpent Hatchet
+100505,[Andre - Dragon Chaser's Ashes] Tailbone Short Sword
+100506,[Andre - Dragon Chaser's Ashes] Tailbone Spear
+100507,[Andre - Dragon Chaser's Ashes] Tailbone Club
+100508,[Andre - Dragon Chaser's Ashes] Ancient Dragon Greatshield
+100509,[Andre - Dragon Chaser's Ashes] Immortal Dragon Greatshield
+100513,[Andre - Dragon Chaser's Ashes] Titanite Slab
+100514,[Andre - Dragon Chaser's Ashes] Dragon Scale
+100515,[Andre - Dragon Chaser's Ashes] Black Dragon Greataxe
+100516,[Andre - Dragon Chaser's Ashes] Black Dragon Greatsword
+100517,[Andre - Dragon Chaser's Ashes] Black Dragon Sword
+100518,[Andre - Dragon Chaser's Ashes] Black Dragon Shield
+100519,[Andre - Dragon Chaser's Ashes] Dragon Bone Fist
+100520,[Andre - Dragon Chaser's Ashes] Dragon Greatsword
+100521,[Andre - Dragon Chaser's Ashes] Dragon King Greataxe
+100522,[Andre - Dragon Chaser's Ashes] Obsidian Greatsword
+100523,[Andre - Dragon Chaser's Ashes] Drake Sword
+100550,[Andre - Captain's Ashes] Follower Sabre
+100551,[Andre - Captain's Ashes] Follower Javelin
+100552,[Andre - Captain's Ashes] Follower Shield
+100553,[Andre - Captain's Ashes] Millwood Greatarrow
+100554,[Andre - Captain's Ashes] Titanite Slab
+100900,[Andre - Lords of Cinder] Titanite Shard
+100901,[Andre - Lords of Cinder] Large Titanite Shard
+100902,[Andre - Lords of Cinder] Titanite Chunk
+100903,[Andre - Lords of Cinder] Titanite Slab
+100904,[Andre - Lords of Cinder] Twinkling Titanite
+100905,[Andre - Lords of Cinder] Titanite Scale
+100906,[Andre - Lords of Cinder] Dragon Scale
+100907,[Andre - Lords of Cinder] Fire Seed
+110000,[Shrine Handmaid] Chain Helm
+110001,[Shrine Handmaid] Chain Armor
+110002,[Shrine Handmaid] Leather Gauntlets
+110003,[Shrine Handmaid] Chain Leggings
+110004,[Shrine Handmaid] Repair Powder
+110005,[Shrine Handmaid] Firebomb
+110006,[Shrine Handmaid] Homeward Bone
+110007,[Shrine Handmaid] Prism Stone
+110008,[Shrine Handmaid] White Sign Soapstone
+110009,[Shrine Handmaid] Dried Finger
+110010,[Shrine Handmaid] Tower Key
+110011,[Shrine Handmaid] Oozing Pellet
+110012,[Shrine Handmaid] Nibble
+110013,[Shrine Handmaid] Deep Barb
+110015,[Shrine Handmaid] Farron Dart
+110016,[Shrine Handmaid] Soul Arrow
+110017,[Shrine Handmaid] Heal Aid
+110018,[Shrine Handmaid] Sorcerer's Staff
+110019,[Shrine Handmaid] Talisman
+110020,[Shrine Handmaid] Pyromancy Flame
+110050,[Mortician's Ashes] Alluring Skull
+110051,[Mortician's Ashes] Charcoal Pine Resin
+110052,[Mortician's Ashes] Human Pine Resin
+110053,[Mortician's Ashes] Charcoal Pine Bundle
+110054,[Mortician's Ashes] Ember
+110055,[Mortician's Ashes] Old Growth Balm
+110056,[Mortician's Ashes] Grave Key
+110057,[Mortician's Ashes] Vine Balm
+110100,[Dreamchaser Ashes] Leather Armor
+110101,[Dreamchaser Ashes] Leather Gloves
+110102,[Dreamchaser Ashes] Leather Boots
+110103,[Dreamchaser Ashes] Life Ring
+110104,[Dreamchaser Ashes] Green Blossom
+110105,[Dreamchaser Ashes] Gold Pine Resin
+110106,[Dreamchaser Ashes] Gold Pine Bundle
+110107,[Dreamchaser Ashes] Rotten Pine Resin
+110108,[Dreamchaser Ashes] Black Bug Pellet
+110109,[Dreamchaser Ashes] Brightbug
+110110,[Dreamchaser Ashes] Blackweed Balm
+110111,[Dreamchaser Ashes] Blooming Purple Moss Clump
+110150,[Paladin's Ashes] Lloyd's Shield Ring
+110151,[Paladin's Ashes] Purple Moss Clump
+110152,[Paladin's Ashes] Goldenfruit Balm
+110153,[Paladin's Ashes] Undead Hunter Charm
+110154,[Paladin's Ashes] Duel Charm
+110155,[Paladin's Ashes] Witching Urn
+110200,[Grave Warden's Ashes] Kukri
+110201,[Grave Warden's Ashes] Carthus Rouge
+110202,[Grave Warden's Ashes] Yellow Bug Pellet
+110203,[Grave Warden's Ashes] Ember
+110204,[Grave Warden's Ashes] Red Bug Pellet
+110205,[Grave Warden's Ashes] Hexing Urn
+110250,[Excrement-Covered Ashes] Budding Green Blossom
+110251,[Excrement-Covered Ashes] Dung Pie
+110252,[Excrement-Covered Ashes] Stalk Dung Pie
+110253,[Excrement-Covered Ashes] Blue Bug Pellet
+110254,[Excrement-Covered Ashes] Cursed Pellet
+110300,[Prisoner Chief's Ashes] Rime-blue Moss Clump
+110301,[Prisoner Chief's Ashes] Pale Pine Resin
+110302,[Prisoner Chief's Ashes] Karla's Pointed Hat
+110303,[Prisoner Chief's Ashes] Karla's Coat
+110304,[Prisoner Chief's Ashes] Karla's Gloves
+110305,[Prisoner Chief's Ashes] Karla's Trousers
+110306,[Prisoner Chief's Ashes] Thank you Carving
+110307,[Prisoner Chief's Ashes] Very good! Carving
+110308,[Prisoner Chief's Ashes] I'm Sorry Carving
+110309,[Prisoner Chief's Ashes] Help me! Carving
+110310,[Prisoner Chief's Ashes] Hello Carving
+110350,[Xanthous Ashes] Gold Pine Resin
+110351,[Xanthous Ashes] Gold Pine Bundle
+110352,[Xanthous Ashes] Young White Branch
+110353,[Xanthous Ashes] Xanthous Overcoat
+110354,[Xanthous Ashes] Xanthous Gloves
+110355,[Xanthous Ashes] Xanthous Trousers
+110356,[Xanthous Ashes] Lightning Urn
+110357,[Xanthous Ashes] Xanthous Crown
+110400,[Hollow's Ashes] Purging Stone
+110401,[Hollow's Ashes] Poison Throwing Knife
+110402,[Hollow's Ashes] Ring of Sacrifice
+110450,[Dragon Chaser's Ashes] Ember
+110500,[Easterner's Ashes] Wood Grain Ring
+110501,[Easterner's Ashes] Eastern Helm
+110502,[Easterner's Ashes] Eastern Armor
+110503,[Easterner's Ashes] Eastern Gauntlets
+110504,[Easterner's Ashes] Eastern Leggings
+110505,[Easterner's Ashes] Mossfruit
+110550,[Soul of Cinder Kill] Firelink Helm
+110551,[Soul of Cinder Kill] Firelink Armor
+110552,[Soul of Cinder Kill] Firelink Gauntlets
+110553,[Soul of Cinder Kill] Firelink Leggings
+110600,[Nameless King Kill] Golden Crown
+110601,[Nameless King Kill] Dragonscale Armor
+110602,[Nameless King Kill] Golden Bracelets
+110603,[Nameless King Kill] Dragonscale Waistcloth
+110650,[Abyss Watchers Kill] Undead Legion Helm
+110651,[Abyss Watchers Kill] Undead Legion Armor
+110652,[Abyss Watchers Kill] Undead Legion Gauntlet
+110653,[Abyss Watchers Kill] Undead Legion Leggings
+110700,[Aldrich Kill] Smough's Helm
+110701,[Aldrich Kill] Smough's Armor
+110702,[Aldrich Kill] Smough's Gauntlets
+110703,[Aldrich Kill] Smough's Leggings
+110750,[Lothric Twins Kill] Lorian's Helm
+110751,[Lothric Twins Kill] Lorian's Armor
+110752,[Lothric Twins Kill] Lorian's Gauntlets
+110753,[Lothric Twins Kill] Lorian's Leggings
+110800,[Champion Gundyr Kill] Gundyr's Helm
+110801,[Champion Gundyr Kill] Gundyr's Armor
+110802,[Champion Gundyr Kill] Gundyr's Gauntlets
+110803,[Champion Gundyr Kill] Gundyr's Leggings
+110850,[Dancer Kill] Dancer's Crown
+110851,[Dancer Kill] Dancer's Armor
+110852,[Dancer Kill] Dancer's Gauntlets
+110853,[Dancer Kill] Dancer's Leggings
+110900,[Wolnir Kill] Wolnir's Crown
+110950,[Crystal Sage Kill] Sage's Big Hat
+111000,[Yuria's Ashes] Billed Mask
+111001,[Yuria's Ashes] Black Dress
+111002,[Yuria's Ashes] Black Gauntlets
+111003,[Yuria's Ashes] Black Leggings
+111050,[Sirris Quest] Sunless Veil
+111051,[Sirris Quest] Sunless Armor
+111052,[Sirris Quest] Sunless Gauntlets
+111053,[Sirris Quest] Sunless Leggings
+111100,[Anri Quest] Elite Knight Helm
+111101,[Anri Quest] Elite Knight Armor
+111102,[Anri Quest] Elite Knight Gauntlets
+111103,[Anri Quest] Elite Knight Leggings
+111150,[Lion Knight Albert] Faraam Helm
+111151,[Lion Knight Albert] Faraam Armor
+111152,[Lion Knight Albert] Faraam Gauntlets
+111153,[Lion Knight Albert] Faraam Boots
+111200,[Black Hand Kamui] Black Hand Hat
+111201,[Black Hand Kamui] Black Hand Armor
+111250,[Eygon Quest] Morne's Helm
+111251,[Eygon Quest] Morne's Armor
+111252,[Eygon Quest] Morne's Gauntlets
+111253,[Eygon Quest] Morne's Leggings
+111301,[Leonhard Kill] Leonhard's Garb
+111302,[Leonhard Kill] Leonhard's Gauntlets
+111303,[Leonhard Kill] Leonhard's Trousers
+111350,[Horace Kill] Executioner Helm
+111351,[Horace Kill] Executioner Armor
+111352,[Horace Kill] Executioner Gauntlets
+111353,[Horace Kill] Executioner Leggings
+111400,[Watchdog Kill] Exile Mask
+111401,[Watchdog Kill] Exile Armor
+111402,[Watchdog Kill] Exile Gauntlets
+111403,[Watchdog Kill] Exile Leggings
+111450,[Tsorig Kill] Black Iron Helm
+111451,[Tsorig Kill] Black Iron Armor
+111452,[Tsorig Kill] Black Iron Gauntlets
+111453,[Tsorig Kill] Black Iron Leggings
+111500,[Orbeck Kill] Clandestine Coat
+111501,[Orbeck Kill] Slumbering Dragoncrest Ring
+111502,[Orbeck Kill] Young Dragon Ring
+111550,[Ring of Favor] Helm of Favor
+111551,[Ring of Favor] Embraced Armor of Favor
+111552,[Ring of Favor] Gauntlets of Favor
+111553,[Ring of Favor] Leggings of Favor
+111560,[Lapp Kill] Lapp's Helm
+111561,[Lapp Kill] Lapp's Armor
+111562,[Lapp Kill] Lapp's Gauntlets
+111563,[Lapp Kill] Lapp's Leggings
+111600,[Sister Friede Kill] Ordained Hood
+111601,[Sister Friede Kill] Ordained Dress
+111602,[Sister Friede Kill] Ordained Trousers
+111651,[Captain's Ashes] Millwood Knight Helm
+111652,[Captain's Ashes] Millwood Knight Armor
+111653,[Captain's Ashes] Millwood Knight Gauntlets
+111654,[Captain's Ashes] Millwood Knight Leggings
+111655,[Captain's Ashes] Siegbrau
+111950,[Dreamcatcher's Ashes - Told of Location] Hidden Blessing
+111951,[Sirris - Killed Aldrich] Budding Green Blossom
+112000,[Ashes - Yuria] Dark Hand
+112001,[Ashes - Yuria] Londor Braille Divine Tome
+112002,[Ashes - Yuria] Ring of Sacrifice
+112003,[Ashes - Yuria] Untrue White Ring
+112004,[Ashes - Yuria] Untrue Dark Ring
+112005,[Ashes - Yuria] Purging Stone
+112006,[Ashes - Yuria] Poison Throwing Knife
+112500,[Ashes - Yoel] Soul Arrow
+112501,[Ashes - Yoel] Magic Weapon
+112502,[Ashes - Yoel] Magic Shield
+112503,[Ashes - Yoel] Deep Soul
+112600,[Ashes - Yoel] Soul Greatsword
+113000,[Ashes - Greirat] Bandit's Knife
+113001,[Ashes - Greirat] Long Sword
+113002,[Ashes - Greirat] Bastard Sword
+113003,[Ashes - Greirat] Mace
+113004,[Ashes - Greirat] Spear
+113005,[Ashes - Greirat] Light Crossbow
+113006,[Ashes - Greirat] Buckler
+113007,[Ashes - Greirat] Round Shield
+113008,[Ashes - Greirat] Kite Shield
+113009,[Ashes - Greirat] Elkhorn Round Shield
+113010,[Ashes - Greirat] Standard Helm
+113011,[Ashes - Greirat] Hard Leather Armor
+113012,[Ashes - Greirat] Hard Leather Gauntlets
+113013,[Ashes - Greirat] Hard Leather Boots
+113014,[Ashes - Greirat] Thief Mask
+113015,[Ashes - Greirat] Bloodred Moss Clump
+113016,[Ashes - Greirat] Firebomb
+113017,[Ashes - Greirat] Rope Firebomb
+113018,[Ashes - Greirat] Throwing Knife
+113019,[Ashes - Greirat] Ember
+113100,[Ashes - Greirat - Undead Settlement] Estoc
+113101,[Ashes - Greirat - Undead Settlement] Zweihander
+113102,[Ashes - Greirat - Undead Settlement] Warpick
+113103,[Ashes - Greirat - Undead Settlement] Glaive
+113104,[Ashes - Greirat - Undead Settlement] Priest's Chime
+113105,[Ashes - Greirat - Undead Settlement] Short Bow
+113106,[Ashes - Greirat - Undead Settlement] Target Shield
+113107,[Ashes - Greirat - Undead Settlement] Knight Shield
+113108,[Ashes - Greirat - Undead Settlement] Knight Helm
+113109,[Ashes - Greirat - Undead Settlement] Knight Armor
+113110,[Ashes - Greirat - Undead Settlement] Knight Gauntlets
+113111,[Ashes - Greirat - Undead Settlement] Knight Leggings
+113112,[Ashes - Greirat - Undead Settlement] Assassin Gloves
+113113,[Ashes - Greirat - Undead Settlement] Assassin Trousers
+113114,[Ashes - Greirat - Undead Settlement] Assassin Armor
+113115,[Ashes - Greirat - Undead Settlement] Assassin Hood
+113116,[Ashes - Greirat - Undead Settlement] Repair Powder
+113117,[Ashes - Greirat - Undead Settlement] Lightning Urn
+113118,[Ashes - Greirat - Undead Settlement] Ember
+113119,[Ashes - Greirat - Undead Settlement] Divine Blessing
+113120,[Ashes - Greirat - Undead Settlement] Pontiff Knight Curved Sword
+113121,[Ashes - Greirat - Undead Settlement] Pontiff Knight Shield
+113200,[Greirat - Irithyll] Divine Blessing
+113201,[Greirat - Irithyll] Hidden Blessing
+113202,[Greirat - Irithyll] Titanite Scale
+113203,[Greirat - Irithyll] Twinkling Titanite
+113204,[Greirat - Irithyll] Scholar's Candlestick
+113205,[Greirat - Irithyll] Lothric Knight Sword
+113206,[Greirat - Irithyll] Lothric Knight Greatsword
+113207,[Greirat - Irithyll] Lothric Knight Long Spear
+113208,[Greirat - Irithyll] Knight's Crossbow
+113209,[Greirat - Irithyll] Lothric Knight Shield
+113210,[Greirat - Irithyll] Lothric Knight Greatshield
+113300,[Greirat - Irithyll] Lightning Urn
+114100,[Ashes - Orbeck] Farron Dart
+114101,[Ashes - Orbeck] Soul Arrow
+114102,[Ashes - Orbeck] Great Soul Arrow
+114103,[Ashes - Orbeck] Shockwave
+114104,[Ashes - Orbeck] Soul Focus
+114105,[Ashes - Orbeck] Magic Weapon
+114106,[Ashes - Orbeck] Magic Shield
+114107,[Ashes - Orbeck] Soul Greatsword
+114108,[Ashes - Orbeck] Farron Flashsword
+114109,[Ashes - Orbeck] Spook
+114110,[Ashes - Orbeck] Aural Decoy
+114200,[Ashes - Orbeck] Pestilent Mist
+114300,[Ashes - Orbeck] Great Farron Dart
+114301,[Ashes - Orbeck] Cast Light
+114302,[Ashes - Orbeck] Farron Hail
+114303,[Ashes - Orbeck] Twisted Wall of Light
+114400,[Ashes - Orbeck] Homing Soulmass
+114401,[Ashes - Orbeck] Soul Spear
+114500,[Ashes - Orbeck] Homing Crystal Soulmass
+114501,[Ashes - Orbeck] Crystal Soul Spear
+114502,[Ashes - Orbeck] Crystal Magic Weapon
+114600,[Ashes - Orbeck] Hidden Weapon
+114601,[Ashes - Orbeck] Hidden Body
+114602,[Ashes - Orbeck] Repair
+115000,[Ashes - Cornyx] Pyromancer Crown
+115001,[Ashes - Cornyx] Pyromancer Garb
+115002,[Ashes - Cornyx] Pyromancer Wrap
+115003,[Ashes - Cornyx] Pyromancer Trousers
+115100,[Ashes - Cornyx] Fireball
+115101,[Ashes - Cornyx] Fire Surge
+115102,[Ashes - Cornyx] Great Combustion
+115103,[Ashes - Cornyx] Flash Sweat
+115104,[Ashes - Cornyx] Poison Mist
+115200,[Ashes - Cornyx] Fire Orb
+115201,[Ashes - Cornyx] Profuse Sweat
+115202,[Ashes - Cornyx] Bursting Fireball
+115300,[Ashes - Cornyx] Acid Surge
+115301,[Ashes - Cornyx] Carthus Flame Arc
+115302,[Ashes - Cornyx] Carthus Beacon
+115400,[Ashes - Cornyx] Great Chaos Fire Orb
+115401,[Ashes - Cornyx] Chaos Storm
+116100,[Ashes - Karla] Affinity
+116101,[Ashes - Karla] Abyssal Edge
+116102,[Ashes - Karla] Dark Edge
+116103,[Ashes - Karla] Deep Soul
+116200,[Ashes - Karla] Fire Whip
+116201,[Ashes - Karla] Firestorm
+116202,[Ashes - Karla] Rapport
+116300,[Ashes - Karla] Black Flame
+116301,[Ashes - Karla] Black Fire Orb
+116400,[Ashes - Karla] Deep Protection
+116401,[Ashes - Karla] Gnaw
+116500,[Ashes - Karla] Vow of Silence
+116501,[Ashes - Karla] Dark Blade
+116502,[Ashes - Karla] Dead Again
+117000,[Ashes - Irina] Saint's Ring
+117100,[Ashes - Irina] Heal
+117101,[Ashes - Irina] Replenishment
+117102,[Ashes - Irina] Caressing Tears
+117103,[Ashes - Irina] Homeward
+117200,[Ashes - Irina] Med Heal
+117201,[Ashes - Irina] Tears of Denial
+117202,[Ashes - Irina] Force
+117203,[Ashes - Irina] Way of White Corona
+117300,[Ashes - Irina] Bountiful Light
+117301,[Ashes - Irina] Magic Barrier
+117302,[Ashes - Irina] Blessed Weapon
+117400,[Ashes - Irina] Deep Protection
+117401,[Ashes - Irina] Gnaw
+117500,[Ashes - Irina] Vow of Silence
+117501,[Ashes - Irina] Dark Blade
+117502,[Ashes - Irina] Dead Again
+118000,[Ashes - Patches] Parrying Dagger
+118001,[Ashes - Patches] Shotel
+118002,[Ashes - Patches] Winged Spear
+118003,[Ashes - Patches] Black Leather Armor
+118004,[Ashes - Patches] Black Leather Gloves
+118005,[Ashes - Patches] Black Leather Boots
+118011,[Ashes - Patches] Alluring Skull
+118012,[Ashes - Patches] Black Firebomb
+118013,[Ashes - Patches] Rope Black Firebomb
+118014,[Ashes - Patches] Human Pine Resin
+118015,[Ashes - Patches] Rubbish
+118016,[Ashes - Patches] Rusted Coin
+118017,[Ashes - Patches] Red Bug Pellet
+118018,[Ashes - Patches] Poison Arrow
+118019,[Ashes - Patches] Smelter Hammer
+118020,[Ashes - Patches] Sunlight Greatsword
+118021,[Ashes - Patches] Beast Cutter
+118022,[Ashes - Patches] Grant
+118023,[Ashes - Patches] Bramd
+118100,[Ashes - Patches] Ember
+118200,[Ashes - Patches] Hidden Blessing
+118300,[Ashes - Patches] Horsehoof Ring
+119000,[Ashes - Old Hag] Splitleaf Greatsword
+119001,[Ashes - Old Hag] Rusted Coin
+119002,[Ashes - Old Hag] Rusted Gold Coin
+119003,[Ashes - Old Hag] Tarnished Coin
+119004,[Ashes - Old Hag] Tarnished Silver Coin
+119900,[Shrine Handmaid - Untended Graves] Repair Powder
+119901,[Shrine Handmaid - Untended Graves] Homeward Bone
+119902,[Shrine Handmaid - Untended Graves] Prism Stone
+119903,[Shrine Handmaid - Untended Graves] Ember
+119904,[Shrine Handmaid - Untended Graves] White Sign Soapstone
+119905,[Shrine Handmaid - Untended Graves] Dried Finger
+119906,[Shrine Handmaid - Untended Graves] Tower Key
+119907,[Shrine Handmaid - Untended Graves] Priestess Ring
+120000,[Greirat] Bandit's Knife
+120001,[Greirat] Long Sword
+120002,[Greirat] Bastard Sword
+120003,[Greirat] Mace
+120004,[Greirat] Spear
+120005,[Greirat] Light Crossbow
+120006,[Greirat] Buckler
+120007,[Greirat] Round Shield
+120008,[Greirat] Kite Shield
+120009,[Greirat] Elkhorn Round Shield
+120010,[Greirat] Standard Helm
+120011,[Greirat] Hard Leather Armor
+120012,[Greirat] Hard Leather Gauntlets
+120013,[Greirat] Hard Leather Boots
+120014,[Greirat] Thief Mask
+120015,[Greirat] Bloodred Moss Clump
+120016,[Greirat] Firebomb
+120017,[Greirat] Rope Firebomb
+120018,[Greirat] Throwing Knife
+120019,[Greirat] Ember
+120100,[Greirat - Undead Settlement] Estoc
+120101,[Greirat - Undead Settlement] Zweihander
+120102,[Greirat - Undead Settlement] Warpick
+120103,[Greirat - Undead Settlement] Glaive
+120104,[Greirat - Undead Settlement] Priest's Chime
+120105,[Greirat - Undead Settlement] Short Bow
+120106,[Greirat - Undead Settlement] Target Shield
+120107,[Greirat - Undead Settlement] Knight Shield
+120108,[Greirat - Undead Settlement] Knight Helm
+120109,[Greirat - Undead Settlement] Knight Armor
+120110,[Greirat - Undead Settlement] Knight Gauntlets
+120111,[Greirat - Undead Settlement] Knight Leggings
+120112,[Greirat - Undead Settlement] Assassin Gloves
+120113,[Greirat - Undead Settlement] Assassin Trousers
+120114,[Greirat - Undead Settlement] Assassin Armor
+120115,[Greirat - Undead Settlement] Assassin Hood
+120116,[Greirat - Undead Settlement] Repair Powder
+120117,[Greirat - Undead Settlement] Lightning Urn
+120118,[Greirat - Undead Settlement] Ember
+120119,[Greirat - Undead Settlement] Divine Blessing
+120120,[Greirat - Undead Settlement] Pontiff Knight Curved Sword
+120121,[Greirat - Undead Settlement] Pontiff Knight Shield
+120200,[Greirat - Irithyll] Divine Blessing
+120201,[Greirat - Irithyll] Hidden Blessing
+120202,[Greirat - Irithyll] Titanite Scale
+120203,[Greirat - Irithyll] Twinkling Titanite
+120204,[Greirat - Irithyll] Scholar's Candlestick
+120205,[Greirat - Irithyll] Lothric Knight Sword
+120206,[Greirat - Irithyll] Lothric Knight Greatsword
+120207,[Greirat - Irithyll] Lothric Knight Long Spear
+120208,[Greirat - Irithyll] Knight's Crossbow
+120209,[Greirat - Irithyll] Lothric Knight Shield
+120210,[Greirat - Irithyll] Lothric Knight Greatshield
+120300,[Greirat - Ashes] Lightning Urn
+130100,[Orbeck] Farron Dart
+130101,[Orbeck] Soul Arrow
+130102,[Orbeck] Great Soul Arrow
+130103,[Orbeck] Shockwave
+130104,[Orbeck] Soul Focus
+130105,[Orbeck] Magic Weapon
+130106,[Orbeck] Magic Shield
+130107,[Orbeck] Soul Greatsword
+130108,[Orbeck] Farron Flashsword
+130109,[Orbeck] Spook
+130110,[Orbeck] Aural Decoy
+130200,[Orbeck - Any Scroll] Pestilent Mist
+130300,[Orbeck - Sage's Scroll] Great Farron Dart
+130301,[Orbeck - Sage's Scroll] Farron Hail
+130400,[Orbeck - Logan's Scroll] Homing Soulmass
+130401,[Orbeck - Logan's Scroll] Soul Spear
+130500,[Orbeck - Crystal Scroll] Homing Crystal Soulmass
+130501,[Orbeck - Crystal Scroll] Crystal Soul Spear
+130502,[Orbeck - Crystal Scroll] Crystal Magic Weapon
+130600,[Orbeck - Golden Scroll] Hidden Weapon
+130601,[Orbeck - Golden Scroll] Hidden Body
+130602,[Orbeck - Golden Scroll] Repair
+130603,[Orbeck - Golden Scroll] Cast Light
+130604,[Orbeck - Golden Scroll] Twisted Wall of Light
+140000,[Cornyx] Pyromancer Crown
+140001,[Cornyx] Pyromancer Garb
+140002,[Cornyx] Pyromancer Wrap
+140003,[Cornyx] Pyromancer Trousers
+140100,[Cornyx] Fireball
+140101,[Cornyx] Fire Surge
+140102,[Cornyx] Great Combustion
+140103,[Cornyx] Flash Sweat
+140200,[Cornyx - Great Swamp] Fire Orb
+140201,[Cornyx - Great Swamp] Profuse Sweat
+140202,[Cornyx - Great Swamp] Bursting Fireball
+140203,[Cornyx - Great Swamp] Poison Mist
+140300,[Cornyx - Carthus] Acid Surge
+140301,[Cornyx - Carthus] Carthus Flame Arc
+140302,[Cornyx - Carthus] Carthus Beacon
+140400,[Cornyx - Izalith] Great Chaos Fire Orb
+140401,[Cornyx - Izalith] Chaos Storm
+150100,[Karla] Affinity
+150101,[Karla] Abyssal Edge
+150102,[Karla] Dark Edge
+150103,[Karla] Deep Soul
+150200,[Karla - Quelana] Fire Whip
+150201,[Karla - Quelana] Firestorm
+150202,[Karla - Quelana] Rapport
+150300,[Karla - Grave Warden] Black Flame
+150301,[Karla - Grave Warden] Black Fire Orb
+150400,[Karla - Deep] Deep Protection
+150401,[Karla - Deep] Gnaw
+150500,[Karla - Londor] Vow of Silence
+150501,[Karla - Londor] Dark Blade
+150502,[Karla - Londor] Dead Again
+160000,[Irina] Saint's Ring
+160100,[Irina] Heal
+160101,[Irina] Replenishment
+160102,[Irina] Caressing Tears
+160103,[Irina] Homeward
+160200,[Irina - Carim] Med Heal
+160201,[Irina - Carim] Tears of Denial
+160202,[Irina - Carim] Force
+160203,[Irina - Carim] Way of White Corona
+160300,[Irina - Lothric] Bountiful Light
+160301,[Irina - Lothric] Magic Barrier
+160302,[Irina - Lothric] Blessed Weapon
+160400,[Irina - Deep] Deep Protection
+160401,[Irina - Deep] Gnaw
+160500,[Irina - Londor] Vow of Silence
+160501,[Irina - Londor] Dark Blade
+160502,[Irina - Londor] Dead Again
+200000,[Patches] Parrying Dagger
+200001,[Patches] Shotel
+200002,[Patches] Winged Spear
+200003,[Patches] Black Leather Armor
+200004,[Patches] Black Leather Gloves
+200005,[Patches] Black Leather Boots
+200006,[Patches - Siegward] Catarina Helm
+200007,[Patches - Siegward] Catarina Armor
+200008,[Patches - Siegward] Catarina Gauntlets
+200009,[Patches - Siegward] Catarina Leggings
+200010,[Patches - Siegward] Pierce Shield
+200011,[Patches] Alluring Skull
+200012,[Patches] Black Firebomb
+200013,[Patches] Rope Black Firebomb
+200014,[Patches] Human Pine Resin
+200015,[Patches] Rubbish
+200016,[Patches] Rusted Coin
+200017,[Patches] Red Bug Pellet
+200018,[Patches] Poison Arrow
+200019,[Patches] Smelter Hammer
+200020,[Patches] Sunlight Greatsword
+200021,[Patches] Beast Cutter
+200022,[Patches] Grant
+200023,[Patches] Bramd
+200100,[Patches] Ember
+200200,[Patches - Lothric Castle] Hidden Blessing
+200300,[Patches] Horsehoof Ring
+760000,[Stone-humped Hag] Splitleaf Greatsword
+760001,[Stone-humped Hag] Rusted Coin
+760002,[Stone-humped Hag] Rusted Gold Coin
+760003,[Stone-humped Hag] Tarnished Coin
+760004,[Stone-humped Hag] Tarnished Silver Coin

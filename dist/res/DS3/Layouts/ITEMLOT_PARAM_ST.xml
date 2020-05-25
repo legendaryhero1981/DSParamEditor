@@ -1,347 +1,362 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="ItemCategory" type="x32">
+    <item value="0xFFFFFFFF" name="None" />
+	<item value="0x00000000" name="Armor" />
+	<item value="0x10000000" name="Weapon" />
+	<item value="0x20000000" name="Accessory" />
+	<item value="0x40000000" name="Good" />
+  </enum>
   <entry>
-    <name>ItemLotId1</name>
+    <name>Item ID 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ItemLotId2</name>
+    <name>Item ID 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ItemLotId3</name>
+    <name>Item ID 3</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ItemLotId4</name>
+    <name>Item ID 4</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ItemLotId5</name>
+    <name>Item ID 5</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ItemLotId6</name>
+    <name>Item ID 6</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ItemLotId7</name>
+    <name>Item ID 7</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ItemLotId8</name>
+    <name>Item ID 8</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemCategory01</name>
+    <name>Item Category 1</name>
     <type>x32</type>
     <default>0xFFFFFFFF</default>
+    <enum>ItemCategory</enum>
   </entry>
   <entry>
-    <name>LotItemCategory02</name>
+    <name>Item Category 2</name>
     <type>x32</type>
     <default>0x00000000</default>
+    <enum>ItemCategory</enum>
   </entry>
   <entry>
-    <name>LotItemCategory03</name>
+    <name>Item Category 3</name>
     <type>x32</type>
     <default>0x00000000</default>
+    <enum>ItemCategory</enum>
   </entry>
   <entry>
-    <name>LotItemCategory04</name>
+    <name>Item Category 4</name>
     <type>x32</type>
     <default>0x00000000</default>
+    <enum>ItemCategory</enum>
   </entry>
   <entry>
-    <name>LotItemCategory05</name>
+    <name>Item Category 5</name>
     <type>x32</type>
     <default>0x00000000</default>
+    <enum>ItemCategory</enum>
   </entry>
   <entry>
-    <name>LotItemCategory06</name>
+    <name>Item Category 6</name>
     <type>x32</type>
     <default>0x00000000</default>
+    <enum>ItemCategory</enum>
   </entry>
   <entry>
-    <name>LotItemCategory07</name>
+    <name>Item Category 7</name>
     <type>x32</type>
     <default>0x00000000</default>
+    <enum>ItemCategory</enum>
   </entry>
   <entry>
-    <name>LotItemCategory08</name>
+    <name>Item Category 8</name>
     <type>x32</type>
     <default>0x00000000</default>
+    <enum>ItemCategory</enum>
   </entry>
   <entry>
-    <name>LotItemBasePoint01</name>
+    <name>Item Chance 1</name>
     <type>s16</type>
     <default>1000</default>
   </entry>
   <entry>
-    <name>LotItemBasePoint02</name>
+    <name>Item Chance 2</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemBasePoint03</name>
+    <name>Item Chance 3</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemBasePoint04</name>
+    <name>Item Chance 4</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemBasePoint05</name>
+    <name>Item Chance 5</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemBasePoint06</name>
+    <name>Item Chance 6</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemBasePoint07</name>
+    <name>Item Chance 7</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemBasePoint08</name>
+    <name>Item Chance 8</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>cumulateLotPoint01</name>
+    <name>Cumulative Chance 1</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>cumulateLotPoint02</name>
+    <name>Cumulative Chance 2</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>cumulateLotPoint03</name>
+    <name>Cumulative Chance 3</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>cumulateLotPoint04</name>
+    <name>Cumulative Chance 4</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>cumulateLotPoint05</name>
+    <name>Cumulative Chance 5</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>cumulateLotPoint06</name>
+    <name>Cumulative Chance 6</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>cumulateLotPoint07</name>
+    <name>Cumulative Chance 7</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>cumulateLotPoint08</name>
+    <name>Cumulative Chance 8</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GetItemFlagId01</name>
+    <name>Get Item Flag 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GetItemFlagId02</name>
+    <name>Get Item Flag 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GetItemFlagId03</name>
+    <name>Get Item Flag 3</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GetItemFlagId04</name>
+    <name>Get Item Flag 4</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GetItemFlagId05</name>
+    <name>Get Item Flag 5</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GetItemFlagId06</name>
+    <name>Get Item Flag 6</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GetItemFlagId07</name>
+    <name>Get Item Flag 7</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GetItemFlagId08</name>
+    <name>Get Item Flag 8</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>getItemFlagId</name>
-    <type>s32</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>cumulateNumFlagId</name>
+    <name>Get Item Flag ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>cumulateNumMax</name>
+    <name>Cumulative Number Flag ID</name>
+    <type>s32</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Cumulative Number Max</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemRarity</name>
+    <name>Item Lot Rarity</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemNum1</name>
+    <name>Item Amount 1</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>LotItemNum2</name>
+    <name>Item Amount 2</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemNum3</name>
+    <name>Item Amount 3</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemNum4</name>
+    <name>Item Amount 4</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemNum5</name>
+    <name>Item Amount 5</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemNum6</name>
+    <name>Item Amount 6</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemNum7</name>
+    <name>Item Amount 7</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LotItemNum8</name>
+    <name>Item Amount 8</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>EnableLuck01</name>
+    <name>Enable Luck 1</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>EnableLuck02</name>
+    <name>Enable Luck 2</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>EnableLuck03</name>
+    <name>Enable Luck 3</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>EnableLuck04</name>
+    <name>Enable Luck 4</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>EnableLuck05</name>
+    <name>Enable Luck 5</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>EnableLuck06</name>
+    <name>Enable Luck 6</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>EnableLuck07</name>
+    <name>Enable Luck 7</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>EnableLuck08</name>
+    <name>Enable Luck 8</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>cumulateReset01</name>
+    <name>Cumulative Reset 1</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>cumulateReset02</name>
+    <name>Cumulative Reset 2</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>cumulateReset03</name>
+    <name>Cumulative Reset 3</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>cumulateReset04</name>
+    <name>Cumulative Reset 4</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>cumulateReset05</name>
+    <name>Cumulative Reset 5</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>cumulateReset06</name>
+    <name>Cumulative Reset 6</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>cumulateReset07</name>
+    <name>Cumulative Reset 7</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>cumulateReset08</name>
+    <name>Cumulative Reset 8</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ClearCount</name>
+    <name>Clear Count</name>
     <type>s8</type>
     <default>-1</default>
   </entry>

@@ -1,61 +1,141 @@
-﻿0,Invalid data (no deletion) -- 無効データ（削除禁止）
-300001,Ojo 1_01 -- 王城1_01
-300002,Ojo 1_02 -- 王城1_02
-300003,Ojo 1_03 -- 王城1_03
-300004,Ojo 1_04 -- 王城1_04
-300006,Ojo 1_06 -- 王城1_06
-300007,Ojo 1_07 -- 王城1_07
-300008,Ojo 1_08 -- 王城1_08
-300009,Ojo 1_09 -- 王城1_09
-300020,Ojo 1_20 -- 王城1_20
-300021,Ojo 1_21 -- 王城1_21
-300022,Ojo 1_22 -- 王城1_22
-300023,Ojo 1_24 -- 王城1_24
-300024,Ojo 1_25 -- 王城1_25
-301000,Ojo 2_00 -- 王城2_00
-301001,Ojo 2_01 -- 王城2_01
-301002,Ojo 2_02 -- 王城2_02
-301003,Ojo 2_03 -- 王城2_03
-301010,Ojo 2_10 -- 王城2_10
-301011,Ojo 2_11 -- 王城2_11
-310000,_00 City of the tower -- 塔の街_00
-310001,_01 City of the tower -- 塔の街_01
-310002,_02 City of the tower -- 塔の街_02
-310003,_03 City of the tower -- 塔の街_03
-310004,_04 City of the tower -- 塔の街_04
-310020,_20 City of the tower -- 塔の街_20
-310021,_21 City of the tower -- 塔の街_21
-320001,Bridge _01 -- 橋_01
-320002,Bridge _02 -- 橋_02
-320010,Bridge _10 -- 橋_10
-320011,Bridge _11 -- 橋_11
-330001,Poison Swamp forest _01 -- 毒沼の森_01
-330002,Poison Swamp forest _02 -- 毒沼の森_02
-341000,Ojo 3_00 -- 王城3_00
-341001,Ojo 3_01 -- 王城3_01
-341002,Ojo 3_02 -- 王城3_02
-341003,Ojo 3_03 -- 王城3_03
-341010,Ojo 3_10 -- 王城3_10
-341011,Ojo 3_11 -- 王城3_11
-350001,Basilica Church _01 -- 聖堂教会_01
-350002,Basilica Church _02 -- 聖堂教会_02
-350003,Basilica Church _03 -- 聖堂教会_03
-360001,God Grave _01 -- 神墓_01
-360002,God Grave _02 -- 神墓_02
-360003,God Grave _03 -- 神墓_03
-370001,Anole Ruins _01 -- アノール遺跡_01
-370002,Anole Ruins _02 -- アノール遺跡_02
-370003,Anole Ruins _03 -- アノール遺跡_03
-380001,Dungeon _01 -- ダンジョン_01
-380002,Dungeon _02 -- ダンジョン_02
-380003,Dungeon _03 -- ダンジョン_03
-390001,Dungeon _01 -- 地下牢_01
-390002,Dungeon _02 -- 地下牢_02
-390003,Dungeon _03 -- 地下牢_03
-400001,Base _01 -- 拠点_01
-400002,Base _02 -- 拠点_02
-981001,Test Map _01 -- テストマップ_01
-981002,Test Map _02 -- テストマップ_02
-981003,Test Map _03 -- テストマップ_03
-981004,Test Map _04 -- テストマップ_04
-981005,Test Map _05 -- テストマップ_05
+0,Invalid data (no deletion)
+300001,High Wall of Lothric - Initial Area up to Tower on the Wall bonfire
+300002,High Wall of Lothric - Darkwraith Cell
+300003,High Wall of Lothric - From Tower on the Wall to Courtyard
+300004,High Wall of Lothric - Castle Approach and Shortcut Passage
+300006,High Wall of Lothric - Dancer
+300007,High Wall of Lothric - Vordt Arena
+300008,High Wall of Lothric - Lothric Castle Approach
+300009,High Wall of Lothric - Ledge to Undead Settlement
+300020,High Wall of Lothric - Consumed King's Garden - Upper
+300021,High Wall of Lothric - Consumed King's Garden - Lower
+300022,High Wall of Lothric - Consumed King's Garden - Courtyard
+300023,High Wall of Lothric - Oceiros Arena
+300024,High Wall of Lothric - Untended Graves Passage
+301000,Lothric Castle - Dragon Barracks, Dragonslayer Armour
+301001,Lothric Castle - Dragon Barracks
+301002,Lothric Castle - Dragon Barracks
+301003,Lothric Castle - Dragon Barracks
+301010,Lothric Castle - Dragon Barracks
+301011,Lothric Castle - None
+310000,Undead Settlement
+310001,Undead Settlement
+310002,Undead Settlement
+310003,Undead Settlement
+310004,Undead Settlement
+310020,Undead Settlement
+310021,Undead Settlement
+320001,Archdragon Peak
+320002,Archdragon Peak
+320010,Archdragon Peak
+320011,Archdragon Peak
+320012,Archdragon Peak
+320013,Archdragon Peak
+320020,Archdragon Peak
+330000,Road of Sacrifices
+330001,Road of Sacrifices
+330002,Road of Sacrifices
+330010,Road of Sacrifices
+330011,Road of Sacrifices
+330012,Road of Sacrifices
+330013,Road of Sacrifices
+330014,Road of Sacrifices
+330015,Road of Sacrifices
+330020,Road of Sacrifices
+330021,Road of Sacrifices
+330022,Road of Sacrifices
+341000,Grand Archives
+341001,Grand Archives
+341002,Grand Archives
+341003,Grand Archives
+341010,Grand Archives
+341011,Grand Archives
+350000,Cathedral of the Deep
+350001,Cathedral of the Deep
+350002,Cathedral of the Deep
+350003,Cathedral of the Deep
+350004,Cathedral of the Deep
+350005,Cathedral of the Deep
+350010,Cathedral of the Deep
+350011,Cathedral of the Deep
+350020,Cathedral of the Deep
+370001,Irithyll of the Boreal Valley
+370002,Irithyll of the Boreal Valley
+370003,Irithyll of the Boreal Valley
+370004,Irithyll of the Boreal Valley
+370005,Irithyll of the Boreal Valley
+370006,Irithyll of the Boreal Valley
+370007,Irithyll of the Boreal Valley
+370008,Irithyll of the Boreal Valley
+370010,Irithyll of the Boreal Valley
+370011,Irithyll of the Boreal Valley
+370012,Irithyll of the Boreal Valley
+370013,Irithyll of the Boreal Valley
+380000,Irithyll Dungeon
+380001,Irithyll Dungeon
+380002,Irithyll Dungeon
+380003,Irithyll Dungeon
+380010,Irithyll Dungeon
+380011,Irithyll Dungeon
+380012,Irithyll Dungeon
+380013,Irithyll Dungeon
+380014,Irithyll Dungeon
+380015,Irithyll Dungeon
+380016,Irithyll Dungeon
+380020,Irithyll Dungeon
+380021,Irithyll Dungeon
+390000,Profaned Capital
+390001,Profaned Capital
+390002,Profaned Capital
+390003,Profaned Capital
+390004,Profaned Capital
+390005,Profaned Capital
+390006,Profaned Capital
+400000,Cemetery of Ash
+400001,Cemetery of Ash
+400002,Cemetery of Ash
+400010,Cemetery of Ash
+400100,Cemetery of Ash
+400101,Cemetery of Ash
+400102,Cemetery of Ash
+400110,Cemetery of Ash
+410000,Flameless Shrine
+410001,Flameless Shrine
+410002,Flameless Shrine
+450000,Ariandel
+450001,Ariandel
+450002,Ariandel
+450003,Ariandel
+450004,Ariandel
+450005,Ariandel
+450006,Ariandel
+450010,Ariandel
+450011,Ariandel
+450020,Ariandel
+460000,Arena - Grand Roof
+470000,Arena - Kiln of Flame
+500000,Dreg Heap
+500001,Dreg Heap
+500002,Dreg Heap
+500003,Dreg Heap
+500020,Dreg Heap
+510000,The Ringed City
+510001,The Ringed City
+510002,The Ringed City
+510003,The Ringed City
+510004,The Ringed City
+510005,The Ringed City
+510010,The Ringed City
+510011,The Ringed City
+510020,The Ringed City
+511000,Filianore's Rest
+511001,Filianore's Rest
+511010,Filianore's Rest
+511020,Filianore's Rest
+530000,Arena - Dragon Ruins
+540000,Arena - Round Plaza
+981001,Test Map _01
+981002,Test Map _02
+981003,Test Map _03
+981004,Test Map _04
+981005,Test Map _05

@@ -1,1 +1,70 @@
-﻿
+1000,Firebomb
+1001,Lightning Urn
+1003,Hexing Urn
+1004,Witching Urn
+1020,Dragon Head Stone
+1030,Twinkling Dragon Torso Stone
+2100,Spear Fragment
+10000,Common
+10001,Physical: STR, DEX, LCK
+10002,Physical: STR, DEX, FTH
+10003,Physical: STR, DEX, INT
+10004,Physical: STR, DEX, INT, FTH
+10005,Physical: STR, DEX, INT, FTH, LCK
+10006,Physical: STR, DEX, FTH, LCK
+10007,Physical: STR, DEX, INT, LCK
+10008,Twin Princes' Greatsword
+11000,Lucky - Physical and Magic
+11001,Lucky - Physical and Fire
+11002,Lucky - Physical and Lightning
+11003,Lucky - Physical and Dark
+11004,Lucky - Magic, Fire and Dark
+11005,Lucky - Physical, Magic and Lightning
+11006,Lucky - Physical, Magic and Fire
+12000,Holy - Elemental
+12001,Fire: INT, FTH, LCK
+12002,Lightning: FTH, LCK
+12003,Dark: INT, FTH, LCK
+14000,Magic: FTH
+14001,Magic/Dark: INT, LCK
+14002,Magic: INT, LCK
+14003,Magic: STR, DEX, INT
+15000,Anri's Straight Sword
+15001,Fire: INT, FTH, DEX, LCK
+16000,Demon's Scar
+16001,Spell Tool: INT, FTH, LCK
+17000,All: STR, DEX, INT, FTH
+17001,All: STR, DEX, INT, FTH, LCK
+18000,Fire/Dark: STR, DEX, INT, FTH
+18001,Fire/Dark: STR, DEX, INT, FTH, LCK
+19000,Scholar's Candlestick - Holy
+25000,Man-grub's Staff
+25001,Archdeacon's Great Staff
+25002,Heretic's Staff
+25003,Crystal Chime
+25004,Holy Flame
+25005,Sorcerous Flame
+25006,Fool's Flame
+25007,Chaos Flame
+25008,Jester's Talisman
+25009,Darkmoon Ritual Staff
+25010,Izalith Staff
+25011,Sunless Talisman
+30000,Golden Ritual Spear
+30010,Cleric's Candlestick
+30020,Heysel Pick
+30030,Immolation Tinder
+30040,Demon's Scar
+30050,Rose of Ariandel
+40000,Boulder Heave
+40001,Wrath of the Gods
+40002,Emit Force
+40003,Way of White Corona
+40004,Divine Pillars of Light
+40005,Bursting Halo
+40006,Halo
+40007,Divine Retribution
+40008,Flynn's Bow
+40009,Spiral Greatsword - Beckon Storm
+40010,Darkmoon Longbow
+40012,Holy Moonlight Sword

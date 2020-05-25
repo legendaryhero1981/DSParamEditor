@@ -1,6 +1,6 @@
 # DSParamEditor
 
-黑暗之魂系列游戏参数文件编辑工具 v1.1.2.8（允哥汉化修正版）
+黑暗之魂系列游戏参数文件编辑工具 v1.1.2.9（允哥汉化修正版）
 
 # 特别感谢：
 - [JKAnderson](https://github.com/JKAnderson) 开发了Yapped原始版本！

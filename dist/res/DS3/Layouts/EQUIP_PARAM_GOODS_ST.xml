@@ -1,362 +1,425 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="GoodsUseAnim" type="u8">
+    <item value="0" name="RECOVER" />
+	<item value="1" name="WEAPON_ENCHANT" />
+	<item value="2" name="THROW_KNIFE" />
+	<item value="3" name="THROW_BOTTLE" />
+	<item value="4" name="BINOCULARS" />
+	<item value="5" name="REPAIR" />
+	<item value="6" name="PRAY" />
+	<item value="7" name="TRAP" />
+	<item value="8" name="MESSAGE" />
+	<item value="9" name="SOUL" />
+	<item value="10" name="DRINK_HP" />
+	<item value="11" name="DRAGON_HEAD" />
+	<item value="12" name="DRAGON_FULL" />
+	<item value="13" name="PRAY2" />
+	<item value="14" name="SHOWCK_WAVE" />
+	<item value="16" name="QUICK_WEAPON_ENCHANT" />
+	<item value="17" name="QUICK_THROW_KNIFE" />
+	<item value="18" name="QUICK_THROW_BOTTLE" />
+	<item value="19" name="DRINK_MP" />
+	<item value="20" name="BACK_BOTTLE" />
+	<item value="21" name="DRINK_SAKE" />
+	<item value="22" name="CHAMELEON" />
+	<item value="23" name="DRAGON_HEAD_LVL2" />
+	<item value="24" name="DRAGON_FULL_LVL2" />
+	<item value="25" name="OLD_MONK" />
+	<item value="26" name="QUICK_THROW_HOMINGKNIFE" />
+	<item value="254" name="NO_DRINK" />
+	<item value="255" name="INVALID" />
+  </enum>
+  <enum name="OpenMenuType" type="u8">
+    <item value="0" name="None" />
+	<item value="1" name="Yes/No" />
+	<item value="4" name="Yes/No_Session" />
+	<item value="5" name="Unknown1" />
+	<item value="6" name="CreateBloodMessage" />
+	<item value="7" name="RosterOfKnights" />
+	<item value="8" name="Unknown2" />
+	<item value="9" name="Ok/Cancel" />
+	<item value="10" name="Invasion" />
+	<item value="11" name="CoiledSwordFragment" />
+	<item value="12" name="DarkSign" />
+  </enum>
+  <enum name="UseLimitCategory" type="u8">
+    <item value="0" name="None" />
+	<item value="1" name="0x04" />
+	<item value="2" name="0x10" />
+	<item value="3" name="0x20" />
+	<item value="4" name="0x40" />
+	<item value="5" name="0x80" />
+	<item value="6" name="0x100" />
+	<item value="7" name="0x200" />
+	<item value="8" name="0x400" />
+	<item value="9" name="0x800" />
+	<item value="10" name="0x1000" />
+	<item value="11" name="0x30" />
+	<item value="12" name="0x70" />
+	<item value="13" name="0x50" />
+	<item value="14" name="0x08" />
+  </enum>
   <entry>
-    <name>refId1</name>
+    <name>Ref ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>sfxVariationId</name>
+    <name>VFX Variation ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>weight</name>
+    <name>Weight</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>fragmentNum</name>
+    <name>Fragment Number</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>sellValue</name>
+    <name>Sell Value</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>replaceItemId</name>
+    <name>Replace Item ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>behaviorId</name>
+    <name>Behavior ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>sortId</name>
+    <name>Sort ID</name>
     <type>s32</type>
     <default>80000</default>
   </entry>
   <entry>
-    <name>qwcId</name>
+    <name>QWC ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>yesNoDialogMessageId</name>
+    <name>Dialog Message ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>magicId</name>
+    <name>Magic ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>iconId</name>
+    <name>Icon ID</name>
     <type>s16</type>
     <default>6</default>
   </entry>
   <entry>
-    <name>modelId</name>
+    <name>Model ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>shopLv</name>
+    <name>Shop Level</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>compTrophySedId</name>
+    <name>Comp Trophy Sed ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>trophySeqId</name>
+    <name>Trophy Seq ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>maxNum</name>
+    <name>Max Amount</name>
     <type>s16</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>consumeHeroPoint</name>
+    <name>Consume Hero Point</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>overDexterity</name>
+    <name>Over Dexterity</name>
     <type>u8</type>
     <default>50</default>
   </entry>
   <entry>
-    <name>goodsType</name>
+    <name>Goods Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>refCategory</name>
+    <name>Ref Category</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectCategory</name>
+    <name>SpEffect Category</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>goodsCategory</name>
+    <name>Goods Category</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>goodsUseAnim</name>
+    <name>Goods Use Animation</name>
     <type>s8</type>
     <default>0</default>
+    <enum>GoodsUseAnim</enum>
   </entry>
   <entry>
-    <name>opmeMenuType</name>
+    <name>Open Menu Type</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>OpenMenuType</enum>
+  </entry>
+  <entry>
+    <name>Use Limit Category</name>
+    <type>u8</type>
+    <default>0</default>
+    <enum>UseLimitCategory</enum>
+  </entry>
+  <entry>
+    <name>Replace Category</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>useLimitCategory</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>replaceCategory</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>vowType0</name>
+    <name>Vow Type 0</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType1</name>
+    <name>Vow Type 1</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType2</name>
+    <name>Vow Type 2</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType3</name>
+    <name>Vow Type 3</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType4</name>
+    <name>Vow Type 4</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType5</name>
+    <name>Vow Type 5</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType6</name>
+    <name>Vow Type 6</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType7</name>
+    <name>Vow Type 7</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType8</name>
+    <name>Vow Type 8</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType9</name>
+    <name>Vow Type 9</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType10</name>
+    <name>Vow Type 10</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType11</name>
+    <name>Vow Type 11</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType12</name>
+    <name>Vow Type 12</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType13</name>
+    <name>Vow Type 13</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType14</name>
+    <name>Vow Type 14</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>vowType15</name>
+    <name>Vow Type 15</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>enable_live</name>
+    <name>Enable Live</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>enable_gray</name>
+    <name>Enable Gray</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>enable_white</name>
+    <name>Enable White</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>enable_black</name>
+    <name>Enable Black</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>enable_multi</name>
+    <name>Enable Multiplayer</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>disable_offline</name>
+    <name>Enable Offline</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isEquip</name>
+    <name>Is Equip</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isConsume</name>
+    <name>Is Consume</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>isAutoEquip</name>
+    <name>Is Auto Equip</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isEstablishment</name>
+    <name>Is Establishment</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isOnlyOne</name>
+    <name>Is Only One</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isDrop</name>
+    <name>Is Drop</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>isDeposit</name>
+    <name>Is Deposit</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>isDisableHand</name>
+    <name>Is Disable Hand</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isTravelItem</name>
+    <name>Is Travel Item</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isSuppleItem</name>
+    <name>Is Supple Item</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isFullSuppleItem</name>
+    <name>Is Full Supple Item</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isEnhance</name>
+    <name>Is Enhance</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isFixItem</name>
+    <name>Is Fix Item</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>disableMutliDropShare</name>
+    <name>Is Disable Multi Drop Share</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>disableUseAtColiseum</name>
+    <name>Is Disable Use At Colliseum</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>disableUseAtOutofColiseum</name>
+    <name>Is Disable Use Out of Colliseum</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>useBulletMaxNum</name>
+    <name>Use Bullet Max Num</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>useHpCureMaxNum</name>
+    <name>Use Hp Cure Max Num</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isAutoReplenish</name>
+    <name>Is Auto Replenish</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>canMultiUse</name>
+    <name>Can Multi Use</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isGuestDrop</name>
+    <name>Is Guest Drop</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isEnchantLeftHand</name>
+    <name>Is Enchant Left Hand</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isApplySpecialEffect</name>
+    <name>Is Apply Special Effect</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -376,12 +439,12 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>refId2</name>
+    <name>Ref ID - Offhand</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>reinforceParamWeapon</name>
+    <name>Reinforce Param Weapon ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -401,42 +464,42 @@
     <default>-1</default>
   </entry>
   <entry>
-    <name>refVirtualWepId</name>
+    <name>Use VFX 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>replaceItemId_BySpEffect</name>
+    <name>Use VFX 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>replaceTriggerSpEffectId</name>
+    <name>Use VFX 3</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>isLoadOfCinder</name>
+    <name>Is Ember Statys Active</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>isPlayRegion1</name>
+    <name>Is Get Play Region Info</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isLadder</name>
+    <name>Is Using Ladder</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isMultiPlay</name>
+    <name>Is Enable On Session Creation</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>useSelected</name>
+    <name>Is Use Selected</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -446,37 +509,37 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>isPlayRegion2</name>
+    <name>Is Always Valid</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isNetPenalized</name>
+    <name>Is Net Penalized</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>SuppleItemType</name>
+    <name>Supple Item Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>menuAdhocType</name>
+    <name>Is Enable Scaleform</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>drop [ON_OFF]</name>
-    <type>u8</type>
-    <default>0</default>
+    <name>Can Drop</name>
+    <type>b8</type>
+    <default>True</default>
   </entry>
   <entry>
-    <name>maxRepNum</name>
+    <name>Max Rep Number</name>
     <type>s16</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>invadeType</name>
+    <name>Invade Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -486,17 +549,17 @@
     <size>1</size>
   </entry>
   <entry>
-    <name>shopId</name>
+    <name>Shop Price</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>fpConsume</name>
+    <name>FP Cost</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>useLimitCategory2</name>
+    <name>Use Limit Category 2</name>
     <type>s16</type>
     <default>0</default>
   </entry>

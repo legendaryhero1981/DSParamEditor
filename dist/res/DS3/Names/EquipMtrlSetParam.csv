@@ -1,6 +1,434 @@
-﻿0,Basic -- 基本
-1,Basic + 1 -- 基本＋１
-2,Basic + 2 -- 基本＋２
-3,Basic + 3 -- 基本＋３
-4,Basic + 4 -- 基本＋４
-5,Basic + 5 -- 基本＋５
+0,Titanite +0
+1,Titanite +1
+2,Titanite +2
+3,Titanite +3
+4,Titanite +4
+5,Titanite +5
+6,Titanite +6
+7,Titanite +7
+8,Titanite +8
+9,Titanite +9
+10,Titanite +10
+100,Titanite +0 - Lethal
+101,Titanite +1 - Lethal
+102,Titanite +2 - Lethal
+103,Titanite +3 - Lethal
+104,Titanite +4 - Lethal
+105,Titanite +5 - Lethal
+106,Titanite +6 - Lethal
+107,Titanite +7 - Lethal
+108,Titanite +8 - Lethal
+109,Titanite +9 - Lethal
+110,Titanite +10 - Lethal
+200,Titanite +0 - Raw
+201,Titanite +1 - Raw
+202,Titanite +2 - Raw
+203,Titanite +3 - Raw
+204,Titanite +4 - Raw
+205,Titanite +5 - Raw
+206,Titanite +6 - Raw
+207,Titanite +7 - Raw
+208,Titanite +8 - Raw
+209,Titanite +9 - Raw
+210,Titanite +10 - Raw
+300,Titanite +0 - Poison
+301,Titanite +1 - Poison
+302,Titanite +2 - Poison
+303,Titanite +3 - Poison
+304,Titanite +4 - Poison
+305,Titanite +5 - Poison
+306,Titanite +6 - Poison
+307,Titanite +7 - Poison
+308,Titanite +8 - Poison
+309,Titanite +9 - Poison
+310,Titanite +10 - Poison
+400,Titanite +0 - Blood
+401,Titanite +1 - Blood
+402,Titanite +2 - Blood
+403,Titanite +3 - Blood
+404,Titanite +4 - Blood
+405,Titanite +5 - Blood
+406,Titanite +6 - Blood
+407,Titanite +7 - Blood
+408,Titanite +8 - Blood
+409,Titanite +9 - Blood
+410,Titanite +10 - Blood
+500,Titanite +0 - Frost
+501,Titanite +1 - Frost
+502,Titanite +2 - Frost
+503,Titanite +3 - Frost
+504,Titanite +4 - Frost
+505,Titanite +5 - Frost
+506,Titanite +6 - Frost
+507,Titanite +7 - Frost
+508,Titanite +8 - Frost
+509,Titanite +9 - Frost
+510,Titanite +10 - Frost
+600,Titanite +0 - Magic
+601,Titanite +1 - Magic
+602,Titanite +2 - Magic
+603,Titanite +3 - Magic
+604,Titanite +4 - Magic
+605,Titanite +5 - Magic
+606,Titanite +6 - Magic
+607,Titanite +7 - Magic
+608,Titanite +8 - Magic
+609,Titanite +9 - Magic
+610,Titanite +10 - Magic
+700,Titanite +0 - Fire
+701,Titanite +1 - Fire
+702,Titanite +2 - Fire
+703,Titanite +3 - Fire
+704,Titanite +4 - Fire
+705,Titanite +5 - Fire
+706,Titanite +6 - Fire
+707,Titanite +7 - Fire
+708,Titanite +8 - Fire
+709,Titanite +9 - Fire
+710,Titanite +10 - Fire
+800,Titanite +0 - Lightning
+801,Titanite +1 - Lightning
+802,Titanite +2 - Lightning
+803,Titanite +3 - Lightning
+804,Titanite +4 - Lightning
+805,Titanite +5 - Lightning
+806,Titanite +6 - Lightning
+807,Titanite +7 - Lightning
+808,Titanite +8 - Lightning
+809,Titanite +9 - Lightning
+810,Titanite +10 - Lightning
+900,Titanite +0 - Dark
+901,Titanite +1 - Dark
+902,Titanite +2 - Dark
+903,Titanite +3 - Dark
+904,Titanite +4 - Dark
+905,Titanite +5 - Dark
+906,Titanite +6 - Dark
+907,Titanite +7 - Dark
+908,Titanite +8 - Dark
+909,Titanite +9 - Dark
+910,Titanite +10 - Dark
+1000,Titanite +0 - Lucky
+1001,Titanite +1 - Lucky
+1002,Titanite +2 - Lucky
+1003,Titanite +3 - Lucky
+1004,Titanite +4 - Lucky
+1005,Titanite +5 - Lucky
+1006,Titanite +6 - Lucky
+1007,Titanite +7 - Lucky
+1008,Titanite +8 - Lucky
+1009,Titanite +9 - Lucky
+1010,Titanite +10 - Lucky
+1100,Titanite +0 - Enchanted
+1101,Titanite +1 - Enchanted
+1102,Titanite +2 - Enchanted
+1103,Titanite +3 - Enchanted
+1104,Titanite +4 - Enchanted
+1105,Titanite +5 - Enchanted
+1106,Titanite +6 - Enchanted
+1107,Titanite +7 - Enchanted
+1108,Titanite +8 - Enchanted
+1109,Titanite +9 - Enchanted
+1110,Titanite +10 - Enchanted
+1200,Titanite +0 - Holy
+1201,Titanite +1 - Holy
+1202,Titanite +2 - Holy
+1203,Titanite +3 - Holy
+1204,Titanite +4 - Holy
+1205,Titanite +5 - Holy
+1206,Titanite +6 - Holy
+1207,Titanite +7 - Holy
+1208,Titanite +8 - Holy
+1209,Titanite +9 - Holy
+1210,Titanite +10 - Holy
+1300,Titanite +0 - Sharp
+1301,Titanite +1 - Sharp
+1302,Titanite +2 - Sharp
+1303,Titanite +3 - Sharp
+1304,Titanite +4 - Sharp
+1305,Titanite +5 - Sharp
+1306,Titanite +6 - Sharp
+1307,Titanite +7 - Sharp
+1308,Titanite +8 - Sharp
+1309,Titanite +9 - Sharp
+1310,Titanite +10 - Sharp
+1400,Titanite +0 - Blunt
+1401,Titanite +1 - Blunt
+1402,Titanite +2 - Blunt
+1403,Titanite +3 - Blunt
+1404,Titanite +4 - Blunt
+1405,Titanite +5 - Blunt
+1406,Titanite +6 - Blunt
+1407,Titanite +7 - Blunt
+1408,Titanite +8 - Blunt
+1409,Titanite +9 - Blunt
+1410,Titanite +10 - Blunt
+1500,Titanite +0 - Ascended
+1501,Titanite +1 - Ascended
+1502,Titanite +2 - Ascended
+1503,Titanite +3 - Ascended
+1504,Titanite +4 - Ascended
+1505,Titanite +5 - Ascended
+1506,Titanite +6 - Ascended
+1507,Titanite +7 - Ascended
+1508,Titanite +8 - Ascended
+1509,Titanite +9 - Ascended
+1510,Titanite +10 - Ascended
+2000,Twinkling Titanite +0
+2001,Twinkling Titanite +1
+2002,Twinkling Titanite +2
+2003,Twinkling Titanite +3
+2004,Twinkling Titanite +4
+2005,Twinkling Titanite +5
+2100,Twinkling Titanite +0 - Ascended
+2101,Twinkling Titanite +1 - Ascended
+2102,Twinkling Titanite +2 - Ascended
+2103,Twinkling Titanite +3 - Ascended
+2104,Twinkling Titanite +4 - Ascended
+2105,Twinkling Titanite +5 - Ascended
+2200,Twinkling Titanite +0 - Crystal
+2201,Twinkling Titanite +1 - Crystal
+2202,Twinkling Titanite +2 - Crystal
+2203,Twinkling Titanite +3 - Crystal
+2204,Twinkling Titanite +4 - Crystal
+2205,Twinkling Titanite +5 - Crystal
+2300,Twinkling Titanite +0 - Chaos
+2301,Twinkling Titanite +1 - Chaos
+2302,Twinkling Titanite +2 - Chaos
+2303,Twinkling Titanite +3 - Chaos
+2304,Twinkling Titanite +4 - Chaos
+2305,Twinkling Titanite +5 - Chaos
+2400,Twinkling Titanite +0 - Voltaic
+2401,Twinkling Titanite +1 - Voltaic
+2402,Twinkling Titanite +2 - Voltaic
+2403,Twinkling Titanite +3 - Voltaic
+2404,Twinkling Titanite +4 - Voltaic
+2405,Twinkling Titanite +5 - Voltaic
+2500,Twinkling Titanite +0 - Abyssal
+2501,Twinkling Titanite +1 - Abyssal
+2502,Twinkling Titanite +2 - Abyssal
+2503,Twinkling Titanite +3 - Abyssal
+2504,Twinkling Titanite +4 - Abyssal
+2505,Twinkling Titanite +5 - Abyssal
+4000,Titanite Scale +0
+4001,Titanite Scale +1
+4002,Titanite Scale +2
+4003,Titanite Scale +3
+4004,Titanite Scale +4
+4005,Titanite Scale +5
+4100,Titanite Scale +0 - Ascended
+4101,Titanite Scale +1 - Ascended
+4102,Titanite Scale +2 - Ascended
+4103,Titanite Scale +3 - Ascended
+4104,Titanite Scale +4 - Ascended
+4105,Titanite Scale +5 - Ascended
+4200,Titanite Scale +0 - Crystal
+4201,Titanite Scale +1 - Crystal
+4202,Titanite Scale +2 - Crystal
+4203,Titanite Scale +3 - Crystal
+4204,Titanite Scale +4 - Crystal
+4205,Titanite Scale +5 - Crystal
+4300,Titanite Scale +0 - Chaos
+4301,Titanite Scale +1 - Chaos
+4302,Titanite Scale +2 - Chaos
+4303,Titanite Scale +3 - Chaos
+4304,Titanite Scale +4 - Chaos
+4305,Titanite Scale +5 - Chaos
+4400,Titanite Scale +0 - Voltaic
+4401,Titanite Scale +1 - Voltaic
+4402,Titanite Scale +2 - Voltaic
+4403,Titanite Scale +3 - Voltaic
+4404,Titanite Scale +4 - Voltaic
+4405,Titanite Scale +5 - Voltaic
+4500,Titanite Scale +0 - Abyssal
+4501,Titanite Scale +1 - Abyssal
+4502,Titanite Scale +2 - Abyssal
+4503,Titanite Scale +3 - Abyssal
+4504,Titanite Scale +4 - Abyssal
+4505,Titanite Scale +5 - Abyssal
+6000,Dragon Scale +0
+6001,Dragon Scale +1
+6002,Dragon Scale +2
+6003,Dragon Scale +3
+6004,Dragon Scale +4
+6005,Dragon Scale +5
+6100,Dragon Scale +0 - Ascended
+6101,Dragon Scale +1 - Ascended
+6102,Dragon Scale +2 - Ascended
+6103,Dragon Scale +3 - Ascended
+6104,Dragon Scale +4 - Ascended
+6105,Dragon Scale +5 - Ascended
+6200,Dragon Scale +0 - Crystal
+6201,Dragon Scale +1 - Crystal
+6202,Dragon Scale +2 - Crystal
+6203,Dragon Scale +3 - Crystal
+6204,Dragon Scale +4 - Crystal
+6205,Dragon Scale +5 - Crystal
+6300,Dragon Scale +0 - Chaos
+6301,Dragon Scale +1 - Chaos
+6302,Dragon Scale +2 - Chaos
+6303,Dragon Scale +3 - Chaos
+6304,Dragon Scale +4 - Chaos
+6305,Dragon Scale +5 - Chaos
+6400,Dragon Scale +0 - Voltaic
+6401,Dragon Scale +1 - Voltaic
+6402,Dragon Scale +2 - Voltaic
+6403,Dragon Scale +3 - Voltaic
+6404,Dragon Scale +4 - Voltaic
+6405,Dragon Scale +5 - Voltaic
+6500,Dragon Scale +0 - Abyssal
+6501,Dragon Scale +1 - Abyssal
+6502,Dragon Scale +2 - Abyssal
+6503,Dragon Scale +3 - Abyssal
+6504,Dragon Scale +4 - Abyssal
+6505,Dragon Scale +5 - Abyssal
+10000,Fire Seed +0
+10001,Fire Seed +1
+10002,Fire Seed +2
+10003,Fire Seed +3
+10004,Fire Seed +4
+10005,Fire Seed +5
+20000,Shield - Titanite +0
+20001,Shield - Titanite +1
+20002,Shield - Titanite +2
+20003,Shield - Titanite +3
+20004,Shield - Titanite +4
+20005,Shield - Titanite +5
+20006,Shield - Titanite +6
+20007,Shield - Titanite +7
+20008,Shield - Titanite +8
+20009,Shield - Titanite +9
+20010,Shield - Titanite +10
+20100,Shield - Infused - Titanite +0
+20101,Shield - Infused - Titanite +1
+20102,Shield - Infused - Titanite +2
+20103,Shield - Infused - Titanite +3
+20104,Shield - Infused - Titanite +4
+20105,Shield - Infused - Titanite +5
+20106,Shield - Infused - Titanite +6
+20107,Shield - Infused - Titanite +7
+20108,Shield - Infused - Titanite +8
+20109,Shield - Infused - Titanite +9
+20110,Shield - Infused - Titanite +10
+21000,Shield - Twinkling Titanite +0
+21001,Shield - Twinkling Titanite +1
+21002,Shield - Twinkling Titanite +2
+21003,Shield - Twinkling Titanite +3
+21004,Shield - Twinkling Titanite +4
+21005,Shield - Twinkling Titanite +5
+21100,Shield - Infused - Twinkling Titanite +0
+21101,Shield - Infused - Twinkling Titanite +1
+21102,Shield - Infused - Twinkling Titanite +2
+21103,Shield - Infused - Twinkling Titanite +3
+21104,Shield - Infused - Twinkling Titanite +4
+21105,Shield - Infused - Twinkling Titanite +5
+22000,Shield - Titanite Scale +0
+22001,Shield - Titanite Scale +1
+22002,Shield - Titanite Scale +2
+22003,Shield - Titanite Scale +3
+22004,Shield - Titanite Scale +4
+22005,Shield - Titanite Scale +5
+22100,Shield - Infused - Titanite Scale +0
+22101,Shield - Infused - Titanite Scale +1
+22102,Shield - Infused - Titanite Scale +2
+22103,Shield - Infused - Titanite Scale +3
+22104,Shield - Infused - Titanite Scale +4
+22105,Shield - Infused - Titanite Scale +5
+23000,Shield - Dragon Scale +0
+23001,Shield - Dragon Scale +1
+23002,Shield - Dragon Scale +2
+23003,Shield - Dragon Scale +3
+23004,Shield - Dragon Scale +4
+23005,Shield - Dragon Scale +5
+23100,Shield - Infused - Dragon Scale +0
+23101,Shield - Infused - Dragon Scale +1
+23102,Shield - Infused - Dragon Scale +2
+23103,Shield - Infused - Dragon Scale +3
+23104,Shield - Infused - Dragon Scale +4
+23105,Shield - Infused - Dragon Scale +5
+100000,Soul of Champion Gundyr
+100002,Soul of the Dancer
+100003,Soul of a Crystal Sage
+100004,Soul of the Blood of the Wolf
+100005,Soul of Consumed Oceiros
+100006,Soul of Boreal Valley Vordt
+100007,Soul of the Old Demon King
+100008,Soul of Dragonslayer Armour
+100009,Soul of the Nameless King
+100011,Soul of Pontiff Sulyvahn
+100012,Soul of Aldrich
+100013,Soul of High Lord Wolnir
+100014,Soul of the Rotted Greatwood
+100015,Soul of the Deacons of the Deep
+100016,Soul of the Twin Princes
+100017,Soul of Yhorm the Giant
+100018,Soul of the Lords
+100019,Soul of a Demon
+100021,Soul of Rosaria
+100022,Soul of a Stray Demon
+100023,Soul of Sister Friede
+100024,Soul of Slave Knight Gael
+100025,Soul of the Demon Prince
+100026,Soul of Darkeater Midir
+100027,Soul of the Dark Sun
+200001,Champion's Pact - 1
+200002,Champion's Pact - 2
+200003,Champion's Pact - 3
+200004,Champion's Pact - 4
+200005,Champion's Pact - 5
+200010,Champion's Pact - 10
+200015,Champion's Pact - 15
+200020,Champion's Pact - 20
+200025,Champion's Pact - 25
+200030,Champion's Pact - 30
+200035,Champion's Pact - 35
+200040,Champion's Pact - 40
+200045,Champion's Pact - 45
+200050,Champion's Pact - 50
+200100,Champion's Pact - Spells - 5
+200110,Champion's Pact - Spells - 15
+200120,Champion's Pact - Spells - 30
+200200,Champion's Pact - Rings - 20
+200201,Champion's Pact - Rings - 30
+200220,Champion's Pact - Armor - 5
+200221,Champion's Pact - Armor - 8
+200300,Darkmoon Faithful - 15
+200301,Darkmoon Faithful - 10
+200302,Darkmoon Faithful - 5
+200303,Darkmoon Faithful - 3
+200304,Darkmoon Faithful - 1
+200400,Warriors of Sunlight - 15
+200401,Warriors of Sunlight - 10
+200402,Warriors of Sunlight - 5
+200403,Warriors of Sunlight - 3
+200404,Warriors of Sunlight - 1
+200500,Mound-makers - 15
+200501,Mound-makers - 10
+200502,Mound-makers - 5
+200503,Mound-makers - 3
+200504,Mound-makers - 1
+200600,Watchdogs of Farron - 15
+200601,Watchdogs of Farron - 10
+200602,Watchdogs of Farron - 5
+200603,Watchdogs of Farron - 3
+200604,Watchdogs of Farron - 1
+200700,Aldrich Faithful - 15
+200701,Aldrich Faithful - 10
+200702,Aldrich Faithful - 5
+200703,Aldrich Faithful - 3
+200704,Aldrich Faithful - 1
+200800,Rosaria's Fingers - 15
+200801,Rosaria's Fingers - 10
+200802,Rosaria's Fingers - 5
+200803,Rosaria's Fingers - 3
+200804,Rosaria's Fingers - 1
+200900,Spears of the Church - 15
+200901,Spears of the Church - 10
+200902,Spears of the Church - 5
+200903,Spears of the Church - 3
+200904,Spears of the Church - 1
+201000,Chaos Servants - 15
+201001,Chaos Servants - 10
+201002,Chaos Servants - 5
+201003,Chaos Servants - 3
+201004,Chaos Servants - 1

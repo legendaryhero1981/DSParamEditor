@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>maxAmmount</name>
+    <name>Max Amount</name>
     <type>u8</type>
     <default>1</default>
   </entry>

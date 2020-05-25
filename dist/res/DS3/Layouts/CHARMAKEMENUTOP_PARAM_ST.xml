@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>CommandID</name>
+    <name>Command ID</name>
     <type>s32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>FaceParamID</name>
+    <name>Face Param ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>TableID</name>
+    <name>Table ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ViewCondition</name>
+    <name>View Condition</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>PreviewMode</name>
+    <name>Preview Mode</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -31,7 +31,7 @@
     <size>3</size>
   </entry>
   <entry>
-    <name>MenuType</name>
+    <name>Menu Type</name>
     <type>s8</type>
     <default>2</default>
   </entry>

@@ -1,200 +1,390 @@
-﻿0,Standard
-1,Standard+1
-2,Standard+2
-3,Standard+3
-4,Standard+4
-5,Standard+5
-6,Standard+6
-7,Standard+7
-8,Standard+8
-9,Standard+9
-10,Standard+10
-100,Heavy
-101,Heavy+1
-102,Heavy+2
-103,Heavy+3
-104,Heavy+4
-105,Heavy+5
-106,Heavy+6
-107,Heavy+7
-108,Heavy+8
-109,Heavy+9
-110,Heavy+10
-200,Sharp
-201,Sharp+1
-202,Sharp+2
-203,Sharp+3
-204,Sharp+4
-205,Sharp+5
-206,Sharp+6
-207,Sharp+7
-208,Sharp+8
-209,Sharp+9
-210,Sharp+10
-300,Refined
-301,Refined+1
-302,Refined+2
-303,Refined+3
-304,Refined+4
-305,Refined+5
-306,Refined+6
-307,Refined+7
-308,Refined+8
-309,Refined+9
-310,Refined+10
-400,Magic A -- 魔法A
-401,Magic A + 1 -- 魔法A＋1
-402,Magic A + 2 -- 魔法A＋2
-403,Magic A + 3 -- 魔法A＋3
-404,Magic A + 4 -- 魔法A＋4
-405,Magic A + 5 -- 魔法A＋5
-406,Magic A + 6 -- 魔法A＋6
-407,Magic A + 7 -- 魔法A＋7
-408,Magic A + 8 -- 魔法A＋8
-409,Magic A + 9 -- 魔法A＋9
-410,Magic A + 10 -- 魔法A＋10
-500,Magic B -- 魔法B
-501,Magic B + 1 -- 魔法B＋1
-502,Magic B + 2 -- 魔法B＋2
-503,Magic B + 3 -- 魔法B＋3
-504,Magic B + 4 -- 魔法B＋4
-505,Magic B + 5 -- 魔法B＋5
-506,Magic B + 1 -- 魔法B＋1
-507,Magic B + 2 -- 魔法B＋2
-508,Magic B + 3 -- 魔法B＋3
-509,Magic B + 4 -- 魔法B＋4
-510,Magic B + 5 -- 魔法B＋5
-600,Flame -- 炎
-601,Flame + 1 -- 炎＋1
-602,Flame + 2 -- 炎＋2
-603,Flame + 3 -- 炎＋3
-604,Flame + 4 -- 炎＋4
-605,Flame + 5 -- 炎＋5
-606,Flame + 6 -- 炎＋6
-607,Flame + 7 -- 炎＋7
-608,Flame + 8 -- 炎＋8
-609,Flame + 9 -- 炎＋9
-610,Flame + 10 -- 炎＋10
-700,Flames of Chaos -- 混沌の炎
-701,Flames of Chaos + 1 -- 混沌の炎＋1
-702,Flames of Chaos + 2 -- 混沌の炎＋2
-703,Flames of Chaos + 3 -- 混沌の炎＋3
-704,Flames of Chaos + 4 -- 混沌の炎＋4
-705,Flames of Chaos + 5 -- 混沌の炎＋5
-706,Flame of Chaos + 6 -- 混沌の炎＋6
-707,Flames of Chaos + 7 -- 混沌の炎＋7
-708,Flames of Chaos + 8 -- 混沌の炎＋8
-709,Flames of Chaos + 9 -- 混沌の炎＋9
-710,Flames of Chaos + 10 -- 混沌の炎＋10
-800,Lightning -- 雷
-801,Thunder + 1 -- 雷＋1
-802,Thunder + 2 -- 雷＋2
-803,Thunder + 3 -- 雷＋3
-804,Thunder + 4 -- 雷＋4
-805,Thunder + 5 -- 雷＋5
-806,Thunder + 6 -- 雷＋6
-807,Thunder + 7 -- 雷＋7
-808,Thunder + 8 -- 雷＋8
-809,Thunder + 9 -- 雷＋9
-810,Thunder + 10 -- 雷＋10
-900,Lightning -- 雷
-901,Thunder + 1 -- 雷＋1
-902,Thunder + 2 -- 雷＋2
-903,Thunder + 3 -- 雷＋3
-904,Thunder + 4 -- 雷＋4
-905,Thunder + 5 -- 雷＋5
-906,Thunder + 6 -- 雷＋6
-907,Thunder + 7 -- 雷＋7
-908,Thunder + 8 -- 雷＋8
-909,Thunder + 9 -- 雷＋9
-910,Thunder + 10 -- 雷＋10
-1000,Lightning -- 雷
-1001,Thunder + 1 -- 雷＋1
-1002,Thunder + 2 -- 雷＋2
-1003,Thunder + 3 -- 雷＋3
-1004,Thunder + 4 -- 雷＋4
-1005,Thunder + 5 -- 雷＋5
-1006,Thunder + 6 -- 雷＋6
-1007,Thunder + 7 -- 雷＋7
-1008,Thunder + 8 -- 雷＋8
-1009,Thunder + 9 -- 雷＋9
-1010,Thunder + 10 -- 雷＋10
-1100,Lightning -- 雷
-1101,Thunder + 1 -- 雷＋1
-1102,Thunder + 2 -- 雷＋2
-1103,Thunder + 3 -- 雷＋3
-1104,Thunder + 4 -- 雷＋4
-1105,Thunder + 5 -- 雷＋5
-1106,Thunder + 6 -- 雷＋6
-1107,Thunder + 7 -- 雷＋7
-1108,Thunder + 8 -- 雷＋8
-1109,Thunder + 9 -- 雷＋9
-1110,Thunder + 10 -- 雷＋10
-1200,Lightning -- 雷
-1201,Thunder + 1 -- 雷＋1
-1202,Thunder + 2 -- 雷＋2
-1203,Thunder + 3 -- 雷＋3
-1204,Thunder + 4 -- 雷＋4
-1205,Thunder + 5 -- 雷＋5
-1206,Thunder + 6 -- 雷＋6
-1207,Thunder + 7 -- 雷＋7
-1208,Thunder + 8 -- 雷＋8
-1209,Thunder + 9 -- 雷＋9
-1210,Thunder + 10 -- 雷＋10
-1300,Lightning -- 雷
-1301,Thunder + 1 -- 雷＋1
-1302,Thunder + 2 -- 雷＋2
-1303,Thunder + 3 -- 雷＋3
-1304,Thunder + 4 -- 雷＋4
-1305,Thunder + 5 -- 雷＋5
-1306,Thunder + 6 -- 雷＋6
-1307,Thunder + 7 -- 雷＋7
-1308,Thunder + 8 -- 雷＋8
-1309,Thunder + 9 -- 雷＋9
-1310,Thunder + 10 -- 雷＋10
-1400,Sacred -- 神聖
-1401,Sacred + 1 -- 神聖＋1
-1402,Sacred + 2 -- 神聖＋2
-1403,Sacred + 3 -- 神聖＋3
-1404,Sacred + 4 -- 神聖＋4
-1405,Sacred + 5 -- 神聖＋5
-1406,Sacred + 6 -- 神聖＋6
-1407,Sacred + 7 -- 神聖＋7
-1408,Sacred + 8 -- 神聖＋8
-1409,Sacred + 9 -- 神聖＋9
-1410,Sacred + 10 -- 神聖＋10
-1500,Dark -- 暗黒
-1501,Darkness + 1 -- 暗黒＋1
-1502,Darkness + 2 -- 暗黒＋2
-1503,Darkness + 3 -- 暗黒＋3
-1504,Darkness + 4 -- 暗黒＋4
-1505,Darkness + 5 -- 暗黒＋5
-2000,Daemon -- デーモン
-2001,Daemon + 1 -- デーモン＋1
-2002,Daemon + 2 -- デーモン＋2
-2003,Daemon + 3 -- デーモン＋3
-2004,Daemon + 4 -- デーモン＋4
-2005,Daemon + 5 -- デーモン＋5
-2100,Dragon -- ドラゴン
-2101,Dragon + 1 -- ドラゴン＋1
-2102,Dragon + 2 -- ドラゴン＋2
-2103,Dragon + 3 -- ドラゴン＋3
-2104,Dragon + 4 -- ドラゴン＋4
-2105,Dragon + 5 -- ドラゴン＋5
-2200,Special -- 特別
-2201,Special + 1 -- 特別＋1
-2202,Special + 2 -- 特別＋2
-2203,Special + 3 -- 特別＋3
-2204,Special + 4 -- 特別＋4
-2205,Special + 5 -- 特別＋5
-5000,Shield usually -- 【盾】通常
-5001,Shield: Normal + 1 -- 【盾】通常＋1
-5002,Shield: Normal + 2 -- 【盾】通常＋2
-5003,Shield: Normal + 3 -- 【盾】通常＋3
-5004,Shield: Normal + 4 -- 【盾】通常＋4
-5005,Shield: Normal + 5 -- 【盾】通常＋5
-5006,Shield: usually + 6 -- 【盾】通常＋6
-5007,Shield: usually + 7 -- 【盾】通常＋7
-5008,Shield: usually + 8 -- 【盾】通常＋8
-5009,Shield: Normal + 9 -- 【盾】通常＋9
-5010,Shield: Normal + 10 -- 【盾】通常＋10
+0,Normal +0
+1,Normal +1
+2,Normal +2
+3,Normal +3
+4,Normal +4
+5,Normal +5
+6,Normal +6
+7,Normal +7
+8,Normal +8
+9,Normal +9
+10,Normal +10
+100,Lethal +0
+101,Lethal +1
+102,Lethal +2
+103,Lethal +3
+104,Lethal +4
+105,Lethal +5
+106,Lethal +6
+107,Lethal +7
+108,Lethal +8
+109,Lethal +9
+110,Lethal +10
+200,Raw +0
+201,Raw +1
+202,Raw +2
+203,Raw +3
+204,Raw +4
+205,Raw +5
+206,Raw +6
+207,Raw +7
+208,Raw +8
+209,Raw +9
+210,Raw +10
+300,Poison +0
+301,Poison +1
+302,Poison +2
+303,Poison +3
+304,Poison +4
+305,Poison +5
+306,Poison +6
+307,Poison +7
+308,Poison +8
+309,Poison +9
+310,Poison +10
+400,Blood +0
+401,Blood +1
+402,Blood +2
+403,Blood +3
+404,Blood +4
+405,Blood +5
+406,Blood +6
+407,Blood +7
+408,Blood +8
+409,Blood +9
+410,Blood +10
+500,Frost +0
+501,Frost +1
+502,Frost +2
+503,Frost +3
+504,Frost +4
+505,Frost +5
+506,Frost +6
+507,Frost +7
+508,Frost +8
+509,Frost +9
+510,Frost +10
+600,Magic +0
+601,Magic +1
+602,Magic +2
+603,Magic +3
+604,Magic +4
+605,Magic +5
+606,Magic +6
+607,Magic +7
+608,Magic +8
+609,Magic +9
+610,Magic +10
+700,Fire +0
+701,Fire +1
+702,Fire +2
+703,Fire +3
+704,Fire +4
+705,Fire +5
+706,Fire +6
+707,Fire +7
+708,Fire +8
+709,Fire +9
+710,Fire +10
+800,Lightning +0
+801,Lightning +1
+802,Lightning +2
+803,Lightning +3
+804,Lightning +4
+805,Lightning +5
+806,Lightning +6
+807,Lightning +7
+808,Lightning +8
+809,Lightning +9
+810,Lightning +10
+900,Dark +0
+901,Dark +1
+902,Dark +2
+903,Dark +3
+904,Dark +4
+905,Dark +5
+906,Dark +6
+907,Dark +7
+908,Dark +8
+909,Dark +9
+910,Dark +10
+1000,Lucky +0
+1001,Lucky +1
+1002,Lucky +2
+1003,Lucky +3
+1004,Lucky +4
+1005,Lucky +5
+1006,Lucky +6
+1007,Lucky +7
+1008,Lucky +8
+1009,Lucky +9
+1010,Lucky +10
+1100,Enchanted +0
+1101,Enchanted +1
+1102,Enchanted +2
+1103,Enchanted +3
+1104,Enchanted +4
+1105,Enchanted +5
+1106,Enchanted +6
+1107,Enchanted +7
+1108,Enchanted +8
+1109,Enchanted +9
+1110,Enchanted +10
+1200,Holy +0
+1201,Holy +1
+1202,Holy +2
+1203,Holy +3
+1204,Holy +4
+1205,Holy +5
+1206,Holy +6
+1207,Holy +7
+1208,Holy +8
+1209,Holy +9
+1210,Holy +10
+1300,Sharp +0
+1301,Sharp +1
+1302,Sharp +2
+1303,Sharp +3
+1304,Sharp +4
+1305,Sharp +5
+1306,Sharp +6
+1307,Sharp +7
+1308,Sharp +8
+1309,Sharp +9
+1310,Sharp +10
+1400,Blunt +0
+1401,Blunt +1
+1402,Blunt +2
+1403,Blunt +3
+1404,Blunt +4
+1405,Blunt +5
+1406,Blunt +6
+1407,Blunt +7
+1408,Blunt +8
+1409,Blunt +9
+1410,Blunt +10
+1500,Ascended +0
+1501,Ascended +1
+1502,Ascended +2
+1503,Ascended +3
+1504,Ascended +4
+1505,Ascended +5
+1506,Ascended +6
+1507,Ascended +7
+1508,Ascended +8
+1509,Ascended +9
+1510,Ascended +10
+2000,Spell Tool - Normal +0
+2001,Spell Tool - Normal +1
+2002,Spell Tool - Normal +2
+2003,Spell Tool - Normal +3
+2004,Spell Tool - Normal +4
+2005,Spell Tool - Normal +5
+2006,Spell Tool - Normal +6
+2007,Spell Tool - Normal +7
+2008,Spell Tool - Normal +8
+2009,Spell Tool - Normal +9
+2010,Spell Tool - Normal +10
+2100,Spell Tool - Unique +0
+2101,Spell Tool - Unique +1
+2102,Spell Tool - Unique +2
+2103,Spell Tool - Unique +3
+2104,Spell Tool - Unique +4
+2105,Spell Tool - Unique +5
+2200,Spell Tool - Boss +0
+2201,Spell Tool - Boss +1
+2202,Spell Tool - Boss +2
+2203,Spell Tool - Boss +3
+2204,Spell Tool - Boss +4
+2205,Spell Tool - Boss +5
+2300,Spell Tool - Dragon +0
+2301,Spell Tool - Dragon +1
+2302,Spell Tool - Dragon +2
+2303,Spell Tool - Dragon +3
+2304,Spell Tool - Dragon +4
+2305,Spell Tool - Dragon +5
+2400,Spell Tool - Fire Seed +0
+2401,Spell Tool - Fire Seed +1
+2402,Spell Tool - Fire Seed +2
+2403,Spell Tool - Fire Seed +3
+2404,Spell Tool - Fire Seed +4
+2405,Spell Tool - Fire Seed +5
+3000,Unique +0
+3001,Unique +1
+3002,Unique +2
+3003,Unique +3
+3004,Unique +4
+3005,Unique +5
+3100,Unique +0 - Ascended
+3101,Unique +1 - Ascended
+3102,Unique +2 - Ascended
+3103,Unique +3 - Ascended
+3104,Unique +4 - Ascended
+3105,Unique +5 - Ascended
+3200,Unique +0 - Crystal
+3201,Unique +1 - Crystal
+3202,Unique +2 - Crystal
+3203,Unique +3 - Crystal
+3204,Unique +4 - Crystal
+3205,Unique +5 - Crystal
+3300,Unique +0 - Chaos
+3301,Unique +1 - Chaos
+3302,Unique +2 - Chaos
+3303,Unique +3 - Chaos
+3304,Unique +4 - Chaos
+3305,Unique +5 - Chaos
+3400,Unique +0 - Voltaic
+3401,Unique +1 - Voltaic
+3402,Unique +2 - Voltaic
+3403,Unique +3 - Voltaic
+3404,Unique +4 - Voltaic
+3405,Unique +5 - Voltaic
+3500,Unique +0 - Abyssal
+3501,Unique +1 - Abyssal
+3502,Unique +2 - Abyssal
+3503,Unique +3 - Abyssal
+3504,Unique +4 - Abyssal
+3505,Unique +5 - Abyssal
+4000,Boss +0
+4001,Boss +1
+4002,Boss +2
+4003,Boss +3
+4004,Boss +4
+4005,Boss +5
+4100,Boss +0 - Ascended
+4101,Boss +1 - Ascended
+4102,Boss +2 - Ascended
+4103,Boss +3 - Ascended
+4104,Boss +4 - Ascended
+4105,Boss +5 - Ascended
+4200,Boss +0 - Crystal
+4201,Boss +1 - Crystal
+4202,Boss +2 - Crystal
+4203,Boss +3 - Crystal
+4204,Boss +4 - Crystal
+4205,Boss +5 - Crystal
+4300,Boss +0 - Chaos
+4301,Boss +1 - Chaos
+4302,Boss +2 - Chaos
+4303,Boss +3 - Chaos
+4304,Boss +4 - Chaos
+4305,Boss +5 - Chaos
+4400,Boss +0 - Voltaic
+4401,Boss +1 - Voltaic
+4402,Boss +2 - Voltaic
+4403,Boss +3 - Voltaic
+4404,Boss +4 - Voltaic
+4405,Boss +5 - Voltaic
+4500,Boss +0 - Abyssal
+4501,Boss +1 - Abyssal
+4502,Boss +2 - Abyssal
+4503,Boss +3 - Abyssal
+4504,Boss +4 - Abyssal
+4505,Boss +5 - Abyssal
+5000,Dragon +0
+5001,Dragon +1
+5002,Dragon +2
+5003,Dragon +3
+5004,Dragon +4
+5005,Dragon +5
+5100,Dragon +0 - Ascended
+5101,Dragon +1 - Ascended
+5102,Dragon +2 - Ascended
+5103,Dragon +3 - Ascended
+5104,Dragon +4 - Ascended
+5105,Dragon +5 - Ascended
+5200,Dragon +0 - Crystal
+5201,Dragon +1 - Crystal
+5202,Dragon +2 - Crystal
+5203,Dragon +3 - Crystal
+5204,Dragon +4 - Crystal
+5205,Dragon +5 - Crystal
+5300,Dragon +0 - Chaos
+5301,Dragon +1 - Chaos
+5302,Dragon +2 - Chaos
+5303,Dragon +3 - Chaos
+5304,Dragon +4 - Chaos
+5305,Dragon +5 - Chaos
+5400,Dragon +0 - Voltaic
+5401,Dragon +1 - Voltaic
+5402,Dragon +2 - Voltaic
+5403,Dragon +3 - Voltaic
+5404,Dragon +4 - Voltaic
+5405,Dragon +5 - Voltaic
+5500,Dragon +0 - Abyssal
+5501,Dragon +1 - Abyssal
+5502,Dragon +2 - Abyssal
+5503,Dragon +3 - Abyssal
+5504,Dragon +4 - Abyssal
+5505,Dragon +5 - Abyssal
+6000,Minimal Growth +0
+6001,Minimal Growth +1
+6002,Minimal Growth +2
+6003,Minimal Growth +3
+6004,Minimal Growth +4
+6005,Minimal Growth +5
+6100,Minimal Growth +0 - Ascended
+6101,Minimal Growth +1 - Ascended
+6102,Minimal Growth +2 - Ascended
+6103,Minimal Growth +3 - Ascended
+6104,Minimal Growth +4 - Ascended
+6105,Minimal Growth +5 - Ascended
+8000,[Shield] Normal +0
+8001,[Shield] Normal +1
+8002,[Shield] Normal +2
+8003,[Shield] Normal +3
+8004,[Shield] Normal +4
+8005,[Shield] Normal +5
+8006,[Shield] Normal +6
+8007,[Shield] Normal +7
+8008,[Shield] Normal +8
+8009,[Shield] Normal +9
+8010,[Shield] Normal +10
+8100,[Shield] Infused +0
+8101,[Shield] Infused +1
+8102,[Shield] Infused +2
+8103,[Shield] Infused +3
+8104,[Shield] Infused +4
+8105,[Shield] Infused +5
+8106,[Shield] Infused +6
+8107,[Shield] Infused +7
+8108,[Shield] Infused +8
+8109,[Shield] Infused +9
+8110,[Shield] Infused +10
+8200,[Shield] Unique +0
+8201,[Shield] Unique +1
+8202,[Shield] Unique +2
+8203,[Shield] Unique +3
+8204,[Shield] Unique +4
+8205,[Shield] Unique +5
+8300,[Shield] Unique - Infused +0
+8301,[Shield] Unique - Infused +1
+8302,[Shield] Unique - Infused +2
+8303,[Shield] Unique - Infused +3
+8304,[Shield] Unique - Infused +4
+8305,[Shield] Unique - Infused +5
+8400,[Shield] Boss +0
+8401,[Shield] Boss +1
+8402,[Shield] Boss +2
+8403,[Shield] Boss +3
+8404,[Shield] Boss +4
+8405,[Shield] Boss +5
+8500,[Shield] Boss - Infused +0
+8501,[Shield] Boss - Infused +1
+8502,[Shield] Boss - Infused +2
+8503,[Shield] Boss - Infused +3
+8504,[Shield] Boss - Infused +4
+8505,[Shield] Boss - Infused +5
+8600,[Shield] Dragon +0
+8601,[Shield] Dragon +1
+8602,[Shield] Dragon +2
+8603,[Shield] Dragon +3
+8604,[Shield] Dragon +4
+8605,[Shield] Dragon +5
+8700,[Shield] Dragon - Infused +0
+8701,[Shield] Dragon - Infused +1
+8702,[Shield] Dragon - Infused +2
+8703,[Shield] Dragon - Infused +3
+8704,[Shield] Dragon - Infused +4
+8705,[Shield] Dragon - Infused +5
+20000,No Reinforcement

@@ -1,412 +1,412 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>0x00</name>
+    <name>Physical Scaling: STR</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Physical Scaling: DEX</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Physical Scaling: INT</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Physical Scaling: FTH</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Physical Scaling: LCK</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Magic Scaling: STR</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Magic Scaling: DEX</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Magic Scaling: INT</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Magic Scaling: FTH</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Magic Scaling: LCK</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Fire Scaling: STR</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Fire Scaling: DEX</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Fire Scaling: INT</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Fire Scaling: FTH</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Fire Scaling: LCK</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Lightning Scaling: STR</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Lightning Scaling: DEX</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Lightning Scaling: INT</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Lightning Scaling: FTH</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Lightning Scaling: LCK</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Dark Scaling: STR</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Dark Scaling: DEX</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Dark Scaling: INT</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Dark Scaling: FTH</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Dark Scaling: LCK</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Unk21</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Unk22</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Unk23</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Unk24</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Unk25</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Unk26</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>0x00</name>
+    <name>Unk27</name>
     <type>b32</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>addRate0</name>
+    <name>Physical Add Rate: STR</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate1</name>
+    <name>Physical Add Rate: DEX</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate2</name>
+    <name>Physical Add Rate: INT</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate3</name>
+    <name>Physical Add Rate: FTH</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate4</name>
+    <name>Physical Add Rate: LCK</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate5</name>
+    <name>Magic Add Rate: STR</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate6</name>
+    <name>Magic Add Rate: DEX</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate7</name>
+    <name>Magic Add Rate: INT</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate8</name>
+    <name>Magic Add Rate: FTH</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate9</name>
+    <name>Magic Add Rate: LCK</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate10</name>
+    <name>Fire Add Rate: STR</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate11</name>
+    <name>Fire Add Rate: DEX</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate12</name>
+    <name>Fire Add Rate: INT</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate13</name>
+    <name>Fire Add Rate: FTH</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate14</name>
+    <name>Fire Add Rate: LCK</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate15</name>
+    <name>Lightning Add Rate: STR</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate16</name>
+    <name>Lightning Add Rate: DEX</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate17</name>
+    <name>Lightning Add Rate: INT</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate18</name>
+    <name>Lightning Add Rate: FTH</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate19</name>
+    <name>Lightning Add Rate: LCK</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate20</name>
+    <name>Dark Add Rate: STR</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate21</name>
+    <name>Dark Add Rate: DEX</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate22</name>
+    <name>Dark Add Rate: INT</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate23</name>
+    <name>Dark Add Rate: FTH</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>addRate24</name>
+    <name>Dark Add Rate: LCK</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>corrRate0</name>
+    <name>Physical Correction: STR</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate1</name>
+    <name>Physical Correction: DEX</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate2</name>
+    <name>Physical Correction: INT</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate3</name>
+    <name>Physical Correction: FTH</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate4</name>
+    <name>Physical Correction: LCK</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate5</name>
+    <name>Magic Correction: STR</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate6</name>
+    <name>Magic Correction: DEX</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate7</name>
+    <name>Magic Correction: INT</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate8</name>
+    <name>Magic Correction: FTH</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate9</name>
+    <name>Magic Correction: LCK</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate10</name>
+    <name>Fire Correction: STR</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate11</name>
+    <name>Fire Correction: DEX</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate12</name>
+    <name>Fire Correction: INT</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate13</name>
+    <name>Fire Correction: FTH</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate14</name>
+    <name>Fire Correction: LCK</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate15</name>
+    <name>Lightning Correction: STR</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate16</name>
+    <name>Lightning Correction: DEX</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate17</name>
+    <name>Lightning Correction: INT</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate18</name>
+    <name>Lightning Correction: FTH</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate19</name>
+    <name>Lightning Correction: LCK</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate20</name>
+    <name>Dark Correction: STR</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate21</name>
+    <name>Dark Correction: DEX</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate22</name>
+    <name>Dark Correction: INT</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate23</name>
+    <name>Dark Correction: FTH</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>corrRate24</name>
+    <name>Dark Correction: LCK</name>
     <type>s16</type>
     <default>100</default>
   </entry>

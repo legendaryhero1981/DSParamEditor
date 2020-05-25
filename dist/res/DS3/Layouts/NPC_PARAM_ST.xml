@@ -1,792 +1,792 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>behaviorVariationId</name>
+    <name>Behavior Variation ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AiThinkId</name>
+    <name>Think ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>NameId</name>
+    <name>Name ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>turnVellocity</name>
+    <name>Turn Velocity</name>
     <type>f32</type>
     <default>180</default>
   </entry>
   <entry>
-    <name>hitHeight</name>
+    <name>Hit Height</name>
     <type>f32</type>
     <default>1.9</default>
   </entry>
   <entry>
-    <name>hitRadius</name>
+    <name>Hit Radius</name>
     <type>f32</type>
     <default>0.4</default>
   </entry>
   <entry>
-    <name>weight</name>
+    <name>Weight</name>
     <type>s32</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>hitOffset</name>
+    <name>Hit Offset</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hp</name>
+    <name>HP</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mp</name>
+    <name>FP</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>getSoul</name>
+    <name>Souls</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ItemLotId1</name>
+    <name>Itemlot ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>ItemLotId2</name>
+    <name>Itemlot ID 2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>ItemLotId3</name>
+    <name>Itemlot ID 3</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>ItemLotId4</name>
+    <name>Itemlot ID 4</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>ItemLotId5</name>
+    <name>Itemlot ID 5</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>ItemLotId6</name>
+    <name>Itemlot ID 6</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>humanityLotId</name>
+    <name>Humanity Lot ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId0</name>
+    <name>Effect 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId1</name>
+    <name>Effect 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId2</name>
+    <name>Effect 3</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId3</name>
+    <name>Effect 4</name>
     <type>s32</type>
     <default>7150</default>
   </entry>
   <entry>
-    <name>spEffectId4</name>
+    <name>Effect 5</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId5</name>
+    <name>Effect 6</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId6</name>
+    <name>Effect 7</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId7</name>
+    <name>Effect 8</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GameClearSpEffectID</name>
+    <name>Game Clear Effect</name>
     <type>s32</type>
     <default>7550</default>
   </entry>
   <entry>
-    <name>physGuardCutRate</name>
+    <name>Guard Defence: Physical</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>magGuardCutRate</name>
+    <name>Guard Defence: Magic</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>fireGuardCutRate</name>
+    <name>Guard Defence: Fire</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>thunGuardCutRate</name>
+    <name>Guard Defence: Lightning</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>animidOffset</name>
+    <name>Anim ID Offset</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>moveAnimId</name>
+    <name>Move Anim ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spMoveAnimId1</name>
+    <name>SP Move Anim ID 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spMoveAnimId2</name>
+    <name>SP Move Anim ID 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>networkWarpDisp</name>
+    <name>Network Warp Display</name>
     <type>f32</type>
     <default>16</default>
   </entry>
   <entry>
-    <name>dbgBehaviorR1</name>
+    <name>Debug Behavior R1</name>
     <type>s32</type>
     <default>3000</default>
   </entry>
   <entry>
-    <name>dbgBehaviorL1</name>
+    <name>Debug Behavior L1</name>
     <type>s32</type>
     <default>3001</default>
   </entry>
   <entry>
-    <name>dbgBehaviorR2</name>
+    <name>Debug Behavior R2</name>
     <type>s32</type>
     <default>3002</default>
   </entry>
   <entry>
-    <name>dbgBehaviorL2</name>
+    <name>Debug Behavior L2</name>
     <type>s32</type>
     <default>3003</default>
   </entry>
   <entry>
-    <name>dbgBehaviorRL</name>
+    <name>Debug Behavior RL</name>
     <type>s32</type>
     <default>3004</default>
   </entry>
   <entry>
-    <name>dbgBehaviorRR</name>
+    <name>Debug Behavior RR</name>
     <type>s32</type>
     <default>3005</default>
   </entry>
   <entry>
-    <name>dbgBehaviorRD</name>
+    <name>Debug Behavior RD</name>
     <type>s32</type>
     <default>3006</default>
   </entry>
   <entry>
-    <name>dbgBehaviorRU</name>
+    <name>Debug Behavior RU</name>
     <type>s32</type>
     <default>3007</default>
   </entry>
   <entry>
-    <name>dbgBehaviorLL</name>
+    <name>Debug Behavior LL</name>
     <type>s32</type>
     <default>702</default>
   </entry>
   <entry>
-    <name>dbgBehaviorLR</name>
+    <name>Debug Behavior LR</name>
     <type>s32</type>
     <default>703</default>
   </entry>
   <entry>
-    <name>dbgBehaviorLD</name>
+    <name>Debug Behavior LD</name>
     <type>s32</type>
     <default>701</default>
   </entry>
   <entry>
-    <name>dbgBehaviorLU</name>
+    <name>Debug Behavior LU</name>
     <type>s32</type>
     <default>700</default>
   </entry>
   <entry>
-    <name>animIdOffset</name>
+    <name>Anim ID Offset</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>partsDamageRate1</name>
+    <name>Damage %: Parts 1</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>partsDamageRate2</name>
+    <name>Damage %: Parts 2</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>partsDamageRate3</name>
+    <name>Damage %: Parts 3</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>partsDamageRate4</name>
+    <name>Damage %: Parts 4</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>partsDamageRate5</name>
+    <name>Damage %: Parts 5</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>partsDamageRate6</name>
+    <name>Damage %: Parts 6</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>partsDamageRate7</name>
+    <name>Damage %: Parts 7</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>partsDamageRate8</name>
+    <name>Damage %: Parts 8</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>weakPartsDamageRate</name>
+    <name>Damage %: Weak Parts</name>
     <type>f32</type>
     <default>1.5</default>
   </entry>
   <entry>
-    <name>SuperArmorRecoverCorrection</name>
+    <name>Poise Recovery Correction</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>SuperArmorBrakeKnockbackDist</name>
+    <name>Poise Knockback Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>stamina</name>
+    <name>Stamina</name>
     <type>s16</type>
     <default>50</default>
   </entry>
   <entry>
-    <name>staminaRecoverBaseVal</name>
+    <name>Stamina Recovery</name>
     <type>s16</type>
     <default>21</default>
   </entry>
   <entry>
-    <name>defPhys</name>
+    <name>Defence: Physical</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>defSlash</name>
+    <name>Defence: Slash</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>defBlow</name>
+    <name>Defence: Strike</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>defThrust</name>
+    <name>Defence: Thrust</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>defMag</name>
+    <name>Defence: Magic</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>defFire</name>
+    <name>Defence: Fire</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>defThunder</name>
+    <name>Defence: Lightning</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>defFlickPower</name>
+    <name>Flick Power</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>resistPoison</name>
+    <name>Resist: Poison</name>
     <type>s16</type>
     <default>999</default>
   </entry>
   <entry>
-    <name>resistToxic</name>
+    <name>Resist: Toxic</name>
     <type>s16</type>
     <default>999</default>
   </entry>
   <entry>
-    <name>resistBlood</name>
+    <name>Resist: Bleed</name>
     <type>s16</type>
     <default>112</default>
   </entry>
   <entry>
-    <name>resistCurse</name>
+    <name>Resist: Curse</name>
     <type>s16</type>
     <default>999</default>
   </entry>
   <entry>
-    <name>ghostModelId</name>
+    <name>Ghost Model ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>normalChangeResourceId</name>
+    <name>Normal Change Resource ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>guardAngle</name>
+    <name>Guard Angle</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>slashGuardCutRate</name>
+    <name>Guard Defence: Slash</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>blowGuardCutRate</name>
+    <name>Guard Defence: Strike</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>thrustGuardCutRate</name>
+    <name>Guard Defence: Thrust</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>superArmorDurability</name>
+    <name>Poise</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>normalChangeTexChrId</name>
+    <name>Normal Change Texture Chr ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>dropType</name>
+    <name>Drop Type</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>knockbackRate</name>
+    <name>Knockback Rate</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>knockbackParamId</name>
+    <name>Knockback Param ID</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>fallDamageDamp</name>
+    <name>Fall Damage Damp</name>
     <type>u8</type>
     <default>75</default>
   </entry>
   <entry>
-    <name>staminaGuardDef</name>
+    <name>Guard Stamina</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>pcAttrB</name>
+    <name>PC Attribute B</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>pcAttrW</name>
+    <name>PC Attribute W</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>pcAttrL</name>
+    <name>PC Attribute L</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>pcAttrR</name>
+    <name>PC Attribute R</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>areaAttrB</name>
+    <name>Area Attribute B</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>areaAttrW</name>
+    <name>Area Attribute W</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>areaAttrL</name>
+    <name>Area Attribute L</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>areaAttrR</name>
+    <name>Area Attribute R</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>mpRecoverBaseVal</name>
+    <name>FP Recovery</name>
     <type>u8</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>flickDamageCutRate</name>
+    <name>Flick Power Defence</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>defaultLodParamId</name>
+    <name>Default LOD Param ID</name>
     <type>s8</type>
     <default>11</default>
   </entry>
   <entry>
-    <name>drawType</name>
+    <name>Draw Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>npcType</name>
+    <name>NPC Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>teamType</name>
+    <name>Team Type</name>
     <type>u8</type>
     <default>6</default>
   </entry>
   <entry>
-    <name>moveType</name>
+    <name>Move Type</name>
     <type>u8</type>
     <default>3</default>
   </entry>
   <entry>
-    <name>lockDist</name>
+    <name>Lock Distance</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>material</name>
+    <name>Material</name>
     <type>s16</type>
     <default>110</default>
   </entry>
   <entry>
-    <name>materialSfx</name>
+    <name>Material SFX</name>
     <type>s16</type>
     <default>110</default>
   </entry>
   <entry>
-    <name>partsDamageType</name>
+    <name>Parts Damage Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>maxUndurationAng</name>
+    <name>Max Unduration Angle</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>guardLevel</name>
+    <name>Guard Level</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>burnsfxType</name>
+    <name>Burn SFX Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>poisonGuardResist</name>
+    <name>Guard Resist: Poison</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>toxicGuardResist</name>
+    <name>Guard Resist: Toxic</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>bloodGuardResist</name>
+    <name>Guard Resist: Bleed</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>curseGuardResist</name>
+    <name>Guard Resist: Curse</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>parryAttack</name>
+    <name>Parry Attack</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>parryDefense</name>
+    <name>Parry Defence</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>sfxSize</name>
+    <name>SFX Size</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>pushOutCamRegionRadius</name>
+    <name>Push Out Camera Region Radius</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>hitStopType</name>
+    <name>Hit Stope Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ladderEndChkOffsetTop</name>
+    <name>Ladder End Check Offset Top</name>
     <type>u8</type>
     <default>16</default>
   </entry>
   <entry>
-    <name>ladderEndChkOffsetLow</name>
+    <name>Ladder End Check Offset Bottom</name>
     <type>u8</type>
     <default>8</default>
   </entry>
   <entry>
-    <name>UseRagdollCamHit</name>
+    <name>Use Ragdoll Cam Hit</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>disableClothRigidHit</name>
+    <name>Disable Cloth Rigid Hit</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>UseRagdoll</name>
+    <name>Use Ragdoll</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isDemon</name>
+    <name>Is Demon</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isGhost</name>
+    <name>Is Ghost</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isNoDamageMotion</name>
+    <name>Is No Damage Motion</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isUnduration</name>
+    <name>Is Unduration</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isChangeWanderGhost</name>
+    <name>Is Change Wander Ghost</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask0</name>
+    <name>Model Display Mask 0</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask1</name>
+    <name>Model Display Mask 1</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask2</name>
+    <name>Model Display Mask 2</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask3</name>
+    <name>Model Display Mask 3</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask4</name>
+    <name>Model Display Mask 4</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask5</name>
+    <name>Model Display Mask 5</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask6</name>
+    <name>Model Display Mask 6</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask7</name>
+    <name>Model Display Mask 7</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask8</name>
+    <name>Model Display Mask 8</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask9</name>
+    <name>Model Display Mask 9</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask10</name>
+    <name>Model Display Mask 10</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask11</name>
+    <name>Model Display Mask 11</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask12</name>
+    <name>Model Display Mask 12</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask13</name>
+    <name>Model Display Mask 13</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask14</name>
+    <name>Model Display Mask 14</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask15</name>
+    <name>Model Display Mask 15</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isEnableNeckTurn</name>
+    <name>Is Enable Neck Turn</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>disableRespawn</name>
+    <name>Disable Respawn</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isMoveAnimWait</name>
+    <name>Is Move Anim Wait</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isCrowd</name>
+    <name>Is Crowd</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isWeakSaint</name>
+    <name>Is Undead</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isWeakA</name>
+    <name>Is Hollow</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isWeakB</name>
+    <name>Is Abyssal</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isEnableDropSoulCapture</name>
+    <name>Is Enable Drop Soul Capture</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>VowType0</name>
+    <name>Vow Type 0</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>VowType1</name>
+    <name>Vow Type 1</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>VowType2</name>
+    <name>Vow Type 2</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>disableIntiliazeDead</name>
+    <name>Disable Init Dead</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isSoulGetByBoss</name>
+    <name>Is Soul Get By Boss</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>isMultilingual</name>
+    <name>Is Multilingual</name>
     <type>b8</type>
     <default>True</default>
   </entry>
@@ -801,107 +801,107 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask16</name>
+    <name>Model Display Mask 16</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask17</name>
+    <name>Model Display Mask 17</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask18</name>
+    <name>Model Display Mask 18</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask19</name>
+    <name>Model Display Mask 19</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask20</name>
+    <name>Model Display Mask 20</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask21</name>
+    <name>Model Display Mask 21</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask22</name>
+    <name>Model Display Mask 22</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask23</name>
+    <name>Model Display Mask 23</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask24</name>
+    <name>Model Display Mask 24</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask25</name>
+    <name>Model Display Mask 25</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask26</name>
+    <name>Model Display Mask 26</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask27</name>
+    <name>Model Display Mask 27</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask28</name>
+    <name>Model Display Mask 28</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask29</name>
+    <name>Model Display Mask 29</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask30</name>
+    <name>Model Display Mask 30</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>ModelDispMask31</name>
+    <name>Model Display Mask 31</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>itemSearchRadius</name>
+    <name>Item Search Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>subHitHeight</name>
+    <name>Sub Hit Height</name>
     <type>f32</type>
     <default>1.9</default>
   </entry>
   <entry>
-    <name>subHitRadius</name>
+    <name>Sub Hit Radius</name>
     <type>f32</type>
     <default>0.4</default>
   </entry>
   <entry>
-    <name>turnVelocityType</name>
+    <name>Turn Velocity Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>isMultModeBoss</name>
+    <name>Is Multiplayer Boss</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -911,7 +911,7 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>behMemSize</name>
+    <name>Behaviour Memory Size</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -921,7 +921,7 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>isUseFeetData</name>
+    <name>Is Use Feet Data</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -946,297 +946,297 @@
     <default>100</default>
   </entry>
   <entry>
-    <name>subTurnVelocity</name>
+    <name>Sub Turn Velocity</name>
     <type>f32</type>
     <default>999</default>
   </entry>
   <entry>
-    <name>footStepId</name>
+    <name>Foot Step ID</name>
     <type>s32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>subMaterial</name>
+    <name>Sub Material</name>
     <type>s16</type>
     <default>109</default>
   </entry>
   <entry>
-    <name>subMaterialSfx</name>
+    <name>Sub Material SFX</name>
     <type>s16</type>
     <default>109</default>
   </entry>
   <entry>
-    <name>material_Weak</name>
+    <name>Material - Weak</name>
     <type>s16</type>
     <default>139</default>
   </entry>
   <entry>
-    <name>materialSfx_Weak</name>
+    <name>Material SFX - Weak</name>
     <type>s16</type>
     <default>139</default>
   </entry>
   <entry>
-    <name>subMaterial_weak</name>
+    <name>Sub Material - Weak</name>
     <type>s16</type>
     <default>139</default>
   </entry>
   <entry>
-    <name>subMaterialSfx_weak</name>
+    <name>Sub Material SFX - Weak</name>
     <type>s16</type>
     <default>139</default>
   </entry>
   <entry>
-    <name>spEffectId8</name>
+    <name>Effect 8</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId9</name>
+    <name>Effect 9</name>
     <type>s32</type>
     <default>30030</default>
   </entry>
   <entry>
-    <name>spEffectId10</name>
+    <name>Effect 10</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId11</name>
+    <name>Effect 11</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId12</name>
+    <name>Effect 12</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId13</name>
+    <name>Effect 13</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId14</name>
+    <name>Effect 14</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffectId15</name>
+    <name>Effect 15</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>TentativePlayerId</name>
+    <name>Tentative Player ID</name>
     <type>s32</type>
     <default>101</default>
   </entry>
   <entry>
-    <name>basicToughnessValue</name>
+    <name>Basic Toughness Value</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>gameSystemParamCorrection</name>
+    <name>Game System Param Correction</name>
     <type>f32</type>
     <default>0.4</default>
   </entry>
   <entry>
-    <name>regainRate_PhysNeutral</name>
+    <name>Absorption: Standard</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>regainRate_PhysSlash</name>
+    <name>Absorption: Slash</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>regainRate_PhysBlow</name>
+    <name>Absorption: Strike</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>regainRate_PhysThrust</name>
+    <name>Absorption: Thrust</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>regainRate_Magic</name>
+    <name>Absorption: Magic</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>regainRate_Fire</name>
+    <name>Absorption: Fire</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>regainRate_Thunder</name>
+    <name>Absorption: Lightning</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>regainRate_Dark</name>
+    <name>Absorption: Dark</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>maxAnkleAngle</name>
+    <name>Max Ankle Angle</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>clothUpdateOffset</name>
+    <name>Cloth Update Offset</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spNpcType [ON_OFF]</name>
+    <name>SP Npc Type</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>normalChangeModelId</name>
+    <name>Normal Change Model ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>normalChangeAnimChrId</name>
+    <name>Normal Change Anim Chr ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>staminaGuardDefVal</name>
+    <name>Guard Defence: Stamina Value</name>
     <type>s16</type>
     <default>256</default>
   </entry>
   <entry>
-    <name>CultSettingId</name>
+    <name>Cult Setting ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>PhantomParamId</name>
+    <name>Phantom Param ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>MultiPlayCorrectionId</name>
+    <name>Multiplay Correction ID</name>
     <type>s32</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>FootAnkle</name>
+    <name>Foot Ankle</name>
     <type>f32</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>resistFrost</name>
+    <name>Resist: Frost</name>
     <type>s16</type>
     <default>112</default>
   </entry>
   <entry>
-    <name>subNpcType</name>
+    <name>Sub Npc Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>subTeamType</name>
+    <name>Sub Team Type</name>
     <type>u8</type>
     <default>6</default>
   </entry>
   <entry>
-    <name>lockCamParamId</name>
+    <name>Lock Cam Param ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId16</name>
+    <name>Effect 16</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId17</name>
+    <name>Effect 17</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId18</name>
+    <name>Effect 18</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId19</name>
+    <name>Effect 19</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId20</name>
+    <name>Effect 20</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId21</name>
+    <name>Effect 21</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId22</name>
+    <name>Effect 22</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId23</name>
+    <name>Effect 23</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId24</name>
+    <name>Effect 24</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId25</name>
+    <name>Effect 25</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId26</name>
+    <name>Effect 26</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId27</name>
+    <name>Effect 27</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId28</name>
+    <name>Effect 28</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId29</name>
+    <name>Effect 29</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId30</name>
+    <name>Effect 30</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>spEffectId31</name>
+    <name>Effect 31</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>lockCorrection</name>
+    <name>Lock Correction</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>subClothUpdateOffset</name>
+    <name>Sub Cloth Update Offset</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
@@ -1246,57 +1246,57 @@
     <size>1</size>
   </entry>
   <entry>
-    <name>EstusFlaskParamId</name>
+    <name>Estus Flask Param ID</name>
     <type>s16</type>
     <default>1001</default>
   </entry>
   <entry>
-    <name>TextId</name>
+    <name>Text ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>HP&amp;MP_RestoreId0</name>
+    <name>HP/FP Restore ID 0</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>HP_RestoreId0</name>
+    <name>HP Restore ID 0</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>MP_RestoreId0</name>
+    <name>FP Restore ID 0</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>HP&amp;MP_RestoreId1</name>
+    <name>HP/FP Restore ID 1</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>HP_RestoreId1</name>
+    <name>HP Restore ID 1</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>MP_RestoreId1</name>
+    <name>FP Restore ID 1</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>subPhantomParamId</name>
+    <name>Sub Phantom Param ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>activateDistance</name>
+    <name>Activate Distance</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>DeactivateDistance</name>
+    <name>Deactivate Distance</name>
     <type>s16</type>
     <default>0</default>
   </entry>

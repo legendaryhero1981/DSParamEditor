@@ -1,392 +1,392 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>Hit0_Radius</name>
+    <name>Hit 1: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit1_Radius</name>
+    <name>Hit 2: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit2_Radius</name>
+    <name>Hit 3: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit3_Radius</name>
+    <name>Hit 4: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>KnockbackDist</name>
+    <name>Knockback Distance</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>HitStopTime</name>
+    <name>Hit Stop Time</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffect0</name>
+    <name>Effect 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffect1</name>
+    <name>Effect 2</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffect2</name>
+    <name>Effect 3</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffect3</name>
+    <name>Effect 4</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>spEffect4</name>
+    <name>Effect 5</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit0_DmyPoly1</name>
+    <name>Hit 1: Dummy Poly 1</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>Hit1_DmyPoly1</name>
+    <name>Hit 2: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit2_DmyPoly1</name>
+    <name>Hit 3: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit3_DmyPoly1</name>
+    <name>Hit 4: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit0_DmyPoly2</name>
+    <name>Hit 1: Dummy Poly 2</name>
     <type>s16</type>
     <default>120</default>
   </entry>
   <entry>
-    <name>Hit1_DmyPoly2</name>
+    <name>Hit 2: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit2_DmyPoly2</name>
+    <name>Hit 3: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit3_DmyPoly2</name>
+    <name>Hit 4: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Blowing Correction</name>
+    <name>Attack Correction: Blowing</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AtkPhysCorrection</name>
+    <name>Attack Correction: Physical</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>AtkMagCorrection</name>
+    <name>Attack Correction: Magic</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>AtkFireCorrection</name>
+    <name>Attack Correction: Fire</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>AtkThunCorrection</name>
+    <name>Attack Correction: Lightning</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>AtkStamCorrection</name>
+    <name>Attack Correction: Stamina</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>GuardAtkRateCorrection</name>
+    <name>Attack Correction: Guard Attack Rate</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GuardBreakCorrection</name>
+    <name>Attack Correction: Guard Break</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>AtkThrowEscapeCorrection</name>
+    <name>Attack Correction: Throw Escape</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>AtkSuperArmorCorrection</name>
+    <name>Attack Correction: Poise</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AtkPhys</name>
+    <name>Damage: Physical</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AtkMag</name>
+    <name>Damage: Magic</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AtkFire</name>
+    <name>Damage: Fire</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AtkThun</name>
+    <name>Damage: Lightning</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AtkStam</name>
+    <name>Damage: Stamina</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GuardAtkRate</name>
+    <name>Damage: Guard Attack Rate</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GuardBreakRate</name>
+    <name>Damage: Guard Break Rate</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AtkSuperArmor</name>
+    <name>Damage: Poise</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AtkThrowEscape</name>
+    <name>Damage: Throw Escape</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AtkObj</name>
+    <name>Damage: Object</name>
     <type>s16</type>
     <default>20</default>
   </entry>
   <entry>
-    <name>GuardStaminaCutRate</name>
+    <name>Guard Cut Stamina Rate</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GuardRate</name>
+    <name>Guard Rate</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ThrowTypeID</name>
+    <name>Throw Type ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit0_hitType</name>
+    <name>Hit 1: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit1_hitType</name>
+    <name>Hit 2: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit2_hitType</name>
+    <name>Hit 3: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit3_hitType</name>
+    <name>Hit 4: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>hit0_Priority</name>
+    <name>Hit 1: Priority</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>hit1_Priority</name>
+    <name>Hit 2: Priority</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>hit2_Priority</name>
+    <name>Hit 3: Priority</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>hit3_Priority</name>
+    <name>Hit 4: Priority</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>damageLevel</name>
+    <name>Damage Level</name>
     <type>u8</type>
     <default>2</default>
   </entry>
   <entry>
-    <name>mapHitType</name>
+    <name>Map Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>GuardCutCancelRate</name>
+    <name>Guard Cut Cancel Rate</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AtkAttribute</name>
+    <name>Attack Attribute</name>
     <type>s8</type>
     <default>4</default>
   </entry>
   <entry>
-    <name>spAttribute</name>
+    <name>Effect Attribute</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>atkType</name>
+    <name>Attack Type</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>atkMaterial</name>
-    <type>s8</type>
-    <default>-1</default>
-  </entry>
-  <entry>
-    <name>atkSize</name>
-    <type>s8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>DefMaterial</name>
+    <name>Attack Material</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>DefSfxMaterial</name>
+    <name>Attack Size</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>HitSourceType</name>
+    <name>Defence Material</name>
+    <type>s8</type>
+    <default>-1</default>
+  </entry>
+  <entry>
+    <name>Defence SFX Material</name>
+    <type>s8</type>
+    <default>0</default>
+  </entry>
+  <entry>
+    <name>Hit Source Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ThrowFlag</name>
+    <name>Throw Flag</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>disableGuard</name>
+    <name>Disable Guard</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>disableStaminaAttack</name>
+    <name>Disable Stamina Attack</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>disableHitSpEffect</name>
+    <name>Disable Hit SpEffect</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IgnoreNotifyMissSwingForAI</name>
+    <name>Ignore Notify Miss Swing For AI</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>repeatHitSfx</name>
+    <name>Repeat Hit SFX</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsArrowAtk</name>
+    <name>Is Arrow Attack</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsGhostAtk</name>
+    <name>Is Ghost Attack</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isDisableNoDamage</name>
+    <name>Is Disable No Damage</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>atkPowForSfxSe</name>
+    <name>Attack Power For SFX Effect</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>atkDirForSfxSe</name>
+    <name>Attack Direction For SFX Effect</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>opposeTarget</name>
+    <name>Oppose Target</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>friendlyTarget</name>
+    <name>Friendly Target</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>selfTarget</name>
+    <name>Self Target</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isChargeAtk</name>
+    <name>Is Charge Attack</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isShareHitList</name>
+    <name>Is Share Hit List</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isCheckObjPenetration</name>
+    <name>Is Check Object Penetration</name>
     <type>b8</type>
     <default>False</default>
   </entry>
@@ -406,412 +406,412 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>regainableSlotId</name>
+    <name>Regainable Slot ID</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>deathCauseId</name>
+    <name>Death Cause ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>decalId1</name>
+    <name>Decal ID 1</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>decalId2</name>
+    <name>Decal ID 2</name>
     <type>s32</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>spawnAiSoundId</name>
+    <name>Appear AI Sound ID</name>
     <type>s32</type>
     <default>2030</default>
   </entry>
   <entry>
-    <name>HitAiSoundId</name>
+    <name>Hit AI Sound ID</name>
     <type>s32</type>
     <default>2130</default>
   </entry>
   <entry>
-    <name>RumbleId0</name>
+    <name>Rumble ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>RumbleId1</name>
+    <name>Rumble ID 2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>RumbleId2</name>
+    <name>Rumble ID 3</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>RumbleId3</name>
+    <name>Rumble ID 4</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit0_VfxId</name>
+    <name>Hit 0: VFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit0_DummyPolyId0</name>
+    <name>Hit 0: Dummy Poly ID 0</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit0_DummyPolyId1</name>
+    <name>Hit 0: Dummy Poly ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit1_VfxId1</name>
+    <name>Hit 1: VFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit1_DummyPolyId0</name>
+    <name>Hit 1: Dummy Poly ID 0</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit1_DummyPolyId1</name>
+    <name>Hit 1: Dummy Poly ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit2_VfxId</name>
+    <name>Hit 2: VFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit2_DummyPolyId0</name>
+    <name>Hit 2: Dummy Poly ID 0</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit2_DummyPolyId1</name>
+    <name>Hit 2: Dummy Poly ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit3_VfxId</name>
+    <name>Hit 3: VFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit3_DummyPolyId0</name>
+    <name>Hit 3: Dummy Poly ID 0</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit3_DummyPolyId1</name>
+    <name>Hit 3: Dummy Poly ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit4_VfxId</name>
+    <name>Hit 4: VFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit4_DummyPolyId0</name>
+    <name>Hit 4: Dummy Poly ID 0</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit4_DummyPolyId1</name>
+    <name>Hit 4: Dummy Poly ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit5_VfxId</name>
+    <name>Hit 5: VFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit5_DummyPolyId0</name>
+    <name>Hit 5: Dummy Poly ID 0</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit5_DummyPolyId1</name>
+    <name>Hit 5: Dummy Poly ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit6_VfxId</name>
+    <name>Hit 6: VFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit6_DummyPolyId0</name>
+    <name>Hit 6: Dummy Poly ID 0</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit6_DummyPolyId1</name>
+    <name>Hit 6: Dummy Poly ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit7_VfxId</name>
+    <name>Hit 7: VFX ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit7_DummyPolyId0</name>
+    <name>Hit 7: Dummy Poly ID 0</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit7_DummyPolyId1</name>
+    <name>Hit 7: Dummy Poly ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit4_Radius</name>
+    <name>Hit 4: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit5_Radius</name>
+    <name>Hit 5: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit6_Radius</name>
+    <name>Hit 6: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit7_Radius</name>
+    <name>Hit 7: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit8_Radius</name>
+    <name>Hit 8: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit9_Radius</name>
+    <name>Hit 9: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit10_Radius</name>
+    <name>Hit 10: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit11_Radius</name>
+    <name>Hit 11: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit12_Radius</name>
+    <name>Hit 12: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit13_Radius</name>
+    <name>Hit 13: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit14_Radius</name>
+    <name>Hit 14: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit15_Radius</name>
+    <name>Hit 15: Radius</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit4_DmyPoly1</name>
+    <name>Hit 4: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit5_DmyPoly1</name>
+    <name>Hit 5: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit6_DmyPoly1</name>
+    <name>Hit 6: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit7_DmyPoly1</name>
+    <name>Hit 7: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit8_DmyPoly1</name>
+    <name>Hit 8: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit9_DmyPoly1</name>
+    <name>Hit 9: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit10_DmyPoly1</name>
+    <name>Hit 10: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit11_DmyPoly1</name>
+    <name>Hit 11: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit12_DmyPoly1</name>
+    <name>Hit 12: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit13_DmyPoly1</name>
+    <name>Hit 13: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit14_DmyPoly1</name>
+    <name>Hit 14: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit15_DmyPoly1</name>
+    <name>Hit 15: Dummy Poly 1</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit4_DmyPoly2</name>
+    <name>Hit 4: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit5_DmyPoly2</name>
+    <name>Hit 5: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit6_DmyPoly2</name>
+    <name>Hit 6: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit7_DmyPoly2</name>
+    <name>Hit 7: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit8_DmyPoly2</name>
+    <name>Hit 8: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit9_DmyPoly2</name>
+    <name>Hit 9: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit10_DmyPoly2</name>
+    <name>Hit 10: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit11_DmyPoly2</name>
+    <name>Hit 11: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit12_DmyPoly2</name>
+    <name>Hit 12: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit13_DmyPoly2</name>
+    <name>Hit 13: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit14_DmyPoly2</name>
+    <name>Hit 14: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit15_DmyPoly2</name>
+    <name>Hit 15: Dummy Poly 2</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Hit4_hitType</name>
+    <name>Hit 4: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit5_hitType</name>
+    <name>Hit 5: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit6_hitType</name>
+    <name>Hit 6: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit7_hitType</name>
+    <name>Hit 7: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit8_hitType</name>
+    <name>Hit 8: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit9_hitType</name>
+    <name>Hit 9: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit10_hitType</name>
+    <name>Hit 10: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit11_hitType</name>
+    <name>Hit 11: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit12_hitType</name>
+    <name>Hit 12: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit13_hitType</name>
+    <name>Hit 13: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit14_hitType</name>
+    <name>Hit 14: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Hit15_hitType</name>
+    <name>Hit 15: Hit Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -831,37 +831,37 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>defMaterialVal0</name>
+    <name>Defence Material Value 1</name>
     <type>s16</type>
     <default>255</default>
   </entry>
   <entry>
-    <name>defMaterialVal1</name>
+    <name>Defence Material Value 2</name>
     <type>s16</type>
     <default>139</default>
   </entry>
   <entry>
-    <name>defMaterialVal2</name>
+    <name>Defence Material Value 3</name>
     <type>s16</type>
     <default>139</default>
   </entry>
   <entry>
-    <name>atkDarkCorrection</name>
+    <name>Attack Correction: Dark</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>atkDark</name>
+    <name>Damage: Dark</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>IsChargeAtk2</name>
+    <name>Is Charge Attack 2</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>IsChargeAtk3</name>
+    <name>Is Charge Attack 3</name>
     <type>b8</type>
     <default>True</default>
   </entry>
@@ -901,27 +901,27 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>physSpCorrection</name>
+    <name>SpCorrection: Physical</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>magSpCorrection</name>
+    <name>SpCorrection: Magic</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>fireSpCorrection</name>
+    <name>SpCorrection: Fire</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>thunSpCorrection</name>
+    <name>SpCorrection: Lightning</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>damageLevelParameter</name>
+    <name>Damage Level Parameter</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -931,12 +931,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>darkSpCorrection</name>
+    <name>SpCorrection: dark</name>
     <type>s16</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>atkElementCorrectId</name>
+    <name>Attack Element Correct Id</name>
     <type>s32</type>
     <default>-1</default>
   </entry>

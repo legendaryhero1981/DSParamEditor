@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>variationId</name>
+    <name>Behavior Variation ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>behaviorJudgeId</name>
+    <name>Behavior Judge ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
@@ -16,7 +16,7 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>refType</name>
+    <name>Ref Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -26,32 +26,32 @@
     <size>2</size>
   </entry>
   <entry>
-    <name>refId</name>
+    <name>Ref ID</name>
     <type>s32</type>
     <default>200</default>
   </entry>
   <entry>
-    <name>sfxVariationId</name>
+    <name>SFX Variation ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>stamina</name>
+    <name>Stamina Cost</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>mp</name>
+    <name>FP Cost</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>category</name>
+    <name>Category</name>
     <type>u8</type>
     <default>11</default>
   </entry>
   <entry>
-    <name>heroPoint</name>
+    <name>Hero Point</name>
     <type>u8</type>
     <default>0</default>
   </entry>

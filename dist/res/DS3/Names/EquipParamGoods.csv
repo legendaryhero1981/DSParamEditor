@@ -1,14 +1,14 @@
-﻿60,ID Monitoring Item 1 -- ID監視用アイテム1
-61,ID Monitoring Item 2 -- ID監視用アイテム2
-62,ID Monitoring Item 3 -- ID監視用アイテム3
-63,ID Monitoring Item 4 -- ID監視用アイテム4
-64,ID Monitoring Item 5 -- ID監視用アイテム5
-65,ID Monitoring Item 6 -- ID監視用アイテム6
-66,ID Monitoring Item 7 -- ID監視用アイテム7
-67,ID Monitoring Item 8 -- ID監視用アイテム8
-68,ID Monitoring Item 9 -- ID監視用アイテム9
-69,ID Monitoring Item 10 -- ID監視用アイテム10
-94,Dummy for PC animation reproduction when blood character is created -- 血文字作成時のPCアニメ再生用ダミー
+60,ID Monitoring Item 1
+61,ID Monitoring Item 2
+62,ID Monitoring Item 3
+63,ID Monitoring Item 4
+64,ID Monitoring Item 5
+65,ID Monitoring Item 6
+66,ID Monitoring Item 7
+67,ID Monitoring Item 8
+68,ID Monitoring Item 9
+69,ID Monitoring Item 10
+94,Dummy for PC animation reproduction when blood character is created
 100,White Sign Soapstone
 101,Red Sign Soapstone
 102,Red Eye Orb
@@ -18,49 +18,49 @@
 115,Black Eye Orb
 117,Darksign
 119,Way of White Circlet
-150,Estus Flask
+150,Drained Estus Flask
 151,Estus Flask
-152,Estus Flask+1
+152,Drained Estus Flask+1
 153,Estus Flask+1
-154,Estus Flask+2
+154,Drained Estus Flask+2
 155,Estus Flask+2
-156,Estus Flask+3
+156,Drained Estus Flask+3
 157,Estus Flask+3
-158,Estus Flask+4
+158,Drained Estus Flask+4
 159,Estus Flask+4
-160,Estus Flask+5
+160,Drained Estus Flask+5
 161,Estus Flask+5
-162,Estus Flask+6
+162,Drained Estus Flask+6
 163,Estus Flask+6
-164,Estus Flask+7
+164,Drained Estus Flask+7
 165,Estus Flask+7
-166,Estus Flask+8
+166,Drained Estus Flask+8
 167,Estus Flask+8
-168,Estus Flask+9
+168,Drained Estus Flask+9
 169,Estus Flask+9
-170,Estus Flask+10
+170,Drained Estus Flask+10
 171,Estus Flask+10
-190,Ashen Estus Flask
+190,Drained Ashen Estus Flask
 191,Ashen Estus Flask
-192,Ashen Estus Flask+1
+192,Drained Ashen Estus Flask+1
 193,Ashen Estus Flask+1
-194,Ashen Estus Flask+2
+194,Drained Ashen Estus Flask+2
 195,Ashen Estus Flask+2
-196,Ashen Estus Flask+3
+196,Drained Ashen Estus Flask+3
 197,Ashen Estus Flask+3
-198,Ashen Estus Flask+4
+198,Drained Ashen Estus Flask+4
 199,Ashen Estus Flask+4
-200,Ashen Estus Flask+5
+200,Drained Ashen Estus Flask+5
 201,Ashen Estus Flask+5
-202,Ashen Estus Flask+6
+202,Drained Ashen Estus Flask+6
 203,Ashen Estus Flask+6
-204,Ashen Estus Flask+7
+204,Drained Ashen Estus Flask+7
 205,Ashen Estus Flask+7
-206,Ashen Estus Flask+8
+206,Drained Ashen Estus Flask+8
 207,Ashen Estus Flask+8
-208,Ashen Estus Flask+9
+208,Drained Ashen Estus Flask+9
 209,Ashen Estus Flask+9
-210,Ashen Estus Flask+10
+210,Drained Ashen Estus Flask+10
 211,Ashen Estus Flask+10
 240,Divine Blessing
 241,Hidden Blessing
@@ -186,13 +186,17 @@
 1001,Large Titanite Shard
 1002,Titanite Chunk
 1003,Titanite Slab
+1010,Dragon Scale
 1020,Titanite Scale
 1030,Twinkling Titanite
+1040,Estus Fragment
+1050,Dung
+1060,Fire Seed
 1100,Heavy Gem
 1110,Sharp Gem
-1120,Refined Gem
+1120,Raw Gem
 1130,Crystal Gem
-1140,Simple Gem
+1140,Magic Gem
 1150,Fire Gem
 1160,Chaos Gem
 1170,Lightning Gem
@@ -200,8 +204,8 @@
 1190,Dark Gem
 1200,Poison Gem
 1210,Blood Gem
-1220,Raw Gem
-1230,Blessed Gem
+1220,Frost Gem
+1230,Divine Gem
 1240,Hollow Gem
 1250,Shriving Stone
 2001,Lift Chamber Key
@@ -271,6 +275,115 @@
 2157,Old Woman's Ashes
 2158,Blood of the Dark Soul
 2159,Young Grass Dew
+2160,Brightbug
+2161,Oozing Pellet
+2162,Bone Fragment
+2163,Lizard Hide
+2164,Resonating Crystal
+2165,Notes on Weapon Infusions
+2166,Notes on Shield Infusions
+2167,Notes of Obscure Infusions
+2168,Blood of Might
+2169,Beastly Flesh
+2170,Ceaseless Dung Pie
+2200,Infusing Essence
+2201,Degrading Essence
+3000,Cinder
+3001,Awestone
+3002,Cursed Pellet
+3004,Tarnished Coin
+3005,Tarnished Silver Coin
+3006,Fire Stone
+3007,Magic Stone
+3008,Lightning Stone
+3009,Dark Stone
+3010,Poison Stone
+3011,Bleed Stone
+3012,Frost Stone
+3013,Blessed Stone
+3014,Flask of Magic
+3015,Flask of Fire
+3016,Flask of Lightning
+3017,Flask of Abyss
+3018,Hexing Urn
+3019,Holy Water Urn
+3020,Witching Urn
+3021,Old Growth Balm
+3022,Vine Balm
+3023,Blackweed Balm
+3024,Goldenfruit Balm
+4000,Lethal Gem
+4001,Raw Gem
+4002,Poison Gem
+4003,Blood Gem
+4004,Frost Gem
+4005,Magic Gem
+4006,Fire Gem
+4007,Lightning Gem
+4008,Dark Gem
+4009,Lucky Gem
+4010,Enchanted Gem
+4011,Holy Gem
+4012,Sharp Gem
+4013,Blunt Gem
+4020,Shard of Ascension
+5000,Memory of Iudex Gundyr
+5001,Memory of Vordt
+5002,Memory of Rotted Greatwood
+5003,Memory of the Crystal Sage
+5004,Memory of the Deacons
+5005,Memory of the Abyss Watchers
+5006,Memory of High Lord Wolnir
+5007,Memory of Old Demon King
+5008,Memory of Pontiff Sulyvahn
+5009,Memory of Aldrich
+5010,Memory of Yhorm the Giant
+5011,Memory of the Dancer
+5012,Memory of Oceiros
+5013,Memory of Dragonslayer Armour
+5014,Memory of the Ancient Wyvern
+5015,Memory of the Nameless King
+5016,Memory of Champion Gundyr
+5017,Memory of the Twin Princes
+5018,Memory of Cinder
+5019,Memory of Sister Friede
+5020,Memory of Champion's Gravetender
+5021,Memory of the Demon Prince
+5022,Memory of Darkeater Midir
+5023,Memory of Slave Knight Gael
+5100,Tortured Memory of Iudex Gundyr
+5101,Tortured Memory of Vordt
+5102,Tortured Memory of Rotted Greatwood
+5103,Tortured Memory of the Crystal Sage
+5104,Tortured Memory of the Deacons
+5105,Tortured Memory of the Abyss Watchers
+5106,Tortured Memory of High Lord Wolnir
+5107,Tortured Memory of Old Demon King
+5108,Tortured Memory of Pontiff Sulyvahn
+5109,Tortured Memory of Aldrich
+5110,Tortured Memory of Yhorm the Giant
+5111,Tortured Memory of the Dancer
+5112,Tortured Memory of Oceiros
+5113,Tortured Memory of Dragonslayer Armour
+5114,Tortured Memory of the Ancient Wyvern
+5115,Tortured Memory of the Nameless King
+5116,Tortured Memory of Champion Gundyr
+5117,Tortured Memory of the Twin Princes
+5118,Tortured Memory of Cinder
+5119,Tortured Memory of Sister Friede
+5120,Tortured Memory of Champion's Gravetender
+5121,Tortured Memory of the Demon Prince
+5122,Tortured Memory of Darkeater Midir
+5123,Tortured Memory of Slave Knight Gael
+7999,### Developer Tools ###
+8000,Event Flag Tool
+8001,God Tool
+8002,Kill Tool
+8003,Stamina Tool
+8004,FP Tool
+8005,HP Tool
+8006,Souls Tool
+8999,### Gestures ###
 9000,Beckon
 9001,Point forward
 9002,Hurrah!
@@ -304,12 +417,13 @@
 9033,Sleep
 9034,Toast
 9035,Silent Ally
+1199999,### Sorcery ###
 1200000,Farron Dart
 1210000,Great Farron Dart
 1300000,Soul Arrow
 1301000,Great Soul Arrow
-1302000,Heavy Soul Arrow
-1303000,Great Heavy Soul Arrow
+1302000,Shockwave
+1303000,Soul Geyser
 1304000,Homing Soulmass
 1305000,Homing Crystal Soulmass
 1306000,Soul Spear
@@ -337,11 +451,31 @@
 1376000,Old Moonlight
 1603000,Affinity
 1604000,Great Soul Dregs
-1613000,Dark Edge
+1613000,Abyssal Edge
 1620000,Soul Stream
 1651000,Twisted Wall of Light
 1740000,Pestilent Mist
 1741000,Snap Freeze
+1800000,Crystal Storm
+1801000,Unleash Magic
+1802000,Soul Wave
+1803000,Blizzard
+1805000,Orbs of Judgment
+1806000,Soul Focus
+1807000,Blinding Light
+1808000,Whisper of Despair
+1809000,Repel
+1810000,Numbness
+1811000,Dark Edge
+1812000,Deep Barb
+1813000,Surging Deep
+1814000,Dark Bead
+1815000,Cascading Deep
+1816000,Yearning Dregs
+1817000,Dreg Torrent
+1818000,Writhing Deep
+1822000,Climax
+2399999,### Pyromancies ###
 2400000,Fireball
 2402000,Fire Orb
 2403000,Firestorm
@@ -372,6 +506,16 @@
 2640000,Sacred Flame
 2650000,Carthus Beacon
 2660000,Seething Chaos
+2701000,Lingering Chaos
+2702000,Cataclysm
+2707000,Dark Dance
+2708000,Recollection
+2709000,Mournful Flames
+2710000,Earthfall
+2711000,Wretch Earth
+2712000,Earthquake
+2713000,Rockflesh
+3399999,### Miracles ###
 3490000,Heal Aid
 3500000,Heal
 3501000,Med Heal
@@ -382,6 +526,7 @@
 3507000,Bountiful Light
 3508000,Caressing Tears
 3509000,Lightning Arrow
+3513000,Morbid Temptation
 3520000,Tears of Denial
 3521000,Homeward
 3530000,Force
@@ -407,6 +552,15 @@
 3710000,Lightning Stake
 3720000,Divine Pillars of Light
 3730000,Lifehunt Scythe
+3750000,Dorris Swarm
 3760000,Blessed Weapon
 3770000,Deep Protection
 3780000,Atonement
+3800000,Lightning Bolt
+3801000,Sparks
+3802000,Heavenly Thunder
+3803000,Halo
+3805000,Perseverance
+3806000,Inner Fervor
+3807000,Nibble
+3810000,Devouring Swarm

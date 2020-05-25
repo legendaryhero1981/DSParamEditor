@@ -1,132 +1,132 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>yesNoDialogMessageId</name>
+    <name>Message ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>LimitCancelSpEffectId</name>
+    <name>Limit Cancel Effect ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>sortId</name>
+    <name>Sort ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>refId</name>
+    <name>Reference ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>refIdFpCost1</name>
+    <name>Ref 1: FP Cost</name>
     <type>s16</type>
     <default>20</default>
   </entry>
   <entry>
-    <name>refIdSpCost1</name>
+    <name>Ref 1: Stamina Cost</name>
     <type>s16</type>
     <default>30</default>
   </entry>
   <entry>
-    <name>iconId</name>
+    <name>Icon ID</name>
     <type>s16</type>
     <default>4130</default>
   </entry>
   <entry>
-    <name>behaviorId</name>
+    <name>Behavior ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>mtrlItemId</name>
+    <name>Material Item ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>replaceMagicId</name>
+    <name>Replace Magic ID</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>maxQuantity</name>
+    <name>Max Held</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>heroPoint</name>
+    <name>Hero Point</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>overDexterity</name>
+    <name>Over Dexterity</name>
     <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>sfxVariationId</name>
+    <name>SFX Variation ID</name>
     <type>u8</type>
     <default>6</default>
   </entry>
   <entry>
-    <name>slotLength</name>
+    <name>Slot Usage</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>requirementIntellect</name>
+    <name>Requirement: INT</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>requirementFaith</name>
+    <name>Requirement: FTH</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>analogDexterityMin</name>
+    <name>DEX Casting Speed Min</name>
     <type>u8</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>analogDexterityMax</name>
+    <name>DEX Casting Speed Max</name>
     <type>u8</type>
     <default>50</default>
   </entry>
   <entry>
-    <name>ezStateBehaviorType</name>
+    <name>Magic School Type</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>refCategory1</name>
+    <name>Ref 1: Category</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>spEffectCategory</name>
+    <name>Effect Category</name>
     <type>u8</type>
     <default>4</default>
   </entry>
   <entry>
-    <name>refType</name>
+    <name>Animation Category</name>
     <type>u8</type>
     <default>26</default>
   </entry>
   <entry>
-    <name>menuType</name>
+    <name>Menu Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>refCategory4</name>
+    <name>Ref 4: Category</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>hasSpEffectType</name>
+    <name>Has Effect Type</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -171,52 +171,52 @@
     <default>False</default>
   </entry>
   <entry>
-    <name>enableMulti</name>
+    <name>Enable Multi</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>enableMultOnly</name>
+    <name>Enable Multi Only</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isEnchant</name>
+    <name>Is Enchant</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>isShieldEnchant</name>
+    <name>Is Shield Enchant</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>enable_live</name>
+    <name>Enable Live</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>enable_gray</name>
+    <name>Enable Gray</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>enable_white</name>
+    <name>Enable White</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>enable_black</name>
+    <name>Enable Black</name>
     <type>b8</type>
     <default>False</default>
   </entry>
   <entry>
-    <name>disable_offline</name>
+    <name>Disable Offline</name>
     <type>b8</type>
     <default>True</default>
   </entry>
   <entry>
-    <name>castResonanceMagic</name>
+    <name>Cast Resonance Magic</name>
     <type>b8</type>
     <default>True</default>
   </entry>
@@ -301,17 +301,17 @@
     <default>255</default>
   </entry>
   <entry>
-    <name>CastSfx1</name>
+    <name>Cast SFX 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>CastSfx2</name>
+    <name>Cast SFX 2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>CastSfx3</name>
+    <name>Cast SFX 3</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
@@ -321,67 +321,67 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>AttributeType</name>
+    <name>Attribute Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>AttributeVal0</name>
+    <name>Attribute Value 0</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>AttributeVal1</name>
+    <name>Attribute Value 1</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>AttributeVal2</name>
+    <name>Attribute Value 2</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>AttributeVal3</name>
+    <name>Attribute Value 3</name>
     <type>s8</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>refCategory2</name>
+    <name>Ref 2: Category</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>refIdSpCost4</name>
+    <name>Ref 4: Stamina Cost</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>magicId0</name>
+    <name>Magic ID 0</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>magicId1</name>
+    <name>Magic ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>magicId2</name>
+    <name>Magic ID 2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>magicId3</name>
+    <name>Magic ID 3</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>refIdFpCost2</name>
+    <name>Ref 2: FP Cost</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>refIdSpCost2</name>
+    <name>Ref 2: Stamina Cost</name>
     <type>s16</type>
     <default>0</default>
   </entry>
@@ -391,42 +391,42 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>refCategory3</name>
+    <name>Ref 3: Category</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>refIdFpCost4</name>
+    <name>Ref 4: FP Cost</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>refIdFpCost3</name>
+    <name>Ref 3: FP Cost</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>refIdSpCost3</name>
+    <name>Ref 3: Stamina Cost</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>refId1</name>
+    <name>Ref ID 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>refId2</name>
+    <name>Ref ID 2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>refId3</name>
+    <name>Ref ID 3</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>refId4</name>
+    <name>Ref ID 4</name>
     <type>s32</type>
     <default>-1</default>
   </entry>

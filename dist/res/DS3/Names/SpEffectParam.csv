@@ -1,1162 +1,3082 @@
-﻿0,For testing -- テスト用
-1,Pledge effect test -- 誓約効果テスト
-2,Test_enchantweapon -- test_enchantweapon
-3,Test_cure -- test_cure
-4,Item: White Sign Soapstone
-5,Test_cureitem -- test_cureitem
-6,【 system 】 Kickout -- 【システム】kickout
-7,Item: Black Separation Crystal
-8,System: Parameter changes during ghosting -- 【システム】ゴースト時のパラメータ変化
-9,【 system 】 Black parameter change -- 【システム】ブラック時のパラメータ変化
-10,Item: Red Sign Soapstone
-11,Item: Cracked Red Eye Orb
-12,【 system 】 Bloodsign -- 【システム】bloodSign
-13,[System] Soul steel [multi] -- 【システム】ソウルスティール【マルチ】
-14,[System] Blue sign Visualization -- 【システム】青サイン可視化
-15,Item: Black Eye Orb
-16,【 system 】 NITs intrusion sign barreling -- 【システム】ニト侵入サインばらまき
-17,【 system 】 L Arena exit -- 【システム】l闘技場 退出
-20,【 System 】 Evaluation effect -- 【システム】評価効果
-21,[System] Point light source equipment -- 【システム】点光源装備
-22,Test_change_wep0 -- test_change_wep0
-23,Test_change_wep1 -- test_change_wep1
-24,【 system 】 Request for rescue -- 【システム】救援要請
-25,[System] effect for revival production -- 【システム】復活演出用効果
-26,【 system 】 Invasion of the prize neck -- 【システム】賞金首に侵入
-27,[System] to scatter the scales of dragons -- 【システム】竜のうろこをばらまく
-28,Item: Dried Finger
-30,Paris State (throwing conditions) -- パリィ崩され状態（投げ条件）
-31,Counter damage [puncture] -- カウンターダメージ【刺突】
-32,Player is falling (throwing condition) -- プレイヤが落下中（投げ条件）
-33,Petrified -- 石化
-34,Crystallization -- 結晶化
-35,Throwing invalid state -- 投げ無効状態
-36,Throwing ring equipment (throwing conditions) -- 指輪装備投げ（投げ条件）
-37,Soul Drain Throw condition -- ソウルドレイン投げ状態（投げ条件）
-38,Enhanced throwing damage up effect -- 強化投げダメージアップ効果
-39,【 DLC 】 Throwing disabled state _ for prevention of saddle -- 【DLC】投げ無効状態_ハメ防止用
-40,No resonance -- 共鳴なし
-41,Resonance LV1 -- 共鳴Lｖ1
-42,Resonance Lv2 -- 共鳴Lｖ2
-43,Resonance Lv3 -- 共鳴Lｖ3
-44,Resonance lv4 -- 共鳴Lｖ4
-45,Caries deaths -- 蝕死亡
-50,Magic Nature (slot + 3 version) -- 魔法の天性（スロット＋3版）
-52,PG Test: Detection -- PGテスト：探知
-53,PG Test: Waiting for cooperation -- PGテスト：協力待ち
-54,PG Test: Cooperation -- PGテスト：協力
-55,PG Test: Cooperating send -- PGテスト：協力送信
-57,PG Test: Gravity disabled -- PGテスト：グラビティ無効
-59,Cooperation LV1 -- 協力Lｖ1
-60,Cooperation LV2 -- 協力Lｖ2
-61,Cooperation Lv3 -- 協力Lｖ3
-62,Waiting for cooperation -- 協力待ち解除
-63,Evil Eye Lv1 -- 邪眼Lv1
-64,Evil Eye Lv2 -- 邪眼Lv2
-65,The Evil eye (for use) -- 邪眼(使用者用)
-71,Curse effect _LV1 -- 呪い効果_LV1
-72,Curse effect _lv2 -- 呪い効果_LV2
-73,Curse effect _lv3 -- 呪い効果_LV3
-74,Curse effect _lv4 -- 呪い効果_LV4
-80,Curse effect [Strengthening of spirits] -- 呪い効果【対霊強化】
-90,Down -- ダウン中
-91,Not guarded: scheduled to be deleted -- ガード不可：削除予定
-92,Guard possible -- ガード可能
-94,SA addition disabled -- SA加算無効
-95,Movement magnification can be changed -- 移動倍率変更可能
-96,View Cut -- 視界カット
-97,In a posture collapse -- 体勢崩れ中
-100,Bonfire Recovery effect 1 -- かがり火回復効果1
-101,Bonfire Recovery Effect 2 -- かがり火回復効果2
-102,Bonfire Recovery Effect 3 -- かがり火回復効果3
-103,Bonfire Recovery Effect 4 -- かがり火回復効果4
-104,Bonfire Recovery Effect 5 -- かがり火回復効果5
-105,Bonfire Recovery Effect 6 -- かがり火回復効果6
-106,Bonfire Recovery Effect 7 -- かがり火回復効果7
-107,Bonfire Recovery Effect 8 -- かがり火回復効果8
-108,Bonfire Recovery Effect 9 -- かがり火回復効果9
-109,Bonfire Recovery effect 10 -- かがり火回復効果10
-110,Squirrel-Pong Recovery effect 1 -- リスポン回復効果1
-111,Squirrel Pong Recovery Effect 2 -- リスポン回復効果2
-112,Squirrel Pong Recovery Effect 3 -- リスポン回復効果3
-113,Squirrel Pong Recovery Effect 4 -- リスポン回復効果4
-114,Squirrel Pong Recovery Effect 5 -- リスポン回復効果5
-115,The Squirrel Pong Recovery effect 6 -- リスポン回復効果6
-116,Squirrel Pong Recovery Effect 7 -- リスポン回復効果7
-117,Squirrel Pong Recovery Effect 8 -- リスポン回復効果8
-118,Squirrel Pong Recovery Effect 9 -- リスポン回復効果9
-119,Squirrel Pong Recovery Effect 10 -- リスポン回復効果10
-201,【 QWC 】 Area _npc_ + 1 -- 【ＱＷＣ】エリア_ＮＰＣ_＋1
-202,【 QWC 】 Area _npc_ + 2 -- 【ＱＷＣ】エリア_ＮＰＣ_＋2
-203,【 QWC 】 Area _npc_ + 3 -- 【ＱＷＣ】エリア_ＮＰＣ_＋3
-206,【 QWC 】 Area _npc_-1 -- 【ＱＷＣ】エリア_ＮＰＣ_－1
-207,【 QWC 】 Area _NPC_-2 -- 【ＱＷＣ】エリア_ＮＰＣ_－2
-208,【 QWC 】 Area _NPC_-3 -- 【ＱＷＣ】エリア_ＮＰＣ_－3
-211,[QWC] Area _ black _ + 1 -- 【ＱＷＣ】エリア_ブラック_＋1
-212,[QWC] Area _ black _ + 2 -- 【ＱＷＣ】エリア_ブラック_＋2
-221,[QWC] Area _ white _ + 1 -- 【ＱＷＣ】エリア_ホワイト_＋1
-222,[QWC] Area _ white _ + 2 -- 【ＱＷＣ】エリア_ホワイト_＋2
-231,[QWC] Area _ gray _ + 1 -- 【ＱＷＣ】エリア_グレイ_＋1
-232,[QWC] Area _ gray _ + 2 -- 【ＱＷＣ】エリア_グレイ_＋2
-236,[QWC] Area _ gray _-1 -- 【ＱＷＣ】エリア_グレイ_－1
-237,[QWC] Area _ gray _-2 -- 【ＱＷＣ】エリア_グレイ_－2
-311,[QWC] Player _ black _ + 1 -- 【ＱＷＣ】プレイヤー_ブラック_＋1
-312,[QWC] Player _ black _ + 2 -- 【ＱＷＣ】プレイヤー_ブラック_＋2
-321,[QWC] Player _ white _ + 1 -- 【ＱＷＣ】プレイヤー_ホワイト_＋1
-322,[QWC] Player _ white _ + 2 -- 【ＱＷＣ】プレイヤー_ホワイト_＋2
-331,[QWC] Player _ gray _ + 1 -- 【ＱＷＣ】プレイヤー_グレイ_＋1
-332,[QWC] Player _ gray _ + 2 -- 【ＱＷＣ】プレイヤー_グレイ_＋2
-336,[QWC] Player _ gray _-1 -- 【ＱＷＣ】プレイヤー_グレイ_－1
-337,[QWC] Player _ gray _-2 -- 【ＱＷＣ】プレイヤー_グレイ_－2
-403,Torches (for enemy sensing) -- 松明（敵感知用）
-404,[SP] Torches _ for flame effect -- 【SP】松明_炎エフェクト用
-407,[SP] Torch _ for Light ID offset -- 【SP】松明_ライトIDオフセット用
-412,[FDP] Torch _ for Flame effect (raised) -- 【FDP】松明_炎エフェクト用（掲げ時）
-420,[SP] covered with oil -- 【SP】油まみれ
-421,【 SP 】 Fire Daruma -- 【SP】火だるま
-425,【 SP 】 Fire Spread damage -- 【SP】延焼ダメージ
-430,[FDP] Damage in the fire Daruma -- 【FDP】火だるま中のダメージ
-490,[FDP] King of firewood added effect -- 【FDP】薪の王付加効果
-491,[FDP] Added SFX when attacking king of firewood -- 【FDP】薪の王　攻撃時追加SFX
-499,[FDP] King of firewood added effect _ client -- 【FDP】薪の王付加効果_クライアント
-500,Gravity -- グラビティ
-510,Gravity (for the use of) -- グラビティ（使用者用）
-520,Sound Feed -- 音送り
-530,Hidden -- 姿隠し
-531,Hidden-sound source for dead -- 姿隠し-音源亡者用
-540,Silence -- サイレンス
-550,Tip Blood Letters -- ヒント血文字
-560,Resurrection when dead -- 死んだとき復活
-561,Resurrection when dead (for determination of cord) -- 死んだとき復活（索状判定用）
-570,Regenerate -- リジェネレイト
-580,return [standby] -- 帰還【発動待機】
-581,Return of movement -- 帰還【発動】
-600,Anti Magic -- アンチマジック
-610,Anti-Magic (for the use) 【 effect 】 -- アンチマジック（使用者用）【効果】
-611,Anti-Magic (for the use of) [effect] -- アンチマジック（使用者用）【エフェクト】
-620,Light -- ライト
-630,Attracted -- 魅了
-640,Falling control -- フォーリングコントロール
-650,A firm oath -- 固い誓い_本体
-651,Hard Oath for icons -- 固い誓い_アイコン用
-1000,Weapon Magic Reinforcement 1 -- 武器魔法強化1
-1010,Weapon Magic Reinforcement 2 -- 武器魔法強化2
-1020,Weapon Magic Reinforcement 3 -- 武器魔法強化3
-1040,Shield Reinforcement 1 -- 盾強化1
-1050,Shield Reinforcement 2 -- 盾強化2
-1060,Invisible weapon -- インビジブルウェポン
-1070,Sword of the Sun -- 太陽の剣
-1080,Moon Sword -- 月の剣
-1081,Sword of the Moon _lv1 -- 月の剣_LV1
-1082,Sword of the Moon _lv2 -- 月の剣_LV2
-1083,Sword of the Moon _lv3 -- 月の剣_LV3
-1090,The Power of Madness -- 狂気の力
-1100,Fire Weapon Reinforcement 1 -- 炎武器強化1
-1120,Veil of water -- 水のヴェール
-1130,Body of iron [damage reduction effect] -- 鉄の身体【はじきダメージ減少効果】
-1140,Body of iron [moving slow effect] -- 鉄の身体【移動鈍足効果】
-1150,Body of iron [damage animation change effect] -- 鉄の身体【ダメージアニメ変化効果】
-1160,Magic Protection 1 -- 魔法防護1
-1170,Magic Protection 2 -- 魔法防護2
-1200,Poison for Poisoncloud -- ポイズンクラウド用の毒
-1210,Deadly poison for the desk loud -- デスクラウド用の猛毒
-1220,Corrosion for corrosion Cloud -- 腐食クラウド用の腐食
-1230,A deadly poison for the Mist of Darkness -- 闇の霧用の猛毒
-1300,Universal treatment [State Recovery] -- 万能治療【状態回復】
-1301,Universal treatment [recovery of bleeding immunity] -- 万能治療【出血耐性回復】
-1302,Universal cure [Poison tolerance recovery] -- 万能治療【毒耐性回復】
-1303,Universal cure [deadly poison resistant recovery] -- 万能治療【猛毒耐性回復】
-1320,Poison treatment [State recovery] -- 毒治療【状態回復】
-1321,Poison treatment [Resilient recovery] -- 毒治療【耐性回復】
-1330,Weapon Armor Repair -- 武器防具修復
-1340,A curse -- 解呪
-1350,Worm Recovery -- うじ回復
-1400,HP Recovery 1_ Yourself -- HP回復1_自分
-1401,HP Recovery 1_ around -- HP回復1_周囲
-1420,HP Recovery 3_ Yourself -- HP回復3_自分
-1421,HP Recovery 3_ around -- HP回復3_周囲
-1430,HP Recovery 4 -- HP回復4
-1431,HP Recovery 4_ Resonance LV1 -- HP回復4_共鳴LV1
-1500,Mimicry -- 擬態
-1510,Mimicry [moving slow effect] -- 擬態【移動鈍足効果】
-1520,Dragon Change 1 -- 竜変化1
-1530,Dragon Change 2 -- 竜変化2
-1600,Soul Drain 1 [AI] -- ソウルドレイン1【ＡＩ】
-1610,Soul Drain 1 【 PC 】 -- ソウルドレイン1【ＰＣ】
-1620,Soul Drain 2 [AI] -- ソウルドレイン2【ＡＩ】
-1630,Soul Drain 2 [PC] -- ソウルドレイン2【ＰＣ】
-1700,White Relief Magic -- 白救援探知魔法
-1710,Black Relief Magic -- 黒救援探知魔法
-1720,Item Detection Magic -- アイテム探知魔法
-1800,Causal retribution _ for counting -- 因果応報_カウント用
-1810,Causal retribution _ for explosive generation -- 因果応報_爆発発生用
-1900,[FDP] Tread SA -- 【FDP】踏込SA
-1901,FDP ID override test -- 【FDP】ID上書きテスト
-1902,[FDP] covered with Uzi test -- 【FDP】ウジまみれテスト
-1903,[FDP] Tread guard -- 【FDP】踏込ガード
-1904,[FDP] Rotation movement gap -- 【FDP】回転移動隙
-1905,[FDP] Holding guard compensation for continuous firing -- 【FDP】構え連撃用ガード補正
-1906,[FDP] Double chanting -- 【FDP】二重詠唱
-1907,FDP SA chanting -- 【FDP】SA詠唱
-2000,Item: Estus Flask
-2001,Item: Estus Flask+1
-2002,Item: Estus Flask+2
-2003,Item: Estus Flask+3
-2004,Item: Estus Flask+4
-2005,Item: Estus Flask+5
-2006,Item: Estus Flask+6
-2007,Item: Estus Flask+7
-2008,Item: Estus Flask+8
-2009,Item: Estus Flask+9
-2010,Item: Estus Flask+10
-2020,Item: Ashen Estus Flask
-2021,Item: Ashen Estus Flask+1
-2022,Item: Ashen Estus Flask+2
-2023,Item: Ashen Estus Flask+3
-2024,Item: Ashen Estus Flask+4
-2025,Item: Ashen Estus Flask+5
-2026,Item: Ashen Estus Flask+6
-2027,Item: Ashen Estus Flask+7
-2028,Item: Ashen Estus Flask+8
-2029,Item: Ashen Estus Flask+9
-2030,Item: Ashen Estus Flask+10
-2100,Item: Charcoal Pine Resin
-2110,Item: Charcoal Pine Bundle
-2120,Item: Gold Pine Resin
-2130,Item: Gold Pine Bundle
-2140,Resonance -- 共鳴
-2150,Item: Rotten Pine Resin
-2170,Item: Human Pine Resin
-2180,Item: Carthus Rouge
-2190,Item: Pale Pine Resin
-2300,Power Up Miracles -- 奇跡威力アップ
-2310,Magic Slot-up B -- 魔法スロットアップB
-2320,Dark Moon God's ring -- 暗月神の指輪
-2330,Ring of Thieves -- 盗賊団の指輪
-2340,HP Slight increase -- HP微増
-2350,Black Dragon Ring -- 黒竜の指輪
-3000,HP Recovery Grass -- HP回復草
-3040,Item: Green Blossom
-3041,[DLC] Fragment of mushroom -- 【DLC】エリンギの欠片
-3042,Item: Budding Green Blossom
-3050,bleeding treatment [State recovery] -- 出血治療【状態回復】
-3051,bleeding treatment [resistance recovery] -- 出血治療【耐性回復】
-3060,Poison treatment [State recovery] -- 毒治療【状態回復】
-3061,Poison treatment [Resilient recovery] -- 毒治療【耐性回復】
-3070,Toxic treatment [State recovery] -- 猛毒治療【状態回復】
-3071,Toxic treatment [Resilient recovery] -- 猛毒治療【耐性回復】
-3080,Universal treatment [State Recovery] -- 万能治療【状態回復】
-3090,Curse treatment -- 呪治療
-3091,Egg treatment -- 卵治療
-3092,Caries treatment -- 蝕治療
-3093,Item: Purging Stone
-3100,Item: Repair Powder
-3110,Poison-throwing knife [poison effect] -- 毒投げナイフ【毒効果】
-3120,To make the opponent a poisonous poison -- 糞団子【相手を猛毒にする】
-3121,I take damage -- 糞団子【自分もダメージを受ける】
-3130,Each time a -- またたびA
-3140,And every time B -- またたびB
-3150,EST not available [for mimic sleep determination] -- エスト使用不可【ミミック睡眠判定用】
-3151,EST not available [EST] -- エスト使用不可【エスト使用不可】
-3152,EST not available [for mimic sleep judgment] -- エスト使用不可【ミミック睡眠判定消し用】
-3160,Weapon Flame Enhancement -- 武器炎強化
-3161,Weapon Flame Enhancement (quick) -- 武器炎強化（クイック）
-3170,Weapon Lightning Reinforcement -- 武器雷強化
-3171,Weapon Lightning Enhancement (quick) -- 武器雷強化（クイック）
-3180,Weapon versus Spirit reinforcement -- 武器対霊強化
-3210,Excitement Incense -- 興奮香
-3220,Item: Coiled Sword Fragment
-3221,Return Stone A -- 帰還石A
-3222,return Stone B -- 帰還石B
-3223,return Stone C -- 帰還石C
-3224,return Stone D -- 帰還石D
-3225,Return Stone E -- 帰還石E
-3226,Item: Darksign
-3230,Resurrection Stone [Resurrection effect] -- 復活石【復活効果】
-3231,Human Nature Recovery -- 人間性回復
-3240,Item: Binoculars
-3250,Pledge discarded -- 誓約破棄
-3269,Item: Fading Soul
-3270,Item: Soul of a Deserted Corpse
-3271,Item: Large Soul of a Deserted Corpse
-3272,Item: Soul of an Unknown Traveler
-3273,Item: Large Soul of an Unknown Traveler
-3274,Item: Soul of a Nameless Soldier
-3275,Item: Large Soul of a Nameless Soldier
-3276,Item: Soul of a Weary Warrior
-3277,Item: Large Soul of a Weary Warrior
-3278,Item: Soul of a Crestfallen Knight
-3279,Item: Large Soul of a Crestfallen Knight
-3280,Item: Soul of a Proud Paladin
-3281,Item: Large Soul of a Proud Paladin
-3282,Item: Soul of an Intrepid Hero
-3283,Item: Large Soul of an Intrepid Hero
-3284,Item: Soul of a Seasoned Warrior
-3285,Item: Large Soul of a Seasoned Warrior
-3286,Item: Soul of an Old Hand
-3287,Item: Soul of a Venerable Old Hand
-3288,Item: Soul of a Champion
-3289,Item: Soul of a Great Champion
-3290,Item: Ember
-3291,Wang Hua of firewood when SFX: right elbow -- 薪の王化時SFX：右肘
-3292,Wang Hua of firewood when SFX: right shoulder -- 薪の王化時SFX：右肩
-3293,Wang Hua of firewood when SFX: upper body -- 薪の王化時SFX：上半身
-3294,Wang Hua of firewood when SFX: systemic -- 薪の王化時SFX：全身
-3295,Wang Hua of firewood when SFX: -- 薪の王化時SFX：
-3296,Wang Hua of firewood when SFX: -- 薪の王化時SFX：
-3297,Wang Hua of firewood when SFX: -- 薪の王化時SFX：
-3298,Wang Hua of firewood when SFX: -- 薪の王化時SFX：
-3330,Human Nature Recovery -- 人間性回復
-3340,Item: Hidden Blessing
-3400,Item: Soul of a Crystal Sage
-3401,Soul of the Wolf of the eclipse of the boss soul -- 【ボスソウル】蝕のオオカミのソウル
-3402,Item: Soul of the Blood of the Wolf
-3403,Item: Soul of Consumed Oceiros
-3404,Item: Soul of Boreal Valley Vordt
-3405,Item: Soul of the Old Demon King
-3406,Item: Soul of Dragonslayer Armour
-3407,Item: Soul of the Nameless King
-3408,[Boss Soul] Crimson bat Soul -- 【ボスソウル】クリムゾンバットのソウル
-3409,Item: Soul of Champion Gundyr
-3410,[Boss Soul] soul of evil spirits -- 【ボスソウル】邪霊のソウル
-3411,Item: Soul of Pontiff Sulyvahn
-3412,Item: Soul of Aldrich
-3413,Item: Soul of High Lord Wolnir
-3414,Item: Soul of the Rotted Greatwood
-3415,Item: Soul of Rosaria
-3416,Item: Soul of the Deacons of the Deep
-3418,Item: Soul of the Twin Princes
-3419,Item: Soul of Yhorm the Giant
-3420,Item: Soul of the Dancer
-3421,Item: Soul of the Lords
-3427,Item: Soul of a Demon
-3431,Item: Soul of a Stray Demon
-3432,Item: Soul of Sister Friede
-3433,Item: Soul of Slave Knight Gael
-3434,Item: Soul of the Demon Prince
-3435,Item: Soul of Darkeater Midir
-3700,Item: Seed of a Giant Tree
-3730,Item: Way of White Circlet
-3740,Item: Forked Pale Tongue
-3750,Item: Proof of a Concord Well Kept
-3820,Item: Mossfruit
-3870,Item: Young White Branch
-3880,Item: Rusted Coin
-3890,Item: Rusted Gold Coin
-3900,Item: Siegbräu Heal
-3901,Item: Siegbräu Frost Resistence
-3910,Item: Blue Bug Pellet
-3920,Item: Red Bug Pellet
-3930,Item: Yellow Bug Pellet
-3940,Item: Black Bug Pellet
-4000,Sustained damage floor [slow for poison] -- 持続ダメージ床【毒用鈍足】
-4001,Sustained damage floor [Poison _ Interval Adjustment _ Poison swamp Forest (deep)] -- 持続ダメージ床【毒_間隔調整_毒沼の森（深）】
-4002,Sustained damage floor [poison _ Effect Body _ Poison swamp Forest (deep)] -- 持続ダメージ床【毒_効果本体_毒沼の森（深）】
-4003,Sustained damage floor [Poison _ Interval Adjustment _ Poison swamp forest (shallow)] -- 持続ダメージ床【毒_間隔調整_毒沼の森（浅）】
-4004,Sustained damage floor [poison _ Effect Body _ Poison swamp forest (shallow)] -- 持続ダメージ床【毒_効果本体_毒沼の森（浅）】
-4050,Forced fall death disabled [used in God's Tomb map] -- 強制落下死亡無効【神墓マップで使用】
-4060,Drop damage disabled [used in stronghold map] -- 落下ダメージ無効【拠点マップで使用】
-4100,Slow effect (weak) -- 鈍足効果（弱）
-4101,Slow effect (strong) -- 鈍足効果（強）
-4150,Inside Key of Universal door -- 汎用扉の内鍵
-4200,The swamp of caries -- 蝕の沼
-5000,Non-combat action running -- 非戦闘行動 走り化
-5001,Non-combat behavior smooth disregard -- 非戦闘行動 なめらか無視
-5020,General effect for logic judgment 1 -- ロジック判定用 汎用効果1
-5021,General effect for logic judgment 2 -- ロジック判定用 汎用効果2
-5022,General effect for logic judgment 3 -- ロジック判定用 汎用効果3
-5023,General effect for logic judgment 4 -- ロジック判定用 汎用効果4
-5024,General effect for logic judgment 5 -- ロジック判定用 汎用効果5
-5025,General effect for logic judgment 6 -- ロジック判定用 汎用効果6
-5026,General effect for logic judgment 7 -- ロジック判定用 汎用効果7
-5027,General effect for logic judgement 8 -- ロジック判定用 汎用効果8
-5028,General effect for logic judgment 9 -- ロジック判定用 汎用効果9
-5029,General effect for logic judgment 10 -- ロジック判定用 汎用効果10
-5030,General effect for logic judgment 11 -- ロジック判定用 汎用効果11
-5031,General effect for logic judgement 12 -- ロジック判定用 汎用効果12
-5032,General effect for logic judgment 13 -- ロジック判定用 汎用効果13
-5033,General effect for logic judgment 14 -- ロジック判定用 汎用効果14
-5034,General effect for logic judgment 15 -- ロジック判定用 汎用効果15
-5040,MP Decrease-1 -- MP減少-1
-5041,MP Decrease-2 -- MP減少-2
-5042,MP Decrease-3 -- MP減少-3
-5043,MP Decrease-4 -- MP減少-4
-5044,MP Decrease-5 -- MP減少-5
-5045,MP Recovery + 1 -- MP回復+1
-5046,MP Recovery + 2 -- MP回復+2
-5047,MP Recovery + 3 -- MP回復+3
-5048,MP Recovery + 4 -- MP回復+4
-5049,MP Recovery + 5 -- MP回復+5
-5100,Maggots covered -- うじまみれ
-5101,Blood damage so that the maggots smeared -- うじまみれよう出血ダメージ
-5247,Cold air Damage Release -- 冷気ダメージ解除
-5300,Normal damage anime changes [all disabled] -- 通常時ダメージアニメ変化【全て無効】
-5306,Normal time damage anime change [press → Small] -- 通常時ダメージアニメ変化【押し→小】
-5307,Normal damage anime change [minimum → small] -- 通常時ダメージアニメ変化【極小→小】
-5308,Normal Time damage Anime change -- 通常時ダメージアニメ変化【中以上】
-5309,Normal damage Anime change -- 通常時ダメージアニメ変化【中以上、押しあり】
-5310,Normal damage anime changes [lv1 down] -- 通常時ダメージアニメ変化【Lv1ダウン】
-5320,Normal damage anime change [large only] -- 通常時ダメージアニメ変化【大　のみ】
-5322,Normal damage anime changes [吹tsu飛bimasu] -- 通常時ダメージアニメ変化【吹っ飛びがない】
-5323,Normal damage anime changes [no 吹tsu飛bimasu/slams] -- 通常時ダメージアニメ変化【吹っ飛び・叩きつけ　がない】
-5325,Normal damage anime changes [吹tsu飛bimasu/push] -- 通常時ダメージアニメ変化【吹っ飛び・押し　がない】
-5326,Normal damage anime changes [small and medium only] -- 通常時ダメージアニメ変化【小・中のみ】
-5329,Normal damage anime change [small only] -- 通常時ダメージアニメ変化【小のみ】
-5331,Normal damage anime change [for crystal lizards] -- 通常時ダメージアニメ変化【結晶トカゲ用】
-5332,Normal damage anime changes [under the big deal] -- 通常時ダメージアニメ変化【中以下は大扱い】
-5333,Normal damage anime changes [during only] -- 通常時ダメージアニメ変化【中のみ】
-5334,Normal damage anime change [medium/吹tsu飛bimasu only] -- 通常時ダメージアニメ変化【中・吹っ飛びのみ】
-5335,Normal damage anime change [reaction large] -- 通常時ダメージアニメ変化【リアクション大】
-5350,Normal damage anime change [all disabled] (instant) -- 通常時ダメージアニメ変化【全て無効】（瞬間）
-5360,SA Time damage Anime change [all anime No] -- SA時ダメージアニメ変化【全てアニメなし】
-5361,SA Time damage Anime change [small only] -- SA時ダメージアニメ変化【小のみ】
-5362,SA Time damage Anime changes -- SA時ダメージアニメ変化【中のみ】
-5363,SA when damage anime changes [small and medium] -- SA時ダメージアニメ変化【小と中】
-5364,SA Time damage Anime change [small only/large void] -- SA時ダメージアニメ変化【小のみ・大無効】
-5370,SA Time damage Anime change [all disabled] (instant) -- SA時ダメージアニメ変化【全て無効】（瞬間）
-5371,SA Time damage Anime change [small only] (instant) -- SA時ダメージアニメ変化【小のみ】（瞬間）
-5372,SA Time damage Anime change [medium only] (instant) -- SA時ダメージアニメ変化【中のみ】（瞬間）
-5373,SA when damage anime changes [small and medium] (instant) -- SA時ダメージアニメ変化【小と中】（瞬間）
-5374,SA Time damage Anime change [small only/large void] (instant) -- SA時ダメージアニメ変化【小のみ・大無効】（瞬間）
-5400,Weapon change Anime ID offset 0 -- 武器チェンジ　アニメIDオフセット0
-5407,Anime ID offset 4 million -- アニメIDオフセット4000000
-5450,An enemy special waiting: for event processing -- エネミー特殊待機中：イベント処理用
-5460,Enemy character est [HP] -- 敵キャラ　エスト【HP】
-5461,Enemy character est [HP] -- 敵キャラ　エスト【HP】
-5540,Maggots flame condition (for Panish Flag) -- 蛆人　炎状態（パニッシュフラグ用）
-5600,Salivan Enchant -- サリヴァーンエンチャント
-5700,_c2180 maggots for special damage assessment -- 特殊ダメージ判定用＿c2180蛆人
-5701,_c1360 Crucifixion dead for special damage determination -- 特殊ダメージ判定用＿c1360磔亡者A
-5702,_c1370 Crucifixion dead B for special damage determination -- 特殊ダメージ判定用＿c1370磔亡者B
-5703,_c2250 Tindalos for special damage determination -- 特殊ダメージ判定用＿c2250ティンダロス
-5704,_c1390 snake Assassin for special damage determination -- 特殊ダメージ判定用＿c1390蛇人の暗殺者
-5705,Sand worm c2201 sharing of _c2200 waste for special damage determination -- 特殊ダメージ判定用＿c2200廃都のサンドワーム　c2201共有
-5706,_c2020 dead dog for special damage determination -- 特殊ダメージ判定用＿c2020亡者犬
-5707,_c5230_ Mother Dragon for special damage determination -- 特殊ダメージ判定用＿c5230_母ドラゴン
-5708,_c2190_ Ojo Gargoyle for special Damage determination -- 特殊ダメージ判定用＿c2190_王城のガーゴイル
-5709,_c1090_ dead soldier for special damage Determination (Segunda State) -- 特殊ダメージ判定用＿c1090_亡者兵士（グンダ状態）
-5710,_c2240_ Full Armor beast for special damage determination -- 特殊ダメージ判定用＿c2240_フルアーマー獣
-5711,_c2250_ Tindalos for special Damage Determination (for animation transition after large throw) -- 特殊ダメージ判定用＿c2250_ティンダロス(大型投げ後アニメ遷移用）
-5712,_c1170 Skeleton Warrior a c1180 share for special damage determination -- 特殊ダメージ判定用＿c1170 スケルトン戦士A　c1180共有
-5750,For special Damage Determination _ Continuous Regeneration Prevention: duration of flag pulling -- 特殊ダメージ判定用＿連続再生防止　：フラグ引いている期間
-5751,For special Damage Determination _ Continuous regeneration Prevention: cool time 3 seconds -- 特殊ダメージ判定用＿連続再生防止　：クールタイム3秒
-5752,For special Damage Determination _ Continuous regeneration Prevention: cool time 5 seconds -- 特殊ダメージ判定用＿連続再生防止　：クールタイム5秒
-5800,[Behavior] Do not cut the movement amount of damage anime -- 【Behavior】 ダメージアニメの移動量カットをしない
-5820,[Behavior] Stance: Valid only for the duration of the flag pulling -- 【Behavior】 構え中　：フラグ引いている期間のみ有効
-5830,The VFX will light your eyes and revive you once and for all -- VFXで目が光り、一度きりの復活をかける
-6000,[Behavior] touchable in rolling -- 【Behavior】 ローリングで押せる
-6001,[Behavior] is flipped when the damage judgment is hit the map anime reproduction -- 【Behavior】 ダメージ判定がマップに命中すると弾かれアニメ再生
-6002,[Behavior] Wait offset instantaneous switching -- 【Behavior】 待機オフセット瞬時切り替え
-6003,[Behavior] Count any number of seconds -- 【Behavior】 任意の秒数を数える
-6050,Golem keeps crumbling state -- ゴーレム崩れ状態維持
-6200,Stamina Recovery Down _ head _ Level 1 -- スタミナ回復ダウン_頭_レベル1
-6201,Stamina Recovery Down _ head _ Level 2 -- スタミナ回復ダウン_頭_レベル2
-6202,Stamina Recovery Down _ head _ Level 3 -- スタミナ回復ダウン_頭_レベル3
-6203,Stamina Recovery Down _ head _ Level 4 -- スタミナ回復ダウン_頭_レベル4
-6210,Stamina Recovery Down _ torso _ Level 1 -- スタミナ回復ダウン_胴_レベル1
-6211,Stamina Recovery Down _ torso _ Level 2 -- スタミナ回復ダウン_胴_レベル2
-6212,Stamina Recovery Down _ torso _ Level 3 -- スタミナ回復ダウン_胴_レベル3
-6213,Stamina Recovery Down _ torso _ Level 4 -- スタミナ回復ダウン_胴_レベル4
-6220,Stamina Recovery Down _ arm _ Level 1 -- スタミナ回復ダウン_腕_レベル1
-6221,Stamina Recovery Down _ arms _ Level 2 -- スタミナ回復ダウン_腕_レベル2
-6222,Stamina Recovery Down _ arms _ Level 3 -- スタミナ回復ダウン_腕_レベル3
-6223,Stamina Recovery Down _ arm _ Level 4 -- スタミナ回復ダウン_腕_レベル4
-6230,Stamina Recovery Down _ leg _ Level 1 -- スタミナ回復ダウン_脚_レベル1
-6231,Stamina Recovery Down _ leg _ Level 2 -- スタミナ回復ダウン_脚_レベル2
-6232,Stamina Recovery Down _ leg _ Level 3 -- スタミナ回復ダウン_脚_レベル3
-6233,Stamina Recovery Down _ leg _ Level 4 -- スタミナ回復ダウン_脚_レベル4
-6300,Super Armor -- スーパーアーマー
-6335,Chain Missing: damage reduction -- チェイン抜け：ダメージ減少
-6340,Strength: Damage Reduction: Medium -- 強靭度：ダメージ減少：中
-6350,Strength: Minimum (30 or less) -- 強靭度：極小（30以下）
-6351,Strong: Small (less than 50) -- 強靭度：小（50以下）
-6352,Strong: Medium (70 or less) -- 強靭度：中（70以下）
-6353,Strong: Large (100 or less) -- 強靭度：大（100以下）
-6354,Strong: Oversized (greater than 100) -- 強靭度：特大（100より大きい）
-6400,Bleeding _1 -- 出血_1
-6401,Bleeding _2 -- 出血_2
-6402,Bleeding _3 -- 出血_3
-6403,Bleeding _4 -- 出血_4
-6404,Bleeding _5 -- 出血_5
-6405,Bleeding _6 -- 出血_6
-6500,Poison _1 -- 毒_1
-6501,Poison _2 -- 毒_2
-6502,Poison _3 -- 毒_3
-6503,Poison _4 -- 毒_4
-6504,Poison _5 -- 毒_5
-6505,Poison _6 -- 毒_6
-6510,Poison _1 (sustained short) -- 毒_1（持続短い）
-6511,Poison _2 (short lasting) -- 毒_2（持続短い）
-6512,Poison _3 (sustained short) -- 毒_3（持続短い）
-6513,Poison _4 (sustained short) -- 毒_4（持続短い）
-6514,Poison _5 (sustained short) -- 毒_5（持続短い）
-6515,Poison _6 (sustained short) -- 毒_6（持続短い）
-6600,Poisonous _1 -- 猛毒_1
-6601,Poisonous _2 -- 猛毒_2
-6602,Poisonous _3 -- 猛毒_3
-6603,Poisonous _4 -- 猛毒_4
-6604,Poisonous _5 -- 猛毒_5
-6605,Poisonous _6 -- 猛毒_6
-6700,Cold _1 -- 冷気_1
-6701,Chill _2 -- 冷気_2
-6702,Cold _3 -- 冷気_3
-6703,Cold _4 -- 冷気_4
-6704,Cold _5 -- 冷気_5
-6705,Cold _6 -- 冷気_6
-6800,Petrified Curse Damage 1 -- 石化呪いダメージ１
-6801,Petrified Curse Damage 2 -- 石化呪いダメージ２
-6802,Petrified Curse Damage 3 -- 石化呪いダメージ３
-6803,Petrified Curse Damage 4 -- 石化呪いダメージ４
-6804,Petrified Curse Damage 5 -- 石化呪いダメージ５
-6805,Petrified Curse damage 0 (weaker than 1) -- 石化呪いダメージ０（1より弱い）
-6980,Event: City Maps Nipe stop -- イベント：街マップスナイプ停止
-7000,Level doping 0: Game start -- レベルドーピング０：ゲーム開始
-7010,Level doping 1: Ojo 1 -- レベルドーピング１：王城１
-7020,Level doping 2: City of Towers -- レベルドーピング２：塔の街
-7030,Level Doping 3: Mori 1 (first half) -- レベルドーピング３：森１（前半）
-7040,Level doping 4: Cathedral Church -- レベルドーピング４：聖堂教会
-7060,Level Doping 6: Dungeon -- レベルドーピング６：ダンジョン
-7070,Level doping 7: Dungeon Underground Lake (sub) -- レベルドーピング７：ダンジョン地底湖（サブ）
-7080,Level Doping 8: Anole -- レベルドーピング８：アノール
-7090,Level doping 9: Dungeons -- レベルドーピング９：地下牢
-7120,Level doping 12: Bridge (sub) -- レベルドーピング１２：橋（サブ）
-7130,Level doping 13: Bases -- レベルドーピング１３：拠点
-7140,Level doping 14: End of game -- レベルドーピング１４：ゲーム終了
-7150,Level doping 15: (unused) -- レベルドーピング１５：（未使用）
-7160,Level doping 16: (unused) -- レベルドーピング１６：（未使用）
-7300,Soul Black -- ソウルブラック
-7410,Doping laps 1: Ojo 1 -- 周回ドーピング１：王城１
-7420,Doping laps 2: City of the Tower -- 周回ドーピング２：塔の街
-7430,Doping laps 3: Mori 1 (first half) -- 周回ドーピング３：森１（前半）
-7440,Doping laps 4: Basilica of the Church -- 周回ドーピング４：聖堂教会
-7460,Doping laps 6: Dungeon -- 周回ドーピング６：ダンジョン
-7470,Doping laps 7: Dungeon Underground Lake -- 周回ドーピング７：ダンジョン地底湖
-7480,Doping laps 8: Anole -- 周回ドーピング８：アノール
-7490,Doping laps 9: Dungeons -- 周回ドーピング９：地下牢
-7520,Doping laps 12: Bridge -- 周回ドーピング１２：橋
-7530,Doping laps 13: Bases -- 周回ドーピング１３：拠点
-7540,Doping laps 14: End of game -- 周回ドーピング１４：ゲーム終了
-7550,Doping laps 15: (Unused) -- 周回ドーピング１５：（未使用）
-7560,Doping laps 16: (unused) -- 周回ドーピング１６：（未使用）
-9000,VFX for Avatar (Super Ability) -- アバター（ザコ）用VFX
-9010,No warp. -- ワープ不可
-9100,World Baff: Return blood of poison -- ワールドバフ：毒の返り血
-9200,Invasion occurring -- 侵入発生中
-9201,Intrusion Outbreak & Intrusion Stop State -- 侵入発生中＆侵入停止状態
-9500,ABATABAF: 3 times the actual damage -- アバターバフ：実ダメージ3倍
-10501,The Curse of the Evil King -- 死霊の王 呪い解除中
-10502,King of the evil dissipated state -- 死霊の王 霧散状態
-10503,The King of the evil right arm part -- 死霊の王 右腕部位破壊状態
-10504,King of the Dead left arm part breakdown state -- 死霊の王 左腕部位破壊状態
-10505,The King of the evil whole body miasma -- 死霊の王 全身瘴気
-10506,The King of the evil whole body miasma -- 死霊の王 全身瘴気
-10510,Daemon Priest Magic Special effects for SFX (small) -- デーモン司祭 呪術SFX(小)用特殊効果
-10511,Daemon Priest Magic SFX (medium) special effects -- デーモン司祭 呪術SFX(中)用特殊効果
-10512,Daemon Priest Magic Special effects for SFX (Large) -- デーモン司祭 呪術SFX(大)用特殊効果
-10513,Daemon Priest Magic SFX (NO) special effects -- デーモン司祭 呪術SFX(無)用特殊効果
-10514,Daemon Priest Mojo SFX Reservoir Speed doubled -- デーモン司祭 呪術SFX溜め速度倍化
-10515,Daemon Priest for Flame Enchantment -- デーモン司祭 炎エンチャント用
-10530,Salivan Reaper (Straight sword) -- サリヴァーンの死神(直剣)
-10531,Salivan's death (sickle) -- サリヴァーンの死神（鎌）
-10532,Death (resident SFX) -- 死神（常駐ＳＦＸ）
-10540,Maggots flame condition (for Panish Flag) -- 蛆人　炎状態（パニッシュフラグ用）
-10550,Crystal Elders Buff (for myself) -- 結晶の古老　バフ　（自分用）
-10551,Crystal Elders Buff (for ally) -- 結晶の古老　バフ　（味方用）
-10552,Elders weapon switching ban special effects on crystals -- 結晶の古老　武器持ち替え禁止特殊効果
-10553,Elders casting of crystals for camera application judgment -- 結晶の古老　投げ演出カメラ適用判定
-10560,Dead soldier Hand-held lantern resident SFX -- 亡者兵士　手持ちランタン常駐ＳＦＸ
-10561,Dead soldier: Segunda State resident SFX -- 亡者兵士：グンダ状態　常駐ＳＦＸ
-10562,Dead soldier Waist Lantern resident SFX -- 亡者兵士　腰ランタン常駐ＳＦＸ
-10563,Dead soldier: Est recovery 40% -- 亡者兵士：エスト回復４０％
-10570,Blue: Avatars (tentative) slow granted -- ブルー：アバター（仮） 鈍足付与
-10571,Blue: Avatar (tentative) around recovery -- ブルー：アバター（仮） 周囲回復
-10572,Blue: Avatar (tentative) self-enhancement -- ブルー：アバター（仮） 自己強化
-10573,Blue: Avatar Reinforcement -- ブルー：アバター（仮） 味方強化
-10574,During guard -- ガード中
-10580,Firewood Daemon _ (resident SFX) -- 薪のデーモン_（常駐ＳＦＸ）
-10581,Firewood Daemon Hu_ (resident SFX) -- 薪のデーモンHU_（常駐ＳＦＸ）
-10590,New Skeleton Torch (resident SFX) -- 新スケルトン松明（常駐ＳＦＸ）
-10591,New Skeleton _hp informing -- 新スケルトン_HP全快
-10600,Old King of caries _ Trace judgement 00 -- 蝕の老王_トレース判定00
-10601,Old King of caries _ Trace judgement 01 -- 蝕の老王_トレース判定01
-10602,Old King of caries _ Trace Determination 02 -- 蝕の老王_トレース判定02
-10603,Old King of caries _ Trace Determination 03 -- 蝕の老王_トレース判定03
-10604,Old King of caries _ Trace Determination 04 -- 蝕の老王_トレース判定04
-10605,Old King of caries _ Trace judgement 05 -- 蝕の老王_トレース判定05
-10606,Old King of caries _ Trace Determination 06 -- 蝕の老王_トレース判定06
-10607,Old King of caries _ Trace judgement 07 -- 蝕の老王_トレース判定07
-10608,Old King of caries _ Trace judgement 08 -- 蝕の老王_トレース判定08
-10609,Old King of caries _ tracing judgement 09 -- 蝕の老王_トレース判定09
-10610,Old King of caries _ Trace judgement 10 -- 蝕の老王_トレース判定10
-10611,Old King of caries _ Trace judgement 11 -- 蝕の老王_トレース判定11
-10612,Old King of caries _ Trace Determination 12 -- 蝕の老王_トレース判定12
-10613,Old King of caries _ Trace Determination 13 -- 蝕の老王_トレース判定13
-10614,Old King of caries _ Trace Determination 14 -- 蝕の老王_トレース判定14
-10615,Old King of caries _ Trace judgement 15 -- 蝕の老王_トレース判定15
-10616,Old King of caries _ Trace judgement 16 -- 蝕の老王_トレース判定16
-10617,Old King of caries _ Trace judgement 17 -- 蝕の老王_トレース判定17
-10618,Old King of caries _ Trace judgement 18 -- 蝕の老王_トレース判定18
-10619,Old King of caries _ Trace Determination 19 -- 蝕の老王_トレース判定19
-10620,Old King of caries _ Trace Determination 20 -- 蝕の老王_トレース判定20
-10621,Old King of caries _ Trace Determination 21 -- 蝕の老王_トレース判定21
-10622,Old King of caries _ Trace Determination 22 -- 蝕の老王_トレース判定22
-10623,Old King of caries _ Trace Determination 23 -- 蝕の老王_トレース判定23
-10624,Old King of caries _ Trace Determination 24 -- 蝕の老王_トレース判定24
-10625,Old King of caries _ Trace Determination 25 -- 蝕の老王_トレース判定25
-10629,Old King of caries _ illusion transparent invalidation -- 蝕の老王_幻影透明無効化
-10630,Caries Old King resident sfx Hu Mae -- 蝕の老王 常駐SFX　Hu前
-10631,Old King resident SFX Hu after caries -- 蝕の老王 常駐SFX　Hu後
-10632,The old king of caries _ the illusion becomes translucent -- 蝕の老王_幻影が半透明になる
-10633,The old king of caries _ the illusion becomes completely transparent -- 蝕の老王_幻影が完全透明になる
-10634,The old king of caries _ Disabling Ghosts -- 蝕の老王_幻影を無効化する
-10635,The old king of caries _ void the full transparency of the apparition and become translucent -- 蝕の老王_幻影の完全透明を無効化し、半透明になる
-10640,The Old King _hu1 stage of caries -- 蝕の老王_HU1段階目
-10641,The Old King _hu2 stage of caries -- 蝕の老王_HU2段階目
-10642,The old king of caries _ the illusion of Enchantment ID addition for ghosts -- 蝕の老王_幻影用エンチャント前行動判定ID加算
-10650,Tindalos for Event state transition a20000 from prayer transition permission conditions -- ティンダロス　イベント状態遷移用　a20000祈りから立ち上がる　遷移許可条件
-10651,Tindalos Event state Transition a20004 for death transition permission conditions -- ティンダロス　イベント状態遷移用　a20004仰向けから死亡　遷移許可条件
-10652,Tindalos Events & Warp execution request for AI -- ティンダロス　イベント＆AI用　ワープ実行要求
-10700,Butterfly resident SFX of caries -- 蝕の蝶常駐SFX
-10800,New Ojo Knights: Red Eye -- 新王城騎士：赤目
-10900,Dark Knight Beast resident SFX -- ダークナイトビースト 常駐SFX
-10901,Dark Knight Beast resident Chill bullet firing (for freezing) -- ダークナイトビースト 常駐冷気弾丸発射(凍結用)
-10902,Dark Knight Beast resident Chill Bullet firing (for decals) -- ダークナイトビースト 常駐冷気弾丸発射(デカール用)
-10920,Moonlight Witch Resident SFX -- 月光の魔女　常駐SFX
-10921,Moonlight Witch Torch for Damage -- 月光の魔女　松明ダメージ用
-11000,Hell Kite (Ojo 1) _ Still not blowing breath once -- ヘルカイト（王城1）_まだブレスを1回も吹いていない状態
-11001,Hel Kite (Ojo 1) _ Event Animation Transition Timing -- ヘルカイト（王城1）_イベントアニメ遷移タイミング
-11002,Hell Kite (Ojo 1) _ Breath blowing good condition -- ヘルカイト（王城1）_ブレスを吹いていい状態
-11003,Hel Kite (Ojo 1) _ Front Breath frequency: High -- ヘルカイト（王城1）_正面ブレス頻度：高
-11004,The Hel Kite (Ojo 1) _ Stop blowing the breath -- ヘルカイト（王城1）_ブレスを吹くのをやめる
-11005,Hel Kite (Ojo 1) _ Side street Breath Frequency: High -- ヘルカイト（王城1）_脇道ブレス頻度：高
-11006,Hell Kite (Ojo 1) _ Lost player status -- ヘルカイト（王城1）_プレイヤーを見失った状態
-11007,Hell Kite (Ojo 1) _ Lost player status _ lifted -- ヘルカイト（王城1）_プレイヤーを見失った状態_解除
-11008,Hel Kite (Ojo 1) _ for the caries foot SFX -- ヘルカイト（王城1）_蝕足SFX用
-11009,Hellfire (Ojo 1) _ for removal of caries feet SFX -- ヘルカイト（王城1）_蝕足SFX用 削除用
-11010,Hel Kite (Ojo 1) _ Lower left breath frequency: high -- ヘルカイト（王城1）_左下ブレス頻度：高
-11011,Hel Kite (Ojo 1) _ Top left breath frequency: high -- ヘルカイト（王城1）_左上ブレス頻度：高
-11060,Go back on the golem rampage -- ゴーレム大暴れで反撃
-11100,Tracker _ Body Chill (resident SFX) -- 追跡者_体の冷気（常駐SFX）
-11101,Tracker _ Flaming Sword (resident SFX) -- 追跡者_炎の剣（常駐SFX）
-11102,Tracker _ The Sword of the Eclipse (cold) (resident SFX) -- 追跡者_蝕（冷気）の剣（常駐SFX）
-11103,Tracker Hu Pre-throwing frequency control 10 seconds -- 追跡者 HU前 投げ頻度制御　10秒
-11200,Triple Barista _ Special effects for three-shot shooting 1 -- 三連バリスタ_三連射撃用特殊効果1
-11201,Triple Barista _ Special effects for three-shot shooting 2 -- 三連バリスタ_三連射撃用特殊効果2
-11202,Tri-Barista _ three-shot special effects 3 -- 三連バリスタ_三連射撃用特殊効果3
-11280,Snake Spirit _hu -- 蛇霊_HU
-11281,Snake Spirits _hu: caries Reservoir bullet (right hand) -- 蛇霊_HU:蝕溜まり弾丸(右手)
-11282,Snake Spirits _hu: caries Reservoir bullets (left) -- 蛇霊_HU:蝕溜まり弾丸(左手)
-11283,Snake Spirits _hu: caries Reservoir bullets (right elbow) -- 蛇霊_HU:蝕溜まり弾丸(右肘)
-11284,Snake Spirits _hu: caries Reservoir bullets (left elbow) -- 蛇霊_HU:蝕溜まり弾丸(左肘)
-11285,Snake Spirits _hu: caries Reservoir bullet (tail) -- 蛇霊_HU:蝕溜まり弾丸(尻尾)
-11300,Dragon's Guardian Knight _hu -- 竜の守護騎士_HU
-11400,Mad Warrior Hallec _hu -- 狂戦士ハレック_HU
-11500,Cardinal _ Curse: Bullet outbreak -- 枢機卿団_呪詛：弾丸発生
-11501,Cardinal _ Curse: appearance -- 枢機卿団_呪詛：見た目
-11520,Cardinal _ Eye Light (resident SFX) -- 枢機卿団_目光（常駐SFX）
-11521,Cardinal _ Aura (resident SFX) -- 枢機卿団_オーラ（常駐SFX)
-11530,Helmeted of the Cardinal Corps _ curse -- 枢機卿団_呪詛の号令
-11531,Helmeted of the Cardinal Corps _ curse -- 枢機卿団_呪詛の号令解除
-11560,Cardinal: For damage to the body (large) -- 枢機卿団：本体へのダメージ用（大）
-11561,Cardinal: For damage to the body (medium) -- 枢機卿団：本体へのダメージ用（中）
-11562,Cardinal: For damage to the body (small) -- 枢機卿団：本体へのダメージ用（小）
-11600,Prince of Darkness (brother): Regen revival -- 闇の双皇子（兄）：リジェネ復活
-11601,Prince of Darkness (brother): Character attachment -- 闇の双皇子（兄）：キャラアタッチ
-11700,Mimic: "○ Open the Treasure Chest" condition -- ミミック：「○宝箱を開ける」条件
-11710,Mimic: Back to mimicry conditions -- ミミック：擬態に戻る条件
-11720,Mimic: Sleep judgment condition -- ミミック：眠り判定条件
-11721,Mimic: Sleep judgement disabled -- ミミック：眠り判定無効
-11730,Mimic: The condition to mimic after awakening -- ミミック：目覚めた後に擬態する条件
-11731,Mimic: Remove the mimic condition after awakening -- ミミック：目覚めた後に擬態する条件削除
-11800,Hungry Jack: Ai visual distance change _0.25 times -- はらぺこジャック：AI視覚距離変更_0.25倍
-11900,New Shing: Lantern resident SFX -- 新獄吏：ランタン常駐ＳＦＸ
-11910,Gargoyle resident -- ガーゴイル常駐
-11911,During guard -- ガード中
-11920,Full Armor Beast _ resident SFX (before HU) -- フルアーマー獣_常駐ＳＦＸ（HU前）
-11921,Full Armor Beast _ resident SFX (after HU) -- フルアーマー獣_常駐ＳＦＸ（HU後）
-11922,Full Armor animal resident cold air bullet firing (for decals) -- フルアーマー獣 常駐冷気弾丸発射（デカール用）
-11923,Full Armor Beast _hu -- フルアーマー獣_HU
-11926,Full Armor Beast _ Blizzard breath suspended wince damage -- フルアーマー獣_吹雪ブレス中断ひるみダメージ
-11950,Phantom of the Painting (Stone hat) -- 絵画守り_幻影（石コロ帽子）
-11960,Drifting stuff _ Underwater offset switching -- 漂うもの_水中時オフセット切り替え
-11970,Dead Wax _ Resident SFX -- 蝋の死人_常駐SFX
-11980,Segunda to change the damage magnification from dead enemy -- グンダ化亡者　敵からのダメージ倍率変更用
-12000,Sacred Beast in the woods _ gravity -- 森の霊獣_グラビティ
-12010,Salivan watchdog (Large) Resident SFX -- サリヴァーンの番犬（大）常駐ＳＦＸ
-12011,Salivan watchdog (small) Resident SFX -- サリヴァーンの番犬（小）常駐ＳＦＸ
-12020,Wax: The energetic ball: the first form -- 蝋まみれ:元気玉:第一形態
-12021,Wax covered: Fine ball: Check -- 蝋まみれ:元気玉:チェック
-12022,Wax covered: The second form of energy ball -- 蝋まみれ:元気玉第二形態
-12023,Shing Slow effect -- 獄吏 鈍足効果
-12030,City Map Sniper Transparent effect -- 街マップスナイパー用透明効果
-12040,Stench Crab _ Slow effect for bubble breath -- 死臭蟹_泡ブレス用鈍足効果
-12041,Stench crab for step (right) -- 死臭蟹_ステップ用（右）
-12042,Stench crab for step (left) -- 死臭蟹_ステップ用（左）
-71100,Disable all -- すべて無効
-71110,Immortality disabled -- 不死系無効
-71111,All enabled -- すべて有効
-80000,Disable all -- すべて無効
-80011,Remnant & Soul-absorbing disabled -- 名残＆吸魂無効
-80101,Remnant & Fascination Disabled -- 名残＆魅了無効
-80111,Remnants invalid -- 名残無効
-81001,Soul & Fascination Disabled -- 吸魂＆魅了無効
-81011,Soul Absorption disabled -- 吸魂無効
-81101,Fascinated disabled -- 魅了無効
-81111,All enabled -- すべて有効
-90000,Disable all -- すべて無効
-90001,Poison & Bleeding & plague Disabled -- 毒＆出血＆疫病無効
-90010,Poison & Bleeding & curse disabled -- 毒＆出血＆呪い無効
-90011,Poison & Bleeding Disabled -- 毒＆出血無効
-90100,Poison & Plague & Curse Disabled -- 毒＆疫病＆呪い無効
-90101,Poison & Plague Disabled -- 毒＆疫病無効
-90110,Poison & Curse Disabled -- 毒＆呪い無効
-90111,Poison disabled -- 毒無効
-91000,Bleeding & plague & Curse Disabled -- 出血＆疫病＆呪い無効
-91001,Bleeding & plague Disabled -- 出血＆疫病無効
-91010,Bleeding & curses disabled -- 出血＆呪い無効
-91011,Bleeding disabled -- 出血無効
-91100,Plague & Curse Invalid -- 疫病＆呪い無効
-91101,Plague disabled -- 疫病無効
-91110,Curse disabled -- 呪い無効
-91111,All enabled -- すべて有効
-99000,Shallow snow -- 浅い雪
-99001,Deep snow -- 深い雪
-99002,Dead Torches State -- 亡者松明状態
-99003,Desaster from the Sword -- 剣から血糊飛ばし
-99004,Show off -- 表示消し
-99005,Test after caries ritual -- 蝕儀式後テスト
-99006,Play an enemy that does not notice the version -- プレイアブル版　気づかない敵
-99007,The power of the evil spirits in the play -- プレイアブル版　邪霊の力
-99008,Counter Test -- カウンターtest
-99013,Always throwing off for concept bridge dead -- コンセプト版吊り橋亡者用常時投げ無効
-99014,Suspension dead for determining waiting condition -- 吊り橋亡者待機状態判定用
-99020,Special effects for Slime -- スライム用特殊効果
-99050,The swamp of caries -- 蝕の沼
-99100,[FDP] Test _ No damage against flames -- 【FDP】テスト_炎に対してノーダメージ
-99101,[FDP] Test _ wolf-throwing damage -- 【FDP】テスト_ウルフ投げ時のダメージ
-99102,[FDP] Test _ Firefly Item Use event acquisition -- 【FDP】テスト_蛍アイテム使用イベント取得
-99200,[FDP] Proto-giant slime freezing -- 【FDP】プロト_巨大スライム凍結
-99201,[FDP] Proto _ giant slime freezing SFX -- 【FDP】プロト_巨大スライム凍結SFX
-99300,Dragon Bleeding -- 龍出血
-99310,Dragon Bleeding 1 -- ドラゴン出血1
-99311,Dragon Bleeding 2 -- ドラゴン出血2
-99312,Dragon Bleeding 3 -- ドラゴン出血3
-99313,Dragon Bleeding 4 -- ドラゴン出血4
-99314,Dragon Bleeding 5 -- ドラゴン出血5
-99400,[Test] Curse of the Evil King -- 【テスト】死霊の王 呪い
-99401,C1210 Blue estrus Permit test -- c1210ブルー発情許可テスト
-99410,Touchable in c1240 poor dead rolling -- c1240貧民亡者　ローリングで押せるテスト
-99420,c2180 maggots test for changing animation of damage in flames -- c2180 蛆人　炎でダメージアニメを変える用テスト
-99430,12 End edition avatar for pseudo-death state -- 12末版アバター　擬死状態用
-99440,Ash Daemon hot air damage large -- 灰のデーモン熱風ダメージ大
-99441,Ash Daemon hot air damage small -- 灰のデーモン熱風ダメージ小
-99450,Resident damage Anime change [for provisional Black Knight] -- 常駐ダメージアニメ変化【仮黒騎士用】
-99451,Resident damage Anime change [for temporary crucifixion dead a] -- 常駐ダメージアニメ変化【仮磔亡者A用】
-99500,Test for the Cathedral Golem -- 聖堂ゴーレム用テスト
-99600,Test for time measurement until the pseudo-death resurrection -- 擬似死亡復活までの時間計測用テスト
-99700,Team Type Change test -- チームタイプ変更テスト
-99800,Tae-eventmaker Collaboration Test -- TAE-EventMaker連携テスト
-100000,Moving (walking) -- 移動中（歩行）
-100001,On the move -- 移動中（走行）
-100002,Moving (dash) -- 移動中（ダッシュ）
-100005,Movement Stop (walking) -- 移動停止（歩行）
-100006,Travel stop -- 移動停止（走行）
-100007,Stop Moving (DASH) -- 移動停止（ダッシュ）
-100010,Quick Turn decision -- クイックターン判定
-100020,Player stamina out of judgment -- プレイヤースタミナ切れ判定用
-100030,upper body Anime End transition judgement -- 上半身アニメ終了遷移判定用
-100040,Lower body anime End transition judgement -- 下半身アニメ終了遷移判定用
-100050,Rotation attack transition available for specified period -- 回転攻撃遷移可能期間指定用
-100060,吹tsu飛bimasu for back-step Prohibition in motion -- 吹っ飛び系モーション中のバックステップ禁止判定用
-100070,For the fall transition judging of jump animation -- ジャンプアニメの落下遷移判定用
-100080,For judgment of wall collision during throwing -- 投げ時の壁衝突処理判定用
-100090,For determining the timing of the possible interruption of the reservoir attack -- 溜め攻撃の中断可能タイミング判定用
-100100,For determining death timing for wall collisions -- 投げ時壁衝突用の死亡タイミング判定用
-100110,Bonfire Event Issue Timing determination -- 篝火イベント発行タイミング判定用
-100120,Guard reversal Possible timing determination -- ガードリバーサル可能タイミング判定用
-100130,Right for Movement judgment -- 右向き移動判定用
-100140,For right diagonal movement judgment -- 右斜め移動判定用
-100150,For Left movement judgment -- 左向き移動判定用
-100160,Left diagonal Movement judgment -- 左斜め移動判定用
-100170,For determination of 180 degree turning in dash -- ダッシュ中180度旋回判定用
-100180,For no dash judgment -- ダッシュ不可判定用
-100190,For the driving and dash no judgment -- 走行・ダッシュ不可判定用
-100200,For non-moving judgment -- 移動不可判定用
-100210,Left-hand attack transition timing -- 左繋ぎ攻撃遷移可能タイミング
-100220,Continue to dash even if dash input is missing -- ダッシュ入力がなくなってもダッシュし続ける
-100230,Make a default attack instead of a combo attack -- コンボ攻撃ではなくデフォルトの攻撃を出す
-100240,No turning when rolling -- ローリング時旋回不可判定
-100250,The second stage of attack can be derived or determined -- 構え攻撃2段目派生可能か判定
-100260,The second stage of the rush attack can be derived or determined -- 突進攻撃2段目派生可能か判定
-100270,Can rise and roll -- 起き上がりローリング可能か判定
-120000,Arts: Axe: War cry -- アーツ：斧：ウォークライ
-120010,Arts: Axe: War cry: lack of points -- アーツ：斧：ウォークライ：ポイント不足
-120020,Arts: Axe: War cry Shockwave: Point shortage -- アーツ：斧：ウォークライ衝撃波：ポイント不足
-120110,Arts: Oversized Sword: Depression attack: lack of points -- アーツ：特大剣：踏み込み攻撃：ポイント不足
-120210,Arts: Straight Sword: Poised attack: lack of points -- アーツ：直剣：構え攻撃：ポイント不足
-120310,Arts: Song Sword: Spinning attack: lack of points -- アーツ：曲剣：回転攻撃：ポイント不足
-120410,Arts: Bow: Fire: Point shortage -- アーツ：弓：連射：ポイント不足
-120500,Arts: Cane: Magic power Up (right) -- アーツ：杖：魔法威力アップ（右手）
-120501,Arts: Cane: Magic power Up (left hand) -- アーツ：杖：魔法威力アップ（左手）
-120510,Arts: Cane: Magic power Up (right): lack of points -- アーツ：杖：魔法威力アップ（右手）：ポイント不足
-120511,Arts: Cane: Magic power Up (left hand): lack of points -- アーツ：杖：魔法威力アップ（左手）：ポイント不足
-120610,Arts: Spear: Assault: lack of points -- アーツ：槍：突撃：ポイント不足
-120700,Arts: Hammered: Patience -- アーツ：槌：我慢
-120710,Arts: Hammered: Patience: lack of points -- アーツ：槌：我慢：ポイント不足
-120800,Arts: Talisman: SA chant -- アーツ：タリスマン：SA詠唱
-120801,Arts: Talisman: SA chanting damage replacement -- アーツ：タリスマン：SA詠唱ダメージ差し替え
-120810,Arts: Talisman: SA chant (point shortage) -- アーツ：タリスマン：SA詠唱（ポイント不足）
-120811,Arts: Talisman: SA cast damage replacement (lack of points) -- アーツ：タリスマン：SA詠唱ダメージ差し替え（ポイント不足）
-120910,Arts: Miyakonojo: Shoot through: lack of points -- アーツ：大弓：貫通射撃：ポイント不足
-130000,Wet control: Water wet -- 濡れ制御：水濡れ
-130010,Wet control: Poison wet -- 濡れ制御：毒濡れ
-130020,Wet control: Mud wet -- 濡れ制御：泥濡れ
-130040,Wet control: Frostbite wetting -- 濡れ制御：凍傷濡れ
-140001,Multi-Doping: Super Ability: Client 1 -- マルチドーピング：ザコ：クライアント1名
-140002,Multi-Doping: Super Ability: 2 clients -- マルチドーピング：ザコ：クライアント2名
-140003,Multi-Doping: Super Ability: 3 clients -- マルチドーピング：ザコ：クライアント3名
-140101,Multi-Doping: Strong enemy: 1 Client -- マルチドーピング：強敵：クライアント1名
-140102,Multi-Doping: formidable: 2 clients -- マルチドーピング：強敵：クライアント2名
-140103,Multi-Doping: formidable: 3 clients -- マルチドーピング：強敵：クライアント3名
-140201,Multi-Doping: Boss: 1 Client -- マルチドーピング：ボス：クライアント1名
-140202,Multi-Doping: Boss: 2 Clients -- マルチドーピング：ボス：クライアント2名
-140203,Multi-Doping: Boss: 3 clients -- マルチドーピング：ボス：クライアント3名
-224690,Item:
-224691,Item:
-224692,Item:
-224693,Item:
-900100,SFX Confirmation: EST recovery -- SFX確認用：エスト使用回数回復
-900200,Ring:
-900201,Ring:
-900202,Ring:
-900203,Ring:
-900210,Ring:
-900211,Ring:
-900212,Ring:
-111000000,Ring: Blade of the Darkmoon
-111001000,Ring: Spears of the Church
-111002000,Ring: Watchdogs of Farron
-111003000,Ring: Aldrich Faithful
-111004000,Ring: Blue Sentinels
-112000000,Ring: Life Ring
-112000100,Ring: Life Ring+1
-112000200,Ring: Life Ring+2
-112000300,Ring: Life Ring+3
-112001000,Ring: Chloranthy Ring
-112001100,Ring: Chloranthy Ring+1
-112001200,Ring: Chloranthy Ring+2
-112001300,Ring: Chloranthy Ring+3
-112002000,Ring: Havel's Ring
-112002100,Ring: Havel's Ring+1
-112002200,Ring: Havel's Ring+2
-112002300,Ring: Havel's Ring+3
-112003000,Ring: Ring of Favor
-112003100,Ring: Ring of Favor+1
-112003200,Ring: Ring of Favor+2
-112003300,Ring: Ring of Favor+3
-112004000,Ring: Ring of Steel Protection
-112004100,Ring: Ring of Steel Protection+1
-112004200,Ring: Ring of Steel Protection+2
-112004300,Ring: Ring of Steel Protection+3
-112005000,Ring: Flame Stoneplate Ring
-112005100,Ring: Flame Stoneplate Ring+1
-112005200,Ring: Flame Stoneplate Ring+2
-112006000,Ring: Thunder Stoneplate Ring
-112006100,Ring: Thunder Stoneplate Ring+1
-112006200,Ring: Thunder Stoneplate Ring+2
-112007000,Ring: Magic Stoneplate Ring
-112007100,Ring: Magic Stoneplate Ring+1
-112007200,Ring: Magic Stoneplate Ring+2
-112008000,Ring: Dark Stoneplate Ring
-112008100,Ring: Dark Stoneplate Ring+1
-112008200,Ring: Dark Stoneplate Ring+2
-112009000,Ring: Speckled Stoneplate Ring
-112009100,Ring: Speckled Stoneplate Ring+1
-112010000,Ring: Bloodbite Ring
-112010100,Ring: Bloodbite Ring+1
-112011000,Ring: Poisonbite Ring
-112011100,Ring: Poisonbite Ring+1
-112012000,Ring: Cursebite Ring
-112013000,Ring: Fleshbite Ring
-112013100,Ring: Fleshbite Ring+1
-112014000,Ring: Wood Grain Ring
-112014100,Ring: Wood Grain Ring+1
-112014200,Ring: Wood Grain Ring+2
-112015000,Ring: Scholar Ring
-112016000,Ring: Priestess Ring
-112017000,Ring: Red Tearstone Ring
-112018000,Ring: Blue Tearstone Ring
-112019000,Ring: Wolf Ring
-112019100,Ring: Wolf Ring+1
-112019200,Ring: Wolf Ring+2
-112019300,Ring: Wolf Ring+3
-112020000,Ring: Leo Ring
-112021000,Ring: Ring of Sacrifice
-112022000,Ring: Ring of Sacrifice (Complementary)
-112023000,Ring: Young Dragon Ring
-112023100,Ring: Bellowing Dragoncrest Ring
-112024000,Ring: Great Swamp Ring
-112024100,Ring: Witch's Ring
-112025000,Ring: Morne's Ring
-112025100,Ring: Ring of the Sun's First Born
-112027000,Ring: Lingering Dragoncrest Ring
-112027100,Ring: Lingering Dragoncrest Ring+1
-112027200,Ring: Lingering Dragoncrest Ring+2
-112028000,Ring: Sage Ring
-112028100,Ring: Sage Ring+1
-112028200,Ring: Sage Ring+2
-112029000,Ring: Slumbering Dragoncrest Ring
-112030000,Ring: Dusk Crown Ring
-112031000,Ring: Saint's Ring
-112032000,Ring: Deep Ring
-112033000,Ring: Darkmoon Ring
-112037000,Ring: Hawk Ring
-112038000,Ring: Hornet Ring
-112039000,Ring: Covetous Gold Serpent Ring
-112039100,Ring: Covetous Gold Serpent Ring+1
-112039200,Ring: Covetous Gold Serpent Ring+2
-112039300,Ring: Covetous Gold Serpent Ring+3
-112040000,Ring: Covetous Silver Serpent Ring
-112040100,Ring: Covetous Silver Serpent Ring+1
-112040200,Ring: Covetous Silver Serpent Ring+2
-112040300,Ring: Covetous Silver Serpent Ring+3
-112041000,Ring: Sun Princess Ring
-112042000,Ring: Silvercat Ring
-112043000,Ring: Skull Ring
-112044000,Ring: Untrue White Ring
-112045000,Ring: Carthus Milkring - Effect
-112045010,Ring: Carthus Milkring - Condition
-112046000,Ring: Knight's Ring
-112047000,Ring: Hunter's Ring
-112048000,Ring: Knight Slayer's Ring
-112049000,Ring: Magic Clutch Ring
-112050000,Ring: Lightning Clutch Ring
-112051000,Ring: Fire Clutch Ring
-112052000,Ring: Dark Clutch Ring
-112054000,Ring: Flynn's Ring
-112055000,Ring: Prisoner's Chain
-112056000,Ring: Untrue Dark Ring
-112058000,Ring: Obscuring Ring
-112059000,Ring: Ring of the Evil Eye
-112059010,Ring: Ring of the Evil Eye - Effect
-112059100,Ring: Ring of the Evil Eye+1
-112059110,Ring: Ring of the Evil Eye+1 - Effect
-112059200,Ring: Ring of the Evil Eye+2
-112059210,Ring: Ring of the Evil Eye+2 - Effect
-112059300,Ring: Ring of the Evil Eye+3
-112059310,Ring: Ring of the Evil Eye+3 - Effect
-112060000,Ring: Calamity Ring
-112061000,Ring: Farron Ring
-112062000,Ring: Aldrich's Ruby
-112062001,Ring: Aldrich's Ruby - Condition
-112062002,Ring: Aldrich's Ruby - Effect
-112063000,Ring: Aldrich's Sapphire
-112063001,Ring: Aldrich's Sapphire - Condition
-112063002,Ring: Aldrich's Sapphire - Effect
-112066000,Ring: Lloyd's Sword Ring
-112067000,Ring: Lloyd's Shield Ring
-112070000,Ring: Estus Ring
-112071000,Ring: Ashen Estus Ring
-112072000,Ring: Horsehoof Ring
-112073000,Ring: Carthus Bloodring
-112074000,Ring: Reversal Ring
-112075000,Ring: Pontiff's Right Eye - Condition
-112075010,Ring: Pontiff's Right Eye - Condition (Complementary)
-112075020,Ring: Pontiff's Right Eye - Condition (Complementary)
-112075030,Ring: Pontiff's Right Eye - Condition (Complementary)
-112075100,Ring: Pontiff's Right Eye - Effect (Complementary)
-112075110,Ring: Pontiff's Right Eye - Effect (Complementary)
-112075120,Ring: Pontiff's Right Eye - Effect (Complementary)
-112075130,Ring: Pontiff's Right Eye - Effect
-112079000,Ring: Pontiff's Left Eye
-112079100,Ring: Pontiff's Left Eye - Effect
-112083000,Ring: Dragonscale Ring
-112100000,Ring: Chillbite Ring
-129000500,Infusion: Simple
-129000501,Infusion: Simple +1
-129000502,Infusion: Simple +2
-129000503,Infusion: Simple +3
-129000504,Infusion: Simple +4
-129000505,Infusion: Simple +5
-129000506,Infusion: Simple +6
-129000507,Infusion: Simple +7
-129000508,Infusion: Simple +8
-129000509,Infusion: Simple +9
-129000510,Infusion: Simple +10
-129001100,Infusion: Poison
-129001101,Infusion: Poison +1
-129001102,Infusion: Poison +2
-129001103,Infusion: Poison +3
-129001104,Infusion: Poison +4
-129001105,Infusion: Poison +5
-129001106,Infusion: Poison +6
-129001107,Infusion: Poison +7
-129001108,Infusion: Poison +8
-129001109,Infusion: Poison +9
-129001110,Infusion: Poison +10
-129001200,Infusion: Bleed
-129001201,Infusion: Bleed +1
-129001202,Infusion: Bleed +2
-129001203,Infusion: Bleed +3
-129001204,Infusion: Bleed +4
-129001205,Infusion: Bleed +5
-129001206,Infusion: Bleed +6
-129001207,Infusion: Bleed +7
-129001208,Infusion: Bleed +8
-129001209,Infusion: Bleed +9
-129001210,Infusion: Bleed +10
-129001400,Infusion: Blessed
-129001401,Infusion: Blessed +1
-129001402,Infusion: Blessed +2
-129001403,Infusion: Blessed +3
-129001404,Infusion: Blessed +4
-129001405,Infusion: Blessed +5
-129001406,Infusion: Blessed +6
-129001407,Infusion: Blessed +7
-129001408,Infusion: Blessed +8
-129001409,Infusion: Blessed +9
-129001410,Infusion: Blessed +10
-129001500,Infusion: Hollow
-129001501,Infusion: Hollow +1
-129001502,Infusion: Hollow +2
-129001503,Infusion: Hollow +3
-129001504,Infusion: Hollow +4
-129001505,Infusion: Hollow +5
-129001506,Infusion: Hollow +6
-129001507,Infusion: Hollow +7
-129001508,Infusion: Hollow +8
-129001509,Infusion: Hollow +9
-129001510,Infusion: Hollow +10
-129010500,Infusion: Simple Level 2
-129010501,Infusion: Simple Level 2 +1
-129010502,Infusion: Simple Level 2 +2
-129010503,Infusion: Simple Level 2 +3
-129010504,Infusion: Simple Level 2 +4
-129010505,Infusion: Simple Level 2 +5
-129010506,Infusion: Simple Level 2 +6
-129010507,Infusion: Simple Level 2 +7
-129010508,Infusion: Simple Level 2 +8
-129010509,Infusion: Simple Level 2 +9
-129010510,Infusion: Simple Level 2 +10
-129011100,Infusion: Poison Level 2
-129011101,Infusion: Poison Level 2 +1
-129011102,Infusion: Poison Level 2 +2
-129011103,Infusion: Poison Level 2 +3
-129011104,Infusion: Poison Level 2 +4
-129011105,Infusion: Poison Level 2 +5
-129011106,Infusion: Poison Level 2 +6
-129011107,Infusion: Poison Level 2 +7
-129011108,Infusion: Poison Level 2 +8
-129011109,Infusion: Poison Level 2 +9
-129011110,Infusion: Poison Level 2 +10
-129011200,Infusion: Bleed Level 2
-129011201,Infusion: Bleed Level 2 +1
-129011202,Infusion: Bleed Level 2 +2
-129011203,Infusion: Bleed Level 2 +3
-129011204,Infusion: Bleed Level 2 +4
-129011205,Infusion: Bleed Level 2 +5
-129011206,Infusion: Bleed Level 2 +6
-129011207,Infusion: Bleed Level 2 +7
-129011208,Infusion: Bleed Level 2 +8
-129011209,Infusion: Bleed Level 2 +9
-129011210,Infusion: Bleed Level 2 +10
-129011400,Infusion: Blessed Level 2
-129011401,Infusion: Blessed Level 2 +1
-129011402,Infusion: Blessed Level 2 +2
-129011403,Infusion: Blessed Level 2 +3
-129011404,Infusion: Blessed Level 2 +4
-129011405,Infusion: Blessed Level 2 +5
-129011406,Infusion: Blessed Level 2 +6
-129011407,Infusion: Blessed Level 2 +7
-129011408,Infusion: Blessed Level 2 +8
-129011409,Infusion: Blessed Level 2 +9
-129011410,Infusion: Blessed Level 2 +10
-129021100,Infusion: Poison Level 3
-129021101,Infusion: Poison Level 3 +1
-129021102,Infusion: Poison Level 3 +2
-129021103,Infusion: Poison Level 3 +3
-129021104,Infusion: Poison Level 3 +4
-129021105,Infusion: Poison Level 3 +5
-129021106,Infusion: Poison Level 3 +6
-129021107,Infusion: Poison Level 3 +7
-129021108,Infusion: Poison Level 3 +8
-129021109,Infusion: Poison Level 3 +9
-129021110,Infusion: Poison Level 3 +10
-129021200,Infusion: Bleed Level 3
-129021201,Infusion: Bleed Level 3 +1
-129021202,Infusion: Bleed Level 3 +2
-129021203,Infusion: Bleed Level 3 +3
-129021204,Infusion: Bleed Level 3 +4
-129021205,Infusion: Bleed Level 3 +5
-129021206,Infusion: Bleed Level 3 +6
-129021207,Infusion: Bleed Level 3 +7
-129021208,Infusion: Bleed Level 3 +8
-129021209,Infusion: Bleed Level 3 +9
-129021210,Infusion: Bleed Level 3 +10
-129031100,Infusion: Poison Level 4
-129031101,Infusion: Poison Level 4 +1
-129031102,Infusion: Poison Level 4 +2
-129031103,Infusion: Poison Level 4 +3
-129031104,Infusion: Poison Level 4 +4
-129031105,Infusion: Poison Level 4 +5
-129031106,Infusion: Poison Level 4 +6
-129031107,Infusion: Poison Level 4 +7
-129031108,Infusion: Poison Level 4 +8
-129031109,Infusion: Poison Level 4 +9
-129031110,Infusion: Poison Level 4 +10
-129031200,Infusion: Bleed Level 4
-129031201,Infusion: Bleed Level 4 +1
-129031202,Infusion: Bleed Level 4 +2
-129031203,Infusion: Bleed Level 4 +3
-129031204,Infusion: Bleed Level 4 +4
-129031205,Infusion: Bleed Level 4 +5
-129031206,Infusion: Bleed Level 4 +6
-129031207,Infusion: Bleed Level 4 +7
-129031208,Infusion: Bleed Level 4 +8
-129031209,Infusion: Bleed Level 4 +9
-129031210,Infusion: Bleed Level 4 +10
-129041100,Infusion: Poison Level 5
-129041101,Infusion: Poison Level 5 +1
-129041102,Infusion: Poison Level 5 +2
-129041103,Infusion: Poison Level 5 +3
-129041104,Infusion: Poison Level 5 +4
-129041105,Infusion: Poison Level 5 +5
-129041106,Infusion: Poison Level 5 +6
-129041107,Infusion: Poison Level 5 +7
-129041108,Infusion: Poison Level 5 +8
-129041109,Infusion: Poison Level 5 +9
-129041110,Infusion: Poison Level 5 +10
-129041200,Infusion: Bleed Level 5
-129041201,Infusion: Bleed Level 5 +1
-129041202,Infusion: Bleed Level 5 +2
-129041203,Infusion: Bleed Level 5 +3
-129041204,Infusion: Bleed Level 5 +4
-129041205,Infusion: Bleed Level 5 +5
-129041206,Infusion: Bleed Level 5 +6
-129041207,Infusion: Bleed Level 5 +7
-129041208,Infusion: Bleed Level 5 +8
-129041209,Infusion: Bleed Level 5 +9
-129041210,Infusion: Bleed Level 5 +10
-129051100,Infusion: Poison Level 6
-129051101,Infusion: Poison Level 6 +1
-129051102,Infusion: Poison Level 6 +2
-129051103,Infusion: Poison Level 6 +3
-129051104,Infusion: Poison Level 6 +4
-129051105,Infusion: Poison Level 6 +5
-129051106,Infusion: Poison Level 6 +6
-129051107,Infusion: Poison Level 6 +7
-129051108,Infusion: Poison Level 6 +8
-129051109,Infusion: Poison Level 6 +9
-129051110,Infusion: Poison Level 6 +10
-129051200,Infusion: Bleed Level 6
-129051201,Infusion: Bleed Level 6 +1
-129051202,Infusion: Bleed Level 6 +2
-129051203,Infusion: Bleed Level 6 +3
-129051204,Infusion: Bleed Level 6 +4
-129051205,Infusion: Bleed Level 6 +5
-129051206,Infusion: Bleed Level 6 +6
-129051207,Infusion: Bleed Level 6 +7
-129051208,Infusion: Bleed Level 6 +8
-129051209,Infusion: Bleed Level 6 +9
-129051210,Infusion: Bleed Level 6 +10
-160000000,Ring:
+0,For testing
+1,Pledge effect test
+2,Test_enchantweapon
+3,Test_cure
+4,[Item] White Sign Soapstone
+5,Test_cureitem
+6,【 system 】 Kickout
+7,[Item] Black Separation Crystal
+8,System: Parameter changes during ghosting
+9,【 system 】 Black parameter change
+10,[Item] Red Sign Soapstone
+11,[Item] Red Eye Orb
+12,【 system 】 Bloodsign
+13,[System] Soul steel [multi]
+14,[System] Blue sign Visualization
+15,[Item] Black Eye Orb
+16,【 system 】 NITs intrusion sign barreling
+17,【 system 】 L Arena exit
+20,【 System 】 Evaluation effect
+21,[System] Point light source equipment
+22,Test_change_wep0
+23,Test_change_wep1
+24,【 system 】 Request for rescue
+25,[System] effect for revival production
+26,【 system 】 Invasion of the prize neck
+27,[System] to scatter the scales of dragons
+28,[Item] Dried Finger
+30,Anim - Parry Frames
+31,Anim - Counter Frames
+32,Anim - Falling Frames
+33,Petrified
+34,Crystallization
+35,Throwing invalid state
+36,Throwing ring equipment (throwing conditions)
+37,Soul Drain Throw condition
+38,Enhanced throwing damage up effect
+39,【 DLC 】 Throwing disabled state _ for prevention of saddle
+40,No resonance - Always applied to player
+41,Resonance LV1
+42,Resonance Lv2
+43,Resonance Lv3
+44,Resonance lv4
+45,Caries deaths
+50,Magic Nature (slot + 3 version)
+52,PG Test: Detection
+53,PG Test: Waiting for cooperation
+54,PG Test: Cooperation
+55,PG Test: Cooperating send
+57,PG Test: Gravity disabled
+59,Cooperation LV1
+60,Cooperation LV2
+61,Cooperation Lv3
+62,Waiting for cooperation
+63,Evil Eye Lv1
+64,Evil Eye Lv2
+65,The Evil eye (for use)
+71,Curse effect _LV1
+72,Curse effect _lv2
+73,Curse effect _lv3
+74,Curse effect _lv4
+80,Curse effect [Strengthening of spirits]
+90,Down
+91,Not guarded: scheduled to be deleted
+92,Guard possible
+94,SA addition disabled
+95,Movement magnification can be changed
+96,View Cut
+97,In a posture collapse
+100,Bonfire - Restore HP
+101,Bonfire - State Info 13
+102,Bonfire - Remove Bleed
+103,Bonfire - Remove Poison
+104,Bonfire - Remove Toxic
+105,Bonfire - Base Player Value
+106,Bonfire - Remove Frost
+107,Bonfire - Restore Durability
+108,Bonfire - Effect Category 100
+109,Bonfire - Remove Curse
+110,Squirrel-Pong Recovery effect 1
+111,Squirrel Pong Recovery Effect 2
+112,Squirrel Pong Recovery Effect 3
+113,Squirrel Pong Recovery Effect 4
+114,Squirrel Pong Recovery Effect 5
+115,The Squirrel Pong Recovery effect 6
+116,Squirrel Pong Recovery Effect 7
+117,Squirrel Pong Recovery Effect 8
+118,Squirrel Pong Recovery Effect 9
+119,Squirrel Pong Recovery Effect 10
+150,Dung Pie
+201,【 QWC 】 Area _npc_ + 1
+202,【 QWC 】 Area _npc_ + 2
+203,【 QWC 】 Area _npc_ + 3
+206,【 QWC 】 Area _npc_-1
+207,【 QWC 】 Area _NPC_-2
+208,【 QWC 】 Area _NPC_-3
+211,[QWC] Area _ black _ + 1
+212,[QWC] Area _ black _ + 2
+221,[QWC] Area _ white _ + 1
+222,[QWC] Area _ white _ + 2
+231,[QWC] Area _ gray _ + 1
+232,[QWC] Area _ gray _ + 2
+236,[QWC] Area _ gray _-1
+237,[QWC] Area _ gray _-2
+311,[QWC] Player _ black _ + 1
+312,[QWC] Player _ black _ + 2
+321,[QWC] Player _ white _ + 1
+322,[QWC] Player _ white _ + 2
+331,[QWC] Player _ gray _ + 1
+332,[QWC] Player _ gray _ + 2
+336,[QWC] Player _ gray _-1
+337,[QWC] Player _ gray _-2
+401,Torch
+402,Torch [Cycle]
+403,Torches (for enemy sensing)
+404,[SP] Torches _ for flame effect
+407,[SP] Torch _ for Light ID offset
+412,[FDP] Torch _ for Flame effect (raised)
+420,[SP] covered with oil
+421,【 SP 】 Fire Daruma
+425,【 SP 】 Fire Spread damage
+430,[FDP] Damage in the fire Daruma
+440,Anim - Rolling
+490,[FDP] King of firewood added effect
+491,[FDP] Added SFX when attacking king of firewood
+499,[FDP] King of firewood added effect _ client
+500,Gravity
+510,Gravity (for the use of)
+520,Sound Feed
+530,Hidden
+531,Hidden-sound source for dead
+540,Silence
+550,Tip Blood Letters
+560,Resurrection when dead
+561,Resurrection when dead (for determination of cord)
+570,Regenerate
+580,return [standby]
+581,Return of movement
+600,Anti Magic
+610,Anti-Magic (for the use) 【 effect 】
+611,Anti-Magic (for the use of) [effect]
+620,Light
+630,Attracted
+640,Falling control
+650,A firm oath
+651,Hard Oath for icons
+1000,Weapon Magic Reinforcement 1
+1010,Weapon Magic Reinforcement 2
+1020,Weapon Magic Reinforcement 3
+1040,Shield Reinforcement 1
+1050,Shield Reinforcement 2
+1060,Invisible weapon
+1070,Sword of the Sun
+1080,Moon Sword
+1081,Sword of the Moon _lv1
+1082,Sword of the Moon _lv2
+1083,Sword of the Moon _lv3
+1090,The Power of Madness
+1100,Fire Weapon Reinforcement 1
+1120,Veil of water
+1130,Body of iron [damage reduction effect]
+1140,Body of iron [moving slow effect]
+1150,Body of iron [damage animation change effect]
+1160,Magic Protection 1
+1170,Magic Protection 2
+1200,Poison for Poisoncloud
+1210,Deadly poison for the desk loud
+1220,Corrosion for corrosion Cloud
+1230,A deadly poison for the Mist of Darkness
+1300,Universal treatment [State Recovery]
+1301,Universal treatment [recovery of bleeding immunity]
+1302,Universal cure [Poison tolerance recovery]
+1303,Universal cure [deadly poison resistant recovery]
+1320,Poison treatment [State recovery]
+1321,Poison treatment [Resilient recovery]
+1330,Weapon Armor Repair
+1340,A curse
+1350,Worm Recovery
+1400,HP Recovery 1_ Yourself
+1401,HP Recovery 1_ around
+1420,HP Recovery 3_ Yourself
+1421,HP Recovery 3_ around
+1430,HP Recovery 4
+1431,HP Recovery 4_ Resonance LV1
+1500,Mimicry
+1510,Mimicry [moving slow effect]
+1520,Dragon Change 1
+1530,Dragon Change 2
+1600,Soul Drain 1 [AI]
+1610,Soul Drain 1 【 PC 】
+1620,Soul Drain 2 [AI]
+1630,Soul Drain 2 [PC]
+1700,White Relief Magic
+1710,Black Relief Magic
+1720,Item Detection Magic
+1800,Causal retribution _ for counting
+1810,Causal retribution _ for explosive generation
+1900,[FDP] Tread SA
+1901,FDP ID override test
+1902,[FDP] covered with Uzi test
+1903,[FDP] Tread guard
+1904,[FDP] Rotation movement gap
+1905,[FDP] Holding guard compensation for continuous firing
+1906,[FDP] Double chanting
+1907,FDP SA chanting
+2000,[Item] Estus Flask
+2001,[Item] Estus Flask+1
+2002,[Item] Estus Flask+2
+2003,[Item] Estus Flask+3
+2004,[Item] Estus Flask+4
+2005,[Item] Estus Flask+5
+2006,[Item] Estus Flask+6
+2007,[Item] Estus Flask+7
+2008,[Item] Estus Flask+8
+2009,[Item] Estus Flask+9
+2010,[Item] Estus Flask+10
+2020,[Item] Ashen Estus Flask
+2021,[Item] Ashen Estus Flask +1
+2022,[Item] Ashen Estus Flask +2
+2023,[Item] Ashen Estus Flask +3
+2024,[Item] Ashen Estus Flask +4
+2025,[Item] Ashen Estus Flask +5
+2026,[Item] Ashen Estus Flask +6
+2027,[Item] Ashen Estus Flask +7
+2028,[Item] Ashen Estus Flask +8
+2029,[Item] Ashen Estus Flask +9
+2030,[Item] Ashen Estus Flask +10
+2100,[Item] Charcoal Pine Resin
+2110,[Item] Charcoal Pine Bundle
+2120,[Item] Gold Pine Resin
+2130,[Item] Gold Pine Bundle
+2140,Resonance
+2150,[Item] Rotten Pine Resin
+2151,[Item] Rotten Pine Resin [AttackOccurance]
+2170,[Item] Human Pine Resin
+2180,[Item] Carthus Rouge
+2181,[Item] Carthus Rouge [AttackOccurance]
+2190,[Item] Pale Pine Resin
+2300,[Item] Charcoal Pine Resin - Ref2
+2310,[Item] Charcoal Pine Bundle - Ref2
+2320,[Item] Gold Pine Resin - Ref2
+2330,[Item] Gold Pine Bundle - Ref2
+2350,[Item] Rotten Pine Resin - Ref2
+2351,[Item] Rotten Pine Resin - Ref2 [AttackOccurance]
+2370,[Item] Human Pine Resin - Ref2
+2380,[Item] Carthus Rouge - Ref2
+2381,[Item] Carthus Rouge - Ref2
+2390,[Item] Pale Pine Resin - Ref2
+3000,HP Recovery Grass
+3040,[Item] Green Blossom
+3041,[DLC] Fragment of mushroom
+3042,[Item] Budding Green Blossom
+3050,bleeding treatment [State recovery]
+3051,bleeding treatment [resistance recovery]
+3060,Poison treatment [State recovery]
+3061,Poison treatment [Resilient recovery]
+3070,Toxic treatment [State recovery]
+3071,Toxic treatment [Resilient recovery]
+3080,Universal treatment [State Recovery]
+3090,[Item] Purging Stone [Replace]
+3091,Egg treatment
+3092,Curse
+3093,[Item] Purging Stone
+3100,[Item] Repair Powder
+3110,Poison Throwing Knife
+3115,Kukri
+3120,To make the opponent a poisonous poison
+3121,I take damage
+3130,Each time a
+3140,And every time B
+3150,Undead Hunter Charm [Mimic Effect]
+3151,Undead Hunter Charm [Estus Block]
+3152,Undead Hunter Charm [Mimic Effect]
+3160,Weapon Flame Enhancement
+3161,Weapon Flame Enhancement (quick)
+3170,Weapon Lightning Reinforcement
+3171,Weapon Lightning Enhancement (quick)
+3180,Weapon versus Spirit reinforcement
+3210,Excitement Incense
+3220,[Item] Homeward Bone
+3221,[Item] Homeward Bone
+3222,[Item] Homeward Bone
+3223,[Item] Homeward Bone
+3224,[Item] Homeward Bone
+3225,[Item] Homeward Bone
+3226,[Item] Dark Sign
+3230,Resurrection Stone [Resurrection effect]
+3231,Human Nature Recovery
+3240,[Item] Binoculars
+3250,Pledge discarded
+3269,[Item] Soul (50)
+3270,[Item] Soul (200)
+3271,[Item] Soul (400)
+3272,[Item] Soul (800)
+3273,[Item] Soul (1000)
+3274,[Item] Soul (2000)
+3275,[Item] Soul (3000)
+3276,[Item] Soul (5000)
+3277,[Item] Soul (8000)
+3278,[Item] Soul (10000)
+3279,[Item] Soul (20000)
+3280,[Item] Soul (500)
+3281,[Item] Soul (1000)
+3282,[Item] Soul (2000)
+3283,[Item] Soul (2500)
+3284,[Item] Soul (5000)
+3285,[Item] Soul (7500)
+3286,[Item] Soul (12500)
+3287,[Item] Soul (20000)
+3288,[Item] Soul (25000)
+3289,[Item] Soul (50000)
+3290,[Item] Ember
+3291,[Item] Ember [ReplaceEffect] - Left Shoulder
+3292,[Item] Ember [ReplaceEffect] - Right Shoulder
+3293,[Item] Ember [ReplaceEffect] - Upper Body
+3294,[Item] Ember [ReplaceEffect] - System
+3295,[Item] Ember [ReplaceEffect] - SFX
+3296,[Item] Ember [ReplaceEffect] - SFX
+3297,[Item] Ember [ReplaceEffect] - SFX
+3298,[Item] Ember [ReplaceEffect] - SFX
+3330,[Item] Divine Blessing
+3340,[Item] Hidden Blessing
+3400,[Item] Soul of a Crystal Sage
+3402,[Item] Soul of the Blood of the Wolf
+3403,[Item] Soul of Consumed Oceiros
+3404,[Item] Soul of Boreal Valley Vordt
+3405,[Item] Soul of the Old Demon King
+3406,[Item] Soul of Dragonslayer Armour
+3407,[Item] Soul of the Nameless King
+3409,[Item] Soul of Champion Gundyr
+3411,[Item] Soul of Pontiff Sulyvahn
+3412,[Item] Soul of Aldrich
+3413,[Item] Soul of High Lord Wolnir
+3414,[Item] Soul of the Rotted Greatwood
+3415,[Item] Soul of Rosaria
+3416,[Item] Soul of the Deacons of the Deep
+3417,Boss Soul: Prince of Darkness, soul of Brother
+3418,[Item] Soul of the Twin Princes
+3419,[Item] Soul of Yhorm the Giant
+3420,[Item] Soul of the Dancer
+3421,[Item] Soul of the Lords
+3427,[Item] Soul of a Demon
+3431,[Item] Soul of a Stray Demon
+3432,[Item] Soul of Sister Friede
+3433,[Item] Soul of Slave Knight Gael
+3434,[Item] Soul of the Demon Prince
+3435,[Item] Soul of Darkeater Midir
+3600,Dragon Head Form
+3610,Dragon Form
+3620,Dragon Head Stone - On Use
+3630,Dragon Torso Stone - On Use
+3640,Twinkling Dragon Head Stone - On Use
+3650,Twinkling Dragon Torso Stone - On Use
+3700,[Item] Seed of a Giant Tree
+3701,[Item] Seed of a Giant Tree [Cycle]
+3730,[Item] Way of White Circlet
+3740,[Item] Forked Pale Tongue
+3750,[Item] Proof of a Concord Well Kept
+3820,[Item] Mossfruit
+3870,[Item] Young White Branch
+3871,[Item] Young White Branch [CycleOccurance]
+3880,[Item] Rusted Coin
+3890,[Item] Rusted Gold Coin
+3910,[Item] Blue Bug Pellet
+3920,[Item] Red Bug Pellet
+3930,[Item] Yellow Bug Pellet
+3940,[Item] Black Bug Pellet
+4000,Swamp - Movement Slow
+4001,Farron Swamp - Poison (Deep) - Interval Adjustment
+4002,Farron Swamp - Poison (Deep)
+4003,Farron Swamp - Poison (Shallow) - Interval Adjustment
+4004,Farron Swamp - Poison (Shallow)
+4010,Toxic Swamp - Poison (Deep) - Interval Adjustment
+4011,Toxic Swamp - Poison (Deep)
+4012,Toxic Swamp - Poison (Shallow) - Interval Adjustment
+4013,Toxic Swamp - Poison (Shallow)
+4050,Falling Death Disabled
+4060,Fall Damage Disabled
+4070,Fall Damage Disabled
+4100,Slow effect (weak)
+4101,Slow effect (strong)
+4150,Inside Key of Universal door
+4200,Curse Trap - Interval Adjustment
+4201,Curse Trap
+5000,Non-combat action running
+5001,Non-combat behavior smooth disregard
+5020,General effect for logic judgment 1
+5021,General effect for logic judgment 2
+5022,General effect for logic judgment 3
+5023,General effect for logic judgment 4
+5024,General effect for logic judgment 5
+5025,General effect for logic judgment 6
+5026,General effect for logic judgment 7
+5027,General effect for logic judgement 8
+5028,General effect for logic judgment 9
+5029,General effect for logic judgment 10
+5030,General effect for logic judgment 11
+5031,General effect for logic judgement 12
+5032,General effect for logic judgment 13
+5033,General effect for logic judgment 14
+5034,General effect for logic judgment 15
+5040,MP Decrease-1
+5041,MP Decrease-2
+5042,MP Decrease-3
+5043,MP Decrease-4
+5044,MP Decrease-5
+5045,MP Recovery + 1
+5046,MP Recovery + 2
+5047,MP Recovery + 3
+5048,MP Recovery + 4
+5049,MP Recovery + 5
+5100,Maggots covered
+5101,Blood damage so that the maggots smeared
+5247,Cold air Damage Release
+5300,Normal damage anime changes [all disabled]
+5301,Normal damage anime changes [minimal, small, medium, large, beating, launch, pushing disabled]
+5302,Normal damage anime changes [minimum, small, medium, large, push disabled]
+5303,Normal damage anime change [Minimal, small, medium, press disabled]
+5304,Normal damage anime change [minimal, small, push disabled]
+5305,Normal damage anime change [minimal, push disabled]
+5306,Normal time damage anime change [press → Small]
+5307,Normal damage anime change [minimum → small]
+5308,Normal Time damage Anime change
+5309,Normal damage Anime change
+5310,Normal damage anime changes [lv1 down]
+5311,Normal damage anime changes [small, 吹tsu飛bimasu, launch only]
+5320,Normal damage anime change [large only]
+5321,Normal damage anime change [Medium, large, only slams]
+5322,Normal damage anime changes [吹tsu飛bimasu]
+5323,Normal damage anime changes [no 吹tsu飛bimasu/slams]
+5324,Normal damage anime change [Minimal, small, medium, large only]
+5325,Normal damage anime changes [吹tsu飛bimasu/push]
+5326,Normal damage anime changes [small and medium only]
+5327,Normal damage anime change [small, medium, large only]
+5328,Normal damage anime change [small, medium, large, only slapping]
+5329,Normal damage anime change [small only]
+5330,Normal damage anime change [small, large, 吹tsu飛bimasu only]
+5331,Normal damage anime change [for crystal lizards]
+5332,Normal damage anime changes [under the big deal]
+5333,Normal damage anime changes [during only]
+5334,Normal damage anime change [medium/吹tsu飛bimasu only]
+5335,Normal damage anime change [reaction large]
+5350,Normal damage anime change [all disabled] (instant)
+5351,Normal damage anime changes [minimal, small, medium, large, beating, launch, pushing disabled] (instant)
+5352,Normal damage anime change [minimum, small, medium, large, push disabled] (instant)
+5353,Normal damage anime change [Minimal, small, medium, press disabled] (instant)
+5354,Normal damage anime change [minimal, small, push disabled] (instant)
+5360,NPC: Damage Level - No Stagger
+5361,NPC: Damage Level - No Stagger for Small Strikes
+5362,SA Time damage Anime changes
+5363,SA when damage anime changes [small and medium]
+5364,SA Time damage Anime change [small only/large void]
+5370,SA Time damage Anime change [all disabled] (instant)
+5371,SA Time damage Anime change [small only] (instant)
+5372,SA Time damage Anime change [medium only] (instant)
+5373,SA when damage anime changes [small and medium] (instant)
+5374,SA Time damage Anime change [small only/large void] (instant)
+5400,Weapon change Anime ID offset 0
+5404,Anime ID offset 1,000,000
+5405,Anime ID offset 2,000,000
+5406,Anime ID offset 3,000,000
+5407,Anime ID offset 4 million
+5408,Anime ID Offset 5,000,000
+5440,NPC: Blood Damage Rate 30
+5441,NPC: Blood Damage Rate 50
+5442,NPC: Blood Damage Rate 70
+5443,NPC: Blood Damage Rate 20
+5450,An enemy special waiting: for event processing
+5460,Enemy character est [HP]
+5461,Enemy character est [HP]
+5540,Maggots flame condition (for Panish Flag)
+5600,Salivan Enchant
+5700,_c2180 maggots for special damage assessment
+5701,_c1360 Crucifixion dead for special damage determination
+5702,_c1370 Crucifixion dead B for special damage determination
+5703,_c2250 Tindalos for special damage determination
+5704,_c1390 snake Assassin for special damage determination
+5705,Sand worm c2201 sharing of _c2200 waste for special damage determination
+5706,_c2020 dead dog for special damage determination
+5707,_c5230_ Mother Dragon for special damage determination
+5708,_c2190_ Ojo Gargoyle for special Damage determination
+5709,_c1090_ dead soldier for special damage Determination (Segunda State)
+5710,_c2240_ Full Armor beast for special damage determination
+5711,_c2250_ Tindalos for special Damage Determination (for animation transition after large throw)
+5712,_c1170 Skeleton Warrior a c1180 share for special damage determination
+5730,[Gravetender Greatwolf]
+5750,For special Damage Determination _ Continuous Regeneration Prevention: duration of flag pulling
+5751,For special Damage Determination _ Continuous regeneration Prevention: cool time 3 seconds
+5752,For special Damage Determination _ Continuous regeneration Prevention: cool time 5 seconds
+5800,[Behavior] Do not cut the movement amount of damage anime
+5820,[Behavior] Stance: Valid only for the duration of the flag pulling
+5830,The VFX will light your eyes and revive you once and for all
+5831,If the 5830 is at stake, let the dead anime transition
+6000,[Behavior] touchable in rolling
+6001,[Behavior] is flipped when the damage judgment is hit the map anime reproduction
+6002,[Behavior] Wait offset instantaneous switching
+6003,[Behavior] Count any number of seconds
+6050,Golem keeps crumbling state
+6070,[Yhorm]
+6200,Stamina Recovery Down _ head _ Level 1
+6201,Stamina Recovery Down _ head _ Level 2
+6202,Stamina Recovery Down _ head _ Level 3
+6203,Stamina Recovery Down _ head _ Level 4
+6210,Stamina Recovery Down _ torso _ Level 1
+6211,Stamina Recovery Down _ torso _ Level 2
+6212,Stamina Recovery Down _ torso _ Level 3
+6213,Stamina Recovery Down _ torso _ Level 4
+6220,Stamina Recovery Down _ arm _ Level 1
+6221,Stamina Recovery Down _ arms _ Level 2
+6222,Stamina Recovery Down _ arms _ Level 3
+6223,Stamina Recovery Down _ arm _ Level 4
+6230,Stamina Recovery Down _ leg _ Level 1
+6231,Stamina Recovery Down _ leg _ Level 2
+6232,Stamina Recovery Down _ leg _ Level 3
+6233,Stamina Recovery Down _ leg _ Level 4
+6300,Super Armor
+6310,Helm of Thorns
+6311,Armor of Thorns
+6312,Gauntlets of Thorns
+6313,Leggings of Thorns
+6320,Symbol of Avarice
+6321,Symbol of Avarice
+6325,Blindfold Mask
+6326,Blindfold Mask
+6330,Crown of Dusk
+6331,Crown of Dusk
+6335,Chain Missing: damage reduction
+6340,[Weapon Art] Stomp
+6350,Toughness - 0 to 30
+6351,Toughness - 30 to 50
+6352,Toughness - 50 to 70
+6353,Toughness - 70 to 100
+6354,Toughness - 100 or more
+6380,Head
+6381,Body
+6382,Hands
+6383,Legs
+6400,Bleed Arrow 1
+6401,Bleed Arrow 2
+6402,Bleed Arrow 3
+6403,Bleed Arrow 4
+6404,Bleed Arrow 5
+6405,Bleed Arrow 6
+6500,Poison Arrow 1
+6501,Poison Arrow 2
+6502,Poison Arrow 3
+6503,Poison Arrow 4
+6504,Poison Arrow 5
+6505,Poison Arrow 6
+6510,Poison Arrow [Short] 1
+6511,Poison Arrow [Short] 2
+6512,Poison Arrow [Short] 3
+6513,Poison Arrow [Short] 4
+6514,Poison Arrow [Short] 5
+6515,Poison Arrow [Short] 6
+6600,Toxic Arrow 1
+6601,Toxic Arrow 2
+6602,Toxic Arrow 3
+6603,Toxic Arrow 4
+6604,Toxic Arrow 5
+6605,Toxic Arrow 6
+6700,Cold _1
+6701,Chill _2
+6702,Cold _3
+6703,Cold _4
+6704,Cold _5
+6705,Cold _6
+6800,Petrified Curse Damage 1
+6801,Petrified Curse Damage 2
+6802,Petrified Curse Damage 3
+6803,Petrified Curse Damage 4
+6804,Petrified Curse Damage 5
+6805,Petrified Curse damage 0 (weaker than 1)
+6900,Behavior - Add Stability - 2
+6901,Behavior - Add Stability - 4
+6902,Behavior - Add Stability - 6
+6903,Behavior - Add Stability - 8
+6904,Behavior - Add Stability - 10
+6905,Behavior - Add Stability - 12
+6906,Behavior - Add Stability - 14
+6907,Behavior - Add Stability - 16
+6908,Behavior - Add Stability - 18
+6909,Behavior - Add Stability - 20
+6980,Event: City Maps Nipe stop
+7000,Level Scaling - Cemetery of Ash
+7010,Level Scaling - High Wall of Lothric
+7020,Level Scaling - Undead Settlement
+7030,Level Scaling - Road of Sacrifices
+7040,Level Scaling - Cathedral of the Deep
+7045,Level Scaling - Farron Keep
+7060,Level Scaling - Catacombs of Carthus
+7070,Level Scaling - Smouldering Lake
+7080,Level Scaling - Irithyll of the Boreal Valley
+7090,Level Scaling - Irithyll Dungeon/Profaned Capital
+7092,Level Scaling - Anor Londo/Lothric Castle
+7093,Level Scaling - Lothric Castle
+7095,Level Scaling - Lothric Castle
+7120,Level Scaling - Archdragon Peak
+7130,Level Scaling - Untended Graves
+7135,Level Scaling - Grand Archives
+7140,Level Scaling - Fireless Shrine
+7150,Level Scaling - Ariandel
+7160,Level Scaling - Dreg Heap
+7170,Level Scaling - Ringed City
+7300,Soul Black
+7400,NG Scaling - Cemetery of Ash
+7410,NG Scaling - High Wall of Lothric
+7420,NG Scaling - Undead Settlement
+7430,NG Scaling - Road of Sacrifices
+7440,NG Scaling - Cathedral of the Deep
+7445,NG Scaling - Farron Keep
+7460,NG Scaling - Catacombs of Carthus
+7470,NG Scaling - Smouldering Lake
+7480,NG Scaling - Irithyll of the Boreal Valley
+7490,NG Scaling - Irithyll Dungeon/Profaned Capital
+7492,NG Scaling - Anor Londo/Lothric Castle
+7493,NG Scaling - Lothric Castle
+7495,NG Scaling - Lothric Castle
+7520,NG Scaling - Archdragon Peak
+7530,NG Scaling - Untended Graves
+7535,NG Scaling - Grand Archives
+7540,NG Scaling - Fireless Shrine
+7550,NG Scaling - Ariandel
+7560,NG Scaling - Dreg Heap
+7570,NG Scaling - Ringed City
+9000,VFX for Avatar (Super Ability)
+9010,No warp.
+9100,World Baff: Return blood of poison
+9135,Anim - Minimal Stagger
+9136,Anim - Stagger
+9137,Anim - Stumble Back
+9138,Anim - Heavy Stagger and Stumble
+9139,Anim - Knockback to Ground
+9200,Invasion occurring
+9201,Intrusion Outbreak & Intrusion Stop State
+9500,ABATABAF: 3 times the actual damage
+10501,The Curse of the Evil King
+10502,King of the evil dissipated state
+10503,The King of the evil right arm part
+10504,King of the Dead left arm part breakdown state
+10505,The King of the evil whole body miasma
+10506,The King of the evil whole body miasma
+10510,Daemon Priest Magic Special effects for SFX (small)
+10511,Daemon Priest Magic SFX (medium) special effects
+10512,Daemon Priest Magic Special effects for SFX (Large)
+10513,Daemon Priest Magic SFX (NO) special effects
+10514,Daemon Priest Mojo SFX Reservoir Speed doubled
+10515,Daemon Priest for Flame Enchantment
+10530,Salivan Reaper (Straight sword)
+10531,Salivan's death (sickle)
+10532,Death (resident SFX)
+10540,Maggots flame condition (for Panish Flag)
+10550,Crystal Elders Buff (for myself)
+10551,Crystal Elders Buff (for ally)
+10552,Elders weapon switching ban special effects on crystals
+10553,Elders casting of crystals for camera application judgment
+10560,Dead soldier Hand-held lantern resident SFX
+10561,Dead soldier: Segunda State resident SFX
+10562,Dead soldier Waist Lantern resident SFX
+10563,Dead soldier: Est recovery 40%
+10570,Blue: Avatars (tentative) slow granted
+10571,Blue: Avatar (tentative) around recovery
+10572,Blue: Avatar (tentative) self-enhancement
+10573,Blue: Avatar Reinforcement
+10574,During guard
+10580,Firewood Daemon _ (resident SFX)
+10581,Firewood Daemon Hu_ (resident SFX)
+10590,New Skeleton Torch (resident SFX)
+10591,New Skeleton _hp informing
+10600,Old King of caries _ Trace judgement 00
+10601,Old King of caries _ Trace judgement 01
+10602,Old King of caries _ Trace Determination 02
+10603,Old King of caries _ Trace Determination 03
+10604,Old King of caries _ Trace Determination 04
+10605,Old King of caries _ Trace judgement 05
+10606,Old King of caries _ Trace Determination 06
+10607,Old King of caries _ Trace judgement 07
+10608,Old King of caries _ Trace judgement 08
+10609,Old King of caries _ tracing judgement 09
+10610,Old King of caries _ Trace judgement 10
+10611,Old King of caries _ Trace judgement 11
+10612,Old King of caries _ Trace Determination 12
+10613,Old King of caries _ Trace Determination 13
+10614,Old King of caries _ Trace Determination 14
+10615,Old King of caries _ Trace judgement 15
+10616,Old King of caries _ Trace judgement 16
+10617,Old King of caries _ Trace judgement 17
+10618,Old King of caries _ Trace judgement 18
+10619,Old King of caries _ Trace Determination 19
+10620,Old King of caries _ Trace Determination 20
+10621,Old King of caries _ Trace Determination 21
+10622,Old King of caries _ Trace Determination 22
+10623,Old King of caries _ Trace Determination 23
+10624,Old King of caries _ Trace Determination 24
+10625,Old King of caries _ Trace Determination 25
+10629,Old King of caries _ illusion transparent invalidation
+10630,Caries Old King resident sfx Hu Mae
+10631,Old King resident SFX Hu after caries
+10632,The old king of caries _ the illusion becomes translucent
+10633,The old king of caries _ the illusion becomes completely transparent
+10634,The old king of caries _ Disabling Ghosts
+10635,The old king of caries _ void the full transparency of the apparition and become translucent
+10640,The Old King _hu1 stage of caries
+10641,The Old King _hu2 stage of caries
+10642,[Pontiff Sulyvahn] the illusion of Enchantment ID addition for ghosts
+10650,Tindalos for Event state transition a20000 from prayer transition permission conditions
+10651,Tindalos Event state Transition a20004 for death transition permission conditions
+10652,Tindalos Events & Warp execution request for AI
+10700,Butterfly resident SFX of caries
+10800,New Ojo Knights: Red Eye
+10900,Dark Knight Beast resident SFX
+10901,Dark Knight Beast resident Chill bullet firing (for freezing)
+10902,Dark Knight Beast resident Chill Bullet firing (for decals)
+10920,Moonlight Witch Resident SFX
+10921,Moonlight Witch Torch for Damage
+10922,Moonlight Witch Anime ID offset 1,000,000
+10930,Salivan _ NITs Sword Enchantment (SFX display, for AI judgement)
+10933,[Aldrich] Effect VFX
+11000,[Ancient Wyvern] Still not blowing breath once
+11001,[Ancient Wyvern] Event Animation Transition Timing
+11002,[Ancient Wyvern] Breath blowing good condition
+11003,[Ancient Wyvern] Front Breath frequency: High
+11004,[Ancient Wyvern] Stop blowing the breath
+11005,[Ancient Wyvern] Side street Breath Frequency: High
+11006,[Ancient Wyvern] Lost player status
+11007,[Ancient Wyvern] Lost player status _ lifted
+11008,[Ancient Wyvern] for the caries foot SFX
+11009,[Ancient Wyvern] for removal of caries feet SFX
+11010,[Ancient Wyvern] Lower left breath frequency: high
+11011,[Ancient Wyvern] Top left breath frequency: high
+11012,[Ancient Wyvern] Plunge Attack - Absorption Reduction
+11013,[Ancient Wyvern] Plunge Attack - HP Drain
+11060,Go back on the golem rampage
+11100,[Dancer] Body Chill (resident SFX)
+11101,[Dancer] Flaming Sword (resident SFX)
+11102,[Dancer] The Sword of the Eclipse (cold) (resident SFX)
+11103,[Dancer] Hu Pre-throwing frequency control 10 seconds
+11200,Triple Barista _ Special effects for three-shot shooting 1
+11201,Triple Barista _ Special effects for three-shot shooting 2
+11202,Tri-Barista _ three-shot special effects 3
+11280,Snake Spirit _hu
+11281,Snake Spirits _hu: caries Reservoir bullet (right hand)
+11282,Snake Spirits _hu: caries Reservoir bullets (left)
+11283,Snake Spirits _hu: caries Reservoir bullets (right elbow)
+11284,Snake Spirits _hu: caries Reservoir bullets (left elbow)
+11285,Snake Spirits _hu: caries Reservoir bullet (tail)
+11300,Dragon's Guardian Knight _hu
+11301,[Dragonslayer Armor] Effect VFX
+11400,[Yhorm] Heat Up
+11401,[Yhorm] Damage Absorption
+11420,Storm Ruler
+11421,Storm Ruler
+11430,Yhorm - Storm Ruler
+11431,Yhorm - Storm Ruler
+11432,Yhorm - Storm Ruler
+11433,Yhorm - Storm Ruler
+11434,Yhorm - Storm Ruler
+11435,Yhorm - Storm Ruler
+11436,Yhorm - Storm Ruler
+11437,Yhorm - Storm Ruler
+11438,Yhorm - Storm Ruler
+11439,Yhorm - Storm Ruler
+11440,Yhorm - Storm Ruler
+11441,Yhorm - Storm Ruler
+11442,Yhorm - Storm Ruler
+11443,Yhorm - Storm Ruler
+11444,Yhorm - Storm Ruler
+11445,Yhorm - Storm Ruler
+11446,Yhorm - Storm Ruler
+11447,Yhorm - Storm Ruler
+11448,Yhorm - Storm Ruler
+11449,Yhorm - Storm Ruler
+11450,Yhorm - Storm Ruler
+11451,Yhorm - Storm Ruler
+11452,Yhorm - Storm Ruler
+11453,Yhorm - Storm Ruler
+11460,Cursed Greatwood - Sac
+11461,Cursed Greatwood - Sac
+11462,Cursed Greatwood - Sac
+11463,Cursed Greatwood - Sac
+11464,Cursed Greatwood - Sac
+11465,Cursed Greatwood - Sac
+11466,Cursed Greatwood - Sac
+11467,Cursed Greatwood - Sac
+11500,Deacons of the Deep - Curse Bullet
+11501,Deacons of the Deep - Curse Apperance
+11502,Deacons of the Deep - ?
+11503,Deacons of the Deep - ?
+11504,Deacons of the Deep - ?
+11520,[Deacons of the Deep] Eye Light (resident SFX)
+11521,[Deacons of the Deep] Aura (resident SFX)
+11522,[Deacons of the Deep]
+11523,[Deacons of the Deep]
+11530,Helmeted of the Cardinal Corps _ curse
+11531,Helmeted of the Cardinal Corps _ curse
+11553,[Deacons of the Deep]
+11560,Cardinal: For damage to the body (large)
+11561,Cardinal: For damage to the body (medium)
+11562,Cardinal: For damage to the body (small)
+11600,[Lorian] Regen revival
+11601,[Lorian] Character attachment
+11605,[Lorian] Effect VFX
+11700,Mimic: "○ Open the Treasure Chest" condition
+11710,Mimic: Back to mimicry conditions
+11720,Mimic: Sleep judgment condition
+11721,Mimic: Sleep judgement disabled
+11730,Mimic: The condition to mimic after awakening
+11731,Mimic: Remove the mimic condition after awakening
+11800,Hungry Jack: Ai visual distance change _0.25 times
+11880,Jailer HP Reduction
+11881,Jailer HP Reduction [Expiration]
+11882,Jailer HP Reduction - Whilst in Vision
+11897,Jailer HP Reduction - Whilst in Vision [Expiration]
+11898,Jailer HP Reduction
+11900,New Shing: Lantern resident SFX
+11907,Jailer HP Reduction
+11910,Gargoyle resident
+11911,During guard
+11920,Full Armor Beast _ resident SFX (before HU)
+11921,Full Armor Beast _ resident SFX (after HU)
+11922,Full Armor animal resident cold air bullet firing (for decals)
+11923,Full Armor Beast _hu
+11926,Full Armor Beast _ Blizzard breath suspended wince damage
+11950,Phantom of the Painting (Stone hat)
+11960,Drifting stuff _ Underwater offset switching
+11970,Dead Wax _ Resident SFX
+11980,Segunda to change the damage magnification from dead enemy
+12000,Sacred Beast in the woods _ gravity
+12010,Salivan watchdog (Large) Resident SFX
+12011,Salivan watchdog (small) Resident SFX
+12020,Wax: The energetic ball: the first form
+12021,Wax covered: Fine ball: Check
+12022,Wax covered: The second form of energy ball
+12023,Shing Slow effect
+12030,City Map Sniper Transparent effect
+12040,Stench Crab _ Slow effect for bubble breath
+12041,Stench crab for step (right)
+12042,Stench crab for step (left)
+12061,[Nameless King] Effect VFX
+12062,[Nameless King] Effect VFX
+12110,[Soul of Cinder] Effect VFX
+12242,NPC: Effect VFX
+12247,NPC: Damage Reduction
+12306,[Champion Gundyr] Add Behavior Judge ID
+12600,[High Lord Wolnir]
+12601,[High Lord Wolnir]
+12602,[High Lord Wolnir]
+12603,[High Lord Wolnir]
+12604,[High Lord Wolnir]
+12605,[High Lord Wolnir]
+12610,[High Lord Wolnir]
+12611,[High Lord Wolnir]
+12612,[High Lord Wolnir]
+12613,[High Lord Wolnir] Bracelet Explosion [Expiration]
+12614,[High Lord Wolnir] Bracelet Explosion [Expiration]
+12615,[High Lord Wolnir] Bracelet Explosion
+12616,[High Lord Wolnir] Bracelet Explosion
+12617,[High Lord Wolnir]
+12618,[High Lord Wolnir]
+12620,[High Lord Wolnir]
+12621,[High Lord Wolnir]
+12630,[High Lord Wolnir]
+13132,[Sister Friede] Ressurection Effect
+16188,[Slave Knight Gael]
+16202,[Slave Knight Gael] Effect VFX
+16215,[Darkeater Midir] Effect VFX
+16555,[Darkeater Midir]
+16630,NPC: EC 164
+16631,NPC: EC 164
+16632,NPC: EC 164
+16640,NPC: EC 164
+16641,NPC: EC 164
+16642,NPC: EC 164
+16700,NPC: Stamina Recovery
+16701,NPC: Stamina Recovery
+16702,NPC: Curse 15
+16802,NPC: Movement
+16805,NPC: 267
+16810,NPC: 267
+17000,NPC: Self-Damage 100
+17001,NPC: Self-Damage 90
+17002,NPC: Self-Damage 80
+17003,NPC: Self-Damage 70
+17004,NPC: Self-Damage 60
+17005,NPC: Self-Damage 50
+17006,NPC: Self-Damage 40
+17007,NPC: Self-Damage 30
+17008,NPC: Self-Damage 20
+17009,NPC: Self-Damage 10
+17010,NPC: 324
+17500,NPC: Invisibility until Close
+17501,NPC: Invisibility until Close
+18020,NPC: Ignore Sight Reductions with VFX
+18100,NPC: Ignore Sight Reductions
+20000,NPC: Poison 10
+20001,NPC: Poison 20
+20002,NPC: Poison 30
+20003,NPC: Poison 40
+20004,NPC: Poison 50
+20005,NPC: Poison 60
+20006,NPC: Poison 70
+20007,NPC: Poison 80
+20008,NPC: Poison 90
+20009,NPC: Poison 100
+20010,NPC: Poison 110
+20011,NPC: Poison 120
+20012,NPC: Poison 130
+20013,NPC: Poison 140
+20014,NPC: Poison 150
+20015,NPC: Poison 160
+20016,NPC: Poison 170
+20017,NPC: Poison 180
+20018,NPC: Poison 190
+20019,NPC: Poison 200
+20100,NPC: Poison 55
+21000,NPC: Toxic 10
+21001,NPC: Toxic 20
+21002,NPC: Toxic 30
+21003,NPC: Toxic 40
+21004,NPC: Toxic 50
+21005,NPC: Toxic 60
+21006,NPC: Toxic 70
+21007,NPC: Toxic 80
+21008,NPC: Toxic 90
+21009,NPC: Toxic 100
+21010,NPC: Toxic 110
+21011,NPC: Toxic 120
+21012,NPC: Toxic 130
+21013,NPC: Toxic 140
+21014,NPC: Toxic 150
+21015,NPC: Toxic 160
+21016,NPC: Toxic 170
+21017,NPC: Toxic 180
+21018,NPC: Toxic 190
+21019,NPC: Toxic 200
+22000,NPC: Bleed 10
+22001,NPC: Bleed 20
+22002,NPC: Bleed 30
+22003,NPC: Bleed 40
+22004,NPC: Bleed 50
+22005,NPC: Bleed 60
+22006,NPC: Bleed 70
+22007,NPC: Bleed 80
+22008,NPC: Bleed 90
+22009,NPC: Bleed 100
+22010,NPC: Bleed 110
+22011,NPC: Bleed 120
+22012,NPC: Bleed 130
+22013,NPC: Bleed 140
+22014,NPC: Bleed 150
+22015,NPC: Bleed 160
+22016,NPC: Bleed 170
+22017,NPC: Bleed 180
+22018,NPC: Bleed 190
+22019,NPC: Bleed 200
+22100,NPC: Bleed 40
+22101,NPC: Bleed 80
+23000,NPC: Curse 10
+23001,NPC: Curse 20
+23002,NPC: Curse 30
+23003,NPC: Curse 40
+23004,NPC: Curse 50
+23005,NPC: Curse 60
+23006,NPC: Curse 70
+23007,NPC: Curse 80
+23008,NPC: Curse 90
+23009,NPC: Curse 100
+23010,NPC: Curse 110
+23011,NPC: Curse 120
+23012,NPC: Curse 130
+23013,NPC: Curse 140
+23014,NPC: Curse 150
+23015,NPC: Curse 160
+23016,NPC: Curse 170
+23017,NPC: Curse 180
+23018,NPC: Curse 190
+23019,NPC: Curse 200
+23100,NPC: Curse 1
+24000,NPC: Frost 10
+24001,NPC: Frost 20
+24002,NPC: Frost 30
+24003,NPC: Frost 40
+24004,NPC: Frost 50
+24005,NPC: Frost 60
+24006,NPC: Frost 70
+24007,NPC: Frost 80
+24008,NPC: Frost 90
+24009,NPC: Frost 100
+24010,NPC: Frost 110
+24011,NPC: Frost 120
+24012,NPC: Frost 130
+24013,NPC: Frost 140
+24014,NPC: Frost 150
+24015,NPC: Frost 160
+24016,NPC: Frost 170
+24017,NPC: Frost 180
+24018,NPC: Frost 190
+24019,NPC: Frost 200
+24100,NPC: Frost 480
+24101,NPC: Frost 60
+24110,NPC: Frost 1
+24111,NPC: Frost 18
+24112,NPC: Frost 27
+24120,NPC: Frost 3
+24140,NPC: Frost 40
+30000,NPC: Disable Poison
+30010,NPC: Disable Toxic
+30020,NPC: Disable Bleed
+30030,NPC: Disable Curse
+30040,NPC: Disable Frostbite
+30100,NPC: Ignore Fake Targets
+30200,NPC: Allow Charm
+30210,NPC: Disable Stagger
+71100,NPC: Disable All Statuses
+71110,NPC: Immortality disabled
+71111,NPC: All enabled
+80000,Disable all
+80011,Remnant & Soul-absorbing disabled
+80101,Remnant & Fascination Disabled
+80111,Remnants invalid
+81001,Soul & Fascination Disabled
+81011,Soul Absorption disabled
+81101,Fascinated disabled
+81111,All enabled
+90000,Disable all Status Effects
+90001,Poison & Bleeding & plague Disabled
+90010,Poison & Bleeding & curse disabled
+90011,Poison & Bleeding Disabled
+90100,Poison & Plague & Curse Disabled
+90101,Poison & Plague Disabled
+90110,Poison & Curse Disabled
+90111,Poison disabled
+91000,Bleeding & plague & Curse Disabled
+91001,Bleeding & plague Disabled
+91010,Bleeding & curses disabled
+91011,Bleeding disabled
+91100,Plague & Curse Invalid
+91101,Plague disabled
+91110,Curse disabled
+91111,All enabled
+99000,Shallow snow
+99001,Deep snow
+99002,Dead Torches State
+99003,Desaster from the Sword
+99004,Show off
+99005,Test after caries ritual
+99006,Play an enemy that does not notice the version
+99007,The power of the evil spirits in the play
+99008,Counter Test
+99013,Always throwing off for concept bridge dead
+99014,Suspension dead for determining waiting condition
+99020,Special effects for Slime
+99050,The swamp of caries
+99100,[FDP] Test _ No damage against flames
+99101,[FDP] Test _ wolf-throwing damage
+99102,[FDP] Test _ Firefly Item Use event acquisition
+99200,[FDP] Proto-giant slime freezing
+99201,[FDP] Proto _ giant slime freezing SFX
+99300,Dragon Bleeding
+99310,Dragon Bleeding 1
+99311,Dragon Bleeding 2
+99312,Dragon Bleeding 3
+99313,Dragon Bleeding 4
+99314,Dragon Bleeding 5
+99400,[Test] Curse of the Evil King
+99401,C1210 Blue estrus Permit test
+99402,c1210 Blue estrus Anime ID offset 3,000,000
+99410,Touchable in c1240 poor dead rolling
+99420,c2180 maggots test for changing animation of damage in flames
+99430,12 End edition avatar for pseudo-death state
+99440,Ash Daemon hot air damage large
+99441,Ash Daemon hot air damage small
+99450,Resident damage Anime change [for provisional Black Knight]
+99451,Resident damage Anime change [for temporary crucifixion dead a]
+99500,Test for the Cathedral Golem
+99600,Test for time measurement until the pseudo-death resurrection
+99700,Team Type Change test
+99800,Tae-eventmaker Collaboration Test
+100000,Anim - Walking
+100001,Anim - Running
+100002,Anim - Sprinting
+100005,Anim - Stop Walking
+100006,Anim - Stop Running
+100007,Anim - Stop Sprinting
+100010,Anim - Turning
+100020,Player stamina out of judgment
+100030,upper body Anime End transition judgement
+100040,Lower body anime End transition judgement
+100050,Rotation attack transition available for specified period
+100060,吹tsu飛bimasu for back-step Prohibition in motion
+100070,For the fall transition judging of jump animation
+100080,For judgment of wall collision during throwing
+100090,For determining the timing of the possible interruption of the reservoir attack
+100100,For determining death timing for wall collisions
+100110,Bonfire Event Issue Timing determination
+100120,Guard reversal Possible timing determination
+100130,[TAE] Right Movement Judgment
+100140,[TAE] Right Diagonal Movement Judgment
+100150,[TAE] Left Movement Judgment
+100160,[TAE] Left Diagonal Movement Judgment
+100170,For determination of 180 degree turning in dash
+100180,For no dash judgment
+100190,For the driving and dash no judgment
+100200,For non-moving judgment
+100210,Left-hand attack transition timing
+100220,Continue to dash even if dash input is missing
+100230,Make a default attack instead of a combo attack
+100240,Anim - No Turn whilst Rolling
+100250,The second stage of attack can be derived or determined
+100260,The second stage of the rush attack can be derived or determined
+100270,Can rise and roll
+100280,Anim - Crucifix of the Mad King
+100330,Anim - Repeating Crossbow
+100340,Anim - Crossbow
+100350,Anim - Shield Bash
+100360,Anim - Rolling
+100390,Anim - Rolling
+100420,Anim - Dragonhead Greatshield
+100490,Anim - Repeating Crossbow - Repeat Fire
+100560,Anim - Dragonform Change
+100570,Anim - Harald Curved Greatsword
+100580,Anim - Demon's Scar
+100590,Anim - Harald Curved Greatsword
+100680,Anim - Frayed Blade
+120000,[Weapon Art] Axe: War cry
+120010,[Weapon Art] Axe: War cry [Lack of FP]
+120020,[Weapon Art] Axe: War cry - Shockwave [Lack of FP]
+120110,[Weapon Art] Greatsword: Stance [Lack of FP]
+120210,[Weapon Art] Straight Sword: Stance [Lack of FP]
+120310,[Weapon Art] Curved Sword: Stance [Lack of FP]
+120410,[Weapon Art] Bow: Rapid Fire [Lack of FP]
+120500,[Weapon Art] Steady Chant: Right
+120501,[Weapon Art] Steady Chant: Left
+120510,[Weapon Art] Steady Chant: Right [Lack of FP]
+120511,[Weapon Art] Steady Chant: Left [Lack of FP]
+120650,[Weapon Art] Spear - Hurl Spear
+120700,[Weapon Art] Hammer: Perserverence
+120701,[Weapon Art] Hammer: Perserverence [Damage Replacement]
+120710,[Weapon Art] Hammer: Perserverence [Lack of FP]
+120750,[Weapon Art] Perserverence
+120751,[Weapon Art] Perserverence: Damage Replacement
+120760,[Weapon Art] Perserverence [Lack of FP]
+120770,[Weapon Art] Perserverence
+120800,[Weapon Art] Talisman: Poise Chant
+120801,[Weapon Art] Talisman: Poise Chant [Damage Replacement]
+120810,[Weapon Art] Talisman: Poise Chant [Lack of FP]
+120811,[Weapon Art] Talisman: Poise Chat [Damage Replacement] [Lack of FP]
+120820,[Weapon Art] Talisman: Poise Chant
+120821,[Weapon Art] Talisman: Poise Chant [Lack of FP]
+120830,[Weapon Art] Talisman: Poise Chant
+120831,[Weapon Art] Talisman: Poise Chant [Lack of FP]
+120840,[Weapon Art] Talisman: Poise Chant
+120841,[Weapon Art] Talisman: Poise Chant [Lack of FP]
+120850,[Weapon Art] Talisman: Poise Chant
+120851,[Weapon Art] Talisman: Poise Chant [Lack of FP]
+120910,[Weapon Art] Greatbow: Puncturing Arrow [Lack of FP]
+121010,[Weapon Art]
+121020,[Weapon Art] Moonlight Greatsword [Lack of FP]
+121110,[Weapon Art] Carthus Curved Greatsword [Lack of FP]
+121210,[Weapon Art] Frayed Blade [Lack of FP]
+121310,[Weapon Art] Frayed Blade [Lack of FP]
+121410,[Weapon Art] Lack of FP - 75%
+121510,[Weapon Art] Lack of FP - 75%
+121610,[Weapon Art] Lack of FP - 75%
+121710,[Weapon Art] Lack of FP - 50%
+121810,[Weapon Art] Lack of FP - 75%
+121910,[Weapon Art] Lack of FP - 65%
+121920,[Weapon Art] Lack of FP - 65%
+130000,Wet control: Water wet
+130010,Wet control: Poison wet
+130020,Wet control: Mud wet
+130040,Wet control: Frostbite wetting
+140001,NPC Correction - Super - 1 Player
+140002,NPC Correction - Super - 2 Player
+140003,NPC Correction - Super - 3 Player
+140101,NPC Correction - Hostile NPC - 1 Player
+140102,NPC Correction - Hostile NPC - 2 Player
+140103,NPC Correction - Hostile NPC - 3 Player
+140201,NPC Correction - Boss - 1 Player
+140202,NPC Correction - Boss - 2 Player
+140203,NPC Correction - Boss - 3 Player
+140211,NPC Correction - Aldrich, Devourer of Gods - 1 Player
+140212,NPC Correction - Aldrich, Devourer of Gods - 2 Player
+140213,NPC Correction - Aldrich, Devourer of Gods - 3 Player
+140221,NPC Correction - Soul of Cinder - 1 Player
+140222,NPC Correction - Soul of Cinder - 2 Player
+140223,NPC Correction - Soul of Cinder - 3 Player
+140231,NPC Correction - Crystal Sage - 1 Player
+140232,NPC Correction - Crystal Sage - 2 Player
+140233,NPC Correction - Crystal Sage - 3 Player
+140241,NPC Correction - Nameless King - 1 Player
+140242,NPC Correction - Nameless King - 2 Player
+140243,NPC Correction - Nameless King - 3 Player
+140251,NPC Correction - Pontiff Sulyvahn - 1 Player
+140252,NPC Correction - Pontiff Sulyvahn - 2 Player
+140253,NPC Correction - Pontiff Sulyvahn - 3 Player
+140261,NPC Correction - Champion Gundyr - 1 Player
+140262,NPC Correction - Champion Gundyr - 2 Player
+140263,NPC Correction - Champion Gundyr - 3 Player
+140271,NPC Correction - Dragonslayer Armour - 1 Player
+140272,NPC Correction - Dragonslayer Armour - 2 Player
+140273,NPC Correction - Dragonslayer Armour - 3 Player
+140281,NPC Correction - Twin Princes - 1 Player
+140282,NPC Correction - Twin Princes - 2 Player
+140283,NPC Correction - Twin Princes - 3 Player
+140291,NPC Correction - Abyss Watcher - 1 Player
+140292,NPC Correction - Abyss Watcher - 2 Player
+140293,NPC Correction - Abyss Watcher - 3 Player
+140301,NPC Correction - Deacons of the Deep - 1 Player
+140302,NPC Correction - Deacons of the Deep - 2 Player
+140303,NPC Correction - Deacons of the Deep - 3 Player
+140311,NPC Correction - Vordt of the Boreal Valley - 1 Player
+140312,NPC Correction - Vordt of the Boreal Valley - 2 Player
+140313,NPC Correction - Vordt of the Boreal Valley - 3 Player
+140321,NPC Correction - King of the Storm - 1 Player
+140322,NPC Correction - King of the Storm - 2 Player
+140323,NPC Correction - King of the Storm - 3 Player
+140331,NPC Correction - Dancer of the Boreal Valley - 1 Player
+140332,NPC Correction - Dancer of the Boreal Valley - 2 Player
+140333,NPC Correction - Dancer of the Boreal Valley - 3 Player
+140341,NPC Correction - Father Ariandel - 1 Player
+140342,NPC Correction - Father Ariandel - 2 Player
+140343,NPC Correction - Father Ariandel - 3 Player
+140351,NPC Correction - Sister Friede - 1st Stage - 1 Player
+140352,NPC Correction - Sister Friede - 1st Stage - 2 Player
+140353,NPC Correction - Sister Friede - 1st Stage - 3 Player
+140361,NPC Correction - Sister Friede - 2nd / 3rd Stage - 1 Player
+140362,NPC Correction - Sister Friede - 2nd / 3rd Stage - 2 Player
+140363,NPC Correction - Sister Friede - 2nd / 3rd Stage - 3 Player
+140371,NPC Correction - Gravetender Greatwolf - 1 Player
+140372,NPC Correction - Gravetender Greatwolf - 2 Player
+140373,NPC Correction - Gravetender Greatwolf - 3 Player
+140381,NPC Correction - Champion's Gravetender - 1 Player
+140382,NPC Correction - Champion's Gravetender - 2 Player
+140383,NPC Correction - Champion's Gravetender - 3 Player
+140391,NPC Correction - Demon in Pain - 1 Player
+140392,NPC Correction - Demon in Pain - 2 Player
+140393,NPC Correction - Demon in Pain - 3 Player
+140401,NPC Correction - Demon from Below - 1 Player
+140402,NPC Correction - Demon from Below - 2 Player
+140403,NPC Correction - Demon from Below - 3 Player
+140411,NPC Correction - Painting Guardian - 1 Player
+140412,NPC Correction - Painting Guardian - 2 Player
+140413,NPC Correction - Painting Guardian - 3 Player
+140414,NPC Correction -
+140415,NPC Correction -
+140416,NPC Correction -
+140417,NPC Correction -
+140418,NPC Correction -
+140419,NPC Correction -
+140421,NPC Correction - Painting Guardian - 1 Player
+140422,NPC Correction - Painting Guardian - 2 Player
+140423,NPC Correction - Painting Guardian - 3 Player
+140424,NPC Correction -
+140425,NPC Correction -
+140426,NPC Correction -
+140427,NPC Correction -
+140428,NPC Correction -
+140429,NPC Correction -
+140431,NPC Correction - Halflight - 1 Player
+140432,NPC Correction - Halflight - 2 Player
+140433,NPC Correction - Halflight - 3 Player
+140441,NPC Correction - Darkeater Midir - 1 Player
+140442,NPC Correction - Darkeater Midir - 2 Player
+140443,NPC Correction - Darkeater Midir - 3 Player
+140451,NPC Correction - Slave Knight Gael - 1st Stage - 1 Player
+140452,NPC Correction - Slave Knight Gael - 1st Stage - 2 Player
+140453,NPC Correction - Slave Knight Gael - 1st Stage - 3 Player
+140461,NPC Correction - Slave Knight Gael - 2nd Stage - 1 Player
+140462,NPC Correction - Slave Knight Gael - 2nd Stage - 2 Player
+140463,NPC Correction - Slave Knight Gael - 2nd Stage - 3 Player
+221000,Slave Knight Gael - White Phantom [Ariandel]
+221001,Slave Knight Gael [Cathedral of the Deep]
+221005,Slave Knight Gael - White Phantom [Dreg Heap]
+221100,Sir Vilhelm [Ariandel]
+221140,Sir Vilhelm - Enemy [Ariandel]
+221200,Livid Pyromancer Dunnel - Mad Phantom [Ariandel]
+221300,Champion's Gravetender
+221400,Amnesiac Lapp [Dreg Heap]
+221402,Amnesiac Lapp [The Ringed City]
+221420,Amnesiac Lapp - White Phantom [Dreg Heap]
+221421,Amnesiac Lapp - White Phantom [The Ringed City]
+221440,Amnesiac Lapp - Red Phantom [The Ringed City]
+221500,Shira, Knight of Filianore [The Ringed City]
+221520,Shira, Knight of Filianore - White Phantom [The Ringed City]
+221540,Shira, Knight of Filianore - Enemy [Filianore's Rest]
+221640,Shira, Knight of Filianore - Red Phantom [The Ringed City]
+221700,Painting Guardian - Enemy [The Ringed City]
+221710,Painting Guardian - Enemy [The Ringed City]
+221800,Halflight - Enemy [The Ringed City]
+221940,Desert Pyromancer Zoey - Enemy [Dreg Heap]
+222140,Silver Knight Ledo - Red Phantom [The Ringed City]
+222240,Alva, Seeker of the Spurned - Red Phantom [The Ringed City]
+222340,Moaning Knight - Red Phantom [The Ringed City]
+224699,NPC: Endless FP
+224700,Butcher - Enemy [Road of Sacrifices]
+224800,Greirat of the Undead Settlement [High Wall of Lothric]
+224801,Greirat of the Undead Settlement [Firelink Shrine]
+224802,Greirat of the Undead Settlement [Irithyll]
+224803,Greirat of the Undead Settlement [Grand Archives]
+225000,Yuria of Londor [Firelink Shrine]
+225020,Yuria of Londor - White Phantom [Kiln of the First Flame]
+225100,Hawkwood the Deserter [Firelink Shrine]
+225101,Hawkwood the Deserter [Farron Keep]
+225120,Hawkwood the Deserter - White Phantom
+225121,Hawkwood the Deserter - White Phantom [Archdragon Peak]
+225200,Sirris of the Sunless Realms [Firelink Shrine]
+225201,Sirris of the Sunless Realms [Undead Settlement]
+225202,Sirris of the Sunless Realms [Irithyll]
+225203,Sirris of the Sunless Realms - Enemy [Undead Settlement]
+225204,Sirris of the Sunless Realms [Firelink Shrine]
+225220,Sirris of the Sunless Realms - White Phantom [Cathedral of the Deep]
+225221,Sirris of the Sunless Realms - White Phantom [Farron Keep]
+225222,Sirris of the Sunless Realms - White Phantom [Lothric Castle]
+225223,Sirris of the Sunless Realms - White Phantom [Grand Archives]
+225300,Ringfinger Leonhard [Firelink Shrine]
+225301,Ringfinger Leonhard [Cathedral of the Deep]
+225302,Ringfinger Leonhard [Irithyll]
+225400,Orbeck of Vinheim [Road of Sacrifices]
+225401,Orbeck of Vinheim [Firelink Shrine]
+225402,Orbeck of Vinheim [Grand Archives]
+225420,Orbeck of Vinheim - White Phantom [Grand Archives]
+225500,Cornyx of the Great Swamp [Undead Settlement]
+225501,Cornyx of the Great Swamp [Firelink Shrine]
+225600,Karla [Irithyll Dungeon]
+225601,Karla [Firelink Shrine]
+225700,Irina of Carim [Undead Settlement]
+225701,Irina of Carim [Firelink Shrine]
+225702,Irina of Carim [Firelink Shrine]
+225703,Irina of Carim [Firelink Shrine]
+225800,Eygon of Carim [Undead Settlement]
+225801,Eygon of Carim [Firelink Shrine]
+225802,Eygon of Carim - Enemy [Firelink Shrine]
+225820,Eygon of Carim - White Phantom [Road of Sacrifices]
+225821,Eygon of Carim - White Phantom [Lothric Castle]
+226000,Anri of Astora [Road of Sacrifices]
+226001,Anri of Astora [Firelink Shrine]
+226002,Anri of Astora [Catacombs of Carthus]
+226003,Anri of Astora [Catacombs of Carthus]
+226004,Anri of Astora [Catacombs of Carthus]
+226005,Anri of Astora - Enemy [Catacombs of Carthus]
+226006,Anri of Astora [Irithyll]
+226007,Anri of Astora [Irithyll]
+226008,Anri of Astora [Irithyll]
+226009,Anri of Astora - Enemy [Cathedral of the Deep]
+226020,Anri of Astora - White Phantom [Irithyll]
+226021,Anri of Astora - White Phantom [Cathedral of the Deep]
+226100,Unbreakable Patches [Cathedral of the Deep]
+226101,Unbreakable Patches [Cathedral of the Deep]
+226102,Unbreakable Patches [Cathedral of the Deep]
+226103,Unbreakable Patches [Firelink Shrine]
+226104,Unbreakable Patches [Firelink Shrine]
+226200,Siegward of Catarina [Undead Settlement]
+226201,Siegward of Catarina [Undead Settlement]
+226202,Siegward of Catarina [Irithyll]
+226203,Siegward of Catarina [Profaned Capital]
+226204,Siegward of Catarina [Profaned Capital]
+226300,Horace the Hushed [Road of Sacrifices]
+226301,Horace the Hushed [Firelink Shrine]
+226302,Horace the Hushed - Enemy [Smouldering Lake]
+226320,Horace the Hushed - White Phantom [Cathedral of the Deep]
+227300,Sword Master [Firelink Shrine]
+227320,Sword Master - White Phantom [High Wall of Lothric]
+227321,Sword Master - White Phantom [Untended Graves]
+227420,Yellowfinger Heysel - White Phantom [Farron Keep]
+227440,Yellowfinger Heysel - Red Phantom [Road of Sacrifices]
+227441,Yellowfinger Heysel - Red Phantom [Farron Keep]
+227500,Black Hand Gotthard - Enemy [Grand Archives]
+227520,Black Hand Gotthard - White Phantom [Farron Keep]
+227521,Black Hand Gotthard - White Phantom [Irithyll]
+227620,Great Swamp Cuculus - White Phantom
+227700,Holy Knight Hodrick [Undead Settlement]
+227701,Holy Knight Hodrick [Undead Settlement]
+227720,Holy Knight Hodrick - Mad Phantom [Road of Sacrifices]
+227740,Holy Knight Hodrick - Mad Phantom [Undead Settlement]
+227820,Londor Pale Shade - White Phantom [Farron Keep]
+227821,Londor Pale Shade - White Phantom [Irithyll]
+227822,Londor Pale Shade - White Phantom [Kiln of the First Flame]
+227890,Londor Pale Shade - Red Phantom [Farron Keep]
+227891,Londor Pale Shade - Red Phantom [Irithyll]
+227900,Lion Knight Albert - Enemy [Grand Archives]
+227920,Lion Knight Albert - White Phantom
+228000,Daughter of Crystal Kriemhild - Enemy [Grand Archives]
+228040,Daughter of Crystal Kriemhild - Red Phantom [Untended Graves]
+228100,Exile Watchdog - Exile Greatsword - Enemy [Farron Keep]
+228200,Exile Watchdog - Great Club - Enemy [Farron Keep]
+228300,Unkindled Brigand - Enemy [Cathedral of the Deep]
+228400,Unkindled Thief - Enemy [Cathedral of the Deep]
+228600,Court Sorcerer - Enemy [Profaned Capital]
+228700,Havel the Rock - Enemy [Archdragon Peak]
+228800,Drakeblood Knight
+228900,Drakeblood Knight
+229000,Drang Knight - Hammers - Enemy [Irithyll]
+229100,Drang Knight - Spears - Enemy [Irithyll]
+229200,Knight Slayer Tsorig - Enemy [Smouldering Lake]
+229220,Knight Slayer Tsorig - White Phantom [Smouldering Lake]
+229240,Knight Slayer Tsorig - Red Phantom [Catacombs of Carthus]
+229241,Knight Slayer Tsorig - Red Phantom
+229340,Creighton the Wanderer - Red Phantom [Irithyll]
+229341,Creighton the Wanderer - Red Phantom [Irithyll]
+229440,Alva, Seeker of the Spurned - Red Phantom [Irithyll Dungeon]
+229540,Longfinger Kirk - Red Phantom [Cathedral of the Deep]
+321000,Game Clear - Slave Knight Gael - White Phantom [Ariandel]
+321005,Game Clear - Slave Knight Gael - White Phantom [Dreg Heap]
+321140,Game Clear - Sir Vilhelm [Ariandel]
+321200,Game Clear - Livid Pyromancer Dunnel - Mad Phantom [Ariandel]
+321400,Game Clear - Amnesiac Lapp [Dreg Heap]
+321402,Game Clear - Amnesiac Lapp [The Ringed City]
+321420,Game Clear - Amnesiac Lapp - White Phantom [Dreg Heap]
+321440,Game Clear - Amnesiac Lapp - Red Phantom [The Ringed City]
+321500,Game Clear - Shira, Knight of Filianore [The Ringed City]
+321520,Game Clear - Shira, Knight of Filianore - White Phantom [The Ringed City]
+321540,Game Clear - Shira, Knight of Filianore - Enemy [Filianore's Rest]
+321640,Game Clear - Shira, Knight of Filianore - Red Phantom [The Ringed City]
+321940,Game Clear - Desert Pyromancer Zoey - Enemy [Dreg Heap]
+322140,Game Clear - Silver Knight Ledo - Red Phantom [The Ringed City]
+322240,Game Clear - Alva, Seeker of the Spurned - Red Phantom [The Ringed City]
+322340,Game Clear - Moaning Knight - Red Phantom [The Ringed City]
+900100,SFX Confirmation: EST recovery
+950000,Carthus Beacon
+950010,Carthus Beacon
+1070101,[Weapon Art] Warcry
+1070111,[Weapon Art] Warcry
+1070151,[Weapon Art] Warcry
+1070161,[Weapon Art] Warcry
+1083201,[Weapon Art] Ledo's Great Hammer
+1083251,[Weapon Art] Ledo's Great Hammer
+1092401,[Weapon Art] Ringed Knight Spear - Ember
+1092411,[Weapon Art] Ringed Knight Spear - Ember
+1092451,[Weapon Art] Ringed Knight Spear - Ember
+1092461,[Weapon Art] Ringed Knight Spear - Ember
+101310000,[Sorcery] Magic Weapon
+101311000,[Sorcery] Great Magic Weapon
+101312000,[Sorcery] Crystal Magic Weapon
+101313000,[Sorcery] Frozen Weapon
+101330000,[Sorcery] Magic Shield
+101331000,[Sorcery] Great Magic Shield
+101340000,[Sorcery] Hidden Weapon
+101341000,[Sorcery] Hidden Body
+101350000,[Sorcery] Cast Light
+101353000,[Sorcery] Repair
+101354000,[Sorcery] Spook
+101354100,[Sorcery] Spook [CycleOccurance]
+101355000,[Sorcery] Chameleon
+101355100,[Sorcery] Chameleon [CycleOccurance]
+101356000,[Sorcery] Aural Decoy
+101740000,[Sorcery] Pestilent Mist
+101741000,[Sorcery] Snap Freeze
+102422000,[Pyromancy] Acid Surge
+102430000,[Pyromancy] Iron Flesh
+102430100,[Pyromancy] Iron Flesh
+102430200,[Pyromancy] Iron Flesh
+102431000,[Pyromancy] Flash Sweat
+102435000,[Pyromancy] Carthus Flame Arc
+102436000,[Pyromancy] Rapport
+102440000,[Pyromancy] Power Within
+102470000,[Pyromancy] Warmth
+102562000,[Pyromancy] Profuse Sweat
+102650000,[Pyromancy] Carthus Beacon
+102650010,[Pyromancy] Carthus Beacon [CycleOccurance]
+103490000,[Miracle] Heal Aid
+103490100,[Miracle] Heal Aid [MP]
+103500000,[Miracle] Heal
+103500100,[Miracle] Heal [MP]
+103501000,[Miracle] Med Heal
+103501100,[Miracle] Med Heal [MP]
+103502000,[Miracle] Great Heal
+103502100,[Miracle] Great Heal [MP]
+103503000,[Miracle] Soothing Sunlight
+103503100,[Miracle] Soothing Sunlight [MP]
+103504000,[Miracle] Replenishment
+103505000,[Miracle] Bountiful Sunlight
+103505100,[Miracle] Bountiful Sunlight [MP]
+103507000,[Miracle] Bountiful Light
+103508000,[Miracle] Caressing Tears
+103508100,[Miracle] Caressing Tears
+103508200,[Miracle] Caressing Tears
+103508300,[Miracle] Caressing Tears
+103520000,[Miracle] Tears of Denial
+103521000,[Miracle] Homeward
+103521100,[Miracle] Homeward [Replace]
+103540000,[Miracle] Seek Guidance
+103540010,[Miracle] Seek Guidance
+103557000,[Miracle] Projected Heal - Friendly
+103557010,[Miracle] Projected Heal - Self
+103560000,[Miracle] Magic Barrier
+103561000,[Miracle] Great Magic Barrier
+103563000,[Miracle] Sacred Oath
+103563100,[Miracle] Sacred Oath
+103581000,[Miracle] Vow of Silence
+103590000,[Miracle] Lightning Blade
+103591000,[Miracle] Darkmoon Blade
+103640000,[Miracle] Dark Blade
+103700000,[Miracle] Dead Again
+103730000,[Miracle] Lifehunt Scythe
+103730100,[Miracle] Lifehunt Scythe
+103730200,[Miracle] Lifehunt Scythe
+103730300,[Miracle] Lifehunt Scythe
+103730400,[Miracle] Lifehunt Scythe
+103731000,[Miracle] Lifehunt Scythe - HP Gain
+103731100,[Miracle] Lifehunt Scythe - HP Gain
+103731200,[Miracle] Lifehunt Scythe - HP Gain
+103731300,[Miracle] Lifehunt Scythe - HP Gain
+103731400,[Miracle] Lifehunt Scythe - HP Gain
+103760000,[Miracle] Blessed Weapon
+103770000,[Miracle] Deep Protection
+103770100,[Miracle] Deep Protection [CycleOccurance]
+103770200,[Miracle] Deep Protection [CycleOccurance]
+103770300,[Miracle] Deep Protection [CycleOccurance]
+103780000,[Miracle] Atonement
+111000000,Blade of the Darkmoon [old]
+111001000,Spears of the Church [old]
+111002000,Watchdogs of Farron [old]
+111003000,Aldrich Faithful [old]
+111004000,Blue Sentinels [old]
+112020000,Leo Ring
+112022000,Rare Ring of Sacrifice
+112038000,Hornet Ring
+112045010,Anim - Rolling - Carthus Milkring StateInfo
+129000500,Simple 1
+129000501,Simple 1
+129000502,Simple 1
+129000503,Simple 1
+129000504,Simple 1
+129000505,Simple 1
+129000506,Simple 1
+129000507,Simple 1
+129000508,Simple 1
+129000509,Simple 1
+129000510,Simple 1
+129001100,Poison 1
+129001101,Poison 1
+129001102,Poison 1
+129001103,Poison 1
+129001104,Poison 1
+129001105,Poison 1
+129001106,Poison 1
+129001107,Poison 1
+129001108,Poison 1
+129001109,Poison 1
+129001110,Poison 1
+129001200,Bleed 1
+129001201,Bleed 1
+129001202,Bleed 1
+129001203,Bleed 1
+129001204,Bleed 1
+129001205,Bleed 1
+129001206,Bleed 1
+129001207,Bleed 1
+129001208,Bleed 1
+129001209,Bleed 1
+129001210,Bleed 1
+129001400,Blessed 1
+129001401,Blessed 1
+129001402,Blessed 1
+129001403,Blessed 1
+129001404,Blessed 1
+129001405,Blessed 1
+129001406,Blessed 1
+129001407,Blessed 1
+129001408,Blessed 1
+129001409,Blessed 1
+129001410,Blessed 1
+129001500,Hollow 1
+129001501,Hollow 1
+129001502,Hollow 1
+129001503,Hollow 1
+129001504,Hollow 1
+129001505,Hollow 1
+129001506,Hollow 1
+129001507,Hollow 1
+129001508,Hollow 1
+129001509,Hollow 1
+129001510,Hollow 1
+129010500,Simple 2
+129010501,Simple 2
+129010502,Simple 2
+129010503,Simple 2
+129010504,Simple 2
+129010505,Simple 2
+129010506,Simple 2
+129010507,Simple 2
+129010508,Simple 2
+129010509,Simple 2
+129010510,Simple 2
+129011100,Poison 2
+129011101,Poison 2
+129011102,Poison 2
+129011103,Poison 2
+129011104,Poison 2
+129011105,Poison 2
+129011106,Poison 2
+129011107,Poison 2
+129011108,Poison 2
+129011109,Poison 2
+129011110,Poison 2
+129011200,Bleed 2
+129011201,Bleed 2
+129011202,Bleed 2
+129011203,Bleed 2
+129011204,Bleed 2
+129011205,Bleed 2
+129011206,Bleed 2
+129011207,Bleed 2
+129011208,Bleed 2
+129011209,Bleed 2
+129011210,Bleed 2
+129011400,Blessed 2
+129011401,Blessed 2
+129011402,Blessed 2
+129011403,Blessed 2
+129011404,Blessed 2
+129011405,Blessed 2
+129011406,Blessed 2
+129011407,Blessed 2
+129011408,Blessed 2
+129011409,Blessed 2
+129011410,Blessed 2
+129021100,Poison 3
+129021101,Poison 3
+129021102,Poison 3
+129021103,Poison 3
+129021104,Poison 3
+129021105,Poison 3
+129021106,Poison 3
+129021107,Poison 3
+129021108,Poison 3
+129021109,Poison 3
+129021110,Poison 3
+129021200,Bleed 3
+129021201,Bleed 3
+129021202,Bleed 3
+129021203,Bleed 3
+129021204,Bleed 3
+129021205,Bleed 3
+129021206,Bleed 3
+129021207,Bleed 3
+129021208,Bleed 3
+129021209,Bleed 3
+129021210,Bleed 3
+129031100,Poison 4
+129031101,Poison 4
+129031102,Poison 4
+129031103,Poison 4
+129031104,Poison 4
+129031105,Poison 4
+129031106,Poison 4
+129031107,Poison 4
+129031108,Poison 4
+129031109,Poison 4
+129031110,Poison 4
+129031200,Bleed 4
+129031201,Bleed 4
+129031202,Bleed 4
+129031203,Bleed 4
+129031204,Bleed 4
+129031205,Bleed 4
+129031206,Bleed 4
+129031207,Bleed 4
+129031208,Bleed 4
+129031209,Bleed 4
+129031210,Bleed 4
+129041100,Poison 5
+129041101,Poison 5
+129041102,Poison 5
+129041103,Poison 5
+129041104,Poison 5
+129041105,Poison 5
+129041106,Poison 5
+129041107,Poison 5
+129041108,Poison 5
+129041109,Poison 5
+129041110,Poison 5
+129041200,Bleed 5
+129041201,Bleed 5
+129041202,Bleed 5
+129041203,Bleed 5
+129041204,Bleed 5
+129041205,Bleed 5
+129041206,Bleed 5
+129041207,Bleed 5
+129041208,Bleed 5
+129041209,Bleed 5
+129041210,Bleed 5
+129051100,Poison 6
+129051101,Poison 6
+129051102,Poison 6
+129051103,Poison 6
+129051104,Poison 6
+129051105,Poison 6
+129051106,Poison 6
+129051107,Poison 6
+129051108,Poison 6
+129051109,Poison 6
+129051110,Poison 6
+129051200,Bleed 6
+129051201,Bleed 6
+129051202,Bleed 6
+129051203,Bleed 6
+129051204,Bleed 6
+129051205,Bleed 6
+129051206,Bleed 6
+129051207,Bleed 6
+129051208,Bleed 6
+129051209,Bleed 6
+129051210,Bleed 6
+130004451,Splintering Bolt
+130010700,[Weapon Art] Scholar's Candlestick
+130010701,[Weapon Art] Scholar's Candlestick [Cycle]
+130010702,[Weapon Art] Scholar's Candlestick [Cycle]
+130010750,[Weapon Art] Scholar's Candlestick
+130010751,[Weapon Art] Scholar's Candlestick [Cycle]
+130010752,[Weapon Art] Scholar's Candlestick [Cycle]
+130010790,Scholar's Candlestick
+130011200,Handmaid's Dagger
+130011211,Handmaid's Dagger
+130021100,[Weapon Art] Sunlight Straight Sword
+130021101,[Weapon Art] Sunlight Straight Sword [Cycle]
+130021105,[Weapon Art] Sunlight Straight Sword
+130021106,[Weapon Art] Sunlight Straight Sword
+130021110,[Weapon Art] Sunlight Straight Sword
+130021111,[Weapon Art] Sunlight Straight Sword
+130021800,Morion Blade
+130022200,Executioner's Greatsword
+130022210,Executioner's Greatsword [DeathOccurance]
+130022300,Anri's Straight Sword
+130022400,[Weapon Art] Onyx Blade
+130022401,[Weapon Art] Onyx Blade [Cycle]
+130022450,[Weapon Art] Onyx Blade
+130022451,[Weapon Art] Onyx Blade [Cycle]
+130030400,Crystal Sage's Rapier
+130040700,[Weapon Art] Pontiff Knight Curved Sword
+130040701,[Weapon Art] Pontiff Knight Curved Sword
+130041000,[Weapon Art] Crescent Blade
+130050200,Chaos Blade
+130050201,Chaos Blade
+130050400,[Weapon Art] Bloodlust
+130050401,[Weapon Art] Bloodlust
+130050420,[Weapon Art] Bloodlust [Cycle]
+130050421,[Weapon Art] Bloodlust [AttackOccurance]
+130050430,[Weapon Art] Bloodlust
+130050431,[Weapon Art] Bloodlust [Cycle]
+130050432,[Weapon Art] Bloodlust [AttackOccurance]
+130050450,[Weapon Art] Bloodlust
+130050451,[Weapon Art] Bloodlust [Cycle]
+130050460,[Weapon Art] Bloodlust
+130050461,[Weapon Art] Bloodlust [Cycle]
+130050462,[Weapon Art] Bloodlust [AttackOccurance]
+130063600,Old Wolf Curved Sword
+130063610,Old Wolf Curved Sword
+130063620,Old Wolf Curved Sword
+130063625,Old Wolf Curved Sword
+130070100,[Weapon Art] Millwood Battle Axe
+130070110,[Weapon Art] Millwood Battle Axe
+130070150,[Weapon Art] Millwood Battle Axe
+130070160,[Weapon Art] Millwood Battle Axe
+130070700,Butcher Knife
+130070710,[Weapon Art] Butcher Knife
+130070720,[Weapon Art] Butcher Knife [Cycle]
+130070721,[Weapon Art] Butcher Knife
+130070760,[Weapon Art] Butcher Knife
+130070770,[Weapon Art] Butcher Knife [Cycle]
+130070777,[Weapon Art] Butcher Knife
+130071311,Eleonora
+130082400,[Weapon Art] Warpick
+130082401,[Weapon Art] Warpick [Cycle]
+130082450,[Weapon Art] Warpick
+130082451,[Weapon Art] Warpick [Cycle]
+130082600,Dragon Tooth
+130082700,Smough's Hammer
+130083200,[Weapon Art] Ledo's Great Hammer
+130083202,[Weapon Art] Ledo's Great Hammer [Expiration]
+130083210,[Weapon Art] Ledo's Great Hammer
+130083211,[Weapon Art] Ledo's Great Hammer [Cycle]
+130083250,[Weapon Art] Ledo's Great Hammer
+130083252,[Weapon Art] Ledo's Great Hammer
+130083260,[Weapon Art] Ledo's Great Hammer
+130083261,[Weapon Art] Ledo's Great Hammer [Cycle]
+130090900,Lothric Knight Long Spear
+130091700,Arstor's Spear
+130091710,Arstor's Spear [DeathOccurance]
+130091900,[Weapon Art] Yorshka's Spear
+130091910,[Weapon Art] Yorshka's Spear [Cycle]
+130091911,[Weapon Art] Yorshka's Spear [AttackOccurance]
+130091950,[Weapon Art] Yorshka's Spear
+130091960,[Weapon Art] Yorshka's Spear [Cycle]
+130091961,[Weapon Art] Yorshka's Spear [AttackOccurance]
+130092200,[Weapon Art] Dragonslayer Spear
+130092400,[Weapon Art] Ringed Knight Spear
+130092410,[Weapon Art] Ringed Knight Spear
+130092450,[Weapon Art] Ringed Knight Spear
+130092460,[Weapon Art] Ringed Knight Spear
+130092500,[Weapon Art] Lothric War Banner
+130092501,[Weapon Art] Lothric War Banner [Cycle]
+130092505,[Weapon Art] Lothric War Banner
+130092506,[Weapon Art] Lothric War Banner [Cycle]
+130092510,[Weapon Art] Lothric War Banner
+130092550,[Weapon Art] Lothric War Banner
+130092551,[Weapon Art] Lothric War Banner [Cycle]
+130092600,[Weapon Art] Crucifix of the Mad King
+130092630,[Weapon Art] Crucifix of the Mad King
+130092650,[Weapon Art] Crucifix of the Mad King
+130100700,[Weapon Art] Frost
+130100710,[Weapon Art] Frost [CycleOccurance]
+130100711,[Weapon Art] Frost [AttackOccurance]
+130100750,[Weapon Art] Frost
+130100760,[Weapon Art] Frost [CycleOccurance]
+130100761,[Weapon Art] Frost [AttackOccurance]
+130100780,[Weapon Art] Frost
+130120400,[Weapon Art] Witch's Locks
+130120760,[Weapon Art] Awakening
+130130700,[Weapon Art] Poison Spores
+130130710,[Weapon Art] Poison Spores
+130130720,[Weapon Art] Poison Spores
+130130800,Mendicant's Staff
+130131600,[Weapon Art] Sage's Crystal Staff
+130131601,[Weapon Art] Sage's Crystal Staff [Cycle]
+130131650,[Weapon Art] Sage's Crystal Staff
+130131651,[Weapon Art] Sage's Crystal Staff [Cycle]
+130131900,Witchtree Branch
+130132300,Saint-tree Bellvine
+130134100,Pyromancer's Parting Flame
+130134101,Pyromancer's Parting Flame
+130134110,Pyromancer's Parting Flame
+130134111,Pyromancer's Parting Flame [DeathOccurance]
+130134130,[Weapon Art] Parting Flame
+130134131,[Weapon Art] Parting Flame
+130134132,[Weapon Art] Parting Flame
+130134200,[Weapon Art] Chant from the Depths
+130134250,[Weapon Art] Chant from the Depths
+130134251,[Weapon Art] Chant from the Depths [Cycle]
+130134400,[Weapon Art] Feasting Branch
+130134401,[Weapon Art] Feasting Branch
+130134410,[Weapon Art] Feasting Branch
+130134411,[Weapon Art] Feasting Branch
+130161200,[Weapon Art] Giant Door Shield
+130161210,[Weapon Art] Giant Door Shield
+130161220,[Weapon Art] Giant Door Shield
+130161221,[Weapon Art] Giant Door Shield
+130161222,[Weapon Art] Giant Door Shield
+130161223,[Weapon Art] Giant Door Shield
+130161230,[Weapon Art] Giant Door Shield
+130201500,[Weapon Art] Havel's Greatshield
+130201510,[Weapon Art] Havel's Greatshield [Cycle]
+130201520,[Weapon Art] Havel's Greatshield [Cycle]
+130220500,[Weapon Art] Moaning Shield
+143021400,Irithyll Straight Sword
+143021410,Irithyll Straight Sword
+143021900,[Weapon Art] Friede's Great Scythe
+143021905,[Weapon Art] Friede's Great Scythe
+143021910,[Weapon Art] Friede's Great Scythe
+143021911,[Weapon Art] Friede's Great Scythe
+143030500,Irithyll Rapier
+143030510,Irithyll Rapier
+143040700,Pontiff Knight Curved Sword
+143040710,Pontiff Knight Curved Sword
+143040720,Pontiff Knight Curved Sword
+143081800,Vordt's Great Hammer
+143081810,Vordt's Great Hammer
+150001000,[Weapon Art] Gentle Prayer
+150001001,[Weapon Art] Gentle Prayer [Cycle]
+150001050,[Weapon Art] Gentle Prayer
+150001051,[Weapon Art] Gentle Prayer [Cycle]
+150003000,[Weapon Art] Steady Chant
+150003001,[Weapon Art] Steady Chant [Cycle]
+150003050,[Weapon Art] Steady Chant
+150003051,[Weapon Art] Steady Chant [Cycle]
+150004060,[Weapon Art] Sacred Chime of Filianore
+160100001,### System ###
+160100220,[Armor] Poise
+160100230,[Covenant] Champion's Pact
+160100231,[Covenant] Champion's Pact
+160100232,[Covenant] Champion's Pact [DeathOccurance]
+160100240,[Covenant] Darkmoon Faithful
+160100241,[Covenant] Darkmoon Faithful
+160100242,[Covenant] Darkmoon Faithful [DeathOccurance]
+160100250,[Covenant] Spears of the Church
+160100251,[Covenant] Spears of the Church
+160100252,[Covenant] Spears of the Church [DeathOccurance]
+160100260,[Covenant] Watchdogs of Farron
+160100261,[Covenant] Watchdogs of Farron
+160100262,[Covenant] Watchdogs of Farron [DeathOccurance]
+160100270,[Covenant] Aldrich Faithful
+160100271,[Covenant] Aldrich Faithful
+160100272,[Covenant] Aldrich Faithful [DeathOccurance]
+160100290,[Covenant] Warriors of Sunlight
+160100291,[Covenant] Warriors of Sunlight
+160100292,[Covenant] Warriors of Sunlight [DeathOccurance]
+160100300,[Covenant] Mound-makers
+160100301,[Covenant] Mound-makers
+160100302,[Covenant] Mound-makers [DeathOccurance]
+160100320,[Covenant] Rosaria's Fingers
+160100321,[Covenant] Rosaria's Fingers
+160100322,[Covenant] Rosaria's Fingers [DeathOccurance]
+160100330,[Covenant] Chaos Servants
+160100331,[Covenant] Chaos Servants
+160100332,[Covenant] Chaos Servants [DeathOccurance]
+160102000,[Armor] Stamina Penalty 1 - Head
+160102001,[Armor] Stamina Penalty 1 - Body
+160102002,[Armor] Stamina Penalty 1 - Hands
+160102003,[Armor] Stamina Penalty 1 - Legs
+160102010,[Armor] Stamina Penalty 2 - Head
+160102011,[Armor] Stamina Penalty 2 - Body
+160102012,[Armor] Stamina Penalty 2 - Hands
+160102013,[Armor] Stamina Penalty 2 - Legs
+160105000,[Weapon] Bow - Dummy
+160106000,[Weapon] Greatbow - Dummy
+160107000,[Weapon] Crossbow - Dummy
+160200001,### Weapons ###
+160200010,Black Knight Weapon - Anti-Demon
+160200020,Storyteller's Staff
+160200030,Sunlight Talisman
+160200040,Yorshka's Chime
+160200050,Scholar's Candlestick
+160200070,Preacher's Right Arm
+160200080,Nil Blade
+160200090,Sacred Chime of Filianore
+160200100,Handmaid's Dagger
+160200110,Saint's Talisman
+160200120,Aquamarine Dagger
+160200130,Soldering Iron
+160200140,Chikage
+160200141,Chikage [Expiration]
+160200150,Sword of Avowal
+160200160,Crystal Sage's Rapier
+160200170,Witchtree Branch
+160200180,Saint's Bell-vine
+160200190,Engraved Dagger
+160200200,Archdeacon's Longstaff
+160200201,Archdeacon's Longstaff [DeathOccurance]
+160200280,Blessing of Rosaria
+160200300,Murky Longstaff
+160200310,Caitha's Chime
+160200320,Black Flame
+160200330,Abyssal Flame
+160200340,Sacred Chime of Filianore
+160200350,Old Wolf Curved Sword
+160200351,Old Wolf Curved Sword [CycleOccurance]
+160200352,Old Wolf Curved Sword [State]
+160200353,Old Wolf Curved Sword [State]
+160200360,Chikage
+160200370,Hallowed Sword
+160200380,Hallowed Greatsword
+160200390,Talisman of Beasts
+160200400,Insanity Catalyst
+160200410,Manus Catalyst
+160200430,Phosophrescent Pole
+160200440,Bramd
+160200450,Dragon Bone Fist
+160200460,Dragon Bone Smasher
+160200470,Dragon Greatsword
+160200480,Dragon King Greataxe
+160200490,Drake Sword
+160200500,Abyssal Blade
+160200510,Sage's Stiletto
+160200520,Rune Sword
+160200530,Scraping Spear
+160200540,Server
+160200550,Stone Greatsword
+160200560,Kris Blade
+160200570,Lothric's Scythe
+160200580,Morion Great Blade
+160200590,Needle of Eternal Agony
+160200600,Archdeacon's Great Staff
+160200610,Court Sorcerer's Staff
+160200620,Darkmoon Ritual Staff
+160200630,Logan's Staff
+160200640,Tin Banishment Catalyst
+160200650,Manus Catalyst
+160200660,Phosophrescent Pole
+160200670,Sunless Talisman
+160200680,White Hair Talisman
+160200690,Insanity Catalyst
+160200700,Talisman of Beasts
+160200710,Crystal Chime
+160200720,Lord's Chime
+160200730,Chaos Flame
+160200740,Meat Cleaver
+160200750,Adjudicator's Shield
+160200760,Rune Shield
+160200770,Quicksilver Shield
+160200780,Twinfang Greatshield
+160200790,Abyss Greatsword
+160250001,### Weapon System ###
+160250030,Moonlight Greatsword - Moonlight Vortex
+160250031,Moonlight Greatsword - Moonlight Wave
+160250040,Bloodletter
+160250050,Tranquil Walk of Peace - Self
+160250051,Tranquil Walk of Peace - Enemy
+160250060,Channeler's Boon - Self
+160250061,Channeler's Boon - Friend
+160250070,Hands of God - Flurry of Fists
+160250080,Scraping Spear - Acid Surge
+160300001,### Shields ###
+160300010,Ethereal Oak Shield
+160300020,Grass Crest Shield
+160300030,Shield of Want
+160300040,Wolf Knight's Greatshield
+160300050,Ancient Dragon Greatshield
+160300060,Hawkwood's Shield
+160300070,Porcine Shield
+160300080,Golden Falcon Shield
+160300110,Sunlight Shield
+160300210,Eastern Iron Shield
+160300230,Llewellyn Shield
+160300320,Greatshield of Glory
+160300340,Twin Dragon Greatshield
+160300350,Yhorm's Greatshield
+160300390,Prince's Shield
+160300400,Loch Shield
+160300410,Spider Shield
+160300420,Sacred Bloom Shield
+160300430,Elkhorn Round Shield
+160300440,Crimson Parma
+160300450,Caduceus Round Shield
+160300460,Carthus Shield
+160300470,Stone Parma
+160300480,Wargod Wooden Shield
+160300490,Dragon Crest Shield
+160300500,Spirit Tree Crest Shield
+160300510,Gargoyle Shield
+160300520,Immortal Dragon Greatshield
+160300530,Stone Greatshield
+160400001,### Armor ###
+160400010,Harald Legion Head
+160401000,Max HP [Head]
+160401001,Max HP [Body]
+160401002,Max HP [Hands]
+160401003,Max HP [Legs]
+160401010,Max FP [Head]
+160401011,Max FP [Body]
+160401012,Max FP [Hands]
+160401013,Max FP [Legs]
+160401020,Max Stamina [Head]
+160401021,Max Stamina [Body]
+160401022,Max Stamina [Hands]
+160401023,Max Stamina [Legs]
+160401030,Max HP, Stamina and Equip. Load [Head]
+160401031,Max HP, Stamina and Equip. Load [Body]
+160401032,Max HP, Stamina and Equip. Load [Hands]
+160401033,Max HP, Stamina and Equip. Load [Legs]
+160401040,Stamina Recovery [Head]
+160401041,Stamina Recovery [Body]
+160401042,Stamina Recovery [Hands]
+160401043,Stamina Recovery [Legs]
+160401050,Max Equip. Load [Head]
+160401051,Max Equip. Load [Body]
+160401052,Max Equip. Load [Hands]
+160401053,Max Equip. Load [Legs]
+160401060,Physical Absorption [Head]
+160401061,Physical Absorption [Body]
+160401062,Physical Absorption [Hands]
+160401063,Physical Absorption [Legs]
+160401070,Fire Absorption [Head]
+160401071,Fire Absorption [Body]
+160401072,Fire Absorption [Hands]
+160401073,Fire Absorption [Legs]
+160401080,Lightning Absorption [Head]
+160401081,Lightning Absorption [Body]
+160401082,Lightning Absorption [Hands]
+160401083,Lightning Absorption [Legs]
+160401090,Magic Absorption [Head]
+160401091,Magic Absorption [Body]
+160401092,Magic Absorption [Hands]
+160401093,Magic Absorption [Legs]
+160401100,Dark Absorption [Head]
+160401101,Dark Absorption [Body]
+160401102,Dark Absorption [Hands]
+160401103,Dark Absorption [Legs]
+160401110,Physical, Fire, Lightning, Magic, Dark Absorption [Head]
+160401111,Physical, Fire, Lightning, Magic, Dark Absorption [Body]
+160401112,Physical, Fire, Lightning, Magic, Dark Absorption [Hands]
+160401113,Physical, Fire, Lightning, Magic, Dark Absorption [Legs]
+160401120,Poison, Toxic Resist [Head]
+160401121,Poison, Toxic Resist [Body]
+160401122,Poison, Toxic Resist [Hands]
+160401123,Poison, Toxic Resist [Legs]
+160401130,Blood Resist [Head]
+160401131,Blood Resist [Body]
+160401132,Blood Resist [Hands]
+160401133,Blood Resist [Legs]
+160401140,Curse Resist [Head]
+160401141,Curse Resist [Body]
+160401142,Curse Resist [Hands]
+160401143,Curse Resist [Legs]
+160401150,Frost Resist [Head]
+160401151,Frost Resist [Body]
+160401152,Frost Resist [Hands]
+160401153,Frost Resist [Legs]
+160401160,Poison, Toxic, Blood, Curse, Frost Resist [Head]
+160401161,Poison, Toxic, Blood, Curse, Frost Resist [Body]
+160401162,Poison, Toxic, Blood, Curse, Frost Resist [Hands]
+160401163,Poison, Toxic, Blood, Curse, Frost Resist [Legs]
+160401170,Physical Damage % [Head]
+160401171,Physical Damage % [Body]
+160401172,Physical Damage % [Hands]
+160401173,Physical Damage % [Legs]
+160401190,Magic Damage % [Head]
+160401191,Magic Damage % [Body]
+160401192,Magic Damage % [Hands]
+160401193,Magic Damage % [Legs]
+160401210,Fire Damage % [Head]
+160401211,Fire Damage % [Body]
+160401212,Fire Damage % [Hands]
+160401213,Fire Damage % [Legs]
+160401230,Lightning Damage % [Head]
+160401231,Lightning Damage % [Body]
+160401232,Lightning Damage % [Hands]
+160401233,Lightning Damage % [Legs]
+160401250,Dark Damage % [Head]
+160401251,Dark Damage % [Body]
+160401252,Dark Damage % [Hands]
+160401253,Dark Damage % [Legs]
+160401270,Strength [Head]
+160401271,Strength [Body]
+160401272,Strength [Hands]
+160401273,Strength [Legs]
+160401280,Dexterity [Head]
+160401281,Dexterity [Body]
+160401282,Dexterity [Hands]
+160401283,Dexterity [Legs]
+160401290,Intelligence [Head]
+160401291,Intelligence [Body]
+160401292,Intelligence [Hands]
+160401293,Intelligence [Legs]
+160401300,Faith [Head]
+160401301,Faith [Body]
+160401302,Faith [Hands]
+160401303,Faith [Legs]
+160401310,Luck [Head]
+160401311,Luck [Body]
+160401312,Luck [Hands]
+160401313,Luck [Legs]
+160401320,Vigor [Head]
+160401321,Vigor [Body]
+160401322,Vigor [Hands]
+160401323,Vigor [Legs]
+160401330,Vitality [Head]
+160401331,Vitality [Body]
+160401332,Vitality [Hands]
+160401333,Vitality [Legs]
+160401340,Endurance [Head]
+160401341,Endurance [Body]
+160401342,Endurance [Hands]
+160401343,Endurance [Legs]
+160401350,Attunement [Head]
+160401351,Attunement [Body]
+160401352,Attunement [Hands]
+160401353,Attunement [Legs]
+160401360,Weapon Stamina Consumption [Head]
+160401361,Weapon Stamina Consumption [Body]
+160401362,Weapon Stamina Consumption [Hands]
+160401363,Weapon Stamina Consumption [Legs]
+160401370,Weapon FP Consumption [Head]
+160401371,Weapon FP Consumption [Body]
+160401372,Weapon FP Consumption [Hands]
+160401373,Weapon FP Consumption [Legs]
+160401380,Sorcery FP Consumption [Head]
+160401381,Sorcery FP Consumption [Body]
+160401382,Sorcery FP Consumption [Hands]
+160401383,Sorcery FP Consumption [Legs]
+160401390,Sorcery Damage % [Head]
+160401391,Sorcery Damage % [Body]
+160401392,Sorcery Damage % [Hands]
+160401393,Sorcery Damage % [Legs]
+160401400,Pyromancy FP Consumption [Head]
+160401401,Pyromancy FP Consumption [Body]
+160401402,Pyromancy FP Consumption [Hands]
+160401403,Pyromancy FP Consumption [Legs]
+160401410,Pyromancy Damage % [Head]
+160401411,Pyromancy Damage % [Body]
+160401412,Pyromancy Damage % [Hands]
+160401413,Pyromancy Damage % [Legs]
+160401420,Miracle FP Consumption [Head]
+160401421,Miracle FP Consumption [Body]
+160401422,Miracle FP Consumption [Hands]
+160401423,Miracle FP Consumption [Legs]
+160401430,Miracle Damage % [Head]
+160401431,Miracle Damage % [Body]
+160401432,Miracle Damage % [Hands]
+160401433,Miracle Damage % [Legs]
+160401440,Dark Spell Damage % [Head]
+160401441,Dark Spell Damage % [Body]
+160401442,Dark Spell Damage % [Hands]
+160401443,Dark Spell Damage % [Legs]
+160401450,Spell Duration [Head]
+160401451,Spell Duration [Body]
+160401452,Spell Duration [Hands]
+160401453,Spell Duration [Legs]
+160401460,Cast Speed [Head]
+160401461,Cast Speed [Body]
+160401462,Cast Speed [Hands]
+160401463,Cast Speed [Legs]
+160401470,FP Regen [Head]
+160401471,FP Regen [Body]
+160401472,FP Regen [Hands]
+160401473,FP Regen [Legs]
+160401480,Bow Distance [Head]
+160401481,Bow Distance [Body]
+160401482,Bow Distance [Hands]
+160401483,Bow Distance [Legs]
+160401490,Item Discovery [Head]
+160401491,Item Discovery [Body]
+160401492,Item Discovery [Hands]
+160401493,Item Discovery [Legs]
+160401500,Soul Gain [Head]
+160401501,Soul Gain [Body]
+160401502,Soul Gain [Hands]
+160401503,Soul Gain [Legs]
+160401510,HP Regen [Head]
+160401511,HP Regen [Body]
+160401512,HP Regen [Hands]
+160401513,HP Regen [Legs]
+160401520,Stamina Damage % [Head]
+160401521,Stamina Damage % [Body]
+160401522,Stamina Damage % [Hands]
+160401523,Stamina Damage % [Legs]
+160401530,HP Absorb [Head]
+160401531,HP Absorb [Body]
+160401532,HP Absorb [Hands]
+160401533,HP Absorb [Legs]
+160401535,HP Absorb - DeathOccurance [Head]
+160401536,HP Absorb - DeathOccurance [Body]
+160401537,HP Absorb - DeathOccurance [Hands]
+160401538,HP Absorb - DeathOccurance [Legs]
+160401540,FP Absorb [Head]
+160401541,FP Absorb [Body]
+160401542,FP Absorb [Hands]
+160401543,FP Absorb [Legs]
+160401545,FP Absorb - DeathOccurance [Head]
+160401546,FP Absorb - DeathOccurance [Body]
+160401547,FP Absorb - DeathOccurance [Hands]
+160401548,FP Absorb - DeathOccurance [Legs]
+160401550,Demon Damage % [Head]
+160401551,Demon Damage % [Body]
+160401552,Demon Damage % [Hands]
+160401553,Demon Damage % [Legs]
+160401560,Undead Damage % [Head]
+160401561,Undead Damage % [Body]
+160401562,Undead Damage % [Hands]
+160401563,Undead Damage % [Legs]
+160401570,Hollow Damage % [Head]
+160401571,Hollow Damage % [Body]
+160401572,Hollow Damage % [Hands]
+160401573,Hollow Damage % [Legs]
+160401580,Abyssal Damage % [Head]
+160401581,Abyssal Damage % [Body]
+160401582,Abyssal Damage % [Hands]
+160401583,Abyssal Damage % [Legs]
+160401610,Physical Defence [Head]
+160401611,Physical Defence [Body]
+160401612,Physical Defence [Hands]
+160401613,Physical Defence [Legs]
+160401620,Magic Defence [Head]
+160401621,Magic Defence [Body]
+160401622,Magic Defence [Hands]
+160401623,Magic Defence [Legs]
+160401630,Fire Defence [Head]
+160401631,Fire Defence [Body]
+160401632,Fire Defence [Hands]
+160401633,Fire Defence [Legs]
+160401640,Lightning Defence [Head]
+160401641,Lightning Defence [Body]
+160401642,Lightning Defence [Hands]
+160401643,Lightning Defence [Legs]
+160401650,Dark Defence [Head]
+160401651,Dark Defence [Body]
+160401652,Dark Defence [Hands]
+160401653,Dark Defence [Legs]
+160401660,Physical, Magic, Fire, Lightning, Dark Defence [Head]
+160401661,Physical, Magic, Fire, Lightning, Dark Defence [Body]
+160401662,Physical, Magic, Fire, Lightning, Dark Defence [Hands]
+160401663,Physical, Magic, Fire, Lightning, Dark Defence [Legs]
+160401670,Estus Recovery [Head]
+160401671,Estus Recovery [Body]
+160401672,Estus Recovery [Hands]
+160401673,Estus Recovery [Legs]
+160401680,Deflection [Head]
+160401681,Deflection [Body]
+160401682,Deflection [Hands]
+160401683,Deflection [Legs]
+160401999,### Unique Armor ###
+160402000,Blindfold Mask
+160402010,Black Witch Veil
+160402020,Clandestine Coat
+160402030,Sage's Big Hat
+160402040,Thrall Hood
+160402050,White Preacher Head
+160402060,Scholar's Shed Skin
+160402070,Scholar's Robe
+160402080,Wolnir's Crown
+160402090,Symbol of Avarice
+160402100,Symbol of Avarice
+160402110,Firelink Set [Head]
+160402111,Firelink Set [Body]
+160402112,Firelink Set [Hands]
+160402113,Firelink Set [Legs]
+160402120,Shadow Set [Head]
+160402121,Shadow Set [Body]
+160402122,Shadow Set [Hands]
+160402123,Shadow Set [Legs]
+160402130,Armor of Thorns [Head]
+160402131,Armor of Thorns [Body]
+160402132,Armor of Thorns [Hands]
+160402133,Armor of Thorns [Legs]
+160402134,Gold Ardeo
+160402135,Iron Cage
+160402136,Iron Keeper Helm
+160402137,Bloodstained Gauntlets
+160402138,Mask of Velka
+160402139,Gargoyle Helm
+160402140,Crown of the Great Lord
+160402141,Skull Mask
+160402142,Wanderer's Coat
+160402143,Mask of the Father
+160402144,Mask of the Mother
+160402145,Mask of the Child
+160402146,Footman's Overcoat
+160402147,Soldier's Hood
+160402148,Frigid Valley Mask
+160500001,### Spells ###
+160500030,Unleash Magic
+160500040,Whisper of Despair
+160500050,Repel
+160500060,Numbness
+160500070,Perseverance
+160500080,Blizzard
+160500090,Soul Focus
+160500100,Inner Fervor
+160500200,Rockflesh
+160500210,Rockflesh [CycleOccurance]
+160500220,Rockflesh [CycleOccurance]
+160500240,Climax
+160600001,### Rings ###
+160600010,Life Ring
+160600020,Chloranthy Ring
+160600030,Havel's Ring
+160600040,Ring of Favor
+160600050,Ring of Steel Protection
+160600060,Flame Stoneplate Ring
+160600070,Thunder Stoneplate Ring
+160600080,Magic Stoneplate Ring
+160600090,Dark Stoneplate Ring
+160600100,Speckled Stoneplate Ring
+160600110,Bloodbite Ring
+160600120,Poisonbite Ring
+160600130,Cursebite Ring
+160600140,Fleshbite Ring
+160600150,Wood Grain Ring
+160600160,Scholar Ring
+160600170,Priestess Ring
+160600180,Red Tearstone Ring
+160600190,Blue Tearstone Ring
+160600200,Wolf Ring
+160600201,Wolf Ring
+160600202,Wolf Ring
+160600203,Wolf Ring
+160600204,Wolf Ring [State]
+160600205,Wolf Ring [State]
+160600206,Wolf Ring [State]
+160600207,Wolf Ring [State]
+160600220,Ring of Sacrifice
+160600230,Young Dragon Ring
+160600240,Bellowing Dragoncrest Ring
+160600250,Great Swamp Ring
+160600260,Witch's Ring
+160600270,Morne's Ring
+160600280,Ring of the Sun's First Born
+160600290,Lingering Dragoncrest Ring
+160600300,Sage Ring
+160600310,Slumbering Dragoncrest Ring
+160600320,Dusk Crown Ring
+160600330,Saint's Ring
+160600340,Deep Ring
+160600350,Darkmoon Ring
+160600360,Hawk Ring
+160600380,Covetous Gold Serpent Ring
+160600390,Covetous Silver Serpent Ring
+160600400,Sun Princess Ring
+160600410,Silvercat Ring
+160600420,Skull Ring
+160600430,Untrue White Ring
+160600440,Carthus Milkring
+160600450,Knight's Ring
+160600460,Hunter's Ring
+160600470,Knight Slayer's Ring
+160600480,Magic Clutch Ring
+160600490,Lightning Clutch Ring
+160600500,Fire Clutch Ring
+160600510,Dark Clutch Ring
+160600520,Flynn's Ring
+160600530,Prisoner's Chain
+160600540,Untrue Dark Ring
+160600550,Obscuring Ring
+160600560,Ring of the Evil Eye
+160600561,Ring of the Evil Eye [DeathOccurance]
+160600570,Ring of Calamity
+160600580,Farron Ring
+160600590,Aldrich's Ruby
+160600591,Aldrich's Ruby [TriggerState]
+160600592,Aldrich's Ruby [TriggerState]
+160600600,Aldrich's Sapphire
+160600601,Aldrich's Sapphire [TriggerState]
+160600602,Aldrich's Sapphire [TriggerState]
+160600610,Lloyd's Sword Ring
+160600620,Lloyd's Shield Ring
+160600630,Estus Ring
+160600640,Ashen Estus Ring
+160600650,Horsehoof Ring
+160600660,Carthus Bloodring
+160600670,Reversal Ring
+160600680,Pontiff's Right Eye
+160600681,Pontiff's Right Eye [State]
+160600700,Pontiff's Left Eye
+160600701,Pontiff's Left Eye [State]
+160600710,Dragonscale Ring
+160600720,Chillbite Ring
+160600730,Ring of Londor
+160600740,Spirit Amethyst
+160600741,Spirit Amethyst [DeathOccurance]
+160600750,Unholy Remains
+160600770,Wretched Pendant
+160600780,Symbol of the Penitent
+160600800,Runic Seal
+160600810,Tome of Sunlight
+160600820,Greatwood Remnants
+160600830,Charred Bone
+160600840,Green Tearstone Ring
+160600860,Violet Tearstone Ring
+160600900,Demonsbane Ring
+160600910,Crypt Ring
+160600920,Blight Ring
+160600930,Hallowed Ring
+160600940,Ring of Wisdom
+160601060,Ring of Retaliation
+160601070,Ring of Reprisal
+160601080,Ring of Spite
+160601090,Ring of Retribution
+160601100,Ring of Vengeance
+160601110,Bulwark Ring
+160601120,Mercenary Ring
+160601130,Heretic Ring
+160601140,Merchant Ring
+160601150,Physician Ring
+160601160,Jester Ring
+160601170,Arcane Trinket
+160601180,Londor Tincture
+160601210,Bountiful Quiver
+160601211,Bountiful Quiver [DeathOccurance]
+160601220,Old Pygmy Brooch
+160601221,Old Pygmy Brooch [Pure Damage]
+160601222,Old Pygmy Brooch [Dummy]
+160601230,Ring of the Exalted
+160601240,Redeye Ring
+160601250,Ring of Woe
+160601260,Ring of Adversity
+160601270,Ring of Catastrophe
+160601320,Black Tearstone Ring
+160601330,Quelling Ring
+160601331,Quelling Ring [AttackOccurance]
+160601340,Band of Stone
+160601350,Band of Magic
+160601360,Band of Flame
+160601370,Band of Sparks
+160601380,Band of Darkness
+160601390,Ring of Champions
+160601391,Ring of Champions - Color 1
+160601392,Ring of Champions - Color 2
+160601393,Ring of Champions - Color 3
+160601394,Ring of Champions - Color 4
+160601395,Ring of Champions - Color 5
+160601396,Ring of Champions - Color 6
+160601397,Ring of Champions - Color 7
+160601398,Ring of Champions - Color 8
+160601399,Ring of Champions - Color 9
+160601400,Ring of the Dutiful
+160601410,Ring of the Blessed
+160601420,Ring of the Resolute
+160601430,Ring of the Faithful
+160601440,Ring of the Devout
+160601450,Ring of the Fanatic
+160601460,Ring of the Fingers
+160601470,Ring of Demons
+160700001,### Items ###
+160700010,Oozing Pellet
+160700020,Brightbug
+160700030,Blood of Might
+160700040,Young Grass Dew
+160700050,Tarnished Coin
+160700060,Tarnished Silver Coin
+160700070,Cursed Pellet
+160700080,Beastly Flesh
+160700110,Fire Stone
+160700120,Magic Stone
+160700130,Lightning Stone
+160700140,Dark Stone
+160700150,Poison Stone
+160700160,Bleed Stone
+160700170,Frost Stone
+160700180,Blessed Stone
+160700190,Flask of Magic
+160700200,Flask of Fire
+160700210,Flask of Lightning
+160700220,Flask of Abyss
+160700230,Old Growth Balm
+160700240,Vine Balm
+160700250,Blackweed Balm
+160700260,Goldenfruit Balm
+160709999,### Developer Items ###
+160710000,Detection - Event Flag Tool
+160710101,Effect - God Tool
+160710102,Effect - Kill Tool
+160710103,Effect - Stamina Tool
+160710104,Effect - FP Tool
+160710105,Effect - HP Tool
+160710106,Effect - Souls Tool
+160719999,### Boss Souls ###
+160720000,Soul of Rosaria
+160720010,Soul of Boreal Valley Vordt
+160720030,Soul of a Crystal Sage
+160720040,Soul of the Deacons of the Deep
+160720050,Soul of the Blood of the Wolf
+160720060,Soul of High Lord Wolnir
+160720070,Soul of the Old Demon King
+160720080,Soul of a Demon
+160720090,Soul of a Stray Demon
+160720100,Soul of Pontiff Sulyvahn
+160720110,Soul of Aldrich
+160720120,Soul of Yhorm the Giant
+160720130,Soul of the Dancer
+160720140,Soul of Consumed Oceiros
+160720150,Soul of Dragonslayer Armour
+160720160,Soul of the Nameless King
+160720170,Soul of Champion Gundyr
+160720180,Soul of the Twin Princes
+160720190,Soul of the Lords
+160720200,Soul of Sister Friede
+160720210,Soul of the Demon Prince
+160720220,Soul of Darkeater Midir
+160720230,Soul of Slave Knight Gael
+160800000,### NPC ###
+160800001,NPC - Base
+160800002,Enemy - Base
+160800010,NPC - Slave Knight Gael
+160800020,NPC - Sir Vilhelm
+160800030,NPC - Livid Pyromancer Dunnel
+160800040,NPC - Champion's Gravetender
+160800050,NPC - Amnesiac Lapp
+160800060,NPC - Shira, Knight of Filianore
+160800070,NPC - Painting Guardian
+160800080,NPC - Halflight
+160800090,NPC - Desert Pyromancer Zoey
+160800100,NPC - Silver Knight Ledo
+160800110,NPC - Alva, Seeker of the Spurned (TRC)
+160800120,NPC - Moaning Knight
+160800130,NPC - Butcher
+160800150,NPC - Greirat of the Undead Settlement
+160800160,NPC - Yuria of Londor
+160800170,NPC - Hawkwood the Deserter
+160800180,NPC - Sirris of the Sunless Realms
+160800190,NPC - Ringfinger Leonhard
+160800200,NPC - Orbeck of Vinheim
+160800210,NPC - Cornyx of the Great Swamp
+160800220,NPC - Karla
+160800230,NPC - Irina of Carim
+160800240,NPC - Eygon of Carim
+160800250,NPC - Anri of Astora
+160800260,NPC - Unbreakable Patches
+160800270,NPC - Siegward of Catarina
+160800280,NPC - Horace the Hushed
+160800290,NPC - Sword Master
+160800300,NPC - Yellowfinger Heysel
+160800310,NPC - Black Hand Gotthard
+160800320,NPC - Great Swamp Cuculus
+160800330,NPC - Holy Knight Hodrick
+160800340,NPC - Londor Pale Shade
+160800350,NPC - Lion Knight Albert
+160800360,NPC - Daughter of Crystal Kriemhild
+160800370,NPC - Exile Watchdog (Greatsword)
+160800380,NPC - Exile Watchdog (Club)
+160800390,NPC - Unkindled Brigand
+160800400,NPC - Unkindled Thief
+160800410,NPC - Court Sorcerer
+160800420,NPC - Havel the Rock
+160800430,NPC - Drakeblood Knight
+160800440,NPC - Drang Knight (Hammer)
+160800450,NPC - Drang Knight (Spear)
+160800460,NPC - Knight Slayer Tsorig
+160800470,NPC - Creighton the Wanderer
+160800480,NPC - Alva, Seeker of the Spurned
+160800490,NPC - Longfinger Kirk
+160800500,NPC - Sieghardt of Catarina
+160800510,NPC - Luyila of Londor
+160800520,NPC - Forgotten Locklin
+160800530,NPC - Holy Knight Morton
+160800540,NPC - Lilla of the Sunless Realms
+160800550,NPC - Tiny
+160800560,NPC - Captain Morrel
+160800570,NPC - Dominatrix Sharron
+160800580,NPC - Morric, the Fallen Knight
+160800590,NPC - Tomb Raider Dyfan
+160800600,NPC - Chaos Servant Eygor
+160800610,NPC - Devotee Scarlett
+160800620,NPC - Fester the Jester
+160800630,NPC - Inquisitor Ashford
+160800640,NPC - Dragon Cultist Xeric
+160800650,NPC - Corrupted Knight Lloyd
+160800660,NPC - Huntmaster Ava
+160800670,NPC - The Pursuer (Early)
+160800680,NPC - The Pursuer (Late)
+160800690,NPC - Eccentric Archibald
+160800700,NPC - Jailer Eileen
+160800710,NPC - Ollis the Merciless
+160800720,NPC - Vileblood Annalise
+160800730,NPC - The Forlorn
+160800740,NPC - The Father
+160800750,NPC - The Mother
+160800760,NPC - The Child
+170000000,### Status Effects - Spells ###
+170000010,Frost - Frozen Weapon [AttackOccurance]
+170000020,Frost - Snap Freeze [CycleOccurance]
+170000030,Poison - Poison Mist
+170000040,Poison - Toxic Mist
+170000050,Bleed - Nibble
+170000060,Bleed - Gnaw
+170000070,Bleed - Dorhys' Gnawing
+170000080,Bleed - Devouring Swarm
+170000090,Frost - Blizzard
+179999999,### Poison - Weapons ###
+180000000,Poison - Base - Infusion
+180000001,Poison - Base (Quick) - Infusion
+180000002,Poison - Base (Slow) - Infusion
+180000010,Poison - Rotten Ghru Dagger
+180000011,Poison - Rotten Ghru Dagger - Infusion
+180000020,Poison - Rotten Ghru Curved Sword
+180000021,Poison - Rotten Ghru Curved Sword - Infusion
+180000030,Poison - Ciaran's Tracers
+180000031,Poison - Ciaran's Tracers - Ascended
+180000040,Poison - Hammer of the Great Tree
+180000041,Poison - Hammer of the Great Tree - Ascended
+180000050,Poison - Greatwood Club
+180000051,Poison - Greatwood Club - Ascended
+180000060,Poison - Rotten Ghru Spear
+180000061,Poison - Rotten Ghru Spear - Infusion
+180000070,Poison - Arstor's Spear
+180000071,Poison - Arstor's Spear - Ascended
+180000090,Poison - Spotted Whip
+180000091,Poison - Spotted Whip - Infusion
+180000100,Poison - Corvian Longstaff
+180000101,Poison - Corvian Longstaff - Infusion
+180000110,Poison - Ghru Rotshield
+180000120,Poison - Poison Arrow
+180000130,Poison - Poison Bolt
+180000140,Poison - Twinspears of the Forlorn
+180000141,Poison - Twinspears of the Forlorn - Infusion
+180000150,Poison - Gravelord Sword
+180000151,Poison - Gravelord Sword - Ascended
+180000160,Poison - Makoto
+180000161,Poison - Makoto - Ascended
+180000170,Poison - Poison Throwing Knife
+180000180,Poison - Dung Pie
+180000190,Poison - Ceaseless Dung Pie
+180009999,### Bleed - Weapons ###
+180010000,Bleed - Base - Infusion
+180010001,Bleed - Base (Quick) - Infusion
+180010002,Bleed - Base (Slow) - Infusion
+180010010,Bleed - Bandit's Knife
+180010011,Bleed - Bandit's Knife - Infusion
+180010020,Bleed - Blades of Mercy
+180010021,Bleed - Blades of Mercy - Ascended
+180010030,Bleed - Barbed Straight Sword
+180010031,Bleed - Barbed Straight Sword - Infusion
+180010040,Bleed - Morion Blade
+180010041,Bleed - Morion Blade - Ascended
+180010050,Bleed - Flamberge
+180010051,Bleed - Flamberge - Infusion
+180010060,Bleed - Carthus Curved Sword
+180010061,Bleed - Carthus Curved Sword - Infusion
+180010070,Bleed - Carthus Shotel
+180010071,Bleed - Carthus Shotel - Infusion
+180010080,Bleed - Machete
+180010081,Bleed - Machete - Infusion
+180010090,Bleed - Beast Cutter
+180010091,Bleed - Beast Cutter - Infusion
+180010100,Bleed - Warden Twinblades
+180010101,Bleed - Warden Twinblades - Infusion
+180010110,Bleed - Ciaran's Tracers
+180010111,Bleed - Ciaran's Tracers - Ascended
+180010120,Bleed - Carthus Curved Greatsword
+180010121,Bleed - Carthus Curved Greatsword - Infusion
+180010130,Bleed - Uchigatana
+180010131,Bleed - Uchigatana - Infusion
+180010140,Bleed - Washing Pole
+180010141,Bleed - Washing Pole - Infusion
+180010150,Bleed - Black Blade
+180010151,Bleed - Black Blade - Ascended
+180010160,Bleed - Bloodlust
+180010161,Bleed - Bloodlust - Ascended
+180010170,Bleed - Chaos Blade
+180010171,Bleed - Chaos Blade - Ascended
+180010180,Bleed - Darkdrift
+180010181,Bleed - Darkdrift - Ascended
+180010190,Bleed - Frayed Blade
+180010191,Bleed - Frayed Blade - Ascended
+180010200,Bleed - Onikiri and Ubadachi
+180010201,Bleed - Onikiri and Ubadachi - Infusion
+180010210,Bleed - Chikage
+180010211,Bleed - Chikage - Ascended
+180010220,Bleed - Butcher Knife
+180010221,Bleed - Butcher Knife - Ascended
+180010230,Bleed - Reinforced Club
+180010231,Bleed - Reinforced Club - Infusion
+180010240,Bleed - Morning Star
+180010241,Bleed - Morning Star - Infusion
+180010250,Bleed - Sanguinus
+180010251,Bleed - Sanguinus - Ascended
+180010260,Bleed - Spiked Mace
+180010261,Bleed - Spiked Mace - Infusion
+180010270,Bleed - Bloodletter
+180010271,Bleed - Bloodletter - Ascended
+180010280,Bleed - Great Scythe
+180010281,Bleed - Great Scythe - Infusion
+180010290,Bleed - Great Corvian Scythe
+180010291,Bleed - Great Corvian Scythe - Infusion
+180010300,Bleed - Pontiff Knight Great Scythe
+180010301,Bleed - Pontiff Knight Great Scythe - Ascended
+180010310,Bleed - Burial Scythe
+180010311,Bleed - Burial Scythe - Infusion
+180010320,Bleed - Notched Whip
+180010321,Bleed - Notched Whip - Infusion
+180010330,Bleed - Rose of Ariandel
+180010331,Bleed - Rose of Ariandel - Ascended
+180010340,Bleed - Claw
+180010341,Bleed - Claw - Infusion
+180010350,Bleed - Manikin Claws
+180010351,Bleed - Manikin Claws - Ascended
+180010360,Bleed - Crow Talons
+180010361,Bleed - Crow Talons - Ascended
+180010370,Bleed - Spiked Shield
+180010380,Bleed - Bonewheel Shield
+180010390,Bleed - Lacerating Arrow
+180010400,Bleed - Splintering Bolt
+180010410,Bleed - Great Machete
+180010411,Bleed - Great Machete - Infusion
+180010420,Bleed - Makoto
+180010421,Bleed - Makoto - Ascended
+180010430,Bleed - Priscilla's Scythe
+180010431,Bleed - Priscilla's Scythe - Self
+180010432,Bleed - Priscilla's Scythe - Ascended
+180010440,Bleed - Beasthunter Saif
+180010441,Bleed - Beasthunter Saif - Infusion
+180010450,Bleed - Bonewheel Shield
+180019999,### Frost ##
+180020000,Frost - Base - Infusion
+180020001,Frost - Base (Quick) - Infusion
+180020002,Frost - Base (Slow) - Infusion
+180020010,Frost - Irithyll Straight Sword
+180020011,Frost - Irithyll Straight Sword - Ascended
+180020020,Frost - Irithyll Greatsword
+180020021,Frost - Irithyll Greatsword - Ascended
+180020030,Frost - Pontiff Knight Greatsword
+180020031,Frost - Pontiff Knight Greatsword - Ascended
+180020040,Frost - Irithyll Rapier
+180020041,Frost - Irithyll Rapier - Ascended
+180020050,Frost - Irithyll Mace
+180020051,Frost - Irithyll Mace - Ascended
+180020060,Frost - Irithyll Warpick
+180020061,Frost - Irithyll Warpick - Ascended
+180020070,Frost - Vordt's Great Hammer
+180020071,Frost - Vordt's Great Hammer - Ascended
+180020080,Frost - Irithyll Lance
+180020081,Frost - Irithyll Lance - Ascended
+180020090,Frost - Friede's Great Scythe
+180020100,Frost - Frost Arrow
+180020110,Frost - Frost Bolt
+180020120,Frost - Pontiff Knight Curved Sword
+180020121,Frost - Pontiff Knight Curved Sword - Ascended
+200001000,Lucky
+200001100,Enchanted
+200001200,Holy
+200001300,Sharp
+200002000,[Shield] Clarity
+200002100,[Shield] Rejuvenation
+200002200,[Shield] Restoration
+200002300,[Shield] Respite
+200002400,[Shield] Lucidity
+200002500,[Shield] Greed
+200002600,[Shield] Magic
+200002700,[Shield] Fire
+200002800,[Shield] Lightning
+200002900,[Shield] Dark
+200005000,Magic - Dagger
+200005020,Magic - Straight Sword
+200005040,Magic - Greatsword
+200005060,Magic - Ultra Greatsword
+200005080,Magic - Curved Sword
+200005100,Magic - Katana
+200005120,Magic - Curved Greatsword
+200005140,Magic - Axe
+200005160,Magic - Greataxe
+200005180,Magic - Hammer
+200005200,Magic - Great Hammer
+200005220,Magic - Spear
+200005240,Magic - Halberd
+200005260,Magic - Whip
+200005280,Magic - Fist
+200005300,Magic - Claw
+200005320,Magic - Battlestaff
+200005340,Magic - Torch
+200005360,Magic - Thrusting Sword
+200005380,Magic - Reaper
+200006000,Fire - Dagger
+200006020,Fire - Straight Sword
+200006040,Fire - Greatsword
+200006060,Fire - Ultra Greatsword
+200006080,Fire - Curved Sword
+200006100,Fire - Katana
+200006120,Fire - Curved Greatsword
+200006140,Fire - Axe
+200006160,Fire - Greataxe
+200006180,Fire - Hammer
+200006200,Fire - Great Hammer
+200006220,Fire - Spear
+200006240,Fire - Halberd
+200006260,Fire - Whip
+200006280,Fire - Fist
+200006300,Fire - Claw
+200006320,Fire - Battlestaff
+200006340,Fire - Torch
+200006360,Fire - Thrusting Sword
+200006380,Fire - Reaper
+200007000,Lightning - Dagger
+200007020,Lightning - Straight Sword
+200007040,Lightning - Greatsword
+200007060,Lightning - Ultra Greatsword
+200007080,Lightning - Curved Sword
+200007100,Lightning - Katana
+200007120,Lightning - Curved Greatsword
+200007140,Lightning - Axe
+200007160,Lightning - Greataxe
+200007180,Lightning - Hammer
+200007200,Lightning - Great Hammer
+200007220,Lightning - Spear
+200007240,Lightning - Halberd
+200007260,Lightning - Whip
+200007280,Lightning - Fist
+200007300,Lightning - Claw
+200007320,Lightning - Battlestaff
+200007340,Lightning - Torch
+200007360,Lightning - Thrusting Sword
+200007380,Lightning - Reaper
+200008000,Dark - Dagger
+200008020,Dark - Straight Sword
+200008040,Dark - Greatsword
+200008060,Dark - Ultra Greatsword
+200008080,Dark - Curved Sword
+200008100,Dark - Katana
+200008120,Dark - Curved Greatsword
+200008140,Dark - Axe
+200008160,Dark - Greataxe
+200008180,Dark - Hammer
+200008200,Dark - Great Hammer
+200008220,Dark - Spear
+200008240,Dark - Halberd
+200008260,Dark - Whip
+200008280,Dark - Fist
+200008300,Dark - Claw
+200008320,Dark - Battlestaff
+200008340,Dark - Torch
+200008360,Dark - Thrusting Sword
+200008380,Dark - Reaper
+200010000,Crystal - Dagger
+200010020,Crystal - Straight Sword
+200010040,Crystal - Greatsword
+200010060,Crystal - Ultra Greatsword
+200010080,Crystal - Curved Sword
+200010100,Crystal - Katana
+200010120,Crystal - Curved Greatsword
+200010140,Crystal - Axe
+200010160,Crystal - Greataxe
+200010180,Crystal - Hammer
+200010200,Crystal - Great Hammer
+200010220,Crystal - Spear
+200010240,Crystal - Halberd
+200010260,Crystal - Whip
+200010280,Crystal - Fist
+200010300,Crystal - Claw
+200010320,Crystal - Battlestaff
+200010340,Crystal - Torch
+200010360,Crystal - Thrusting Sword
+200010380,Crystal - Reaper
+200020000,Chaos - Dagger
+200020020,Chaos - Straight Sword
+200020040,Chaos - Greatsword
+200020060,Chaos - Ultra Greatsword
+200020080,Chaos - Curved Sword
+200020100,Chaos - Katana
+200020120,Chaos - Curved Greatsword
+200020140,Chaos - Axe
+200020160,Chaos - Greataxe
+200020180,Chaos - Hammer
+200020200,Chaos - Great Hammer
+200020220,Chaos - Spear
+200020240,Chaos - Halberd
+200020260,Chaos - Whip
+200020280,Chaos - Fist
+200020300,Chaos - Claw
+200020320,Chaos - Battlestaff
+200020340,Chaos - Torch
+200020360,Chaos - Thrusting Sword
+200020380,Chaos - Reaper
+200030000,Voltaic - Dagger
+200030020,Voltaic - Straight Sword
+200030040,Voltaic - Greatsword
+200030060,Voltaic - Ultra Greatsword
+200030080,Voltaic - Curved Sword
+200030100,Voltaic - Katana
+200030120,Voltaic - Curved Greatsword
+200030140,Voltaic - Axe
+200030160,Voltaic - Greataxe
+200030180,Voltaic - Hammer
+200030200,Voltaic - Great Hammer
+200030220,Voltaic - Spear
+200030240,Voltaic - Halberd
+200030260,Voltaic - Whip
+200030280,Voltaic - Fist
+200030300,Voltaic - Claw
+200030320,Voltaic - Battlestaff
+200030340,Voltaic - Torch
+200030360,Voltaic - Thrusting Sword
+200030380,Voltaic - Reaper
+200040000,Abyssal - Dagger
+200040020,Abyssal - Straight Sword
+200040040,Abyssal - Greatsword
+200040060,Abyssal - Ultra Greatsword
+200040080,Abyssal - Curved Sword
+200040100,Abyssal - Katana
+200040120,Abyssal - Curved Greatsword
+200040140,Abyssal - Axe
+200040160,Abyssal - Greataxe
+200040180,Abyssal - Hammer
+200040200,Abyssal - Great Hammer
+200040220,Abyssal - Spear
+200040240,Abyssal - Halberd
+200040260,Abyssal - Whip
+200040280,Abyssal - Fist
+200040300,Abyssal - Claw
+200040320,Abyssal - Battlestaff
+200040340,Abyssal - Torch
+200040360,Abyssal - Thrusting Sword
+200040380,Abyssal - Reaper
+249999999,### Script ###
+250000000,Base Effect
+250000100,No Death Run
+250001000,Pact of Nahr Alma
+250001001,Pact of Kremmel
+250001002,Pact of Caitha
+250001003,Pact of Caffrey
+260000000,### Bosses ###
+260000001,Iudex Gundyr
+260000002,Vordt of the Boreal Valley
+260000003,Curse-rotted Greatwood
+260000004,Crystal Sage
+260000005,Deacons of the Deep
+260000006,Abyss Watchers
+260000007,High Lord Wolnir
+260000008,Old Demon King
+260000009,Pontiff Sulyvahn
+260000010,Aldrich, Devourer of Gods
+260000011,Yhorm the Giant
+260000012,Dancer of the Boreal Valley
+260000013,Oceiros, the Consumed King
+260000014,Dragonslayer Armour
+260000015,Ancient Wyvern
+260000016,King of the Storm
+260000017,Nameless King
+260000018,Champion Gundyr
+260000019,Lorian, Elder Prince
+260000020,Lothric, Younger Prince
+260000021,Soul of Cinder
+260000022,Sister Friede
+260000023,Father Ariandel
+260000024,Gravetender Greatwolf
+260000025,Demon Princes
+260000026,Darkeater Midir
+260000027,Slave Knight Gael
+260100000,### Memory System ###
+260100010,Iudex Gundyr - Valiant Memory
+260100011,Iudex Gundyr - Valiant Memory Boost
+260100012,Iudex Gundyr - Tormented Memory
+260100013,Iudex Gundyr - Tormented Memory Boost
+260100020,Vordt of the Boreal Valley - Valiant Memory
+260100021,Vordt of the Boreal Valley - Valiant Memory Boost
+260100022,Vordt of the Boreal Valley - Tormented Memory
+260100023,Vordt of the Boreal Valley - Tormented Memory Boost
+260100030,Curse-rotted Greatwood - Valiant Memory
+260100031,Curse-rotted Greatwood - Valiant Memory Boost
+260100032,Curse-rotted Greatwood - Tormented Memory
+260100033,Curse-rotted Greatwood - Tormented Memory Boost
+260100040,Crystal Sage - Valiant Memory
+260100041,Crystal Sage - Valiant Memory Boost
+260100042,Crystal Sage - Tormented Memory
+260100043,Crystal Sage - Tormented Memory Boost
+260100050,Deacons of the Deep - Valiant Memory
+260100051,Deacons of the Deep - Valiant Memory Boost
+260100052,Deacons of the Deep - Tormented Memory
+260100053,Deacons of the Deep - Tormented Memory Boost
+260100060,Abyss Watchers - Valiant Memory
+260100061,Abyss Watchers - Valiant Memory Boost
+260100062,Abyss Watchers - Tormented Memory
+260100063,Abyss Watchers - Tormented Memory Boost
+260100070,High Lord Wolnir - Valiant Memory
+260100071,High Lord Wolnir - Valiant Memory Boost
+260100072,High Lord Wolnir - Tormented Memory
+260100073,High Lord Wolnir - Tormented Memory Boost
+260100080,Old Demon King - Valiant Memory
+260100081,Old Demon King - Valiant Memory Boost
+260100082,Old Demon King - Tormented Memory
+260100083,Old Demon King - Tormented Memory Boost
+260100090,Pontiff Sulyvahn - Valiant Memory
+260100091,Pontiff Sulyvahn - Valiant Memory Boost
+260100092,Pontiff Sulyvahn - Tormented Memory
+260100093,Pontiff Sulyvahn - Tormented Memory Boost
+260100100,Aldrich, Devourer of Gods - Valiant Memory
+260100101,Aldrich, Devourer of Gods - Valiant Memory Boost
+260100102,Aldrich, Devourer of Gods - Tormented Memory
+260100103,Aldrich, Devourer of Gods - Tormented Memory Boost
+260100110,Yhorm the Giant - Valiant Memory
+260100111,Yhorm the Giant - Valiant Memory Boost
+260100112,Yhorm the Giant - Tormented Memory
+260100113,Yhorm the Giant - Tormented Memory Boost
+260100120,Dancer of the Boreal Valley - Valiant Memory
+260100121,Dancer of the Boreal Valley - Valiant Memory Boost
+260100122,Dancer of the Boreal Valley - Tormented Memory
+260100123,Dancer of the Boreal Valley - Tormented Memory Boost
+260100130,Oceiros, the Consumed King - Valiant Memory
+260100131,Oceiros, the Consumed King - Valiant Memory Boost
+260100132,Oceiros, the Consumed King - Tormented Memory
+260100133,Oceiros, the Consumed King - Tormented Memory Boost
+260100140,Dragonslayer Armour - Valiant Memory
+260100141,Dragonslayer Armour - Valiant Memory Boost
+260100142,Dragonslayer Armour - Tormented Memory
+260100143,Dragonslayer Armour - Tormented Memory Boost
+260100150,Ancient Wyvern - Valiant Memory
+260100151,Ancient Wyvern - Valiant Memory Boost
+260100152,Ancient Wyvern - Tormented Memory
+260100153,Ancient Wyvern - Tormented Memory Boost
+260100160,Nameless King - Valiant Memory
+260100161,Nameless King - Valiant Memory Boost
+260100162,Nameless King - Tormented Memory
+260100163,Nameless King - Tormented Memory Boost
+260100170,Champion Gundyr - Valiant Memory
+260100171,Champion Gundyr - Valiant Memory Boost
+260100172,Champion Gundyr - Tormented Memory
+260100173,Champion Gundyr - Tormented Memory Boost
+260100180,Twin Princes - Valiant Memory
+260100181,Twin Princes - Valiant Memory Boost
+260100182,Twin Princes - Tormented Memory
+260100183,Twin Princes - Tormented Memory Boost
+260100190,Soul of Cinder - Valiant Memory
+260100191,Soul of Cinder - Valiant Memory Boost
+260100192,Soul of Cinder - Tormented Memory
+260100193,Soul of Cinder - Tormented Memory Boost
+260100200,Sister Friede - Valiant Memory
+260100201,Sister Friede - Valiant Memory Boost
+260100202,Sister Friede - Tormented Memory
+260100203,Sister Friede - Tormented Memory Boost
+260100210,Gravetender Greatwolf - Valiant Memory
+260100211,Gravetender Greatwolf - Valiant Memory Boost
+260100212,Gravetender Greatwolf - Tormented Memory
+260100213,Gravetender Greatwolf - Tormented Memory Boost
+260100220,Demon Prince - Valiant Memory
+260100221,Demon Prince - Valiant Memory Boost
+260100222,Demon Prince - Tormented Memory
+260100223,Demon Prince - Tormented Memory Boost
+260100230,Darkeater Midir - Valiant Memory
+260100231,Darkeater Midir - Valiant Memory Boost
+260100232,Darkeater Midir - Tormented Memory
+260100233,Darkeater Midir - Tormented Memory Boost
+260100240,Slave Knight Gael - Valiant Memory
+260100241,Slave Knight Gael - Valiant Memory Boost
+260100242,Slave Knight Gael - Tormented Memory
+260100243,Slave Knight Gael - Tormented Memory Boost

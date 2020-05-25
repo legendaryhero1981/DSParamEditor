@@ -1,37 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
+  <enum name="SoundType" type="u8">
+    <item value="0" name="None" />
+	<item value="1" name="Default" />
+	<item value="2" name="CollisionBased" />
+  </enum>
   <entry>
     <name>Radius</name>
     <type>f32</type>
     <default>5</default>
   </entry>
   <entry>
-    <name>lifeFrame</name>
+    <name>Lifeframe</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>bSpEffectEnable [ON_OFF]</name>
+    <name>Is SpEffect Enabled</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Type [AI_SOUND_RATE_TYPE]</name>
+    <name>Rate Type</name>
+    <type>u8</type>
+    <default>0</default>
+	<enum>SoundType</enum>
+	<description>AI_SOUND_RATE_TYPE</description>
+  </entry>
+  <entry>
+    <name>Fake Target Type 1</name>
+    <type>b8</type>
+    <default>False</default>
+	<description>AI_SOUND_FAKE_TARGET_TYPE</description>
+  </entry>
+  <entry>
+    <name>Fake Target Type 2</name>
+    <type>b8</type>
+    <default>False</default>
+	<description>AI_SOUND_FAKE_TARGET_TYPE</description>
+  </entry>
+  <entry>
+    <name>Fake Target Type 3</name>
+    <type>b8</type>
+    <default>False</default>
+	<description>AI_SOUND_FAKE_TARGET_TYPE</description>
+  </entry>
+  <entry>
+    <name>Interest Category</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>fakeTargetType [AI_SOUND_FAKE_TARGET_TYPE]</name>
-    <type>u8</type>
-    <default>1</default>
-  </entry>
-  <entry>
-    <name>InterestCategory</name>
-    <type>u8</type>
-    <default>0</default>
-  </entry>
-  <entry>
-    <name>UseHitDamageTeam [ON_OFF]</name>
+    <name>Is Hit Damage Team</name>
     <type>u8</type>
     <default>0</default>
   </entry>

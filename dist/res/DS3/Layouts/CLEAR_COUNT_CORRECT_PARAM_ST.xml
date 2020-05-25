@@ -1,137 +1,137 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>HP</name>
+    <name>Max HP</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>Mana</name>
+    <name>Max FP</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>Stamina</name>
+    <name>Max Stamina</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>PhysDmg</name>
+    <name>Damage: Physical</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>slashDmg</name>
+    <name>Damage: Slash</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>blowDmg</name>
+    <name>Damage: Strike</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>thrustDmg</name>
+    <name>Damage: Thrust</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>neutral</name>
+    <name>Damage: Standard</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>MagicDmg</name>
+    <name>Damage: Magic</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>FireDmg</name>
+    <name>Damage: Fire</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ThunderDmg</name>
+    <name>Damage: Lightning</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>DarkDmg</name>
+    <name>Damage: Dark</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>PhysResist</name>
+    <name>Defence: Physical</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>MagicResist</name>
+    <name>Defence: Magic</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>FireResist</name>
+    <name>Defence: Fire</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ThunderResist</name>
+    <name>Defence: Lightning</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>DarkResist</name>
+    <name>Defence: Dark</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>StaminaDmg</name>
+    <name>Damage: Stamina</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>MpRecover</name>
+    <name>Soul Multiplier</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>PoisonResist</name>
+    <name>Resist: Poison</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>ToxicResist</name>
+    <name>Resist: Toxic</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BleedResist</name>
+    <name>Resist: Bleed</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>CurseResist</name>
+    <name>Resist: Curse</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>FrostResist</name>
+    <name>Resist: Frost</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>HpRecover</name>
+    <name>Recovery: HP</name>
     <type>f32</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>subMpRecover</name>
+    <name>Recovery: FP (sub)</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>subHpRecover</name>
+    <name>Recovery: HP (sub)</name>
     <type>f32</type>
     <default>1</default>
   </entry>

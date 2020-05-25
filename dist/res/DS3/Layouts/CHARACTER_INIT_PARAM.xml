@@ -1,252 +1,252 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>BaseRec_mp</name>
+    <name>Base Rec FP</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BaseRec_sp</name>
+    <name>Base Rec SP</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>red_Falldam</name>
+    <name>Red Fall Damage</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>soul</name>
+    <name>Soul</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>equip_Wep_Right</name>
+    <name>Right Weapon 1</name>
     <type>s32</type>
     <default>2010000</default>
   </entry>
   <entry>
-    <name>equip_Subwep_Right</name>
+    <name>Right Weapon 2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Wep_Left</name>
+    <name>Left Weapon 1</name>
     <type>s32</type>
     <default>21280000</default>
   </entry>
   <entry>
-    <name>equip_Subwep_Left</name>
+    <name>Left Weapon 2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Helm</name>
+    <name>Helmet</name>
     <type>s32</type>
     <default>72000000</default>
   </entry>
   <entry>
-    <name>equip_Armor</name>
+    <name>Armor</name>
     <type>s32</type>
     <default>72001000</default>
   </entry>
   <entry>
-    <name>equip_Gaunt</name>
+    <name>Gauntlets</name>
     <type>s32</type>
     <default>72002000</default>
   </entry>
   <entry>
-    <name>equip_Leg</name>
+    <name>Leggings</name>
     <type>s32</type>
     <default>72003000</default>
   </entry>
   <entry>
-    <name>equip_Arrow</name>
+    <name>Arrow Slot 1</name>
     <type>s32</type>
     <default>400000</default>
   </entry>
   <entry>
-    <name>equip_Bolt</name>
+    <name>Bolt Slot 1</name>
     <type>s32</type>
     <default>404000</default>
   </entry>
   <entry>
-    <name>equip_SubArrow</name>
+    <name>Arrow Slot 2</name>
     <type>s32</type>
     <default>400200</default>
   </entry>
   <entry>
-    <name>equip_SubBolt</name>
+    <name>Bolt Slot 2</name>
     <type>s32</type>
     <default>404300</default>
   </entry>
   <entry>
-    <name>equip_Accessory1</name>
+    <name>Accessory Slot 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Accessory2</name>
+    <name>Accessory Slot 2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Accessory3</name>
+    <name>Accessory Slot 3</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Accessory4</name>
+    <name>Accessory Slot 4</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Accessory5</name>
+    <name>Accessory Slot 5</name>
     <type>s32</type>
     <default>10000</default>
   </entry>
   <entry>
-    <name>Equip_Skill_01</name>
+    <name>Skill Slot 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Equip_Skill_02</name>
+    <name>Skill Slot 2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Equip_Skill_03</name>
+    <name>Skill Slot 3</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Spell_01</name>
+    <name>Spell Slot 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Spell_02</name>
+    <name>Spell Slot 2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Spell_03</name>
+    <name>Spell Slot 3</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Spell_04</name>
+    <name>Spell Slot 4</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Spell_05</name>
+    <name>Spell Slot 5</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Spell_06</name>
+    <name>Spell Slot 6</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Spell_07</name>
+    <name>Spell Slot 7</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>Item_01</name>
+    <name>Item Slot 1</name>
     <type>s32</type>
     <default>165</default>
   </entry>
   <entry>
-    <name>Item_02</name>
+    <name>Item Slot 2</name>
     <type>s32</type>
     <default>290</default>
   </entry>
   <entry>
-    <name>Item_03</name>
+    <name>Item Slot 3</name>
     <type>s32</type>
     <default>310</default>
   </entry>
   <entry>
-    <name>Item_04</name>
+    <name>Item Slot 4</name>
     <type>s32</type>
     <default>292</default>
   </entry>
   <entry>
-    <name>Item_05</name>
+    <name>Item Slot 5</name>
     <type>s32</type>
     <default>294</default>
   </entry>
   <entry>
-    <name>Item_06</name>
+    <name>Item Slot 6</name>
     <type>s32</type>
     <default>330</default>
   </entry>
   <entry>
-    <name>Item_07</name>
+    <name>Item Slot 7</name>
     <type>s32</type>
     <default>341</default>
   </entry>
   <entry>
-    <name>Item_08</name>
+    <name>Item Slot 8</name>
     <type>s32</type>
     <default>271</default>
   </entry>
   <entry>
-    <name>Item_09</name>
+    <name>Item Slot 9</name>
     <type>s32</type>
     <default>272</default>
   </entry>
   <entry>
-    <name>Item_10</name>
+    <name>Item Slot 10</name>
     <type>s32</type>
     <default>240</default>
   </entry>
   <entry>
-    <name>npcPlayerFaceGenId</name>
+    <name>NPC Player Face Gen ID</name>
     <type>s32</type>
     <default>9000</default>
   </entry>
   <entry>
-    <name>npcPlayerThinkId</name>
+    <name>NPC Player Think ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>baseHp</name>
+    <name>Base HP</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>baseMp</name>
+    <name>Base FP</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>baseSp</name>
+    <name>Base Stamina</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>arrowNum</name>
+    <name>Arrow Slot 1 Max</name>
     <type>s16</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>boltNum</name>
+    <name>Bolt Slot 1 Max</name>
     <type>s16</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>subArrowNum</name>
+    <name>Arrow Slot 2 Max</name>
     <type>s16</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>subBoltNum</name>
+    <name>Bolt Slot 2 Max</name>
     <type>s16</type>
     <default>99</default>
   </entry>
@@ -266,192 +266,192 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>soulLvl</name>
+    <name>Level</name>
     <type>s16</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>baseVit</name>
+    <name>Vigor</name>
     <type>s8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>baseWil</name>
+    <name>Attunement</name>
     <type>s8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>baseEnd</name>
+    <name>Endurance</name>
     <type>s8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>baseStr</name>
+    <name>Strength</name>
     <type>s8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>baseDex</name>
+    <name>Dexterity</name>
     <type>s8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>baseMag</name>
+    <name>Intelligence</name>
     <type>s8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>baseFai</name>
+    <name>Faith</name>
     <type>s8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>baseLuc</name>
+    <name>Luck</name>
     <type>s8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>baseHeroPoint</name>
+    <name>Hero Point</name>
     <type>s8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>baseDurability</name>
+    <name>Vitality</name>
     <type>s8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>itemNum_01</name>
+    <name>Item 1 Amount</name>
     <type>u8</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>itemNum_02</name>
+    <name>Item 2 Amount</name>
     <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>itemNum_03</name>
+    <name>Item 3 Amount</name>
     <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>itemNum_04</name>
+    <name>Item 41 Amount</name>
     <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>itemNum_05</name>
+    <name>Item 5 Amount</name>
     <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>itemNum_06</name>
+    <name>Item 6 Amount</name>
     <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>itemNum_07</name>
+    <name>Item 7 Amount</name>
     <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>itemNum_08</name>
+    <name>Item 8 Amount</name>
     <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>itemNum_09</name>
+    <name>Item 9 Amount</name>
     <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>itemNum_10</name>
+    <name>Item 10 Amount</name>
     <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>bodyScaleHead</name>
+    <name>Head Body Scale</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>bodyScaleBreast</name>
+    <name>Breast Body Scale</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BodyScaleAbdomen</name>
+    <name>Abdomen Body Scale</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BodyScaleArm</name>
+    <name>Arm Body Scale</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BodyScaleLeg</name>
+    <name>Leg Body Scale</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>gestureid0</name>
+    <name>Gesture Slot 1</name>
     <type>u8</type>
     <default>2</default>
   </entry>
   <entry>
-    <name>gestureid1</name>
+    <name>Gesture Slot 2</name>
     <type>u8</type>
     <default>5</default>
   </entry>
   <entry>
-    <name>gestureid2</name>
+    <name>Gesture Slot 3</name>
     <type>u8</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>gestureid3</name>
+    <name>Gesture Slot 4</name>
     <type>u8</type>
     <default>11</default>
   </entry>
   <entry>
-    <name>gestureid4</name>
+    <name>Gesture Slot 5</name>
     <type>u8</type>
     <default>12</default>
   </entry>
   <entry>
-    <name>gestureid5</name>
+    <name>Gesture Slot 6</name>
     <type>u8</type>
     <default>13</default>
   </entry>
   <entry>
-    <name>gestureid6</name>
+    <name>Gesture Slot 7</name>
     <type>u8</type>
     <default>14</default>
   </entry>
   <entry>
-    <name>npcPlayerType</name>
+    <name>NPC Player Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>npcPlayerDrawType</name>
+    <name>NPC Player Draw Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>NpcPlayerSex</name>
+    <name>NPC Player Sex</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>vowType</name>
+    <name>Covenant Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>VoiceType</name>
+    <name>Voice Type</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -461,127 +461,127 @@
     <size>1</size>
   </entry>
   <entry>
-    <name>equip_Wep_Right_GenId</name>
+    <name>Right Weapon 1 Gen ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Subwep_Right_GenId</name>
+    <name>Right Weapon 2 Gen ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Wep_Left_GenId</name>
+    <name>Left Weapon 1 Gen ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Subwep_Left_GenId</name>
+    <name>Left Weapon 2 Gen ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Helm_GenId</name>
+    <name>Helmet Gen ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Armor_GenId</name>
+    <name>Armor Gen ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Gaunt_GenId</name>
+    <name>Gauntlets Gen ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Leg_GenId</name>
+    <name>Leggings Gen ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>equip_Wep_Body_GenId</name>
+    <name>Weapon Body Gen ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SecondaryItem_01</name>
+    <name>Inventory Item 1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SecondaryItem_02</name>
+    <name>Inventory Item 2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>SecondaryItem_03</name>
+    <name>Inventory Item 3</name>
     <type>s32</type>
     <default>500</default>
   </entry>
   <entry>
-    <name>SecondaryItem_04</name>
+    <name>Inventory Item 4</name>
     <type>s32</type>
     <default>100</default>
   </entry>
   <entry>
-    <name>SecondaryItem_05</name>
+    <name>Inventory Item 5</name>
     <type>s32</type>
     <default>101</default>
   </entry>
   <entry>
-    <name>SecondaryItem_06</name>
+    <name>Inventory Item 6</name>
     <type>s32</type>
     <default>102</default>
   </entry>
   <entry>
-    <name>SecondaryItem_07</name>
+    <name>Inventory Item 7</name>
     <type>s32</type>
     <default>103</default>
   </entry>
   <entry>
-    <name>SecondaryItem_08</name>
+    <name>Inventory Item 8</name>
     <type>s32</type>
     <default>385</default>
   </entry>
   <entry>
-    <name>secondaryItemNum_01</name>
+    <name>Inventory Item 1 Amount</name>
     <type>u8</type>
     <default>99</default>
   </entry>
   <entry>
-    <name>secondaryItemNum_02</name>
+    <name>Inventory Item 2 Amount</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>secondaryItemNum_03</name>
+    <name>Inventory Item 3 Amount</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>secondaryItemNum_04</name>
+    <name>Inventory Item 4 Amount</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>secondaryItemNum_05</name>
+    <name>Inventory Item 5 Amount</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>secondaryItemNum_06</name>
+    <name>Inventory Item 6 Amount</name>
     <type>u8</type>
     <default>1</default>
   </entry>
   <entry>
-    <name>secondaryItemNum_07</name>
+    <name>Inventory Item 7 Amount</name>
     <type>u8</type>
     <default>10</default>
   </entry>
   <entry>
-    <name>secondaryItemNum_08</name>
+    <name>Inventory Item 8 Amount</name>
     <type>u8</type>
     <default>10</default>
   </entry>

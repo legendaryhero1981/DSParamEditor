@@ -1,47 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <layout>
   <entry>
-    <name>LocationEventId</name>
+    <name>Location Event ID</name>
     <type>s32</type>
     <default>14000000</default>
   </entry>
   <entry>
-    <name>WarpEventId</name>
+    <name>Warp Event ID</name>
     <type>s32</type>
     <default>4001950</default>
   </entry>
   <entry>
-    <name>BonfireNameId</name>
+    <name>Bonfire Name ID</name>
     <type>s32</type>
     <default>211210</default>
   </entry>
   <entry>
-    <name>DescriptionTextId</name>
+    <name>Description Text ID</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>PictureId</name>
+    <name>Picture ID</name>
     <type>s32</type>
     <default>10011</default>
   </entry>
   <entry>
-    <name>ListId</name>
+    <name>List ID</name>
     <type>u8</type>
     <default>3</default>
   </entry>
   <entry>
-    <name>IsDisableQuickwarp</name>
+    <name>Is Disable Quickwarp</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>CeremonyId</name>
+    <name>Ceremony ID</name>
     <type>s16</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>onlineAreaId</name>
+    <name>Online Area ID</name>
     <type>s32</type>
     <default>0</default>
   </entry>

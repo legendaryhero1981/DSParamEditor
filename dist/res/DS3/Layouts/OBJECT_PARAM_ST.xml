@@ -136,12 +136,12 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>HavokSystem_Wind</name>
+    <name>Unk3</name>
     <type>u8</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>HavokSystem_BreakObj</name>
+    <name>Unk4</name>
     <type>u8</type>
     <default>0</default>
   </entry>
@@ -151,7 +151,7 @@
     <default>1</default>
   </entry>
   <entry>
-    <name>WindEffectRate</name>
+    <name>Unk6</name>
     <type>f32</type>
     <default>0.5</default>
   </entry>
@@ -161,62 +161,62 @@
     <default>0.5</default>
   </entry>
   <entry>
-    <name>breakObjRate</name>
+    <name>beginToneMapBank</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>burnLifeTime</name>
+    <name>hitBulletVal1</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>breakUpdate</name>
+    <name>hitBulletVal2</name>
     <type>f32</type>
     <default>0.5</default>
   </entry>
   <entry>
-    <name>burnVfxId0</name>
+    <name>breakSfxBulletId0</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>burnVfxId1</name>
+    <name>breakSfxBulletId1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>burnVfxId2</name>
+    <name>breakSfxBulletId2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>burnVfxId3</name>
+    <name>breakSfxBulletId3</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>burnBehaviorId0</name>
+    <name>spEffectId0</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>burnBehaviorId1</name>
+    <name>spEffectId1</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>burnBehaviorId2</name>
+    <name>spEffectId2</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>burnBehaviorId3</name>
+    <name>spEffectId3</name>
     <type>s32</type>
     <default>-1</default>
   </entry>
   <entry>
-    <name>burnInterval</name>
+    <name>Unk19</name>
     <type>u16</type>
     <default>9999</default>
   </entry>
@@ -231,47 +231,47 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>BurnBehaviorTime</name>
+    <name>Unk23</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BurnTimeBegin0</name>
+    <name>BulletHit1Val0</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BurnTimeBegin1</name>
+    <name>BulletHit1Val1</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BurnTimeBegin2</name>
+    <name>BulletHit1Val2</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BurnTimeBegin3</name>
+    <name>BulletHit1Val3</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BurnTimeEnd0</name>
+    <name>BulletHit2Val0</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BurnTimeEnd1</name>
+    <name>BulletHit2Val1</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BurnTimeEnd2</name>
+    <name>BulletHit2Val2</name>
     <type>f32</type>
     <default>0</default>
   </entry>
   <entry>
-    <name>BurnTimeEnd3</name>
+    <name>BulletHit2Val3</name>
     <type>f32</type>
     <default>0</default>
   </entry>
@@ -336,7 +336,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>SpawnParam</name>
+    <name>Unk43</name>
     <type>s16</type>
     <default>128</default>
   </entry>
@@ -351,7 +351,7 @@
     <default>0</default>
   </entry>
   <entry>
-    <name>SoundId</name>
+    <name>subObjectMaterialSfxIndex</name>
     <type>s32</type>
     <default>0</default>
   </entry>
