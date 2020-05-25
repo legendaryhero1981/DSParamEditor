@@ -1,6 +1,6 @@
 ﻿using SoulsFormats;
-
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -11,7 +11,6 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Collections.Concurrent;
 using CellType = SoulsFormats.PARAM.CellType;
 using DefType = SoulsFormats.PARAMDEF.DefType;
 using GameType = Yapped.GameMode.GameType;
@@ -748,7 +747,7 @@ namespace Yapped
             {
                 var cell = (PARAM.Cell)row.DataBoundItem;
                 var paramWrapper = (ParamWrapper)dgvParams.SelectedCells[0].OwningRow.DataBoundItem;
-                if (0 < paramWrapper.Layout.Enums?.Count)
+                if (0 < paramWrapper.Layout.Enums?.Count && paramWrapper.Layout.Enums.ContainsKey(cell.Def.InternalType))
                 {
                     var items = paramWrapper.Layout.Enums[cell.Def.InternalType];
                     if (items.Any(i => i.Value.Equals(cell.Value)))
