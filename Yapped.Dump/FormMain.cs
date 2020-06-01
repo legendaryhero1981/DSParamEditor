@@ -8,6 +8,7 @@ using System.Net;
 using System.Windows.Forms;
 using System.Xml;
 using CellType = SoulsFormats.PARAM.CellType;
+using DefType = SoulsFormats.PARAMDEF.DefType;
 
 namespace Yapped.Dump
 {
@@ -49,7 +50,7 @@ namespace Yapped.Dump
                 if (Path.GetExtension(file.Name) == ".param")
                 {
                     PARAM param = PARAM.Read(file.Bytes);
-                    string layoutPath = $"Layouts\\{param.ID}.xml";
+                    string layoutPath = $"Layouts\\{param.ParamType}.xml";
 
                     txtStatus.AppendText(file.Name + "\r\n");
 
@@ -73,7 +74,7 @@ namespace Yapped.Dump
                         layout = new PARAM.Layout();
                     }
 
-                    param.SetLayout(layout);
+                    param.ApplyParamdef(layout.ToParamdef(param.ParamType, out _));
                     List<PARAM.Row> rows = param.Rows;
 
                     worksheet.Cells[1, 1].Value = "ID";
@@ -109,32 +110,32 @@ namespace Yapped.Dump
 
                         foreach (PARAM.Cell cell in row.Cells)
                         {
-                            CellType type = cell.Type;
-                            if (type != CellType.dummy8)
+                            var type = cell.Def.DisplayType;
+                            if (type != DefType.dummy8)
                             {
                                 var range = worksheet.Cells[i + 2, ++columnCount];
-                                if (type == CellType.f32)
+                                if (type == DefType.f32)
                                 {
                                     range.Value = (double)(float)cell.Value;
                                 }
-                                else if (type == CellType.b8 || type == CellType.b16 || type == CellType.b32)
+                                else if (type == DefType.u8 || type == DefType.u16 || type == DefType.u32)
                                 {
                                     bool b = (bool)cell.Value;
                                     range.Value = b.ToString();
                                     range.Style.Fill.PatternType = OfficeOpenXml.Style.ExcelFillStyle.Solid;
                                     range.Style.Fill.BackgroundColor.SetColor(b ? Color.LightGreen : Color.LightPink);
                                 }
-                                else if (type == CellType.x8)
+                                else if (type == DefType.u8)
                                 {
                                     range.Value = $"0x{cell.Value:X2}";
                                     range.Style.HorizontalAlignment = OfficeOpenXml.Style.ExcelHorizontalAlignment.Right;
                                 }
-                                else if (type == CellType.x16)
+                                else if (type == DefType.u16)
                                 {
                                     range.Value = $"0x{cell.Value:X4}";
                                     range.Style.HorizontalAlignment = OfficeOpenXml.Style.ExcelHorizontalAlignment.Right;
                                 }
-                                else if (type == CellType.x32)
+                                else if (type == DefType.u32)
                                 {
                                     range.Value = $"0x{cell.Value:X8}";
                                     range.Style.HorizontalAlignment = OfficeOpenXml.Style.ExcelHorizontalAlignment.Right;

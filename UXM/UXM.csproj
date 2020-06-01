@@ -2,23 +2,23 @@
 <Project>
   <Import Sdk="Microsoft.NET.Sdk" Project="Sdk.props" />
   <PropertyGroup>
-    <ProjectGuid>{DC08F234-1269-484E-BDE6-0C28F289DE80}</ProjectGuid>
+    <ProjectGuid>{65D1F2F7-E668-460C-860B-CA5E0A5C6DBD}</ProjectGuid>
     <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
     <OutputType>WinExe</OutputType>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworks>net472</TargetFrameworks>
     <LangVersion>latest</LangVersion>
     <ApplicationIcon>sekiro.ico</ApplicationIcon>
-    <RootNamespace>Yapped</RootNamespace>
-    <AssemblyName>DSParamEditor</AssemblyName>
-    <ApplicationVersion>1.1.2.10</ApplicationVersion>
-    <AssemblyVersion>1.1.2.10</AssemblyVersion>
-    <FileVersion>1.1.2.10</FileVersion>
-    <Version>1.1.2.10</Version>
+    <RootNamespace>UXM</RootNamespace>
+    <AssemblyName>DSUnpacker</AssemblyName>
+    <ApplicationVersion>2.4.4.0</ApplicationVersion>
+    <AssemblyVersion>2.4.4.0</AssemblyVersion>
+    <FileVersion>2.4.4.0</FileVersion>
+    <Version>2.4.4.0</Version>
     <Authors>李允</Authors>
     <Company>Legend</Company>
     <Copyright>Copyright © Legend 2020</Copyright>
-    <Description>黑暗之魂系列游戏参数文件编辑工具</Description>
+    <Description>黑暗之魂系列游戏数据文件解包工具</Description>
     <AssemblyTitle>$(Description)</AssemblyTitle>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
@@ -39,17 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FormFind.resx">
-      <DependentUpon>FormFind.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormGoto.resx">
-      <DependentUpon>FormGoto.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormNewRow.resx">
-      <DependentUpon>FormNewRow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,16 +56,27 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dist\readme.txt" />
+    <Content Include="dist\res\DarkSouls2Dictionary.txt" />
+    <Content Include="dist\res\DarkSouls2GameInfo.xml" />
+    <Content Include="dist\res\DarkSouls3Dictionary.txt" />
+    <Content Include="dist\res\DarkSouls3GameInfo.xml" />
+    <Content Include="dist\res\ScholarDictionary.txt" />
+    <Content Include="dist\res\ScholarGameInfo.xml" />
+    <Content Include="dist\res\SekiroBonusDictionary.txt" />
+    <Content Include="dist\res\SekiroDictionary.txt" />
+    <Content Include="dist\res\SekiroBonusGameInfo.xml" />
+    <Content Include="dist\res\SekiroGameInfo.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="sekiro.ico" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\SoulsFormats\SoulsFormats\SoulsFormats.csproj" />
-    <ProjectReference Include="..\UXM\UXM.csproj" />
-    <ProjectReference Include="..\Yabber\Yabber.csproj" />
-    <ProjectReference Include="..\Yabber.Context\Yabber.Context.csproj" />
-    <ProjectReference Include="..\Yabber.DCX\Yabber.DCX.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAPICodePack-Core" Version="1.1.0.2" />
+    <PackageReference Include="Microsoft.WindowsAPICodePack-Shell" Version="1.1.0.0" />
     <PackageReference Include="BouncyCastle" Version="1.8.6.1" />
     <PackageReference Include="Octokit" Version="0.47.0" />
     <PackageReference Include="Semver" Version="2.0.6" />
@@ -82,6 +84,6 @@
   <Import Sdk="Microsoft.NET.Sdk" Project="Sdk.targets" />
   <PropertyGroup>
     <PreBuildEvent>D:\games\exe4j\file -dd!~ . "$(TargetDir)"</PreBuildEvent>
-    <PostBuildEvent>D:\games\exe4j\file -cd~::*::-c!~ .::*::* "$(SolutionDir)dist\res::$(SolutionDir)UXM\dist\res::$(SolutionDir)\lib" "$(TargetDir)::*::*"</PostBuildEvent>
+    <PostBuildEvent>D:\games\exe4j\file -cd~ . "$(ProjectDir)dist\res" "$(TargetDir)"</PostBuildEvent>
   </PropertyGroup>
 </Project>

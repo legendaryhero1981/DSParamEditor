@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Windows.Forms;
 using CellType = SoulsFormats.PARAM.CellType;
+using DefType = SoulsFormats.PARAMDEF.DefType;
 
 namespace Yapped.Test
 {
@@ -120,14 +121,14 @@ namespace Yapped.Test
             {
                 Name = name;
                 Param = param;
-                string format = Param.ID;
+                string format = Param.ParamType;
                 if (!layouts.ContainsKey(format))
                     layouts[format] = new PARAM.Layout();
 
                 try
                 {
                     Layout = layouts[format];
-                    Param.SetLayout(Layout);
+                    Param.ApplyParamdef(Layout.ToParamdef(param.ParamType, out _));
                     Rows = Param.Rows;
                 }
                 catch (Exception ex)
@@ -151,7 +152,7 @@ namespace Yapped.Test
                 dgvRows.DataSource = paramFile;
                 dgvRows.DataMember = "Rows";
 
-                dgvLayout.DataSource = layouts[paramFile.Param.ID];
+                dgvLayout.DataSource = layouts[paramFile.Param.ParamType];
 
                 if (paramFile.Rows.Count == 0 || paramFile.Param.DetectedSize == paramFile.Layout.Size)
                     warningToolStripMenuItem.Visible = false;
@@ -178,11 +179,12 @@ namespace Yapped.Test
             PARAM.Cell cell = (PARAM.Cell)dgvCells.Rows[e.RowIndex].DataBoundItem;
             if (e.ColumnIndex == 1)
             {
-                if (cell.Type == CellType.x8)
+                var type = cell.Def.DisplayType;
+                if (type == DefType.u8)
                     e.Value = $"0x{e.Value:X2}";
-                if (cell.Type == CellType.x16)
+                if (type == DefType.u16)
                     e.Value = $"0x{e.Value:X4}";
-                if (cell.Type == CellType.x32)
+                if (type == DefType.u32)
                     e.Value = $"0x{e.Value:X8}";
             }
         }
@@ -268,7 +270,7 @@ namespace Yapped.Test
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ParamFile paramFile = (ParamFile)dgvRows.DataSource;
-            string format = paramFile.Param.ID;
+            string format = paramFile.Param.ParamType;
             Directory.CreateDirectory("Layouts");
             layouts[format].Write($"Layouts\\{format}.xml");
         }

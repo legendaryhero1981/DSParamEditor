@@ -54,7 +54,7 @@ namespace Yapped
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            Text = "黑暗之魂系列游戏参数文件编辑工具 v" + Application.ProductVersion + "（允哥汉化修正版）";
+            Text = "DSParamEditor v" + Application.ProductVersion + "（允哥汉化修正版）";
 
             Location = settings.WindowLocation;
             if (settings.WindowSize.Width >= MinimumSize.Width && settings.WindowSize.Height >= MinimumSize.Height)
