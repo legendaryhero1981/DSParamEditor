@@ -284,7 +284,7 @@ namespace Yabber
             }
             else
             {
-                Console.WriteLine($"程序重打包文件所需的XML配置文件“{sourceName}” 不存在！");
+                Console.WriteLine($"程序重打包文件“{sourceName}”所需的XML配置文件 不存在！");
                 return true;
             }
             return false;
