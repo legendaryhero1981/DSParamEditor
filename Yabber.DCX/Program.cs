@@ -7,16 +7,23 @@ using System.Xml;
 
 namespace Yabber
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private const string ExeName = "DSDCXRepacker";
+        private const string DllOo2Core = "oo2core_6_win64.dll";
+        private const string SuffixXml = "-yabber-dcx.xml";
+        private const string SuffixDcx = ".dcx";
+        private const string SuffixUnDcx = ".undcx";
+        private const string SuffixBak = ".bak";
+
+        private static void Main(string[] args)
         {
             if (args.Length == 0)
             {
-                Assembly assembly = Assembly.GetExecutingAssembly();
+                var assembly = Assembly.GetExecutingAssembly();
                 Console.WriteLine(
                     $"{assembly.GetName().Name} {assembly.GetName().Version}\n\n" +
-                    "DSDCXRepacker 没有图形用户界面。\n" +
+                    $"{ExeName} 没有图形用户界面。\n" +
                     "将DCX拖放到exe上以对其进行解压缩，或将已解压缩的文件重新进行压缩。\n\n" +
                     "按任意键退出。"
                     );
@@ -24,9 +31,9 @@ namespace Yabber
                 return;
             }
 
-            bool pause = false;
+            var pause = false;
 
-            foreach (string path in args)
+            foreach (var path in args)
             {
                 try
                 {
@@ -39,23 +46,20 @@ namespace Yabber
                         pause |= Compress(path);
                     }
                 }
-                catch (DllNotFoundException ex) when (ex.Message.Contains("oo2core_6_win64.dll"))
+                catch (DllNotFoundException ex) when (ex.Message.Contains(DllOo2Core))
                 {
-                    Console.WriteLine("要解压缩游戏《只狼：影逝二度》的 .dcx 文件，你必须从游戏《只狼：影逝二度》复制文件 oo2core_6_win64.dll 到文件 DSDataRepacker.exe 所在目录中！");
+                    Console.WriteLine($"要解压缩游戏《只狼：影逝二度》的 .dcx 文件，你必须从游戏《只狼：影逝二度》复制文件 {DllOo2Core}.dll 到文件 {ExeName}.exe 所在目录中！");
                     pause = true;
                 }
                 catch (UnauthorizedAccessException)
                 {
-                    using (Process current = Process.GetCurrentProcess())
-                    {
-                        var admin = new Process();
-                        admin.StartInfo = current.StartInfo;
-                        admin.StartInfo.FileName = current.MainModule.FileName;
-                        admin.StartInfo.Arguments = Environment.CommandLine.Replace($"\"{Environment.GetCommandLineArgs()[0]}\"", "");
-                        admin.StartInfo.Verb = "runas";
-                        admin.Start();
-                        return;
-                    }
+                    using var current = Process.GetCurrentProcess();
+                    var admin = new Process { StartInfo = current.StartInfo };
+                    admin.StartInfo.FileName = current.MainModule?.FileName ?? string.Empty;
+                    admin.StartInfo.Arguments = Environment.CommandLine.Replace($"\"{Environment.GetCommandLineArgs()[0]}\"", "");
+                    admin.StartInfo.Verb = "runas";
+                    admin.Start();
+                    return;
                 }
                 catch (Exception ex)
                 {
@@ -66,30 +70,23 @@ namespace Yabber
                 Console.WriteLine();
             }
 
-            if (pause)
-            {
-                Console.WriteLine("遇到一个或多个错误并显示在上面。\n按任意键退出。");
-                Console.ReadKey();
-            }
+            if (!pause) return;
+            Console.WriteLine("遇到一个或多个错误并显示在上面。\n按任意键退出。");
+            Console.ReadKey();
         }
 
         private static bool Decompress(string sourceFile)
         {
             Console.WriteLine($"解压缩 DCX 文件：{Path.GetFileName(sourceFile)}……");
 
-            string sourceDir = Path.GetDirectoryName(sourceFile);
-            string outPath;
-            if (sourceFile.EndsWith(".dcx"))
-                outPath = $"{sourceDir}\\{Path.GetFileNameWithoutExtension(sourceFile)}";
-            else
-                outPath = $"{sourceFile}.undcx";
+            var sourceDir = Path.GetDirectoryName(sourceFile);
+            var outPath = sourceFile.EndsWith(SuffixDcx) ? @$"{sourceDir}\{Path.GetFileNameWithoutExtension(sourceFile)}" : $"{sourceFile}{SuffixUnDcx}";
 
-            byte[] bytes = DCX.Decompress(sourceFile, out DCX.Type compression);
+            var bytes = DCX.Decompress(sourceFile, out var compression);
             File.WriteAllBytes(outPath, bytes);
 
-            XmlWriterSettings xws = new XmlWriterSettings();
-            xws.Indent = true;
-            XmlWriter xw = XmlWriter.Create($"{outPath}-yabber-dcx.xml", xws);
+            var xws = new XmlWriterSettings { Indent = true };
+            var xw = XmlWriter.Create($"{outPath}{SuffixXml}", xws);
 
             xw.WriteStartElement("dcx");
             xw.WriteElementString("compression", compression.ToString());
@@ -101,7 +98,7 @@ namespace Yabber
 
         private static bool Compress(string path)
         {
-            string xmlPath = $"{path}-yabber-dcx.xml";
+            var xmlPath = $"{path}{SuffixXml}";
             if (!File.Exists(xmlPath))
             {
                 Console.WriteLine($"程序压缩文件所需的XML配置文件“{xmlPath}” 不存在！");
@@ -109,18 +106,18 @@ namespace Yabber
             }
 
             Console.WriteLine($"压缩文件：{Path.GetFileName(path)}……");
-            XmlDocument xml = new XmlDocument();
+            var xml = new XmlDocument();
             xml.Load(xmlPath);
-            DCX.Type compression = (DCX.Type)Enum.Parse(typeof(DCX.Type), xml.SelectSingleNode("dcx/compression").InnerText);
+            var compression = (DCX.Type)Enum.Parse(typeof(DCX.Type), xml.SelectSingleNode("dcx/compression")?.InnerText ?? string.Empty);
 
             string outPath;
-            if (path.EndsWith(".undcx"))
-                outPath = path.Substring(0, path.Length - 6);
+            if (path.EndsWith(SuffixUnDcx))
+                outPath = path.Substring(0, path.Length - SuffixUnDcx.Length);
             else
-                outPath = path + ".dcx";
+                outPath = path + SuffixDcx;
 
-            if (File.Exists(outPath) && !File.Exists(outPath + ".bak"))
-                File.Move(outPath, outPath + ".bak");
+            if (File.Exists(outPath) && !File.Exists(outPath + SuffixBak))
+                File.Move(outPath, outPath + SuffixBak);
 
             DCX.Compress(File.ReadAllBytes(path), compression, outPath);
 
