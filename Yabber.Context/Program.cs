@@ -57,10 +57,10 @@ namespace Yabber.Context
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"操作失败；请使用系统管理员身份运行。错误信息：\n{ex}");
+                Console.WriteLine($"操作失败，请使用系统管理员身份运行！错误信息：\n{ex}");
             }
 
-            Console.WriteLine("按任意键退出。");
+            Console.WriteLine("按任意键退出……");
             Console.ReadKey();
         }
     }

@@ -3,12 +3,24 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Xml;
+using Timer = System.Timers.Timer;
 
 namespace Yabber
 {
     internal class Program
     {
+        #region 模拟自动键盘输入事件
+        private static readonly IntPtr ConsoleWindowHnd = GetForegroundWindow();
+        [DllImport("user32.dll")]
+        private static extern IntPtr GetForegroundWindow();
+        [DllImport("user32.dll")]
+        private static extern bool PostMessage(IntPtr hWnd, uint msg, int wParam, int lParam);
+        private const int VkReturn = 0x0D;
+        private const int WmKeydown = 0x100;
+        #endregion
+
         private const string ExeName = "DSDCXRepacker";
         private const string DllOo2Core = "oo2core_6_win64.dll";
         private const string SuffixXml = "-yabber-dcx.xml";
@@ -37,14 +49,13 @@ namespace Yabber
             {
                 try
                 {
-                    if (DCX.Is(path))
+                    if (Directory.Exists(path))
                     {
-                        pause |= Decompress(path);
+                        Console.WriteLine($"略过目录“{path}”");
+                        continue;
                     }
-                    else
-                    {
-                        pause |= Compress(path);
-                    }
+                    if (DCX.Is(path)) pause |= Decompress(path);
+                    else pause |= Compress(path);
                 }
                 catch (DllNotFoundException ex) when (ex.Message.Contains(DllOo2Core))
                 {
@@ -66,18 +77,21 @@ namespace Yabber
                     Console.WriteLine($"未捕获异常：{ex}");
                     pause = true;
                 }
-
-                Console.WriteLine();
             }
 
             if (!pause) return;
-            Console.WriteLine("遇到一个或多个错误并显示在上面。\n按任意键退出。");
+            var timer = new Timer { Interval = 1000, AutoReset = false };
+            timer.Elapsed += (source, e) =>
+            {
+                PostMessage(ConsoleWindowHnd, WmKeydown, VkReturn, 0);
+            };
+            timer.Start();
             Console.ReadKey();
         }
 
         private static bool Decompress(string sourceFile)
         {
-            Console.WriteLine($"解压缩 DCX 文件：{Path.GetFileName(sourceFile)}……");
+            Console.WriteLine($"解压缩 DCX 文件：{Path.GetFileName(sourceFile)}");
 
             var sourceDir = Path.GetDirectoryName(sourceFile);
             var outPath = sourceFile.EndsWith(SuffixDcx) ? @$"{sourceDir}\{Path.GetFileNameWithoutExtension(sourceFile)}" : $"{sourceFile}{SuffixUnDcx}";
@@ -105,7 +119,7 @@ namespace Yabber
                 return true;
             }
 
-            Console.WriteLine($"压缩文件：{Path.GetFileName(path)}……");
+            Console.WriteLine($"压缩文件：{Path.GetFileName(path)}");
             var xml = new XmlDocument();
             xml.Load(xmlPath);
             var compression = (DCX.Type)Enum.Parse(typeof(DCX.Type), xml.SelectSingleNode("dcx/compression")?.InnerText ?? string.Empty);

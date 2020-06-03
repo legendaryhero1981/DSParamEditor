@@ -4,11 +4,23 @@ using System;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
+using System.Runtime.InteropServices;
+using Timer = System.Timers.Timer;
 
 namespace Yabber
 {
     internal class Program
     {
+        #region 模拟自动键盘输入事件
+        private static readonly IntPtr ConsoleWindowHnd = GetForegroundWindow();
+        [DllImport("user32.dll")]
+        private static extern IntPtr GetForegroundWindow();
+        [DllImport("user32.dll")]
+        private static extern bool PostMessage(IntPtr hWnd, uint msg, int wParam, int lParam);
+        private const int VkReturn = 0x0D;
+        private const int WmKeydown = 0x100;
+        #endregion
+
         private const string DataRepacker = "DSDataRepacker";
         private const string DcxRepacker = "DSDCXRepacker";
         private const string DllOo2Core = "oo2core_6_win64.dll";
@@ -38,14 +50,8 @@ namespace Yabber
             {
                 try
                 {
-                    if (Directory.Exists(path))
-                    {
-                        pause |= RepackDir(path);
-                    }
-                    else if (File.Exists(path))
-                    {
-                        pause |= UnpackFile(path);
-                    }
+                    if (Directory.Exists(path)) pause |= RepackDir(path);
+                    else if (File.Exists(path)) pause |= UnpackFile(path);
                     else
                     {
                         Console.WriteLine($"文件或目录“{path}”不存在！");
@@ -60,7 +66,7 @@ namespace Yabber
                 catch (UnauthorizedAccessException)
                 {
                     using var current = Process.GetCurrentProcess();
-                    var admin = new Process {StartInfo = current.StartInfo};
+                    var admin = new Process { StartInfo = current.StartInfo };
                     admin.StartInfo.FileName = current.MainModule?.FileName ?? string.Empty;
                     admin.StartInfo.Arguments = Environment.CommandLine.Replace($"\"{Environment.GetCommandLineArgs()[0]}\"", "");
                     admin.StartInfo.Verb = "runas";
@@ -77,12 +83,15 @@ namespace Yabber
                     Console.WriteLine($"未捕获异常：{ex}");
                     pause = true;
                 }
-
-                Console.WriteLine();
             }
 
             if (!pause) return;
-            Console.WriteLine("遇到一个或多个错误并显示在上面。\n按任意键退出。");
+            var timer = new Timer { Interval = 1000, AutoReset = false };
+            timer.Elapsed += (source, e) =>
+            {
+                PostMessage(ConsoleWindowHnd, WmKeydown, VkReturn, 0);
+            };
+            timer.Start();
             Console.ReadKey();
         }
 
@@ -96,39 +105,39 @@ namespace Yabber
 
             if (DCX.Is(sourceFile))
             {
-                Console.WriteLine($"解压缩 DCX 文件：{filename}……");
+                Console.WriteLine($"解压缩 DCX 文件：{filename}");
                 var bytes = DCX.Decompress(sourceFile, out var compression);
                 if (BND3.Is(bytes))
                 {
-                    Console.WriteLine($"解包 BND3 文件：{filename}……");
+                    Console.WriteLine($"解包 BND3 文件：{filename}");
                     var bnd = BND3.Read(bytes);
                     bnd.Compression = compression;
                     bnd.Unpack(filename, targetDir);
                 }
                 else if (BND4.Is(bytes))
                 {
-                    Console.WriteLine($"解包 BND4 文件：{filename}……");
+                    Console.WriteLine($"解包 BND4 文件：{filename}");
                     var bnd = BND4.Read(bytes);
                     bnd.Compression = compression;
                     bnd.Unpack(filename, targetDir);
                 }
                 else if (sourceFile.EndsWith(".fmg.dcx"))
                 {
-                    Console.WriteLine($"解包 FMG 文件：{filename}……");
+                    Console.WriteLine($"解包 FMG 文件：{filename}");
                     var fmg = FMG.Read(bytes);
                     fmg.Compression = compression;
                     fmg.Unpack(sourceFile);
                 }
                 else if (GPARAM.Is(bytes))
                 {
-                    Console.WriteLine($"解包 GPARAM 文件：{filename}……");
+                    Console.WriteLine($"解包 GPARAM 文件：{filename}");
                     var gparam = GPARAM.Read(bytes);
                     gparam.Compression = compression;
                     gparam.Unpack(sourceFile);
                 }
                 else if (TPF.Is(bytes))
                 {
-                    Console.WriteLine($"解包 TPF 文件：{filename}……");
+                    Console.WriteLine($"解包 TPF 文件：{filename}");
                     var tpf = TPF.Read(bytes);
                     tpf.Compression = compression;
                     tpf.Unpack(filename, targetDir);
@@ -143,13 +152,13 @@ namespace Yabber
             {
                 if (BND3.Is(sourceFile))
                 {
-                    Console.WriteLine($"解包 BND3 文件： {filename}……");
+                    Console.WriteLine($"解包 BND3 文件： {filename}");
                     var bnd = BND3.Read(sourceFile);
                     bnd.Unpack(filename, targetDir);
                 }
                 else if (BND4.Is(sourceFile))
                 {
-                    Console.WriteLine($"解包 BND4 文件：{filename}……");
+                    Console.WriteLine($"解包 BND4 文件：{filename}");
                     var bnd = BND4.Read(sourceFile);
                     bnd.Unpack(filename, targetDir);
                 }
@@ -160,7 +169,7 @@ namespace Yabber
                     var bdtPath = @$"{sourceDir}\{bdtFilename}";
                     if (File.Exists(bdtPath))
                     {
-                        Console.WriteLine($"解包 BXF3 文件：{filename}……");
+                        Console.WriteLine($"解包 BXF3 文件：{filename}");
                         var bxf = BXF3.Read(sourceFile, bdtPath);
                         bxf.Unpack(filename, bdtFilename, targetDir);
                     }
@@ -177,7 +186,7 @@ namespace Yabber
                     var bdtPath = @$"{sourceDir}\{bdtFilename}";
                     if (File.Exists(bdtPath))
                     {
-                        Console.WriteLine($"解包 BXF4 文件：{filename}……");
+                        Console.WriteLine($"解包 BXF4 文件：{filename}");
                         var bxf = BXF4.Read(sourceFile, bdtPath);
                         bxf.Unpack(filename, bdtFilename, targetDir);
                     }
@@ -189,58 +198,58 @@ namespace Yabber
                 }
                 else if (sourceFile.EndsWith(".fmg"))
                 {
-                    Console.WriteLine($"解包 FMG 文件：{filename}……");
+                    Console.WriteLine($"解包 FMG 文件：{filename}");
                     var fmg = FMG.Read(sourceFile);
                     fmg.Unpack(sourceFile);
                 }
                 else if (sourceFile.EndsWith(".fmg.xml") || sourceFile.EndsWith(".fmg.dcx.xml"))
                 {
-                    Console.WriteLine($"重打包 FMG 文件：{filename}……");
+                    Console.WriteLine($"重打包 FMG 文件：{filename}");
                     YFMG.Repack(sourceFile);
                 }
                 else if (GPARAM.Is(sourceFile))
                 {
-                    Console.WriteLine($"解包 GPARAM 文件：{filename}……");
+                    Console.WriteLine($"解包 GPARAM 文件：{filename}");
                     var gparam = GPARAM.Read(sourceFile);
                     gparam.Unpack(sourceFile);
                 }
                 else if (sourceFile.EndsWith(".gparam.xml") || sourceFile.EndsWith(".gparam.dcx.xml")
                     || sourceFile.EndsWith(".fltparam.xml") || sourceFile.EndsWith(".fltparam.dcx.xml"))
                 {
-                    Console.WriteLine($"重打包 GPARAM 文件：{filename}……");
+                    Console.WriteLine($"重打包 GPARAM 文件：{filename}");
                     YGPARAM.Repack(sourceFile);
                 }
                 else if (sourceFile.EndsWith(".luagnl"))
                 {
-                    Console.WriteLine($"解包 LUAGNL 文件：{filename}……");
+                    Console.WriteLine($"解包 LUAGNL 文件：{filename}");
                     var gnl = LUAGNL.Read(sourceFile);
                     gnl.Unpack(sourceFile);
                 }
                 else if (sourceFile.EndsWith(".luagnl.xml"))
                 {
-                    Console.WriteLine($"重打包 LUAGNL 文件：{filename}……");
+                    Console.WriteLine($"重打包 LUAGNL 文件：{filename}");
                     YLUAGNL.Repack(sourceFile);
                 }
                 else if (LUAINFO.Is(sourceFile))
                 {
-                    Console.WriteLine($"解包 LUAINFO 文件：{filename}……");
+                    Console.WriteLine($"解包 LUAINFO 文件：{filename}");
                     var info = LUAINFO.Read(sourceFile);
                     info.Unpack(sourceFile);
                 }
                 else if (sourceFile.EndsWith(".luainfo.xml"))
                 {
-                    Console.WriteLine($"重打包 LUAINFO 文件：{filename}……");
+                    Console.WriteLine($"重打包 LUAINFO 文件：{filename}");
                     YLUAINFO.Repack(sourceFile);
                 }
                 else if (TPF.Is(sourceFile))
                 {
-                    Console.WriteLine($"解包 TPF 文件：{filename}……");
+                    Console.WriteLine($"解包 TPF 文件：{filename}");
                     var tpf = TPF.Read(sourceFile);
                     tpf.Unpack(filename, targetDir);
                 }
                 else if (Zero3.Is(sourceFile))
                 {
-                    Console.WriteLine($"解包 000 文件：{filename}……");
+                    Console.WriteLine($"解包 000 文件：{filename}");
                     var z3 = Zero3.Read(sourceFile);
                     z3.Unpack(targetDir);
                 }
@@ -259,27 +268,27 @@ namespace Yabber
             var targetDir = new DirectoryInfo(sourceDir).Parent?.FullName;
             if (File.Exists(@$"{sourceDir}\{PrefixXml}bnd3.xml"))
             {
-                Console.WriteLine($"重打包 BND3 文件：{sourceName}……");
+                Console.WriteLine($"重打包 BND3 文件：{sourceName}");
                 YBND3.Repack(sourceDir, targetDir);
             }
             else if (File.Exists(@$"{sourceDir}\{PrefixXml}bnd4.xml"))
             {
-                Console.WriteLine($"重打包 BND4 文件：{sourceName}……");
+                Console.WriteLine($"重打包 BND4 文件：{sourceName}");
                 YBND4.Repack(sourceDir, targetDir);
             }
             else if (File.Exists(@$"{sourceDir}\{PrefixXml}bxf3.xml"))
             {
-                Console.WriteLine($"重打包 BXF3 文件：{sourceName}……");
+                Console.WriteLine($"重打包 BXF3 文件：{sourceName}");
                 YBXF3.Repack(sourceDir, targetDir);
             }
             else if (File.Exists(@$"{sourceDir}\{PrefixXml}bxf4.xml"))
             {
-                Console.WriteLine($"重打包 BXF4 文件：{sourceName}……");
+                Console.WriteLine($"重打包 BXF4 文件：{sourceName}");
                 YBXF4.Repack(sourceDir, targetDir);
             }
             else if (File.Exists(@$"{sourceDir}\{PrefixXml}tpf.xml"))
             {
-                Console.WriteLine($"重打包 TPF 文件：{sourceName}……");
+                Console.WriteLine($"重打包 TPF 文件：{sourceName}");
                 YTPF.Repack(sourceDir, targetDir);
             }
             else
