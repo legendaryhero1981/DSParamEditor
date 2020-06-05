@@ -9,10 +9,10 @@
     <ApplicationIcon>sekiro.ico</ApplicationIcon>
     <RootNamespace>Yabber.DCX</RootNamespace>
     <AssemblyName>DSDCXRepacker</AssemblyName>
-    <ApplicationVersion>1.3.6.0</ApplicationVersion>
-    <AssemblyVersion>1.3.6.0</AssemblyVersion>
-    <FileVersion>1.3.6.0</FileVersion>
-    <Version>1.3.6.0</Version>
+    <ApplicationVersion>1.3.7.0</ApplicationVersion>
+    <AssemblyVersion>1.3.7.0</AssemblyVersion>
+    <FileVersion>1.3.7.0</FileVersion>
+    <Version>1.3.7.0</Version>
     <Authors>李允</Authors>
     <Company>Legend</Company>
     <Copyright>Copyright © Legend 2020</Copyright>

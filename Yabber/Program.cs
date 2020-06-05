@@ -40,7 +40,7 @@ namespace Yabber
                     $"如果需要解压缩或重新压缩不支持的格式，请改用 {DcxRepacker}。\n\n" +
                     "按任意键退出。"
                     );
-                Console.ReadKey();
+                AutoQuit();
                 return;
             }
 
@@ -85,7 +85,11 @@ namespace Yabber
                 }
             }
 
-            if (!pause) return;
+            if (pause) AutoQuit();
+        }
+
+        private static void AutoQuit()
+        {
             var timer = new Timer { Interval = 1000, AutoReset = false };
             timer.Elapsed += (source, e) =>
             {

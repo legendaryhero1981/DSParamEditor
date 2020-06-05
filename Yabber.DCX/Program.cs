@@ -39,7 +39,7 @@ namespace Yabber
                     "将DCX拖放到exe上以对其进行解压缩，或将已解压缩的文件重新进行压缩。\n\n" +
                     "按任意键退出。"
                     );
-                Console.ReadKey();
+                AutoQuit();
                 return;
             }
 
@@ -79,7 +79,11 @@ namespace Yabber
                 }
             }
 
-            if (!pause) return;
+            if (pause) AutoQuit();
+        }
+
+        private static void AutoQuit()
+        {
             var timer = new Timer { Interval = 1000, AutoReset = false };
             timer.Elapsed += (source, e) =>
             {
